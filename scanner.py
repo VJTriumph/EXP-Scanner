@@ -19,7 +19,7 @@ OUTPUT_JSON   = os.path.join(DATA_DIR, "results.json")
 
 END_DATE   = datetime.utcnow().date()
 START_DATE = END_DATE - timedelta(days=900)
-
+h
 # NSE index name map  (Yahoo .NS symbol → NSE index name for niftyindices API)
 NSE_INDEX_MAP = {
     "NIFTYSMLCAP250.NS":    "NIFTY SMLCAP 250",
@@ -90,16 +90,20 @@ def compute_52w(prices):
 
 def compute_beta(sp, bp):
     sp = np.array(sp, dtype=float); bp = np.array(bp, dtype=float)
-    n  = min(len(sp), len(bp), BETA_WINDOW)
+    n = min(len(sp), len(bp), BETA_WINDOW)
     if n < 20: return None
     sp, bp = sp[-n:], bp[-n:]
     mask = ~(np.isnan(sp)|np.isnan(bp))
     sp, bp = sp[mask], bp[mask]
     if len(sp) < 15: return None
-    sr = np.diff(sp)/sp[:-1]; br = np.diff(bp)/bp[:-1]
-    if br.std()==0: return None
-    cov = np.cov(sr,br)[0,1]; var_b = np.var(br, ddof=1)
-    return round(float(cov/var_b),3) if var_b!=0 else None
+    # Pine Script: ret = (close - close[1]) / close  (divide by CURRENT price)
+    sr = (sp[1:] - sp[:-1]) / sp[1:]
+    br = (bp[1:] - bp[:-1]) / bp[1:]
+    sd_s = sr.std(ddof=1); sd_b = br.std(ddof=1)
+    if sd_b == 0 or sd_s == 0: return None
+    corr = np.corrcoef(sr, br)[0, 1]
+    beta = corr * (sd_s / sd_b)
+    return round(float(beta), 3) if not np.isnan(beta) else None
 
 def color_signal(r):
     if not r or not r["above_threshold"]: return "gray"
