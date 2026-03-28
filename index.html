@@ -2,68 +2,59 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>EXP Scanner - Exponential Regression Slope Scanner</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>EXP Scanner</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Segoe UI',Arial,sans-serif;background:#0d1117;color:#e6edf3;min-height:100vh}
-header{background:linear-gradient(135deg,#161b22,#21262d);padding:16px 24px;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-header h1{font-size:1.4rem;font-weight:700;color:#58a6ff;letter-spacing:.5px}
-header span{color:#8b949e;font-size:.85rem}
-.controls{background:#161b22;padding:14px 24px;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.ctrl-group{display:flex;align-items:center;gap:8px}
+header{background:linear-gradient(135deg,#161b22,#21262d);padding:16px 24px;border-bottom:1px solid #30363d;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+header h1{font-size:1.4rem;font-weight:700;color:#58a6ff}
+.meta-info{font-size:.78rem;color:#8b949e}
+.meta-info span{color:#e3b341;font-weight:600}
+.controls{background:#161b22;padding:12px 24px;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.ctrl-group{display:flex;align-items:center;gap:7px}
 .ctrl-group label{font-size:.8rem;color:#8b949e;white-space:nowrap}
-.ctrl-group input[type=number],.ctrl-group select{background:#0d1117;border:1px solid #30363d;color:#e6edf3;border-radius:6px;padding:5px 10px;font-size:.85rem;width:90px}
-.ctrl-group select{width:auto}
-.ctrl-group input[type=checkbox]{width:16px;height:16px;cursor:pointer;accent-color:#58a6ff}
-.btn{background:#238636;color:#fff;border:none;border-radius:6px;padding:7px 18px;font-size:.85rem;cursor:pointer;font-weight:600;transition:background .2s}
-.btn:hover{background:#2ea043}
-.btn-scan{background:#1f6feb;}.btn-scan:hover{background:#388bfd}
-.btn-stop{background:#da3633;}.btn-stop:hover{background:#f85149}
+.ctrl-group input[type=number],.ctrl-group select{background:#0d1117;border:1px solid #30363d;color:#e6edf3;border-radius:6px;padding:4px 9px;font-size:.83rem;width:80px}
+.ctrl-group select{width:auto;max-width:180px}
+.ctrl-group input[type=checkbox]{accent-color:#58a6ff;width:15px;height:15px}
+.btn{border:none;border-radius:6px;padding:6px 16px;font-size:.83rem;cursor:pointer;font-weight:600;transition:background .2s}
+.btn-refresh{background:#1f6feb;color:#fff}.btn-refresh:hover{background:#388bfd}
 .tabs{display:flex;background:#161b22;border-bottom:1px solid #30363d;padding:0 24px}
-.tab{padding:10px 20px;cursor:pointer;font-size:.9rem;color:#8b949e;border-bottom:2px solid transparent;transition:all .2s;font-weight:500}
+.tab{padding:10px 20px;cursor:pointer;font-size:.88rem;color:#8b949e;border-bottom:2px solid transparent;transition:all .2s;font-weight:500}
 .tab.active{color:#58a6ff;border-bottom-color:#58a6ff}
 .tab:hover:not(.active){color:#e6edf3}
-.tab-content{display:none;padding:20px 24px}.tab-content.active{display:block}
-.filter-row{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.tab-content{display:none;padding:18px 24px}.tab-content.active{display:block}
+.filter-row{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
 .filter-row label{font-size:.8rem;color:#8b949e}
-.filter-row select,.filter-row input{background:#161b22;border:1px solid #30363d;color:#e6edf3;border-radius:6px;padding:5px 10px;font-size:.83rem}
-.progress-bar{background:#161b22;border-radius:8px;overflow:hidden;height:6px;margin-bottom:14px;display:none}
-.progress-bar.show{display:block}
-.progress-fill{height:100%;background:linear-gradient(90deg,#58a6ff,#388bfd);transition:width .3s;width:0%}
-.progress-text{font-size:.75rem;color:#8b949e;margin-bottom:8px;display:none}.progress-text.show{display:block}
-table{width:100%;border-collapse:collapse;font-size:.83rem}
-thead th{background:#161b22;color:#8b949e;font-weight:600;padding:10px 12px;text-align:left;border-bottom:2px solid #30363d;white-space:nowrap;cursor:pointer;user-select:none}
+.filter-row select,.filter-row input[type=text]{background:#161b22;border:1px solid #30363d;color:#e6edf3;border-radius:6px;padding:5px 9px;font-size:.82rem}
+.summary-cards{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:12px 18px;min-width:120px;text-align:center}
+.card-val{font-size:1.4rem;font-weight:700}
+.card-lbl{font-size:.73rem;color:#8b949e;margin-top:3px}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+thead th{background:#161b22;color:#8b949e;font-weight:600;padding:9px 11px;text-align:left;border-bottom:2px solid #30363d;white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;z-index:1}
 thead th:hover{color:#e6edf3}
-thead th.sort-asc::after{content:' ▲'}
-thead th.sort-desc::after{content:' ▼'}
-tbody tr{border-bottom:1px solid #21262d;transition:background .15s}
+thead th.asc::after{content:' ▲';color:#58a6ff}
+thead th.desc::after{content:' ▼';color:#58a6ff}
+tbody tr{border-bottom:1px solid #21262d;transition:background .12s}
 tbody tr:hover{background:#161b22}
-tbody td{padding:9px 12px;vertical-align:middle}
-.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:.75rem;font-weight:600}
-.bar-cell{display:flex;align-items:center;gap:8px}
-.mini-bar{height:18px;border-radius:3px;min-width:4px;transition:width .3s}
-.val-pos{color:#3fb950}
-.val-neg{color:#f85149}
-.val-neu{color:#8b949e}
-.chip{padding:2px 8px;border-radius:10px;font-size:.73rem;font-weight:600}
-.chip-bright-green{background:#1a4731;color:#3fb950;border:1px solid #238636}
-.chip-faded-green{background:#1a3a27;color:#56d364;border:1px solid #1a4731}
-.chip-bright-red{background:#4b1113;color:#f85149;border:1px solid #da3633}
-.chip-faded-red{background:#3d1012;color:#ff7b72;border:1px solid #da3633}
-.chip-gray{background:#21262d;color:#8b949e;border:1px solid #30363d}
-.rs-bar{height:8px;border-radius:4px;background:#21262d;width:80px;overflow:hidden;display:inline-block;vertical-align:middle}
+tbody td{padding:8px 11px;vertical-align:middle}
+.chip{display:inline-block;padding:2px 9px;border-radius:10px;font-size:.76rem;font-weight:700}
+.bright-green{background:#1a4731;color:#3fb950;border:1px solid #238636}
+.faded-green{background:#1a3a27;color:#56d364;border:1px solid #1a4731}
+.bright-red{background:#4b1113;color:#f85149;border:1px solid #da3633}
+.faded-red{background:#3d1012;color:#ff7b72;border:1px solid #da3633}
+.gray{background:#21262d;color:#8b949e;border:1px solid #30363d}
+.bar-wrap{display:flex;align-items:center;gap:8px}
+.mini-bar{height:16px;border-radius:3px;min-width:2px}
+.rs-track{display:inline-block;width:72px;height:7px;background:#21262d;border-radius:4px;overflow:hidden;vertical-align:middle}
 .rs-fill{height:100%;border-radius:4px}
-.summary-cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
-.card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px 20px;min-width:130px;text-align:center}
-.card-val{font-size:1.5rem;font-weight:700}
-.card-lbl{font-size:.75rem;color:#8b949e;margin-top:4px}
-.sector-badge{background:#21262d;color:#79c0ff;border:1px solid #1f6feb;border-radius:10px;padding:2px 8px;font-size:.72rem}
-.empty-msg{text-align:center;padding:60px;color:#8b949e;font-size:.95rem}
-.error-msg{color:#f85149;font-size:.8rem;padding:4px}
-.tooltip{position:relative;cursor:help}
-.tooltip:hover::after{content:attr(data-tip);position:absolute;bottom:125%;left:50%;transform:translateX(-50%);background:#161b22;border:1px solid #30363d;color:#e6edf3;padding:6px 10px;border-radius:6px;white-space:nowrap;font-size:.75rem;z-index:100}
-@media(max-width:700px){.controls{gap:10px}.filter-row{gap:8px}table{font-size:.75rem}}
+.pos{color:#3fb950}.neg{color:#f85149}.neu{color:#8b949e}
+.sector-tag{background:#1b2b47;color:#79c0ff;border:1px solid #1f6feb;border-radius:9px;padding:1px 7px;font-size:.71rem}
+.empty{text-align:center;padding:60px;color:#8b949e}
+.loading{text-align:center;padding:40px;color:#8b949e;font-size:.9rem}
+.err{color:#f85149;padding:20px;text-align:center}
+.tbl-wrap{overflow-x:auto;max-height:72vh;overflow-y:auto}
 </style>
 </head>
 <body>
@@ -71,421 +62,245 @@ tbody td{padding:9px 12px;vertical-align:middle}
 <header>
   <div>
     <h1>&#9660; EXP Scanner</h1>
-    <span>Exponential Regression Slope &times; R&sup2; &mdash; Powered by Yahoo Finance</span>
+    <div class="meta-info">Exponential Regression Slope &times; R&sup2; &mdash; India Markets</div>
   </div>
+  <div class="meta-info" id="meta-box">No data loaded yet.</div>
 </header>
 
 <div class="controls">
   <div class="ctrl-group">
-    <label class="tooltip" data-tip="Lookback bars for regression slope">Period:</label>
-    <input type="number" id="length" value="90" min="5" max="500"/>
+    <label>R&sup2; Min:</label>
+    <input type="number" id="r2min" value="0" min="0" max="1" step="0.05" style="width:65px" oninput="applyFilters()"/>
   </div>
   <div class="ctrl-group">
-    <label class="tooltip" data-tip="Bars per year for annualization (252=trading days)">Bars/Year:</label>
-    <input type="number" id="daysInYear" value="252" min="50" max="365"/>
+    <label>Signal:</label>
+    <select id="sigFilter" onchange="applyFilters()">
+      <option value="">All</option>
+      <option value="bright_green">Strong Up</option>
+      <option value="faded_green">Weak Up</option>
+      <option value="bright_red">Strong Down</option>
+      <option value="faded_red">Weak Down</option>
+      <option value="gray">No Trend</option>
+    </select>
   </div>
   <div class="ctrl-group">
-    <label class="tooltip" data-tip="Lookback period for Beta calculation">Beta Window:</label>
-    <input type="number" id="betaWindow" value="252" min="20" max="500"/>
+    <label>Search:</label>
+    <input type="text" id="globalSearch" placeholder="Name / symbol..." style="width:150px;background:#0d1117;border:1px solid #30363d;color:#e6edf3;border-radius:6px;padding:4px 9px;font-size:.83rem" oninput="applyFilters()"/>
   </div>
-  <div class="ctrl-group">
-    <label class="tooltip" data-tip="R-squared must exceed this to show color (0=show all)">R&sup2; Min:</label>
-    <input type="number" id="rSquaredThreshold" value="0" min="0" max="1" step="0.05"/>
-  </div>
-  <div class="ctrl-group">
-    <label><input type="checkbox" id="withRsquared" checked/> &times;R&sup2;</label>
-  </div>
-  <div class="ctrl-group">
-    <label><input type="checkbox" id="withAnnualize" checked/> Annualize</label>
-  </div>
-  <div class="ctrl-group">
-    <label>Max Symbols:</label>
-    <input type="number" id="maxSymbols" value="50" min="1" max="800" style="width:70px"/>
-  </div>
-  <button class="btn btn-scan" id="scanBtn" onclick="startScan()">&#9654; Scan</button>
-  <button class="btn btn-stop" id="stopBtn" onclick="stopScan()" style="display:none">&#9632; Stop</button>
+  <button class="btn btn-refresh" onclick="loadData()">&#8635; Refresh Data</button>
 </div>
 
 <div class="tabs">
-  <div class="tab active" onclick="switchTab('indices')">&#128200; Indices</div>
-  <div class="tab" onclick="switchTab('stocks')">&#128217; Stocks</div>
+  <div class="tab active" onclick="switchTab('indices')">&#128200; Indices (<span id="idx-count">—</span>)</div>
+  <div class="tab" onclick="switchTab('stocks')">&#128217; Stocks (<span id="stk-count">—</span>)</div>
 </div>
 
-<!-- INDICES TAB -->
+<!-- INDICES -->
 <div class="tab-content active" id="tab-indices">
   <div class="summary-cards" id="idx-cards"></div>
-  <div class="progress-text show" id="idx-progress-text">Ready. Press Scan.</div>
-  <div class="progress-bar" id="idx-progress-bar"><div class="progress-fill" id="idx-progress-fill"></div></div>
-  <div id="idx-table-wrap"><div class="empty-msg">Press <b>Scan</b> to load data.</div></div>
+  <div class="tbl-wrap" id="idx-wrap"><div class="loading">Loading data...</div></div>
 </div>
 
-<!-- STOCKS TAB -->
+<!-- STOCKS -->
 <div class="tab-content" id="tab-stocks">
   <div class="filter-row">
-    <label>Sector/Industry:</label>
-    <select id="sectorFilter" onchange="renderStocksTable()">
-      <option value="">All Sectors</option>
-    </select>
-    <label>Sort by:</label>
-    <select id="stockSort" onchange="renderStocksTable()">
+    <label>Sector:</label>
+    <select id="sectorFilter" onchange="applyFilters()"><option value="">All Sectors</option></select>
+    <label>Sort:</label>
+    <select id="stkSort" onchange="applyFilters()">
       <option value="slope">EXP Slope</option>
-      <option value="rs">R-squared</option>
-      <option value="high52">52W High %</option>
+      <option value="r2">R&sup2;</option>
+      <option value="high52pct">52W High %</option>
       <option value="beta">Beta</option>
-      <option value="name">Name</option>
+      <option value="name">Name A-Z</option>
     </select>
     <label>Order:</label>
-    <select id="stockOrder" onchange="renderStocksTable()">
-      <option value="desc">Descending</option>
-      <option value="asc">Ascending</option>
+    <select id="stkOrder" onchange="applyFilters()">
+      <option value="desc">Desc</option>
+      <option value="asc">Asc</option>
     </select>
-    <label>Search:</label>
-    <input type="text" id="stockSearch" oninput="renderStocksTable()" placeholder="Name or symbol..." style="width:160px"/>
   </div>
   <div class="summary-cards" id="stk-cards"></div>
-  <div class="progress-text show" id="stk-progress-text">Ready. Press Scan.</div>
-  <div class="progress-bar" id="stk-progress-bar"><div class="progress-fill" id="stk-progress-fill"></div></div>
-  <div id="stk-table-wrap"><div class="empty-msg">Press <b>Scan</b> to load data.</div></div>
+  <div class="tbl-wrap" id="stk-wrap"><div class="loading">Loading data...</div></div>
 </div>
 
 <script>
-// ─── INDEX → YAHOO SYMBOL MAP ─────────────────────────────────────────────
-const INDEX_MAP = {
-  "Nifty 50":"^NSEI","NIFTY MIDCAP 150":"^NSEMDCP150","NIFTY SMLCAP 250":"NIFTY_SMLCAP_250.NS",
-  "NIFTY MIDSML 400":"^NSEMDCP400","Nifty IT":"^CNXIT","Nifty Next 50":"^NSMIDCP",
-  "Nifty Bank":"^NSEBANK","Nifty 500":"^CRSLDX","Nifty 100":"^CNX100",
-  "Nifty Realty":"^CNXREALTY","Nifty Infra":"^CNXINFRA","Nifty Energy":"^CNXENERGY",
-  "Nifty FMCG":"^CNXFMCG","Nifty MNC":"^CNXMNC","Nifty Pharma":"^CNXPHARMA",
-  "Nifty PSE":"^CNXPSE","Nifty PSU Bank":"^CNXPSUBANK","Nifty Serv Sector":"^CNXSERVICE",
-  "Nifty Auto":"^CNXAUTO","Nifty Metal":"^CNXMETAL","Nifty Media":"^CNXMEDIA",
-  "Nifty 200":"^CNX200","Nifty Commodities":"^CNXCMDT","Nifty Consumption":"^CNXCONSUM",
-  "Nifty Fin Service":"^CNXFINANCE","Nifty CPSE":"^CNXCPSE","Nifty Pvt Bank":"^CNXPVTBANK",
-  "Nifty GS Compsite":"^NSGSC","NIFTY HEALTHCARE":"^CNXPHARMA","NIFTY CONSR DURBL":"^CNXCONSDUR",
-  "NIFTY OIL AND GAS":"^CNXOILGAS","NIFTY TOTAL MKT":"^CNXTOTALMARKET","NIFTY MICROCAP250":"^NSMICROCAP250",
-  "NIFTY IND DIGITAL":"^CNXDIGITAL","Nifty Tata 25 Cap":"^NTATACAP","Nifty Ind Defence":"^CNXDEFENCE",
-  "Nifty Ind Tourism":"^CNXTOURISM","Nifty Capital Mkt":"^CNXCAPMARKET","Nifty EV":"^CNXEV",
-  "Nifty Housing":"^CNXHOUSING","Nifty IPO":"^CNXIPO","Nifty Rural":"^CNXRURAL",
-  "Nifty Internet":"^CNXINTERNET","Nifty Chemicals":"^CNXCHEMICALS","Nifty Waves":"^CNXWAVES",
-  "Nifty RailwaysPSU":"^CNXRAILWAYS","NiftyConglomerate":"^CNXCONGLOMERATE","India VIX":"^INDIAVIX"
-};
+let RAW = null;
 
-const NIFTY50_SYMBOL = "^NSEI"; // benchmark for Beta
-
-// ─── STATE ────────────────────────────────────────────────────────────────
-let idxResults = [];
-let stkResults = [];
-let scanRunning = false;
-let stopRequested = false;
-let activeTab = 'indices';
-let nifty50Prices = null;
-
-// ─── TAB SWITCHING ────────────────────────────────────────────────────────
-function switchTab(tab) {
-  activeTab = tab;
-  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', (i===0&&tab==='indices')||(i===1&&tab==='stocks')));
-  document.getElementById('tab-indices').classList.toggle('active', tab==='indices');
-  document.getElementById('tab-stocks').classList.toggle('active', tab==='stocks');
-}
-
-// ─── MATH HELPERS ────────────────────────────────────────────────────────
-function mean(arr) { return arr.reduce((a,b)=>a+b,0)/arr.length; }
-function stddev(arr) {
-  const m = mean(arr);
-  return Math.sqrt(arr.reduce((s,v)=>s+(v-m)**2,0)/arr.length);
-}
-function correlation(xs, ys) {
-  const mx=mean(xs), my=mean(ys), sx=stddev(xs), sy=stddev(ys);
-  if(sx===0||sy===0) return 0;
-  return xs.reduce((s,x,i)=>s+(x-mx)*(ys[i]-my),0)/(xs.length*sx*sy);
-}
-
-function computeExpSlope(prices, length, daysInYear, withRsquared, withAnnualize, rSqThreshold) {
-  if(prices.length < length) return null;
-  const slice = prices.slice(-length);
-  const logP = slice.map(p => Math.log(p));
-  const x = Array.from({length}, (_,i)=>i);
-  const c = correlation(x, logP);
-  const sx = stddev(x), sy = stddev(logP);
-  const slope = sx===0 ? 0 : c*(sy/sx);
-  // annualized
-  const annualized = (Math.pow(Math.exp(slope), daysInYear) - 1) * 100;
-  // R-squared using sequential index vs log price
-  const cumX = Array.from({length}, (_,i)=>i+1);
-  const rs = Math.pow(correlation(cumX, logP), 2);
-  const rSq = isNaN(rs) ? 0 : rs;
-  const base = withAnnualize ? annualized : slope;
-  const final = base * (withRsquared ? rSq : 1);
-  return { slope: final, rawSlope: annualized, rSq, aboveThreshold: rSq > rSqThreshold };
-}
-
-function compute52WeekHigh(prices) {
-  const slice = prices.slice(-252);
-  const high = Math.max(...slice);
-  const cur = prices[prices.length-1];
-  const pct = ((cur - high) / high) * 100;
-  return { high52: high, current: cur, pctFromHigh: pct };
-}
-
-function computeBeta(stockPrices, benchPrices, betaWindow) {
-  const n = Math.min(stockPrices.length, benchPrices.length, betaWindow);
-  if(n < 10) return null;
-  const sp = stockPrices.slice(-n);
-  const bp = benchPrices.slice(-n);
-  // daily returns
-  const sr = sp.slice(1).map((v,i)=>(v-sp[i])/sp[i]);
-  const br = bp.slice(1).map((v,i)=>(v-bp[i])/bp[i]);
-  const cov = sr.reduce((s,v,i)=>s+(v-mean(sr))*(br[i]-mean(br)),0)/(sr.length-1);
-  const varB = br.reduce((s,v)=>s+(v-mean(br))**2,0)/(br.length-1);
-  return varB===0 ? null : cov/varB;
-}
-
-// ─── FETCH VIA ALLORIGINS PROXY ─────────────────────────────────────────
-async function fetchYahooData(symbol, period2Days=400) {
-  const now = Math.floor(Date.now()/1000);
-  const p1 = now - period2Days*86400;
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?period1=${p1}&period2=${now}&interval=1d&events=history`;
-  const proxy = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+// ── LOAD JSON ──────────────────────────────────────────────────────────────
+async function loadData() {
+  document.getElementById('idx-wrap').innerHTML = '<div class="loading">Fetching results.json...</div>';
+  document.getElementById('stk-wrap').innerHTML = '<div class="loading">Fetching results.json...</div>';
   try {
-    const resp = await fetch(proxy, {signal: AbortSignal.timeout(18000)});
-    if(!resp.ok) throw new Error('HTTP '+resp.status);
-    const json = await resp.json();
-    const data = JSON.parse(json.contents);
-    const result = data?.chart?.result?.[0];
-    if(!result) return null;
-    const closes = result.indicators?.quote?.[0]?.close;
-    const timestamps = result.timestamp;
-    if(!closes||!timestamps) return null;
-    // filter nulls
-    const clean = closes.map((c,i)=>({c,t:timestamps[i]})).filter(x=>x.c!=null&&!isNaN(x.c));
-    return clean.map(x=>x.c);
-  } catch(e) { return null; }
-}
-
-// ─── COLOR LOGIC ─────────────────────────────────────────────────────────
-function getChipClass(result, prev) {
-  if(!result || !result.aboveThreshold) return 'chip-gray';
-  const up = result.slope > 0;
-  const rising = prev == null || result.slope > prev;
-  if(up && rising) return 'chip-bright-green';
-  if(up && !rising) return 'chip-faded-green';
-  if(!up && !rising) return 'chip-bright-red';
-  return 'chip-faded-red';
-}
-
-function barColor(chipClass) {
-  if(chipClass==='chip-bright-green') return '#3fb950';
-  if(chipClass==='chip-faded-green') return '#56d364';
-  if(chipClass==='chip-bright-red') return '#f85149';
-  if(chipClass==='chip-faded-red') return '#ff7b72';
-  return '#484f58';
-}
-
-// ─── SCAN CONTROL ─────────────────────────────────────────────────────────
-function getParams() {
-  return {
-    length: parseInt(document.getElementById('length').value)||90,
-    daysInYear: parseInt(document.getElementById('daysInYear').value)||252,
-    betaWindow: parseInt(document.getElementById('betaWindow').value)||252,
-    rSqThreshold: parseFloat(document.getElementById('rSquaredThreshold').value)||0,
-    withRsquared: document.getElementById('withRsquared').checked,
-    withAnnualize: document.getElementById('withAnnualize').checked,
-    maxSymbols: parseInt(document.getElementById('maxSymbols').value)||50,
-  };
-}
-
-function stopScan() { stopRequested = true; }
-
-async function startScan() {
-  if(scanRunning) return;
-  scanRunning = true; stopRequested = false;
-  document.getElementById('scanBtn').style.display='none';
-  document.getElementById('stopBtn').style.display='inline-block';
-  const p = getParams();
-  const neededDays = Math.max(p.length, p.betaWindow, 252) + 20;
-
-  // Fetch Nifty 50 benchmark for beta
-  setProgress('idx', 0, 'Fetching Nifty 50 benchmark...');
-  nifty50Prices = await fetchYahooData(NIFTY50_SYMBOL, neededDays);
-
-  // ── SCAN INDICES ────────────────────────────────────────────────────────
-  idxResults = [];
-  const idxNames = Object.keys(INDEX_MAP);
-  for(let i=0; i<idxNames.length && !stopRequested; i++) {
-    const name = idxNames[i];
-    const sym = INDEX_MAP[name];
-    setProgress('idx', Math.round((i/idxNames.length)*100), `[${i+1}/${idxNames.length}] ${name}`);
-    const prices = await fetchYahooData(sym, neededDays);
-    const result = prices ? computeExpSlope(prices, p.length, p.daysInYear, p.withRsquared, p.withAnnualize, p.rSqThreshold) : null;
-    const high52 = prices ? compute52WeekHigh(prices) : null;
-    const beta = (prices && nifty50Prices) ? computeBeta(prices, nifty50Prices, p.betaWindow) : null;
-    idxResults.push({ name, symbol: sym, result, high52, beta, prices });
-    renderIndicesTable();
+    const base = 'https://raw.githubusercontent.com/VJTriumph/EXP-Scanner/main/data/results.json';
+    const r = await fetch(base + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' — results.json not found. Run the scanner first via GitHub Actions.');
+    RAW = await r.json();
+    onDataLoaded();
+  } catch(e) {
+    const msg = '<div class="err">&#9888; ' + e.message + '</div>';
+    document.getElementById('idx-wrap').innerHTML = msg;
+    document.getElementById('stk-wrap').innerHTML = msg;
   }
-  setProgress('idx', 100, `Done — ${idxResults.length} indices scanned`);
-  renderSummaryCards('idx', idxResults);
-
-  if(stopRequested){ doneScanning(); return; }
-
-  // ── SCAN STOCKS ─────────────────────────────────────────────────────────
-  stkResults = [];
-  // Load stocks CSV from GitHub raw
-  let stocks = [];
-  try {
-    const rawCSV = await fetch('https://raw.githubusercontent.com/VJTriumph/EXP-Scanner/main/data/ind_niftytotalmarket_list.csv');
-    const txt = await rawCSV.text();
-    const lines = txt.trim().split('\n').slice(1);
-    stocks = lines.map(l => {
-      const parts = l.split(',');
-      return { name: parts[0]?.trim(), industry: parts[1]?.trim(), symbol: parts[2]?.trim(), series: parts[3]?.trim() };
-    }).filter(s=>s.symbol&&s.series==='EQ');
-    // Populate sector filter
-    const sectors = [...new Set(stocks.map(s=>s.industry).filter(Boolean))].sort();
-    const sel = document.getElementById('sectorFilter');
-    sel.innerHTML = '<option value="">All Sectors</option>' + sectors.map(s=>`<option>${s}</option>`).join('');
-  } catch(e) { console.error('CSV load error', e); }
-
-  const limit = Math.min(p.maxSymbols, stocks.length);
-  for(let i=0; i<limit && !stopRequested; i++) {
-    const stk = stocks[i];
-    const yahooSym = stk.symbol + '.NS';
-    setProgress('stk', Math.round((i/limit)*100), `[${i+1}/${limit}] ${stk.symbol} — ${stk.name}`);
-    const prices = await fetchYahooData(yahooSym, neededDays);
-    const result = prices ? computeExpSlope(prices, p.length, p.daysInYear, p.withRsquared, p.withAnnualize, p.rSqThreshold) : null;
-    const high52 = prices ? compute52WeekHigh(prices) : null;
-    const beta = (prices && nifty50Prices) ? computeBeta(prices, nifty50Prices, p.betaWindow) : null;
-    stkResults.push({ name: stk.name, symbol: stk.symbol, industry: stk.industry, result, high52, beta });
-    renderStocksTable();
-  }
-  setProgress('stk', 100, `Done — ${stkResults.length} stocks scanned`);
-  renderSummaryCards('stk', stkResults);
-  doneScanning();
 }
 
-function doneScanning() {
-  scanRunning = false; stopRequested = false;
-  document.getElementById('scanBtn').style.display='inline-block';
-  document.getElementById('stopBtn').style.display='none';
+function onDataLoaded() {
+  const m = RAW.meta;
+  document.getElementById('meta-box').innerHTML =
+    'Updated: <span>' + m.generated_at + '</span> &nbsp;|&nbsp; Period: <span>' + m.length + '</span> bars &nbsp;|&nbsp; Beta window: <span>' + m.beta_window + '</span> &nbsp;|&nbsp; Annualized: <span>' + (m.with_annualize?'Yes':'No') + '</span> &nbsp;|&nbsp; &times;R&sup2;: <span>' + (m.with_rsquared?'Yes':'No') + '</span>';
+  // populate sector filter
+  const sectors = [...new Set(RAW.stocks.map(s=>s.industry).filter(Boolean))].sort();
+  const sel = document.getElementById('sectorFilter');
+  sel.innerHTML = '<option value="">All Sectors</option>' + sectors.map(s=>`<option>${s}</option>`).join('');
+  applyFilters();
 }
 
-function setProgress(prefix, pct, msg) {
-  document.getElementById(prefix+'-progress-fill').style.width = pct+'%';
-  document.getElementById(prefix+'-progress-bar').classList.add('show');
-  document.getElementById(prefix+'-progress-text').classList.add('show');
-  document.getElementById(prefix+'-progress-text').textContent = msg;
-}
-
-// ─── RENDER INDICES TABLE ─────────────────────────────────────────────────
-function renderIndicesTable() {
-  const wrap = document.getElementById('idx-table-wrap');
-  if(!idxResults.length){ wrap.innerHTML='<div class="empty-msg">No data yet.</div>'; return; }
-  const sorted = [...idxResults].sort((a,b)=>{
-    const av = a.result?.slope??-Infinity, bv = b.result?.slope??-Infinity;
-    return bv - av;
-  });
-  let rows = sorted.map((r,i) => {
-    const chip = getChipClass(r.result, null);
-    const bc = barColor(chip);
-    const slope = r.result ? r.result.slope.toFixed(2) : 'N/A';
-    const rs = r.result ? (r.result.rSq*100).toFixed(1)+'%' : 'N/A';
-    const rsFill = r.result ? r.result.rSq*100 : 0;
-    const cur = r.high52 ? r.high52.current.toFixed(2) : 'N/A';
-    const h52 = r.high52 ? r.high52.high52.toFixed(2) : 'N/A';
-    const pct52 = r.high52 ? r.high52.pctFromHigh.toFixed(2) : 'N/A';
-    const pct52cls = r.high52 && r.high52.pctFromHigh < 0 ? 'val-neg' : 'val-pos';
-    const beta = r.beta != null ? r.beta.toFixed(2) : 'N/A';
-    const barW = r.result ? Math.min(Math.abs(r.result.slope)/2, 100) : 0;
-    return `<tr>
-      <td><b>${r.name}</b><br><span style="color:#8b949e;font-size:.72rem">${r.symbol}</span></td>
-      <td><div class="bar-cell"><div class="mini-bar" style="width:${barW}px;background:${bc}"></div><span class="chip ${chip}">${slope}%</span></div></td>
-      <td><div class="rs-bar"><div class="rs-fill" style="width:${rsFill}%;background:${bc}"></div></div> ${rs}</td>
-      <td class="val-neu">${cur}</td>
-      <td>${h52}</td>
-      <td class="${pct52cls}">${pct52 !== 'N/A' ? pct52+'%' : 'N/A'}</td>
-      <td class="${beta<1?'val-pos':beta>1.5?'val-neg':'val-neu'}">${beta}</td>
-    </tr>`;
-  }).join('');
-  wrap.innerHTML = `<table>
-    <thead><tr>
-      <th>Index</th><th>EXP Slope (Ann.)</th><th>R&sup2;</th>
-      <th>Current Price</th><th>52W High</th><th>% from 52W High</th><th>Beta vs Nifty50</th>
-    </tr></thead>
-    <tbody>${rows}</tbody>
-  </table>`;
-}
-
-// ─── RENDER STOCKS TABLE ─────────────────────────────────────────────────
-function renderStocksTable() {
-  const wrap = document.getElementById('stk-table-wrap');
-  if(!stkResults.length){ wrap.innerHTML='<div class="empty-msg">No data yet.</div>'; return; }
+// ── FILTERS & RENDER ────────────────────────────────────────────────────────
+function applyFilters() {
+  if (!RAW) return;
+  const r2min  = parseFloat(document.getElementById('r2min').value) || 0;
+  const sig    = document.getElementById('sigFilter').value;
+  const search = document.getElementById('globalSearch').value.toLowerCase();
   const sector = document.getElementById('sectorFilter').value;
-  const sortBy = document.getElementById('stockSort').value;
-  const order = document.getElementById('stockOrder').value;
-  const search = document.getElementById('stockSearch').value.toLowerCase();
+  const sort   = document.getElementById('stkSort').value;
+  const order  = document.getElementById('stkOrder').value;
 
-  let filtered = stkResults.filter(r => {
-    if(sector && r.industry !== sector) return false;
-    if(search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
+  // ── Indices
+  let idx = RAW.indices.filter(r => {
+    if (r2min > 0 && (!r.slope_data || r.slope_data.r2 < r2min)) return false;
+    if (sig && r.signal_color !== sig) return false;
+    if (search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
+    return true;
+  }).sort((a,b) => (b.slope_data?.slope??-Infinity) - (a.slope_data?.slope??-Infinity));
+  document.getElementById('idx-count').textContent = idx.length;
+  renderSummary('idx-cards', idx);
+  renderIndices(idx);
+
+  // ── Stocks
+  let stk = RAW.stocks.filter(r => {
+    if (sector && r.industry !== sector) return false;
+    if (r2min > 0 && (!r.slope_data || r.slope_data.r2 < r2min)) return false;
+    if (sig && r.signal_color !== sig) return false;
+    if (search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
     return true;
   });
-
-  filtered.sort((a,b) => {
-    let av, bv;
-    if(sortBy==='slope'){ av=a.result?.slope??-Infinity; bv=b.result?.slope??-Infinity; }
-    else if(sortBy==='rs'){ av=a.result?.rSq??0; bv=b.result?.rSq??0; }
-    else if(sortBy==='high52'){ av=a.high52?.pctFromHigh??-Infinity; bv=b.high52?.pctFromHigh??-Infinity; }
-    else if(sortBy==='beta'){ av=a.beta??0; bv=b.beta??0; }
-    else { av=a.name; bv=b.name; return order==='asc' ? av.localeCompare(bv) : bv.localeCompare(av); }
-    return order==='desc' ? bv-av : av-bv;
+  stk.sort((a,b) => {
+    if (sort==='slope')    return order==='desc' ? (b.slope_data?.slope??-Infinity)-(a.slope_data?.slope??-Infinity) : (a.slope_data?.slope??-Infinity)-(b.slope_data?.slope??-Infinity);
+    if (sort==='r2')       return order==='desc' ? (b.slope_data?.r2??0)-(a.slope_data?.r2??0) : (a.slope_data?.r2??0)-(b.slope_data?.r2??0);
+    if (sort==='high52pct')return order==='desc' ? (b.high52_data?.pct_from_high??-Infinity)-(a.high52_data?.pct_from_high??-Infinity) : (a.high52_data?.pct_from_high??-Infinity)-(b.high52_data?.pct_from_high??-Infinity);
+    if (sort==='beta')     return order==='desc' ? (b.beta??0)-(a.beta??0) : (a.beta??0)-(b.beta??0);
+    return order==='desc' ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
   });
+  document.getElementById('stk-count').textContent = stk.length;
+  renderSummary('stk-cards', stk);
+  renderStocks(stk);
+}
 
-  let rows = filtered.map(r => {
-    const chip = getChipClass(r.result, null);
-    const bc = barColor(chip);
-    const slope = r.result ? r.result.slope.toFixed(2) : 'N/A';
-    const rs = r.result ? (r.result.rSq*100).toFixed(1)+'%' : 'N/A';
-    const rsFill = r.result ? r.result.rSq*100 : 0;
-    const cur = r.high52 ? r.high52.current.toFixed(2) : 'N/A';
-    const h52 = r.high52 ? r.high52.high52.toFixed(2) : 'N/A';
-    const pct52 = r.high52 ? r.high52.pctFromHigh.toFixed(2) : 'N/A';
-    const pct52cls = r.high52 && r.high52.pctFromHigh < 0 ? 'val-neg' : 'val-pos';
-    const beta = r.beta != null ? r.beta.toFixed(2) : 'N/A';
-    const barW = r.result ? Math.min(Math.abs(r.result.slope)/2, 100) : 0;
+// ── COLOR HELPERS ──────────────────────────────────────────────────────────
+function chipHtml(signal, val) {
+  const cls = {bright_green:'bright-green',faded_green:'faded-green',bright_red:'bright-red',faded_red:'faded-red',gray:'gray'}[signal] || 'gray';
+  return `<span class="chip ${cls}">${val !== null && val !== undefined ? val+'%' : 'N/A'}</span>`;
+}
+function barColor(signal) {
+  return {bright_green:'#3fb950',faded_green:'#56d364',bright_red:'#f85149',faded_red:'#ff7b72',gray:'#484f58'}[signal]||'#484f58';
+}
+
+// ── SUMMARY CARDS ──────────────────────────────────────────────────────────
+function renderSummary(id, rows) {
+  const valid = rows.filter(r=>r.slope_data);
+  const pos = valid.filter(r=>r.slope_data.slope>0).length;
+  const neg = valid.filter(r=>r.slope_data.slope<0).length;
+  const avgS = valid.length ? (valid.reduce((s,r)=>s+r.slope_data.slope,0)/valid.length).toFixed(1) : 'N/A';
+  const avgR = valid.length ? ((valid.reduce((s,r)=>s+r.slope_data.r2,0)/valid.length)*100).toFixed(1) : 'N/A';
+  document.getElementById(id).innerHTML = `
+    <div class="card"><div class="card-val pos">${pos}</div><div class="card-lbl">Positive</div></div>
+    <div class="card"><div class="card-val neg">${neg}</div><div class="card-lbl">Negative</div></div>
+    <div class="card"><div class="card-val" style="color:#58a6ff">${avgS !== 'N/A' ? avgS+'%' : 'N/A'}</div><div class="card-lbl">Avg Slope</div></div>
+    <div class="card"><div class="card-val" style="color:#e3b341">${avgR !== 'N/A' ? avgR+'%' : 'N/A'}</div><div class="card-lbl">Avg R&sup2;</div></div>
+    <div class="card"><div class="card-val neu">${rows.length}</div><div class="card-lbl">Shown</div></div>
+  `;
+}
+
+// ── INDICES TABLE ──────────────────────────────────────────────────────────
+function renderIndices(data) {
+  if (!data.length) { document.getElementById('idx-wrap').innerHTML='<div class="empty">No indices match the filter.</div>'; return; }
+  const rows = data.map(r => {
+    const sd = r.slope_data;
+    const h  = r.high52_data;
+    const bc = barColor(r.signal_color);
+    const slope = sd ? sd.slope.toFixed(2) : null;
+    const r2val = sd ? (sd.r2*100).toFixed(1) : null;
+    const rsFill= sd ? sd.r2*100 : 0;
+    const cur   = h ? h.current.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
+    const hi52  = h ? h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
+    const pct   = h ? h.pct_from_high.toFixed(2) : null;
+    const pctCls= h && h.pct_from_high < 0 ? 'neg' : 'pos';
+    const beta  = r.beta != null ? r.beta.toFixed(2) : 'N/A';
+    const betaCls = r.beta == null ? 'neu' : r.beta < 0.8 ? 'pos' : r.beta > 1.5 ? 'neg' : 'neu';
+    const bw    = sd ? Math.min(Math.abs(sd.slope)/1.5, 90) : 0;
     return `<tr>
-      <td><b>${r.name}</b><br><span style="color:#8b949e;font-size:.72rem">${r.symbol}</span></td>
-      <td><span class="sector-badge">${r.industry||'—'}</span></td>
-      <td><div class="bar-cell"><div class="mini-bar" style="width:${barW}px;background:${bc}"></div><span class="chip ${chip}">${slope}%</span></div></td>
-      <td><div class="rs-bar"><div class="rs-fill" style="width:${rsFill}%;background:${bc}"></div></div> ${rs}</td>
-      <td class="val-neu">${cur}</td>
-      <td>${h52}</td>
-      <td class="${pct52cls}">${pct52 !== 'N/A' ? pct52+'%' : 'N/A'}</td>
-      <td class="${beta<1?'val-pos':beta>1.5?'val-neg':'val-neu'}">${beta}</td>
+      <td><b>${r.name}</b><br><span style="color:#8b949e;font-size:.71rem">${r.symbol}</span></td>
+      <td><div class="bar-wrap"><div class="mini-bar" style="width:${bw}px;background:${bc}"></div>${chipHtml(r.signal_color, slope)}</div></td>
+      <td><div class="rs-track"><div class="rs-fill" style="width:${rsFill}%;background:${bc}"></div></div> <span class="neu" style="font-size:.76rem">${r2val !== null ? r2val+'%' : 'N/A'}</span></td>
+      <td class="neu">${cur}</td>
+      <td class="neu">${hi52}</td>
+      <td class="${pctCls}">${pct !== null ? pct+'%' : 'N/A'}</td>
+      <td class="${betaCls}">${beta}</td>
     </tr>`;
   }).join('');
-
-  wrap.innerHTML = `<table>
+  document.getElementById('idx-wrap').innerHTML = `<table>
     <thead><tr>
-      <th>Stock</th><th>Sector</th><th>EXP Slope (Ann.)</th><th>R&sup2;</th>
-      <th>Current Price</th><th>52W High</th><th>% from 52W High</th><th>Beta vs Nifty50</th>
-    </tr></thead>
-    <tbody>${rows||'<tr><td colspan="8" style="text-align:center;padding:30px;color:#8b949e">No results match filter.</td></tr>'}</tbody>
+      <th>Index</th><th>EXP Slope (Ann.%)</th><th>R&sup2;</th>
+      <th>Current</th><th>52W High</th><th>% from 52W High</th><th>Beta vs Nifty50</th>
+    </tr></thead><tbody>${rows}</tbody>
   </table>`;
 }
 
-// ─── SUMMARY CARDS ────────────────────────────────────────────────────────
-function renderSummaryCards(prefix, results) {
-  const valid = results.filter(r=>r.result);
-  const pos = valid.filter(r=>r.result.slope>0).length;
-  const neg = valid.filter(r=>r.result.slope<0).length;
-  const avgSlope = valid.length ? (valid.reduce((s,r)=>s+r.result.slope,0)/valid.length).toFixed(1) : 'N/A';
-  const avgRs = valid.length ? ((valid.reduce((s,r)=>s+r.result.rSq,0)/valid.length)*100).toFixed(1) : 'N/A';
-  document.getElementById(prefix+'-cards').innerHTML = `
-    <div class="card"><div class="card-val val-pos">${pos}</div><div class="card-lbl">Positive Slope</div></div>
-    <div class="card"><div class="card-val val-neg">${neg}</div><div class="card-lbl">Negative Slope</div></div>
-    <div class="card"><div class="card-val" style="color:#58a6ff">${avgSlope}%</div><div class="card-lbl">Avg Slope</div></div>
-    <div class="card"><div class="card-val" style="color:#e3b341">${avgRs}%</div><div class="card-lbl">Avg R&sup2;</div></div>
-    <div class="card"><div class="card-val val-neu">${valid.length}</div><div class="card-lbl">Data Available</div></div>
-  `;
+// ── STOCKS TABLE ───────────────────────────────────────────────────────────
+function renderStocks(data) {
+  if (!data.length) { document.getElementById('stk-wrap').innerHTML='<div class="empty">No stocks match the filter.</div>'; return; }
+  const rows = data.map(r => {
+    const sd = r.slope_data;
+    const h  = r.high52_data;
+    const bc = barColor(r.signal_color);
+    const slope = sd ? sd.slope.toFixed(2) : null;
+    const r2val = sd ? (sd.r2*100).toFixed(1) : null;
+    const rsFill= sd ? sd.r2*100 : 0;
+    const cur   = h ? h.current.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
+    const hi52  = h ? h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
+    const pct   = h ? h.pct_from_high.toFixed(2) : null;
+    const pctCls= h && h.pct_from_high < 0 ? 'neg' : 'pos';
+    const beta  = r.beta != null ? r.beta.toFixed(2) : 'N/A';
+    const betaCls = r.beta == null ? 'neu' : r.beta < 0.8 ? 'pos' : r.beta > 1.5 ? 'neg' : 'neu';
+    const bw    = sd ? Math.min(Math.abs(sd.slope)/1.5, 90) : 0;
+    return `<tr>
+      <td><b>${r.name}</b><br><span style="color:#8b949e;font-size:.71rem">${r.symbol}</span></td>
+      <td><span class="sector-tag">${r.industry||'—'}</span></td>
+      <td><div class="bar-wrap"><div class="mini-bar" style="width:${bw}px;background:${bc}"></div>${chipHtml(r.signal_color, slope)}</div></td>
+      <td><div class="rs-track"><div class="rs-fill" style="width:${rsFill}%;background:${bc}"></div></div> <span class="neu" style="font-size:.76rem">${r2val !== null ? r2val+'%' : 'N/A'}</span></td>
+      <td class="neu">${cur}</td>
+      <td class="neu">${hi52}</td>
+      <td class="${pctCls}">${pct !== null ? pct+'%' : 'N/A'}</td>
+      <td class="${betaCls}">${beta}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('stk-wrap').innerHTML = `<table>
+    <thead><tr>
+      <th>Stock</th><th>Sector</th><th>EXP Slope (Ann.%)</th><th>R&sup2;</th>
+      <th>Current</th><th>52W High</th><th>% from 52W High</th><th>Beta vs Nifty50</th>
+    </tr></thead><tbody>${rows}</tbody>
+  </table>`;
 }
+
+// ── TAB SWITCH ─────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',(i===0&&tab==='indices')||(i===1&&tab==='stocks')));
+  document.getElementById('tab-indices').classList.toggle('active',tab==='indices');
+  document.getElementById('tab-stocks').classList.toggle('active',tab==='stocks');
+}
+
+// ── BOOT ───────────────────────────────────────────────────────────────────
+loadData();
 </script>
 </body>
-</html>
+    </html>
