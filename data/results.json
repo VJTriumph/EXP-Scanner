@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-28 10:34 UTC",
+    "generated_at": "2026-03-28 10:51 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -31,15 +31,24 @@
     },
     {
       "name": "NIFTY MIDCAP 150",
-      "symbol": "^NSEMDCP150",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
-      "signal_color": "gray"
+      "symbol": "NIFTYMIDCAP150.NS",
+      "slope_data": {
+        "slope": -11.131,
+        "raw_slope": -20.9836,
+        "r2": 0.5305,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 19952.75,
+        "high52": 22606.5,
+        "pct_from_high": -11.74
+      },
+      "beta": 0.526,
+      "signal_color": "faded_red"
     },
     {
       "name": "NIFTY SMLCAP 250",
-      "symbol": "^CNXSMALLCAP",
+      "symbol": "NIFTYSMLCAP250.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -47,7 +56,7 @@
     },
     {
       "name": "NIFTY MIDSML 400",
-      "symbol": "^NSEMDCP400",
+      "symbol": "NIFTYMIDSML400.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -395,15 +404,24 @@
     },
     {
       "name": "Nifty Fin Service",
-      "symbol": "^CNXFINANCE",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
-      "signal_color": "gray"
+      "symbol": "NIFTY_FIN_SERVICE.NS",
+      "slope_data": {
+        "slope": -4.3887,
+        "raw_slope": -16.692,
+        "r2": 0.2629,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 24373.2,
+        "high52": 28463.25,
+        "pct_from_high": -14.37
+      },
+      "beta": 0.423,
+      "signal_color": "faded_red"
     },
     {
       "name": "Nifty CPSE",
-      "symbol": "^CNXCPSE",
+      "symbol": "NIFTY_CPSE.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -411,7 +429,7 @@
     },
     {
       "name": "Nifty Pvt Bank",
-      "symbol": "^CNXPVTBANK",
+      "symbol": "NIFTY_PVTBANK.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -419,7 +437,7 @@
     },
     {
       "name": "Nifty GS Compsite",
-      "symbol": "^NSGSC",
+      "symbol": "NIFTY_GS_COMPSITE.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -427,24 +445,15 @@
     },
     {
       "name": "NIFTY HEALTHCARE",
-      "symbol": "^CNXPHARMA",
-      "slope_data": {
-        "slope": -0.0545,
-        "raw_slope": -2.5588,
-        "r2": 0.0213,
-        "above_threshold": true
-      },
-      "high52_data": {
-        "current": 22565.6,
-        "high52": 23348.05,
-        "pct_from_high": -3.35
-      },
-      "beta": 0.304,
-      "signal_color": "faded_red"
+      "symbol": "NIFTY_HEALTHCARE.NS",
+      "slope_data": null,
+      "high52_data": null,
+      "beta": null,
+      "signal_color": "gray"
     },
     {
       "name": "NIFTY CONSR DURBL",
-      "symbol": "^CNXCONSDUR",
+      "symbol": "NIFTY_CONSR_DURBL.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -452,7 +461,7 @@
     },
     {
       "name": "NIFTY OIL AND GAS",
-      "symbol": "^CNXOILGAS",
+      "symbol": "NIFTY_OIL_AND_GAS.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -460,7 +469,7 @@
     },
     {
       "name": "NIFTY TOTAL MKT",
-      "symbol": "^CNXTOTALMARKET",
+      "symbol": "NIFTYTOTALMARKET.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -468,7 +477,7 @@
     },
     {
       "name": "NIFTY MICROCAP250",
-      "symbol": "^NSMICROCAP250",
+      "symbol": "NIFTYMICROCAP250.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -476,7 +485,7 @@
     },
     {
       "name": "NIFTY IND DIGITAL",
-      "symbol": "^CNXDIGITAL",
+      "symbol": "NIFTY_IND_DIGITAL.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -484,7 +493,7 @@
     },
     {
       "name": "Nifty Tata 25 Cap",
-      "symbol": "^NTATACAP",
+      "symbol": "NIFTY_TATA_25_CAP.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -492,7 +501,7 @@
     },
     {
       "name": "Nifty Ind Defence",
-      "symbol": "^CNXDEFENCE",
+      "symbol": "NIFTY_IND_DEFENCE.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -500,7 +509,7 @@
     },
     {
       "name": "Nifty Ind Tourism",
-      "symbol": "^CNXTOURISM",
+      "symbol": "NIFTY_IND_TOURISM.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -508,7 +517,7 @@
     },
     {
       "name": "Nifty Capital Mkt",
-      "symbol": "^CNXCAPMARKET",
+      "symbol": "NIFTY_CAPITAL_MKT.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -516,7 +525,7 @@
     },
     {
       "name": "Nifty EV",
-      "symbol": "^CNXEV",
+      "symbol": "NIFTY_EV.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -524,7 +533,7 @@
     },
     {
       "name": "Nifty Housing",
-      "symbol": "^CNXHOUSING",
+      "symbol": "NIFTY_HOUSING.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -532,7 +541,7 @@
     },
     {
       "name": "Nifty IPO",
-      "symbol": "^CNXIPO",
+      "symbol": "NIFTY_IPO.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -540,7 +549,7 @@
     },
     {
       "name": "Nifty Rural",
-      "symbol": "^CNXRURAL",
+      "symbol": "NIFTY_RURAL.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -548,7 +557,7 @@
     },
     {
       "name": "Nifty Internet",
-      "symbol": "^CNXINTERNET",
+      "symbol": "NIFTY_INTERNET.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -556,7 +565,7 @@
     },
     {
       "name": "Nifty Chemicals",
-      "symbol": "^CNXCHEMICALS",
+      "symbol": "NIFTY_CHEMICALS.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -564,7 +573,7 @@
     },
     {
       "name": "Nifty Waves",
-      "symbol": "^CNXWAVES",
+      "symbol": "NIFTY_WAVES.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -572,7 +581,7 @@
     },
     {
       "name": "Nifty RailwaysPSU",
-      "symbol": "^CNXRAILWAYS",
+      "symbol": "NIFTY_RAILWAYSPSU.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -580,7 +589,7 @@
     },
     {
       "name": "NiftyConglomerate",
-      "symbol": "^CNXCONGLOMERATE",
+      "symbol": "NIFTY_CONGLOMERATE.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -6738,17 +6747,17 @@
       "industry": "Financial Services",
       "isin": "INE031A01017",
       "slope_data": {
-        "slope": -51.4057,
-        "raw_slope": -59.3183,
+        "slope": -51.4506,
+        "raw_slope": -59.3715,
         "r2": 0.8666,
         "above_threshold": true
       },
       "high52_data": {
         "current": 168.06,
-        "high52": 240.95,
-        "pct_from_high": -30.25
+        "high52": 242.66,
+        "pct_from_high": -30.74
       },
-      "beta": 0.619,
+      "beta": 0.627,
       "signal_color": "faded_red"
     },
     {
@@ -6993,15 +7002,15 @@
       "industry": "Construction",
       "isin": "INE821I01022",
       "slope_data": {
-        "slope": -13.0135,
-        "raw_slope": -56.7142,
-        "r2": 0.2295,
+        "slope": -12.9221,
+        "raw_slope": -56.5911,
+        "r2": 0.2283,
         "above_threshold": true
       },
       "high52_data": {
         "current": 20.47,
-        "high52": 53.03,
-        "pct_from_high": -61.41
+        "high52": 52.9,
+        "pct_from_high": -61.32
       },
       "beta": 1.115,
       "signal_color": "faded_red"
@@ -10830,7 +10839,7 @@
       },
       "high52_data": {
         "current": 31805.0,
-        "high52": 48937.43,
+        "high52": 48937.42,
         "pct_from_high": -35.01
       },
       "beta": 0.964,
@@ -14898,17 +14907,17 @@
       "industry": "Metals & Mining",
       "isin": "INE205A01025",
       "slope_data": {
-        "slope": 133.733,
-        "raw_slope": 174.3715,
-        "r2": 0.7669,
+        "slope": 132.4273,
+        "raw_slope": 173.5338,
+        "r2": 0.7631,
         "above_threshold": true
       },
       "high52_data": {
         "current": 649.4,
-        "high52": 753.76,
-        "pct_from_high": -13.85
+        "high52": 766.35,
+        "pct_from_high": -15.26
       },
-      "beta": 0.393,
+      "beta": 0.412,
       "signal_color": "bright_green"
     },
     {
