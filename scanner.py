@@ -19,7 +19,6 @@ OUTPUT_JSON   = os.path.join(DATA_DIR, "results.json")
 
 END_DATE   = datetime.utcnow().date()
 START_DATE = END_DATE - timedelta(days=900)
-h
 # NSE index name map  (Yahoo .NS symbol → NSE index name for niftyindices API)
 NSE_INDEX_MAP = {
     "NIFTYSMLCAP250.NS":    "NIFTY SMLCAP 250",
