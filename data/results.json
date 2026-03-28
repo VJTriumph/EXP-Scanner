@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-28 11:12 UTC",
+    "generated_at": "2026-03-28 11:25 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -7465,7 +7465,7 @@
       },
       "high52_data": {
         "current": 991.4,
-        "high52": 1525.07,
+        "high52": 1525.06,
         "pct_from_high": -34.99
       },
       "beta": 0.239,
