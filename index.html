@@ -34,8 +34,14 @@ header h1{font-size:1.4rem;font-weight:700;color:#58a6ff}
 table{width:100%;border-collapse:collapse;font-size:.82rem}
 thead th{background:#161b22;color:#8b949e;font-weight:600;padding:9px 11px;text-align:left;border-bottom:2px solid #30363d;white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;z-index:1}
 thead th:hover{color:#e6edf3}
-thead th.asc::after{content:' ▲';color:#58a6ff}
-thead th.desc::after{content:' ▼';color:#58a6ff}
+thead th .sort-btn{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;margin-left:5px;vertical-align:middle;width:14px;height:18px;gap:1px}
+thead th .sort-btn .arr-up{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:5px solid #484f58}
+thead th .sort-btn .arr-dn{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid #484f58}
+thead th.sort-asc .sort-btn .arr-up{border-bottom-color:#58a6ff}
+thead th.sort-asc .sort-btn .arr-dn{border-top-color:#484f58}
+thead th.sort-desc .sort-btn .arr-up{border-bottom-color:#484f58}
+thead th.sort-desc .sort-btn .arr-dn{border-top-color:#58a6ff}
+thead th.sort-asc,thead th.sort-desc{color:#e6edf3}
 tbody tr{border-bottom:1px solid #21262d;transition:background .12s}
 tbody tr:hover{background:#161b22}
 tbody td{padding:8px 11px;vertical-align:middle}
@@ -58,7 +64,6 @@ tbody td{padding:8px 11px;vertical-align:middle}
 </style>
 </head>
 <body>
-
 <header>
   <div>
     <h1>&#9660; EXP Scanner</h1>
@@ -66,7 +71,6 @@ tbody td{padding:8px 11px;vertical-align:middle}
   </div>
   <div class="meta-info" id="meta-box">No data loaded yet.</div>
 </header>
-
 <div class="controls">
   <div class="ctrl-group">
     <label>R&sup2; Min:</label>
@@ -89,45 +93,31 @@ tbody td{padding:8px 11px;vertical-align:middle}
   </div>
   <button class="btn btn-refresh" onclick="loadData()">&#8635; Refresh Data</button>
 </div>
-
 <div class="tabs">
-  <div class="tab active" onclick="switchTab('indices')">&#128200; Indices (<span id="idx-count">—</span>)</div>
-  <div class="tab" onclick="switchTab('stocks')">&#128217; Stocks (<span id="stk-count">—</span>)</div>
+  <div class="tab active" onclick="switchTab('indices')">&#128200; Indices (<span id="idx-count">&#8212;</span>)</div>
+  <div class="tab" onclick="switchTab('stocks')">&#128217; Stocks (<span id="stk-count">&#8212;</span>)</div>
 </div>
-
 <!-- INDICES -->
 <div class="tab-content active" id="tab-indices">
   <div class="summary-cards" id="idx-cards"></div>
   <div class="tbl-wrap" id="idx-wrap"><div class="loading">Loading data...</div></div>
 </div>
-
 <!-- STOCKS -->
 <div class="tab-content" id="tab-stocks">
   <div class="filter-row">
     <label>Sector:</label>
     <select id="sectorFilter" onchange="applyFilters()"><option value="">All Sectors</option></select>
-    <label>Sort:</label>
-    <select id="stkSort" onchange="applyFilters()">
-      <option value="slope">EXP Slope</option>
-      <option value="r2">R&sup2;</option>
-      <option value="high52pct">52W High %</option>
-      <option value="beta">Beta</option>
-      <option value="name">Name A-Z</option>
-    </select>
-    <label>Order:</label>
-    <select id="stkOrder" onchange="applyFilters()">
-      <option value="desc">Desc</option>
-      <option value="asc">Asc</option>
-    </select>
   </div>
   <div class="summary-cards" id="stk-cards"></div>
   <div class="tbl-wrap" id="stk-wrap"><div class="loading">Loading data...</div></div>
 </div>
-
 <script>
 let RAW = null;
-
-// ── LOAD JSON ──────────────────────────────────────────────────────────────
+const idxSort = { col: 'slope', dir: 'desc' };
+const stkSort = { col: 'slope', dir: 'desc' };
+function sortBtn() {
+  return '<span class="sort-btn"><span class="arr-up"></span><span class="arr-dn"></span></span>';
+}
 async function loadData() {
   document.getElementById('idx-wrap').innerHTML = '<div class="loading">Fetching results.json...</div>';
   document.getElementById('stk-wrap').innerHTML = '<div class="loading">Fetching results.json...</div>';
@@ -143,164 +133,159 @@ async function loadData() {
     document.getElementById('stk-wrap').innerHTML = msg;
   }
 }
-
 function onDataLoaded() {
   const m = RAW.meta;
   document.getElementById('meta-box').innerHTML =
-    'Updated: <span>' + m.generated_at + '</span> &nbsp;|&nbsp; Period: <span>' + m.length + '</span> bars &nbsp;|&nbsp; Beta window: <span>' + m.beta_window + '</span> &nbsp;|&nbsp; Annualized: <span>' + (m.with_annualize?'Yes':'No') + '</span> &nbsp;|&nbsp; &times;R&sup2;: <span>' + (m.with_rsquared?'Yes':'No') + '</span>';
-  // populate sector filter
+    'Updated: <span>' + m.generated_at + '</span> &nbsp;|&nbsp; Period: <span>' + m.length + '</span> bars &nbsp;|&nbsp; Beta window: <span>' + m.beta_window + '</span> &nbsp;|&nbsp; Annualized: <span>' + (m.with_annualize?'Yes':'No') + '</span> &nbsp;|&nbsp; ×R²: <span>' + (m.with_rsquared?'Yes':'No') + '</span>';
   const sectors = [...new Set(RAW.stocks.map(s=>s.industry).filter(Boolean))].sort();
   const sel = document.getElementById('sectorFilter');
-  sel.innerHTML = '<option value="">All Sectors</option>' + sectors.map(s=>`<option>${s}</option>`).join('');
+  sel.innerHTML = '<option value="">All Sectors</option>' + sectors.map(s=>'<option>'+s+'</option>').join('');
   applyFilters();
 }
-
-// ── FILTERS & RENDER ────────────────────────────────────────────────────────
+function sortData(arr, col, dir) {
+  const d = dir === 'desc' ? -1 : 1;
+  return [...arr].sort((a, b) => {
+    let av, bv;
+    if (col==='slope')     { av=a.slope_data?.slope??-Infinity; bv=b.slope_data?.slope??-Infinity; }
+    else if(col==='r2')    { av=a.slope_data?.r2??0;            bv=b.slope_data?.r2??0; }
+    else if(col==='cur')   { av=a.high52_data?.current??0;      bv=b.high52_data?.current??0; }
+    else if(col==='hi52')  { av=a.high52_data?.high52??0;       bv=b.high52_data?.high52??0; }
+    else if(col==='pct')   { av=a.high52_data?.pct_from_high??-Infinity; bv=b.high52_data?.pct_from_high??-Infinity; }
+    else if(col==='beta')  { av=a.beta??0;                       bv=b.beta??0; }
+    else if(col==='name')  { return d*a.name.localeCompare(b.name); }
+    else { av=0; bv=0; }
+    return d*(av-bv);
+  });
+}
+function thClass(state, col) {
+  if(state.col!==col) return '';
+  return state.dir==='asc'?'sort-asc':'sort-desc';
+}
+function toggleSort(state, col) {
+  if(state.col===col){ state.dir=state.dir==='desc'?'asc':'desc'; }
+  else{ state.col=col; state.dir='desc'; }
+  applyFilters();
+}
 function applyFilters() {
-  if (!RAW) return;
-  const r2min  = parseFloat(document.getElementById('r2min').value) || 0;
-  const sig    = document.getElementById('sigFilter').value;
-  const search = document.getElementById('globalSearch').value.toLowerCase();
-  const sector = document.getElementById('sectorFilter').value;
-  const sort   = document.getElementById('stkSort').value;
-  const order  = document.getElementById('stkOrder').value;
-
-  // ── Indices
-  let idx = RAW.indices.filter(r => {
-    if (r2min > 0 && (!r.slope_data || r.slope_data.r2 < r2min)) return false;
-    if (sig && r.signal_color !== sig) return false;
-    if (search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
+  if(!RAW) return;
+  const r2min=parseFloat(document.getElementById('r2min').value)||0;
+  const sig=document.getElementById('sigFilter').value;
+  const search=document.getElementById('globalSearch').value.toLowerCase();
+  const sector=document.getElementById('sectorFilter').value;
+  let idx=RAW.indices.filter(r=>{
+    if(r2min>0&&(!r.slope_data||r.slope_data.r2<r2min))return false;
+    if(sig&&r.signal_color!==sig)return false;
+    if(search&&!r.name.toLowerCase().includes(search)&&!r.symbol.toLowerCase().includes(search))return false;
     return true;
-  }).sort((a,b) => (b.slope_data?.slope??-Infinity) - (a.slope_data?.slope??-Infinity));
-  document.getElementById('idx-count').textContent = idx.length;
-  renderSummary('idx-cards', idx);
+  });
+  idx=sortData(idx,idxSort.col,idxSort.dir);
+  document.getElementById('idx-count').textContent=idx.length;
+  renderSummary('idx-cards',idx);
   renderIndices(idx);
-
-  // ── Stocks
-  let stk = RAW.stocks.filter(r => {
-    if (sector && r.industry !== sector) return false;
-    if (r2min > 0 && (!r.slope_data || r.slope_data.r2 < r2min)) return false;
-    if (sig && r.signal_color !== sig) return false;
-    if (search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
+  let stk=RAW.stocks.filter(r=>{
+    if(sector&&r.industry!==sector)return false;
+    if(r2min>0&&(!r.slope_data||r.slope_data.r2<r2min))return false;
+    if(sig&&r.signal_color!==sig)return false;
+    if(search&&!r.name.toLowerCase().includes(search)&&!r.symbol.toLowerCase().includes(search))return false;
     return true;
   });
-  stk.sort((a,b) => {
-    if (sort==='slope')    return order==='desc' ? (b.slope_data?.slope??-Infinity)-(a.slope_data?.slope??-Infinity) : (a.slope_data?.slope??-Infinity)-(b.slope_data?.slope??-Infinity);
-    if (sort==='r2')       return order==='desc' ? (b.slope_data?.r2??0)-(a.slope_data?.r2??0) : (a.slope_data?.r2??0)-(b.slope_data?.r2??0);
-    if (sort==='high52pct')return order==='desc' ? (b.high52_data?.pct_from_high??-Infinity)-(a.high52_data?.pct_from_high??-Infinity) : (a.high52_data?.pct_from_high??-Infinity)-(b.high52_data?.pct_from_high??-Infinity);
-    if (sort==='beta')     return order==='desc' ? (b.beta??0)-(a.beta??0) : (a.beta??0)-(b.beta??0);
-    return order==='desc' ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
-  });
-  document.getElementById('stk-count').textContent = stk.length;
-  renderSummary('stk-cards', stk);
+  stk=sortData(stk,stkSort.col,stkSort.dir);
+  document.getElementById('stk-count').textContent=stk.length;
+  renderSummary('stk-cards',stk);
   renderStocks(stk);
 }
-
-// ── COLOR HELPERS ──────────────────────────────────────────────────────────
-function chipHtml(signal, val) {
-  const cls = {bright_green:'bright-green',faded_green:'faded-green',bright_red:'bright-red',faded_red:'faded-red',gray:'gray'}[signal] || 'gray';
-  return `<span class="chip ${cls}">${val !== null && val !== undefined ? val+'%' : 'N/A'}</span>`;
+function chipHtml(signal,val){
+  const cls={bright_green:'bright-green',faded_green:'faded-green',bright_red:'bright-red',faded_red:'faded-red',gray:'gray'}[signal]||'gray';
+  return '<span class="chip '+cls+'">'+(val!==null&&val!==undefined?val+'%':'N/A')+'</span>';
 }
-function barColor(signal) {
-  return {bright_green:'#3fb950',faded_green:'#56d364',bright_red:'#f85149',faded_red:'#ff7b72',gray:'#484f58'}[signal]||'#484f58';
+function barColor(signal){
+  return{bright_green:'#3fb950',faded_green:'#56d364',bright_red:'#f85149',faded_red:'#ff7b72',gray:'#484f58'}[signal]||'#484f58';
 }
-
-// ── SUMMARY CARDS ──────────────────────────────────────────────────────────
-function renderSummary(id, rows) {
-  const valid = rows.filter(r=>r.slope_data);
-  const pos = valid.filter(r=>r.slope_data.slope>0).length;
-  const neg = valid.filter(r=>r.slope_data.slope<0).length;
-  const avgS = valid.length ? (valid.reduce((s,r)=>s+r.slope_data.slope,0)/valid.length).toFixed(1) : 'N/A';
-  const avgR = valid.length ? ((valid.reduce((s,r)=>s+r.slope_data.r2,0)/valid.length)*100).toFixed(1) : 'N/A';
-  document.getElementById(id).innerHTML = `
-    <div class="card"><div class="card-val pos">${pos}</div><div class="card-lbl">Positive</div></div>
-    <div class="card"><div class="card-val neg">${neg}</div><div class="card-lbl">Negative</div></div>
-    <div class="card"><div class="card-val" style="color:#58a6ff">${avgS !== 'N/A' ? avgS+'%' : 'N/A'}</div><div class="card-lbl">Avg Slope</div></div>
-    <div class="card"><div class="card-val" style="color:#e3b341">${avgR !== 'N/A' ? avgR+'%' : 'N/A'}</div><div class="card-lbl">Avg R&sup2;</div></div>
-    <div class="card"><div class="card-val neu">${rows.length}</div><div class="card-lbl">Shown</div></div>
-  `;
+function renderSummary(id,rows){
+  const valid=rows.filter(r=>r.slope_data);
+  const pos=valid.filter(r=>r.slope_data.slope>0).length;
+  const neg=valid.filter(r=>r.slope_data.slope<0).length;
+  const avgS=valid.length?(valid.reduce((s,r)=>s+r.slope_data.slope,0)/valid.length).toFixed(1):'N/A';
+  const avgR=valid.length?((valid.reduce((s,r)=>s+r.slope_data.r2,0)/valid.length)*100).toFixed(1):'N/A';
+  document.getElementById(id).innerHTML=
+    '<div class="card"><div class="card-val pos">'+pos+'</div><div class="card-lbl">Positive</div></div>'+
+    '<div class="card"><div class="card-val neg">'+neg+'</div><div class="card-lbl">Negative</div></div>'+
+    '<div class="card"><div class="card-val" style="color:#58a6ff">'+(avgS!=='N/A'?avgS+'%':'N/A')+'</div><div class="card-lbl">Avg Slope</div></div>'+
+    '<div class="card"><div class="card-val" style="color:#e3b341">'+(avgR!=='N/A'?avgR+'%':'N/A')+'</div><div class="card-lbl">Avg R²</div></div>'+
+    '<div class="card"><div class="card-val neu">'+rows.length+'</div><div class="card-lbl">Shown</div></div>';
 }
-
-// ── INDICES TABLE ──────────────────────────────────────────────────────────
-function renderIndices(data) {
-  if (!data.length) { document.getElementById('idx-wrap').innerHTML='<div class="empty">No indices match the filter.</div>'; return; }
-  const rows = data.map(r => {
-    const sd = r.slope_data;
-    const h  = r.high52_data;
-    const bc = barColor(r.signal_color);
-    const slope = sd ? sd.slope.toFixed(2) : null;
-    const r2val = sd ? (sd.r2*100).toFixed(1) : null;
-    const rsFill= sd ? sd.r2*100 : 0;
-    const cur   = h ? h.current.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
-    const hi52  = h ? h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
-    const pct   = h ? h.pct_from_high.toFixed(2) : null;
-    const pctCls= h && h.pct_from_high < 0 ? 'neg' : 'pos';
-    const beta  = r.beta != null ? r.beta.toFixed(2) : 'N/A';
-    const betaCls = r.beta == null ? 'neu' : r.beta < 0.8 ? 'pos' : r.beta > 1.5 ? 'neg' : 'neu';
-    const bw    = sd ? Math.min(Math.abs(sd.slope)/1.5, 90) : 0;
-    return `<tr>
-      <td><b>${r.name}</b><br><span style="color:#8b949e;font-size:.71rem">${r.symbol}</span></td>
-      <td><div class="bar-wrap"><div class="mini-bar" style="width:${bw}px;background:${bc}"></div>${chipHtml(r.signal_color, slope)}</div></td>
-      <td><div class="rs-track"><div class="rs-fill" style="width:${rsFill}%;background:${bc}"></div></div> <span class="neu" style="font-size:.76rem">${r2val !== null ? r2val+'%' : 'N/A'}</span></td>
-      <td class="neu">${cur}</td>
-      <td class="neu">${hi52}</td>
-      <td class="${pctCls}">${pct !== null ? pct+'%' : 'N/A'}</td>
-      <td class="${betaCls}">${beta}</td>
-    </tr>`;
+function renderIndices(data){
+  if(!data.length){document.getElementById('idx-wrap').innerHTML='<div class="empty">No indices match the filter.</div>';return;}
+  const s=idxSort;
+  const rows=data.map(r=>{
+    const sd=r.slope_data,h=r.high52_data,bc=barColor(r.signal_color);
+    const slope=sd?sd.slope.toFixed(2):null,r2val=sd?(sd.r2*100).toFixed(1):null,rsFill=sd?sd.r2*100:0;
+    const cur=h?h.current.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
+    const hi52=h?h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
+    const pct=h?h.pct_from_high.toFixed(2):null,pctCls=h&&h.pct_from_high<0?'neg':'pos';
+    const beta=r.beta!=null?r.beta.toFixed(2):'N/A';
+    const betaCls=r.beta==null?'neu':r.beta<0.8?'pos':r.beta>1.5?'neg':'neu';
+    const bw=sd?Math.min(Math.abs(sd.slope)/1.5,90):0;
+    return '<tr>'+
+      '<td><b>'+r.name+'</b><br><span style="color:#8b949e;font-size:.71rem">'+r.symbol+'</span></td>'+
+      '<td><div class="bar-wrap"><div class="mini-bar" style="width:'+bw+'px;background:'+bc+'"></div>'+chipHtml(r.signal_color,slope)+'</div></td>'+
+      '<td><div class="rs-track"><div class="rs-fill" style="width:'+rsFill+'%;background:'+bc+'"></div></div><span class="neu" style="font-size:.76rem;margin-left:4px">'+(r2val!==null?r2val+'%':'N/A')+'</span></td>'+
+      '<td class="neu">'+cur+'</td>'+
+      '<td class="neu">'+hi52+'</td>'+
+      '<td class="'+pctCls+'">'+(pct!==null?pct+'%':'N/A')+'</td>'+
+      '<td class="'+betaCls+'">'+beta+'</td></tr>';
   }).join('');
-  document.getElementById('idx-wrap').innerHTML = `<table>
-    <thead><tr>
-      <th>Index</th><th>EXP Slope (Ann.%)</th><th>R&sup2;</th>
-      <th>Current</th><th>52W High</th><th>% from 52W High</th><th>Beta vs Nifty50</th>
-    </tr></thead><tbody>${rows}</tbody>
-  </table>`;
+  document.getElementById('idx-wrap').innerHTML=
+    '<table><thead><tr>'+
+    '<th class="'+thClass(s,'name')+'" onclick="toggleSort(idxSort,'name')">Index'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'slope')+'" onclick="toggleSort(idxSort,'slope')">EXP Slope (Ann.%)'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'r2')+'" onclick="toggleSort(idxSort,'r2')">R²'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'cur')+'" onclick="toggleSort(idxSort,'cur')">Current'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'hi52')+'" onclick="toggleSort(idxSort,'hi52')">52W High'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'pct')+'" onclick="toggleSort(idxSort,'pct')">% from 52W High'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'beta')+'" onclick="toggleSort(idxSort,'beta')">Beta vs Nifty50'+sortBtn()+'</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table>';
 }
-
-// ── STOCKS TABLE ───────────────────────────────────────────────────────────
-function renderStocks(data) {
-  if (!data.length) { document.getElementById('stk-wrap').innerHTML='<div class="empty">No stocks match the filter.</div>'; return; }
-  const rows = data.map(r => {
-    const sd = r.slope_data;
-    const h  = r.high52_data;
-    const bc = barColor(r.signal_color);
-    const slope = sd ? sd.slope.toFixed(2) : null;
-    const r2val = sd ? (sd.r2*100).toFixed(1) : null;
-    const rsFill= sd ? sd.r2*100 : 0;
-    const cur   = h ? h.current.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
-    const hi52  = h ? h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}) : 'N/A';
-    const pct   = h ? h.pct_from_high.toFixed(2) : null;
-    const pctCls= h && h.pct_from_high < 0 ? 'neg' : 'pos';
-    const beta  = r.beta != null ? r.beta.toFixed(2) : 'N/A';
-    const betaCls = r.beta == null ? 'neu' : r.beta < 0.8 ? 'pos' : r.beta > 1.5 ? 'neg' : 'neu';
-    const bw    = sd ? Math.min(Math.abs(sd.slope)/1.5, 90) : 0;
-    return `<tr>
-      <td><b>${r.name}</b><br><span style="color:#8b949e;font-size:.71rem">${r.symbol}</span></td>
-      <td><span class="sector-tag">${r.industry||'—'}</span></td>
-      <td><div class="bar-wrap"><div class="mini-bar" style="width:${bw}px;background:${bc}"></div>${chipHtml(r.signal_color, slope)}</div></td>
-      <td><div class="rs-track"><div class="rs-fill" style="width:${rsFill}%;background:${bc}"></div></div> <span class="neu" style="font-size:.76rem">${r2val !== null ? r2val+'%' : 'N/A'}</span></td>
-      <td class="neu">${cur}</td>
-      <td class="neu">${hi52}</td>
-      <td class="${pctCls}">${pct !== null ? pct+'%' : 'N/A'}</td>
-      <td class="${betaCls}">${beta}</td>
-    </tr>`;
+function renderStocks(data){
+  if(!data.length){document.getElementById('stk-wrap').innerHTML='<div class="empty">No stocks match the filter.</div>';return;}
+  const s=stkSort;
+  const rows=data.map(r=>{
+    const sd=r.slope_data,h=r.high52_data,bc=barColor(r.signal_color);
+    const slope=sd?sd.slope.toFixed(2):null,r2val=sd?(sd.r2*100).toFixed(1):null,rsFill=sd?sd.r2*100:0;
+    const cur=h?h.current.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
+    const hi52=h?h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
+    const pct=h?h.pct_from_high.toFixed(2):null,pctCls=h&&h.pct_from_high<0?'neg':'pos';
+    const beta=r.beta!=null?r.beta.toFixed(2):'N/A';
+    const betaCls=r.beta==null?'neu':r.beta<0.8?'pos':r.beta>1.5?'neg':'neu';
+    const bw=sd?Math.min(Math.abs(sd.slope)/1.5,90):0;
+    return '<tr>'+
+      '<td><b>'+r.name+'</b><br><span style="color:#8b949e;font-size:.71rem">'+r.symbol+'</span></td>'+
+      '<td><span class="sector-tag">'+(r.industry||'—')+'</span></td>'+
+      '<td><div class="bar-wrap"><div class="mini-bar" style="width:'+bw+'px;background:'+bc+'"></div>'+chipHtml(r.signal_color,slope)+'</div></td>'+
+      '<td><div class="rs-track"><div class="rs-fill" style="width:'+rsFill+'%;background:'+bc+'"></div></div><span class="neu" style="font-size:.76rem;margin-left:4px">'+(r2val!==null?r2val+'%':'N/A')+'</span></td>'+
+      '<td class="neu">'+cur+'</td>'+
+      '<td class="neu">'+hi52+'</td>'+
+      '<td class="'+pctCls+'">'+(pct!==null?pct+'%':'N/A')+'</td>'+
+      '<td class="'+betaCls+'">'+beta+'</td></tr>';
   }).join('');
-  document.getElementById('stk-wrap').innerHTML = `<table>
-    <thead><tr>
-      <th>Stock</th><th>Sector</th><th>EXP Slope (Ann.%)</th><th>R&sup2;</th>
-      <th>Current</th><th>52W High</th><th>% from 52W High</th><th>Beta vs Nifty50</th>
-    </tr></thead><tbody>${rows}</tbody>
-  </table>`;
+  document.getElementById('stk-wrap').innerHTML=
+    '<table><thead><tr>'+
+    '<th class="'+thClass(s,'name')+'" onclick="toggleSort(stkSort,'name')">Stock'+sortBtn()+'</th>'+
+    '<th>Sector</th>'+
+    '<th class="'+thClass(s,'slope')+'" onclick="toggleSort(stkSort,'slope')">EXP Slope (Ann.%)'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'r2')+'" onclick="toggleSort(stkSort,'r2')">R²'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'cur')+'" onclick="toggleSort(stkSort,'cur')">Current'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'hi52')+'" onclick="toggleSort(stkSort,'hi52')">52W High'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'pct')+'" onclick="toggleSort(stkSort,'pct')">% from 52W High'+sortBtn()+'</th>'+
+    '<th class="'+thClass(s,'beta')+'" onclick="toggleSort(stkSort,'beta')">Beta vs Nifty50'+sortBtn()+'</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table>';
 }
-
-// ── TAB SWITCH ─────────────────────────────────────────────────────────────
-function switchTab(tab) {
+function switchTab(tab){
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',(i===0&&tab==='indices')||(i===1&&tab==='stocks')));
   document.getElementById('tab-indices').classList.toggle('active',tab==='indices');
   document.getElementById('tab-stocks').classList.toggle('active',tab==='stocks');
 }
-
-// ── BOOT ───────────────────────────────────────────────────────────────────
 loadData();
 </script>
 </body>
-    </html>
+</html>
