@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-28 12:31 UTC",
+    "generated_at": "2026-03-28 13:29 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -6727,17 +6727,17 @@
       "industry": "Financial Services",
       "isin": "INE031A01017",
       "slope_data": {
-        "slope": -51.4057,
-        "raw_slope": -59.3183,
+        "slope": -51.4506,
+        "raw_slope": -59.3715,
         "r2": 0.8666,
         "above_threshold": true
       },
       "high52_data": {
         "current": 168.06,
-        "high52": 240.95,
-        "pct_from_high": -30.25
+        "high52": 242.66,
+        "pct_from_high": -30.74
       },
-      "beta": 1.556,
+      "beta": 1.565,
       "signal_color": "bright_red"
     },
     {
