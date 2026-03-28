@@ -116,13 +116,22 @@ def compute_beta(s_dates, s_prices, b_dates, b_prices):
     return round(float(beta), 3) if not np.isnan(beta) else None
 
 def color_signal(r):
-    if not r or not r["above_threshold"]:
+    # 3-zone R² logic:
+    #   R² >= 0.5  → Strong  (clean, reliable trend)
+    #   R² 0.25-0.5 → Weak   (trend exists but noisy)
+    #   R² <  0.25 → No Trend (slope unreliable regardless of direction)
+    R2_STRONG = 0.5
+    R2_WEAK   = 0.25
+    if not r:
         return "gray"
-    R2_STRONG = 0.3
-    if r["slope"] > 0:
-        return "bright_green" if r["r2"] >= R2_STRONG else "faded_green"
+    r2 = r.get("r2", 0)
+    slope = r.get("slope", 0)
+    if r2 < R2_WEAK:
+        return "gray"
+    if slope > 0:
+        return "bright_green" if r2 >= R2_STRONG else "faded_green"
     else:
-        return "bright_red" if r["r2"] >= R2_STRONG else "faded_red"
+        return "bright_red" if r2 >= R2_STRONG else "faded_red"
 
 # ── FETCH: Yahoo Finance (returns dates + prices) ────────────────────────────
 def fetch_yahoo(symbol):
