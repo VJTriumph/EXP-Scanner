@@ -116,8 +116,13 @@ def compute_beta(s_dates, s_prices, b_dates, b_prices):
     return round(float(beta), 3) if not np.isnan(beta) else None
 
 def color_signal(r):
-    if not r or not r["above_threshold"]: return "gray"
-    return "bright_green" if r["slope"]>0 else "bright_red"
+    if not r or not r["above_threshold"]:
+        return "gray"
+    R2_STRONG = 0.3
+    if r["slope"] > 0:
+        return "bright_green" if r["r2"] >= R2_STRONG else "faded_green"
+    else:
+        return "bright_red" if r["r2"] >= R2_STRONG else "faded_red"
 
 # ── FETCH: Yahoo Finance (returns dates + prices) ────────────────────────────
 def fetch_yahoo(symbol):
