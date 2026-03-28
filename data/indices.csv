@@ -1,51 +1,49 @@
-Indices
-Nifty 50
-NIFTY MIDCAP 150
-NIFTY SMLCAP 250
-NIFTY MIDSML 400
-Nifty IT
-Nifty Next 50
-Nifty Bank
-Nifty 500
-Nifty 100
-Nifty Realty
-Nifty Infra
-Nifty Energy
-Nifty FMCG
-Nifty MNC
-Nifty Pharma
-Nifty PSE
-Nifty PSU Bank
-Nifty Serv Sector
-Nifty Auto
-Nifty Metal
-Nifty Media
-Nifty 200
-Nifty Commodities
-Nifty Consumption
-Nifty Fin Service
-Nifty CPSE
-Nifty Pvt Bank
-Nifty GS Compsite
-NIFTY HEALTHCARE
-NIFTY CONSR DURBL
-NIFTY OIL AND GAS
-NIFTY TOTAL MKT
-NIFTY MICROCAP250
-NIFTY IND DIGITAL
-Nifty Tata 25 Cap
-Nifty Ind Defence
-Nifty Ind Tourism
-Nifty Capital Mkt
-Nifty EV
-Nifty Housing
-Nifty IPO
-Nifty Rural
-Nifty Internet
-Nifty Chemicals
-Nifty Waves
-Nifty RailwaysPSU
-NiftyConglomerate
-India VIX
- 
- 
+Indices,Yahoo Symbol
+Nifty 50,^NSEI
+NIFTY MIDCAP 150,^NSEMDCP150
+NIFTY SMLCAP 250,^CNXSMALLCAP
+NIFTY MIDSML 400,^NSEMDCP400
+Nifty IT,^CNXIT
+Nifty Next 50,^NSMIDCP
+Nifty Bank,^NSEBANK
+Nifty 500,^CRSLDX
+Nifty 100,^CNX100
+Nifty Realty,^CNXREALTY
+Nifty Infra,^CNXINFRA
+Nifty Energy,^CNXENERGY
+Nifty FMCG,^CNXFMCG
+Nifty MNC,^CNXMNC
+Nifty Pharma,^CNXPHARMA
+Nifty PSE,^CNXPSE
+Nifty PSU Bank,^CNXPSUBANK
+Nifty Serv Sector,^CNXSERVICE
+Nifty Auto,^CNXAUTO
+Nifty Metal,^CNXMETAL
+Nifty Media,^CNXMEDIA
+Nifty 200,^CNX200
+Nifty Commodities,^CNXCMDT
+Nifty Consumption,^CNXCONSUM
+Nifty Fin Service,^CNXFINANCE
+Nifty CPSE,^CNXCPSE
+Nifty Pvt Bank,^CNXPVTBANK
+Nifty GS Compsite,^NSGSC
+NIFTY HEALTHCARE,^CNXPHARMA
+NIFTY CONSR DURBL,^CNXCONSDUR
+NIFTY OIL AND GAS,^CNXOILGAS
+NIFTY TOTAL MKT,^CNXTOTALMARKET
+NIFTY MICROCAP250,^NSMICROCAP250
+NIFTY IND DIGITAL,^CNXDIGITAL
+Nifty Tata 25 Cap,^NTATACAP
+Nifty Ind Defence,^CNXDEFENCE
+Nifty Ind Tourism,^CNXTOURISM
+Nifty Capital Mkt,^CNXCAPMARKET
+Nifty EV,^CNXEV
+Nifty Housing,^CNXHOUSING
+Nifty IPO,^CNXIPO
+Nifty Rural,^CNXRURAL
+Nifty Internet,^CNXINTERNET
+Nifty Chemicals,^CNXCHEMICALS
+Nifty Waves,^CNXWAVES
+Nifty RailwaysPSU,^CNXRAILWAYS
+NiftyConglomerate,^CNXCONGLOMERATE
+India VIX,^INDIAVIX
