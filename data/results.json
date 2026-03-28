@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-28 10:51 UTC",
+    "generated_at": "2026-03-28 10:59 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -429,7 +429,7 @@
     },
     {
       "name": "Nifty Pvt Bank",
-      "symbol": "NIFTY_PVTBANK.NS",
+      "symbol": "NIFTYPVTBANK.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -469,7 +469,7 @@
     },
     {
       "name": "NIFTY TOTAL MKT",
-      "symbol": "NIFTYTOTALMARKET.NS",
+      "symbol": "NIFTY_TOTAL_MKT.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -477,7 +477,7 @@
     },
     {
       "name": "NIFTY MICROCAP250",
-      "symbol": "NIFTYMICROCAP250.NS",
+      "symbol": "NIFTY_MICROCAP250.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -589,7 +589,7 @@
     },
     {
       "name": "NiftyConglomerate",
-      "symbol": "NIFTY_CONGLOMERATE.NS",
+      "symbol": "NIFTYCONGLOMERATE.NS",
       "slope_data": null,
       "high52_data": null,
       "beta": null,
@@ -10839,7 +10839,7 @@
       },
       "high52_data": {
         "current": 31805.0,
-        "high52": 48937.42,
+        "high52": 48937.43,
         "pct_from_high": -35.01
       },
       "beta": 0.964,
