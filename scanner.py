@@ -19,6 +19,7 @@ OUTPUT_JSON   = os.path.join(DATA_DIR, "results.json")
 
 END_DATE   = datetime.utcnow().date()
 START_DATE = END_DATE - timedelta(days=900)
+
 # NSE index name map  (Yahoo .NS symbol → NSE index name for niftyindices API)
 NSE_INDEX_MAP = {
     "NIFTYSMLCAP250.NS":    "NIFTY SMLCAP 250",
@@ -53,26 +54,26 @@ NSE_HEADERS = {
     "X-Requested-With": "XMLHttpRequest",
 }
 
-# ── MATH ────────────────────────────────────────────────────────────────────
+# ── MATH ──────────────────────────────────────────────────────────────────────
 def compute_exp_slope(prices):
     arr = np.array(prices, dtype=float)
     arr = arr[~np.isnan(arr)]
     if len(arr) < LENGTH:
         return None
-    sl    = arr[-LENGTH:]
-    log_p = np.log(sl)
-    x     = np.arange(len(log_p), dtype=float)
+    sl     = arr[-LENGTH:]
+    log_p  = np.log(sl)
+    x      = np.arange(len(log_p), dtype=float)
     sx, sy = x.std(), log_p.std()
     if sx == 0 or sy == 0:
         return None
-    c      = np.corrcoef(x, log_p)[0, 1]
-    slope  = c * (sy / sx)
-    ann    = (np.exp(slope) ** DAYS_IN_YEAR - 1) * 100
-    cum_x  = np.arange(1, len(log_p)+1, dtype=float)
-    r2_raw = np.corrcoef(cum_x, log_p)[0, 1] ** 2
-    r2     = float(r2_raw) if not np.isnan(r2_raw) else 0.0
-    base   = ann if WITH_ANNUALIZE else slope
-    final  = base * (r2 if WITH_RSQUARED else 1.0)
+    c     = np.corrcoef(x, log_p)[0, 1]
+    slope = c * (sy / sx)
+    ann   = (np.exp(slope) ** DAYS_IN_YEAR - 1) * 100
+    cum_x   = np.arange(1, len(log_p)+1, dtype=float)
+    r2_raw  = np.corrcoef(cum_x, log_p)[0, 1] ** 2
+    r2      = float(r2_raw) if not np.isnan(r2_raw) else 0.0
+    base    = ann if WITH_ANNUALIZE else slope
+    final   = base * (r2 if WITH_RSQUARED else 1.0)
     return {"slope": round(float(final),4), "raw_slope": round(float(ann),4),
             "r2": round(r2,4), "above_threshold": r2 > R2_THRESHOLD}
 
@@ -81,25 +82,35 @@ def compute_52w(prices):
     arr = arr[~np.isnan(arr)]
     if len(arr) < 2:
         return None
-    w    = arr[-252:] if len(arr)>=252 else arr
-    hi   = float(w.max())
-    cur  = float(arr[-1])
+    w   = arr[-252:] if len(arr)>=252 else arr
+    hi  = float(w.max())
+    cur = float(arr[-1])
     return {"current": round(cur,2), "high52": round(hi,2),
             "pct_from_high": round((cur-hi)/hi*100, 2)}
 
-def compute_beta(sp, bp):
-    sp = np.array(sp, dtype=float); bp = np.array(bp, dtype=float)
-    n = min(len(sp), len(bp), BETA_WINDOW)
-    if n < 20: return None
-    sp, bp = sp[-n:], bp[-n:]
-    mask = ~(np.isnan(sp)|np.isnan(bp))
+def compute_beta(s_dates, s_prices, b_dates, b_prices):
+    """Date-aligned beta matching Pine Script: ret = (close - close[1]) / close"""
+    # Build date-indexed series and find common dates
+    sd = dict(zip(s_dates, s_prices))
+    bd = dict(zip(b_dates, b_prices))
+    common = sorted(set(sd.keys()) & set(bd.keys()))
+    if len(common) < 20:
+        return None
+    # Take last BETA_WINDOW common dates
+    common = common[-BETA_WINDOW:]
+    sp = np.array([sd[d] for d in common], dtype=float)
+    bp = np.array([bd[d] for d in common], dtype=float)
+    # Remove any NaN pairs
+    mask = ~(np.isnan(sp) | np.isnan(bp))
     sp, bp = sp[mask], bp[mask]
-    if len(sp) < 15: return None
+    if len(sp) < 15:
+        return None
     # Pine Script: ret = (close - close[1]) / close  (divide by CURRENT price)
     sr = (sp[1:] - sp[:-1]) / sp[1:]
     br = (bp[1:] - bp[:-1]) / bp[1:]
     sd_s = sr.std(ddof=1); sd_b = br.std(ddof=1)
-    if sd_b == 0 or sd_s == 0: return None
+    if sd_b == 0 or sd_s == 0:
+        return None
     corr = np.corrcoef(sr, br)[0, 1]
     beta = corr * (sd_s / sd_b)
     return round(float(beta), 3) if not np.isnan(beta) else None
@@ -108,7 +119,7 @@ def color_signal(r):
     if not r or not r["above_threshold"]: return "gray"
     return "bright_green" if r["slope"]>0 else "bright_red"
 
-# ── FETCH: Yahoo Finance ─────────────────────────────────────────────────────
+# ── FETCH: Yahoo Finance (returns dates + prices) ────────────────────────────
 def fetch_yahoo(symbol):
     for attempt in range(2):
         try:
@@ -117,32 +128,30 @@ def fetch_yahoo(symbol):
             if not df.empty and "Close" in df.columns:
                 c = df["Close"].dropna()
                 if isinstance(c, pd.DataFrame): c = c.iloc[:,0]
-                vals = c.tolist()
-                if len(vals) >= LENGTH:
-                    return vals
+                if len(c) >= LENGTH:
+                    dates  = [str(d.date()) if hasattr(d, 'date') else str(d)[:10] for d in c.index]
+                    return dates, c.tolist()
         except Exception:
             pass
         try:
             tk = yf.Ticker(symbol)
             h  = tk.history(start=str(START_DATE), end=str(END_DATE), auto_adjust=True)
             if not h.empty:
-                vals = h["Close"].dropna().tolist()
-                if len(vals) >= LENGTH:
-                    return vals
+                c = h["Close"].dropna()
+                if len(c) >= LENGTH:
+                    dates = [str(d.date()) if hasattr(d, 'date') else str(d)[:10] for d in c.index]
+                    return dates, c.tolist()
         except Exception:
             pass
         if attempt == 0:
             time.sleep(2)
     return None
 
-# ── FETCH: NSE Indices (niftyindices.com) ───────────────────────────────────
+# ── FETCH: NSE Indices (niftyindices.com, returns dates + prices) ─────────────
 def fetch_nse_index(index_name):
-    """Fetch index history from niftyindices.com API."""
-    fmt = "%d-%m-%Y"
+    fmt       = "%d-%m-%Y"
     start_str = START_DATE.strftime(fmt)
     end_str   = END_DATE.strftime(fmt)
-    url = (f"https://www.niftyindices.com/Backpage.aspx/getHistoricaldatatabletoString"
-           f"?name={requests.utils.quote(index_name)}&startDate={start_str}&endDate={end_str}")
     try:
         r = requests.post(
             "https://www.niftyindices.com/Backpage.aspx/getHistoricaldatatabletoString",
@@ -153,35 +162,36 @@ def fetch_nse_index(index_name):
         if r.status_code != 200:
             return None
         payload = r.json()
-        raw = payload.get("d", "")
+        raw     = payload.get("d", "")
         if not raw:
             return None
         df = pd.read_json(raw)
         # columns: HistoricalDate, OPEN, HIGH, LOW, CLOSE
         close_col = next((c for c in df.columns if "CLOSE" in c.upper() or "Close" in c), None)
-        if not close_col:
+        date_col  = next((c for c in df.columns if "DATE"  in c.upper()), None)
+        if not close_col or not date_col:
             return None
-        closes = df[close_col].dropna().tolist()
-        closes = [float(x) for x in reversed(closes)]  # NSE returns newest first
-        return closes if len(closes) >= LENGTH else None
+        df = df[[date_col, close_col]].dropna()
+        df = df.iloc[::-1].reset_index(drop=True)  # oldest first
+        closes = [float(x) for x in df[close_col].tolist()]
+        dates  = [str(pd.to_datetime(x).date()) for x in df[date_col].tolist()]
+        return (dates, closes) if len(closes) >= LENGTH else None
     except Exception as e:
         print(f"    NSE fetch error for {index_name}: {e}")
         return None
 
-# ── COMBINED FETCH ──────────────────────────────────────────────────────────
+# ── COMBINED FETCH ────────────────────────────────────────────────────────────
 def fetch_closes(symbol):
-    # First try Yahoo
-    closes = fetch_yahoo(symbol)
-    if closes:
-        return closes
-    # Fallback: NSE indices API
+    result = fetch_yahoo(symbol)
+    if result:
+        return result
     if symbol in NSE_INDEX_MAP:
         idx_name = NSE_INDEX_MAP[symbol]
         print(f"    → Yahoo failed, trying NSE API for '{idx_name}'")
-        closes = fetch_nse_index(idx_name)
-        if closes:
-            print(f"    → NSE API: {len(closes)} bars")
-            return closes
+        result = fetch_nse_index(idx_name)
+        if result:
+            print(f"    → NSE API: {len(result[1])} bars")
+            return result
     print(f"  WARN: {symbol} — no data from any source")
     return None
 
@@ -194,6 +204,7 @@ def main():
 
     print(f"\nFetching benchmark {BENCHMARK} ...")
     bench = fetch_closes(BENCHMARK)
+    b_dates, b_prices = bench if bench else (None, None)
 
     # ── INDICES ─────────────────────────────────────────────────────────────
     print("\n── INDICES ─────────────────────────────────────────────")
@@ -207,10 +218,14 @@ def main():
         symbol = str(row[symbol_col]).strip() if symbol_col else name
         if name.lower() in ("indices","index",""): continue
         print(f"  {symbol:<35} {name}")
-        prices = fetch_closes(symbol)
+        data   = fetch_closes(symbol)
+        if data:
+            s_dates, prices = data
+        else:
+            s_dates, prices = None, None
         result = compute_exp_slope(prices) if prices else None
         h52    = compute_52w(prices)       if prices else None
-        beta   = compute_beta(prices, bench) if (prices and bench) else None
+        beta   = compute_beta(s_dates, prices, b_dates, b_prices) if (prices and b_prices) else None
         status = f"slope={result['slope']:.1f}% r2={result['r2']:.2f}" if result else "NO DATA"
         print(f"    → {status}")
         idx_results.append({"name":name,"symbol":symbol,"slope_data":result,
@@ -230,10 +245,14 @@ def main():
         sym  = row["Symbol"]+".NS"
         name = row["Company Name"]
         print(f"  [{i:3d}/{total}] {sym:<22} {name[:35]}")
-        prices = fetch_closes(sym)
+        data   = fetch_closes(sym)
+        if data:
+            s_dates, prices = data
+        else:
+            s_dates, prices = None, None
         result = compute_exp_slope(prices) if prices else None
         h52    = compute_52w(prices)       if prices else None
-        beta   = compute_beta(prices, bench) if (prices and bench) else None
+        beta   = compute_beta(s_dates, prices, b_dates, b_prices) if (prices and b_prices) else None
         stk_results.append({"name":name,"symbol":row["Symbol"],"yahoo_symbol":sym,
                              "industry":row.get("Industry",""),"isin":row.get("ISIN Code",""),
                              "slope_data":result,"high52_data":h52,"beta":beta,
