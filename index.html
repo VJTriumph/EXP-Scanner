@@ -115,16 +115,38 @@ tbody td{padding:8px 11px;vertical-align:middle}
 let RAW = null;
 const idxSort = { col: 'slope', dir: 'desc' };
 const stkSort = { col: 'slope', dir: 'desc' };
+
+// ── Sort button HTML ──────────────────────────────────────────────────────────
 function sortBtn() {
   return '<span class="sort-btn"><span class="arr-up"></span><span class="arr-dn"></span></span>';
 }
+
+// ── th HTML helper (uses data-col + data-tbl to avoid onclick string quoting) ─
+function th(label, col, state) {
+  const cls = state.col === col ? (state.dir === 'asc' ? 'sort-asc' : 'sort-desc') : '';
+  return '<th class="' + cls + '" data-col="' + col + '" data-tbl="' + state._id + '">' + label + sortBtn() + '</th>';
+}
+
+// ── Click delegation on tbl-wrap ─────────────────────────────────────────────
+document.addEventListener('click', function(e) {
+  const thEl = e.target.closest('th[data-col]');
+  if (!thEl) return;
+  const col = thEl.dataset.col;
+  const tbl = thEl.dataset.tbl;
+  const state = tbl === 'idx' ? idxSort : stkSort;
+  if (state.col === col) { state.dir = state.dir === 'desc' ? 'asc' : 'desc'; }
+  else { state.col = col; state.dir = 'desc'; }
+  applyFilters();
+});
+
+// ── Load JSON ─────────────────────────────────────────────────────────────────
 async function loadData() {
   document.getElementById('idx-wrap').innerHTML = '<div class="loading">Fetching results.json...</div>';
   document.getElementById('stk-wrap').innerHTML = '<div class="loading">Fetching results.json...</div>';
   try {
     const base = 'https://raw.githubusercontent.com/VJTriumph/EXP-Scanner/main/data/results.json';
     const r = await fetch(base + '?t=' + Date.now());
-    if (!r.ok) throw new Error('HTTP ' + r.status + ' — results.json not found. Run the scanner first via GitHub Actions.');
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' — results.json not found.');
     RAW = await r.json();
     onDataLoaded();
   } catch(e) {
@@ -133,6 +155,7 @@ async function loadData() {
     document.getElementById('stk-wrap').innerHTML = msg;
   }
 }
+
 function onDataLoaded() {
   const m = RAW.meta;
   document.getElementById('meta-box').innerHTML =
@@ -142,149 +165,141 @@ function onDataLoaded() {
   sel.innerHTML = '<option value="">All Sectors</option>' + sectors.map(s=>'<option>'+s+'</option>').join('');
   applyFilters();
 }
+
+// ── Sort ─────────────────────────────────────────────────────────────────────
 function sortData(arr, col, dir) {
   const d = dir === 'desc' ? -1 : 1;
   return [...arr].sort((a, b) => {
     let av, bv;
-    if (col==='slope')     { av=a.slope_data?.slope??-Infinity; bv=b.slope_data?.slope??-Infinity; }
-    else if(col==='r2')    { av=a.slope_data?.r2??0;            bv=b.slope_data?.r2??0; }
-    else if(col==='cur')   { av=a.high52_data?.current??0;      bv=b.high52_data?.current??0; }
-    else if(col==='hi52')  { av=a.high52_data?.high52??0;       bv=b.high52_data?.high52??0; }
-    else if(col==='pct')   { av=a.high52_data?.pct_from_high??-Infinity; bv=b.high52_data?.pct_from_high??-Infinity; }
-    else if(col==='beta')  { av=a.beta??0;                       bv=b.beta??0; }
-    else if(col==='name')  { return d*a.name.localeCompare(b.name); }
+    if (col === 'slope')     { av=a.slope_data?.slope??-Infinity; bv=b.slope_data?.slope??-Infinity; }
+    else if (col === 'r2')   { av=a.slope_data?.r2??0;            bv=b.slope_data?.r2??0; }
+    else if (col === 'cur')  { av=a.high52_data?.current??0;      bv=b.high52_data?.current??0; }
+    else if (col === 'hi52') { av=a.high52_data?.high52??0;       bv=b.high52_data?.high52??0; }
+    else if (col === 'pct')  { av=a.high52_data?.pct_from_high??-Infinity; bv=b.high52_data?.pct_from_high??-Infinity; }
+    else if (col === 'beta') { av=a.beta??0;                       bv=b.beta??0; }
+    else if (col === 'lbl')  { return d * a.name.localeCompare(b.name); }
     else { av=0; bv=0; }
-    return d*(av-bv);
+    return d * (av - bv);
   });
 }
-function thClass(state, col) {
-  if(state.col!==col) return '';
-  return state.dir==='asc'?'sort-asc':'sort-desc';
-}
-function toggleSort(state, col) {
-  if(state.col===col){ state.dir=state.dir==='desc'?'asc':'desc'; }
-  else{ state.col=col; state.dir='desc'; }
-  applyFilters();
-}
+
+// ── Filters ───────────────────────────────────────────────────────────────────
 function applyFilters() {
-  if(!RAW) return;
-  const r2min=parseFloat(document.getElementById('r2min').value)||0;
-  const sig=document.getElementById('sigFilter').value;
-  const search=document.getElementById('globalSearch').value.toLowerCase();
-  const sector=document.getElementById('sectorFilter').value;
-  let idx=RAW.indices.filter(r=>{
-    if(r2min>0&&(!r.slope_data||r.slope_data.r2<r2min))return false;
-    if(sig&&r.signal_color!==sig)return false;
-    if(search&&!r.name.toLowerCase().includes(search)&&!r.symbol.toLowerCase().includes(search))return false;
+  if (!RAW) return;
+  const r2min  = parseFloat(document.getElementById('r2min').value) || 0;
+  const sig    = document.getElementById('sigFilter').value;
+  const search = document.getElementById('globalSearch').value.toLowerCase();
+  const sector = document.getElementById('sectorFilter').value;
+
+  let idx = RAW.indices.filter(r => {
+    if (r2min>0 && (!r.slope_data || r.slope_data.r2<r2min)) return false;
+    if (sig && r.signal_color!==sig) return false;
+    if (search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
     return true;
   });
-  idx=sortData(idx,idxSort.col,idxSort.dir);
-  document.getElementById('idx-count').textContent=idx.length;
-  renderSummary('idx-cards',idx);
+  idx = sortData(idx, idxSort.col, idxSort.dir);
+  document.getElementById('idx-count').textContent = idx.length;
+  renderSummary('idx-cards', idx);
   renderIndices(idx);
-  let stk=RAW.stocks.filter(r=>{
-    if(sector&&r.industry!==sector)return false;
-    if(r2min>0&&(!r.slope_data||r.slope_data.r2<r2min))return false;
-    if(sig&&r.signal_color!==sig)return false;
-    if(search&&!r.name.toLowerCase().includes(search)&&!r.symbol.toLowerCase().includes(search))return false;
+
+  let stk = RAW.stocks.filter(r => {
+    if (sector && r.industry!==sector) return false;
+    if (r2min>0 && (!r.slope_data || r.slope_data.r2<r2min)) return false;
+    if (sig && r.signal_color!==sig) return false;
+    if (search && !r.name.toLowerCase().includes(search) && !r.symbol.toLowerCase().includes(search)) return false;
     return true;
   });
-  stk=sortData(stk,stkSort.col,stkSort.dir);
-  document.getElementById('stk-count').textContent=stk.length;
-  renderSummary('stk-cards',stk);
+  stk = sortData(stk, stkSort.col, stkSort.dir);
+  document.getElementById('stk-count').textContent = stk.length;
+  renderSummary('stk-cards', stk);
   renderStocks(stk);
 }
-function chipHtml(signal,val){
-  const cls={bright_green:'bright-green',faded_green:'faded-green',bright_red:'bright-red',faded_red:'faded-red',gray:'gray'}[signal]||'gray';
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function chipHtml(signal, val) {
+  const cls = {bright_green:'bright-green',faded_green:'faded-green',bright_red:'bright-red',faded_red:'faded-red',gray:'gray'}[signal]||'gray';
   return '<span class="chip '+cls+'">'+(val!==null&&val!==undefined?val+'%':'N/A')+'</span>';
 }
-function barColor(signal){
-  return{bright_green:'#3fb950',faded_green:'#56d364',bright_red:'#f85149',faded_red:'#ff7b72',gray:'#484f58'}[signal]||'#484f58';
+function barColor(signal) {
+  return {bright_green:'#3fb950',faded_green:'#56d364',bright_red:'#f85149',faded_red:'#ff7b72',gray:'#484f58'}[signal]||'#484f58';
 }
-function renderSummary(id,rows){
-  const valid=rows.filter(r=>r.slope_data);
-  const pos=valid.filter(r=>r.slope_data.slope>0).length;
-  const neg=valid.filter(r=>r.slope_data.slope<0).length;
-  const avgS=valid.length?(valid.reduce((s,r)=>s+r.slope_data.slope,0)/valid.length).toFixed(1):'N/A';
-  const avgR=valid.length?((valid.reduce((s,r)=>s+r.slope_data.r2,0)/valid.length)*100).toFixed(1):'N/A';
-  document.getElementById(id).innerHTML=
+
+function renderSummary(id, rows) {
+  const valid = rows.filter(r=>r.slope_data);
+  const pos   = valid.filter(r=>r.slope_data.slope>0).length;
+  const neg   = valid.filter(r=>r.slope_data.slope<0).length;
+  const avgS  = valid.length ? (valid.reduce((s,r)=>s+r.slope_data.slope,0)/valid.length).toFixed(1) : 'N/A';
+  const avgR  = valid.length ? ((valid.reduce((s,r)=>s+r.slope_data.r2,0)/valid.length)*100).toFixed(1) : 'N/A';
+  document.getElementById(id).innerHTML =
     '<div class="card"><div class="card-val pos">'+pos+'</div><div class="card-lbl">Positive</div></div>'+
     '<div class="card"><div class="card-val neg">'+neg+'</div><div class="card-lbl">Negative</div></div>'+
     '<div class="card"><div class="card-val" style="color:#58a6ff">'+(avgS!=='N/A'?avgS+'%':'N/A')+'</div><div class="card-lbl">Avg Slope</div></div>'+
     '<div class="card"><div class="card-val" style="color:#e3b341">'+(avgR!=='N/A'?avgR+'%':'N/A')+'</div><div class="card-lbl">Avg R²</div></div>'+
     '<div class="card"><div class="card-val neu">'+rows.length+'</div><div class="card-lbl">Shown</div></div>';
 }
-function renderIndices(data){
-  if(!data.length){document.getElementById('idx-wrap').innerHTML='<div class="empty">No indices match the filter.</div>';return;}
-  const s=idxSort;
-  const rows=data.map(r=>{
-    const sd=r.slope_data,h=r.high52_data,bc=barColor(r.signal_color);
-    const slope=sd?sd.slope.toFixed(2):null,r2val=sd?(sd.r2*100).toFixed(1):null,rsFill=sd?sd.r2*100:0;
-    const cur=h?h.current.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
-    const hi52=h?h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
-    const pct=h?h.pct_from_high.toFixed(2):null,pctCls=h&&h.pct_from_high<0?'neg':'pos';
-    const beta=r.beta!=null?r.beta.toFixed(2):'N/A';
-    const betaCls=r.beta==null?'neu':r.beta<0.8?'pos':r.beta>1.5?'neg':'neu';
-    const bw=sd?Math.min(Math.abs(sd.slope)/1.5,90):0;
-    return '<tr>'+
-      '<td><b>'+r.name+'</b><br><span style="color:#8b949e;font-size:.71rem">'+r.symbol+'</span></td>'+
-      '<td><div class="bar-wrap"><div class="mini-bar" style="width:'+bw+'px;background:'+bc+'"></div>'+chipHtml(r.signal_color,slope)+'</div></td>'+
-      '<td><div class="rs-track"><div class="rs-fill" style="width:'+rsFill+'%;background:'+bc+'"></div></div><span class="neu" style="font-size:.76rem;margin-left:4px">'+(r2val!==null?r2val+'%':'N/A')+'</span></td>'+
-      '<td class="neu">'+cur+'</td>'+
-      '<td class="neu">'+hi52+'</td>'+
-      '<td class="'+pctCls+'">'+(pct!==null?pct+'%':'N/A')+'</td>'+
-      '<td class="'+betaCls+'">'+beta+'</td></tr>';
-  }).join('');
-  document.getElementById('idx-wrap').innerHTML=
-    '<table><thead><tr>'+
-    '<th class="'+thClass(s,'name')+'" onclick="toggleSort(idxSort,'name')">Index'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'slope')+'" onclick="toggleSort(idxSort,'slope')">EXP Slope (Ann.%)'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'r2')+'" onclick="toggleSort(idxSort,'r2')">R²'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'cur')+'" onclick="toggleSort(idxSort,'cur')">Current'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'hi52')+'" onclick="toggleSort(idxSort,'hi52')">52W High'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'pct')+'" onclick="toggleSort(idxSort,'pct')">% from 52W High'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'beta')+'" onclick="toggleSort(idxSort,'beta')">Beta vs Nifty50'+sortBtn()+'</th>'+
-    '</tr></thead><tbody>'+rows+'</tbody></table>';
+
+// ── Tables ────────────────────────────────────────────────────────────────────
+function rowHtml(r, includeSector) {
+  const sd=r.slope_data, h=r.high52_data, bc=barColor(r.signal_color);
+  const slope=sd?sd.slope.toFixed(2):null, r2val=sd?(sd.r2*100).toFixed(1):null, rsFill=sd?sd.r2*100:0;
+  const cur=h?h.current.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
+  const hi52=h?h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
+  const pct=h?h.pct_from_high.toFixed(2):null, pctCls=h&&h.pct_from_high<0?'neg':'pos';
+  const beta=r.beta!=null?r.beta.toFixed(2):'N/A';
+  const betaCls=r.beta==null?'neu':r.beta<0.8?'pos':r.beta>1.5?'neg':'neu';
+  const bw=sd?Math.min(Math.abs(sd.slope)/1.5,90):0;
+  return '<tr>'+
+    '<td><b>'+r.name+'</b><br><span style="color:#8b949e;font-size:.71rem">'+r.symbol+'</span></td>'+
+    (includeSector ? '<td><span class="sector-tag">'+(r.industry||'—')+'</span></td>' : '')+
+    '<td><div class="bar-wrap"><div class="mini-bar" style="width:'+bw+'px;background:'+bc+'"></div>'+chipHtml(r.signal_color,slope)+'</div></td>'+
+    '<td><div class="rs-track"><div class="rs-fill" style="width:'+rsFill+'%;background:'+bc+'"></div></div><span class="neu" style="font-size:.76rem;margin-left:4px">'+(r2val!==null?r2val+'%':'N/A')+'</span></td>'+
+    '<td class="neu">'+cur+'</td>'+
+    '<td class="neu">'+hi52+'</td>'+
+    '<td class="'+pctCls+'">'+(pct!==null?pct+'%':'N/A')+'</td>'+
+    '<td class="'+betaCls+'">'+beta+'</td></tr>';
 }
-function renderStocks(data){
-  if(!data.length){document.getElementById('stk-wrap').innerHTML='<div class="empty">No stocks match the filter.</div>';return;}
-  const s=stkSort;
-  const rows=data.map(r=>{
-    const sd=r.slope_data,h=r.high52_data,bc=barColor(r.signal_color);
-    const slope=sd?sd.slope.toFixed(2):null,r2val=sd?(sd.r2*100).toFixed(1):null,rsFill=sd?sd.r2*100:0;
-    const cur=h?h.current.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
-    const hi52=h?h.high52.toLocaleString('en-IN',{maximumFractionDigits:2}):'N/A';
-    const pct=h?h.pct_from_high.toFixed(2):null,pctCls=h&&h.pct_from_high<0?'neg':'pos';
-    const beta=r.beta!=null?r.beta.toFixed(2):'N/A';
-    const betaCls=r.beta==null?'neu':r.beta<0.8?'pos':r.beta>1.5?'neg':'neu';
-    const bw=sd?Math.min(Math.abs(sd.slope)/1.5,90):0;
-    return '<tr>'+
-      '<td><b>'+r.name+'</b><br><span style="color:#8b949e;font-size:.71rem">'+r.symbol+'</span></td>'+
-      '<td><span class="sector-tag">'+(r.industry||'—')+'</span></td>'+
-      '<td><div class="bar-wrap"><div class="mini-bar" style="width:'+bw+'px;background:'+bc+'"></div>'+chipHtml(r.signal_color,slope)+'</div></td>'+
-      '<td><div class="rs-track"><div class="rs-fill" style="width:'+rsFill+'%;background:'+bc+'"></div></div><span class="neu" style="font-size:.76rem;margin-left:4px">'+(r2val!==null?r2val+'%':'N/A')+'</span></td>'+
-      '<td class="neu">'+cur+'</td>'+
-      '<td class="neu">'+hi52+'</td>'+
-      '<td class="'+pctCls+'">'+(pct!==null?pct+'%':'N/A')+'</td>'+
-      '<td class="'+betaCls+'">'+beta+'</td></tr>';
-  }).join('');
-  document.getElementById('stk-wrap').innerHTML=
+
+idxSort._id = 'idx';
+stkSort._id = 'stk';
+
+function renderIndices(data) {
+  if (!data.length) { document.getElementById('idx-wrap').innerHTML='<div class="empty">No indices match the filter.</div>'; return; }
+  const s = idxSort;
+  document.getElementById('idx-wrap').innerHTML =
     '<table><thead><tr>'+
-    '<th class="'+thClass(s,'name')+'" onclick="toggleSort(stkSort,'name')">Stock'+sortBtn()+'</th>'+
+    th('Index','lbl',s)+
+    th('EXP Slope (Ann.%)','slope',s)+
+    th('R²','r2',s)+
+    th('Current','cur',s)+
+    th('52W High','hi52',s)+
+    th('% from 52W High','pct',s)+
+    th('Beta vs Nifty50','beta',s)+
+    '</tr></thead><tbody>'+data.map(r=>rowHtml(r,false)).join('')+'</tbody></table>';
+}
+
+function renderStocks(data) {
+  if (!data.length) { document.getElementById('stk-wrap').innerHTML='<div class="empty">No stocks match the filter.</div>'; return; }
+  const s = stkSort;
+  document.getElementById('stk-wrap').innerHTML =
+    '<table><thead><tr>'+
+    th('Stock','lbl',s)+
     '<th>Sector</th>'+
-    '<th class="'+thClass(s,'slope')+'" onclick="toggleSort(stkSort,'slope')">EXP Slope (Ann.%)'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'r2')+'" onclick="toggleSort(stkSort,'r2')">R²'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'cur')+'" onclick="toggleSort(stkSort,'cur')">Current'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'hi52')+'" onclick="toggleSort(stkSort,'hi52')">52W High'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'pct')+'" onclick="toggleSort(stkSort,'pct')">% from 52W High'+sortBtn()+'</th>'+
-    '<th class="'+thClass(s,'beta')+'" onclick="toggleSort(stkSort,'beta')">Beta vs Nifty50'+sortBtn()+'</th>'+
-    '</tr></thead><tbody>'+rows+'</tbody></table>';
+    th('EXP Slope (Ann.%)','slope',s)+
+    th('R²','r2',s)+
+    th('Current','cur',s)+
+    th('52W High','hi52',s)+
+    th('% from 52W High','pct',s)+
+    th('Beta vs Nifty50','beta',s)+
+    '</tr></thead><tbody>'+data.map(r=>rowHtml(r,true)).join('')+'</tbody></table>';
 }
-function switchTab(tab){
+
+// ── Tab switch ────────────────────────────────────────────────────────────────
+function switchTab(tab) {
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',(i===0&&tab==='indices')||(i===1&&tab==='stocks')));
   document.getElementById('tab-indices').classList.toggle('active',tab==='indices');
   document.getElementById('tab-stocks').classList.toggle('active',tab==='stocks');
 }
+
 loadData();
 </script>
 </body>
