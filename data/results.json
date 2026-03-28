@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-28 10:59 UTC",
+    "generated_at": "2026-03-28 11:12 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -27,7 +27,7 @@
         "pct_from_high": -13.33
       },
       "beta": 1.0,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NIFTY MIDCAP 150",
@@ -44,7 +44,7 @@
         "pct_from_high": -11.74
       },
       "beta": 0.526,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NIFTY SMLCAP 250",
@@ -77,7 +77,7 @@
         "pct_from_high": -25.19
       },
       "beta": 0.946,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Next 50",
@@ -94,7 +94,7 @@
         "pct_from_high": -12.23
       },
       "beta": 0.49,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Bank",
@@ -111,7 +111,7 @@
         "pct_from_high": -15.07
       },
       "beta": 1.01,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty 500",
@@ -128,7 +128,7 @@
         "pct_from_high": -12.78
       },
       "beta": 0.454,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty 100",
@@ -145,7 +145,7 @@
         "pct_from_high": -13.09
       },
       "beta": 0.425,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Realty",
@@ -162,7 +162,7 @@
         "pct_from_high": -35.54
       },
       "beta": 0.577,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Infra",
@@ -179,7 +179,7 @@
         "pct_from_high": -10.7
       },
       "beta": 0.473,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Energy",
@@ -213,7 +213,7 @@
         "pct_from_high": -19.25
       },
       "beta": 0.289,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty MNC",
@@ -230,7 +230,7 @@
         "pct_from_high": -11.77
       },
       "beta": 0.468,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Pharma",
@@ -247,7 +247,7 @@
         "pct_from_high": -3.35
       },
       "beta": 0.304,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty PSE",
@@ -298,7 +298,7 @@
         "pct_from_high": -14.5
       },
       "beta": 0.378,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Auto",
@@ -315,7 +315,7 @@
         "pct_from_high": -15.8
       },
       "beta": 0.643,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Metal",
@@ -349,7 +349,7 @@
         "pct_from_high": -27.04
       },
       "beta": 0.501,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty 200",
@@ -366,7 +366,7 @@
         "pct_from_high": -12.86
       },
       "beta": 0.444,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Commodities",
@@ -400,7 +400,7 @@
         "pct_from_high": -16.46
       },
       "beta": 0.438,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty Fin Service",
@@ -417,7 +417,7 @@
         "pct_from_high": -14.37
       },
       "beta": 0.423,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nifty CPSE",
@@ -632,7 +632,7 @@
         "pct_from_high": -21.6
       },
       "beta": 1.342,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "3M India Ltd.",
@@ -652,7 +652,7 @@
         "pct_from_high": -17.99
       },
       "beta": 0.658,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ABB India Ltd.",
@@ -692,7 +692,7 @@
         "pct_from_high": -36.81
       },
       "beta": 0.516,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ACME Solar Holdings Ltd.",
@@ -732,7 +732,7 @@
         "pct_from_high": -15.82
       },
       "beta": 0.939,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "APL Apollo Tubes Ltd.",
@@ -772,7 +772,7 @@
         "pct_from_high": -23.36
       },
       "beta": 1.05,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "AU Small Finance Bank Ltd.",
@@ -792,7 +792,7 @@
         "pct_from_high": -14.27
       },
       "beta": 0.606,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "AWL Agri Business Ltd.",
@@ -812,7 +812,7 @@
         "pct_from_high": -35.03
       },
       "beta": 0.318,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "AXISCADES Technologies Ltd.",
@@ -852,7 +852,7 @@
         "pct_from_high": -15.47
       },
       "beta": 0.379,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aarti Drugs Ltd.",
@@ -872,7 +872,7 @@
         "pct_from_high": -39.0
       },
       "beta": 0.261,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aarti Industries Ltd.",
@@ -912,7 +912,7 @@
         "pct_from_high": -36.6
       },
       "beta": 0.373,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aavas Financiers Ltd.",
@@ -932,7 +932,7 @@
         "pct_from_high": -49.99
       },
       "beta": 0.258,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Abbott India Ltd.",
@@ -952,7 +952,7 @@
         "pct_from_high": -25.74
       },
       "beta": 0.169,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Action Construction Equipment Ltd.",
@@ -972,7 +972,7 @@
         "pct_from_high": -42.27
       },
       "beta": 0.503,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Acutaas Chemicals Ltd.",
@@ -1012,7 +1012,7 @@
         "pct_from_high": -9.63
       },
       "beta": 1.626,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Adani Enterprises Ltd.",
@@ -1032,7 +1032,7 @@
         "pct_from_high": -31.89
       },
       "beta": 0.689,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Adani Green Energy Ltd.",
@@ -1052,7 +1052,7 @@
         "pct_from_high": -27.74
       },
       "beta": 0.871,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Adani Ports and Special Economic Zone Ltd.",
@@ -1072,7 +1072,7 @@
         "pct_from_high": -14.8
       },
       "beta": 0.741,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Adani Power Ltd.",
@@ -1112,7 +1112,7 @@
         "pct_from_high": -32.23
       },
       "beta": 0.23,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aditya Birla Capital Ltd.",
@@ -1132,7 +1132,7 @@
         "pct_from_high": -16.01
       },
       "beta": 0.504,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aditya Birla Fashion and Retail Ltd.",
@@ -1152,7 +1152,7 @@
         "pct_from_high": -80.06
       },
       "beta": 0.396,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aditya Birla Lifestyle Brands Ltd.",
@@ -1172,7 +1172,7 @@
         "pct_from_high": -44.31
       },
       "beta": 0.975,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aditya Birla Real Estate Ltd.",
@@ -1192,7 +1192,7 @@
         "pct_from_high": -54.77
       },
       "beta": 0.784,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aditya Birla Sun Life AMC Ltd.",
@@ -1252,7 +1252,7 @@
         "pct_from_high": -17.88
       },
       "beta": 0.705,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Advanced Enzyme Tech Ltd.",
@@ -1272,7 +1272,7 @@
         "pct_from_high": -26.21
       },
       "beta": 0.615,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aegis Logistics Ltd.",
@@ -1292,7 +1292,7 @@
         "pct_from_high": -33.54
       },
       "beta": 0.714,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aegis Vopak Terminals Ltd.",
@@ -1312,7 +1312,7 @@
         "pct_from_high": -41.41
       },
       "beta": 0.565,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aequs Ltd.",
@@ -1321,12 +1321,8 @@
       "industry": "Capital Goods",
       "isin": "INE947N01017",
       "slope_data": null,
-      "high52_data": {
-        "current": 123.06,
-        "high52": 158.8,
-        "pct_from_high": -22.51
-      },
-      "beta": 0.331,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -1367,7 +1363,7 @@
         "pct_from_high": -42.05
       },
       "beta": 0.539,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Affle 3i Ltd.",
@@ -1387,7 +1383,7 @@
         "pct_from_high": -32.64
       },
       "beta": 0.244,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ahluwalia Contracts (India) Ltd.",
@@ -1407,7 +1403,7 @@
         "pct_from_high": -38.89
       },
       "beta": 0.339,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ajanta Pharmaceuticals Ltd.",
@@ -1467,7 +1463,7 @@
         "pct_from_high": -19.86
       },
       "beta": 0.332,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Alembic Pharmaceuticals Ltd.",
@@ -1487,7 +1483,7 @@
         "pct_from_high": -34.46
       },
       "beta": 0.516,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Alivus Life Sciences Ltd.",
@@ -1527,7 +1523,7 @@
         "pct_from_high": -8.53
       },
       "beta": 0.825,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Alkyl Amines Chemicals Ltd.",
@@ -1547,7 +1543,7 @@
         "pct_from_high": -46.1
       },
       "beta": 0.735,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Allied Blenders and Distillers Ltd.",
@@ -1567,7 +1563,7 @@
         "pct_from_high": -41.93
       },
       "beta": 0.53,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Alok Industries Ltd.",
@@ -1587,7 +1583,7 @@
         "pct_from_high": -46.18
       },
       "beta": 0.938,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Amara Raja Energy & Mobility Ltd.",
@@ -1607,7 +1603,7 @@
         "pct_from_high": -34.87
       },
       "beta": 0.881,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Amber Enterprises India Ltd.",
@@ -1647,7 +1643,7 @@
         "pct_from_high": -34.11
       },
       "beta": 0.715,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Anand Rathi Wealth Ltd.",
@@ -1687,7 +1683,7 @@
         "pct_from_high": -40.55
       },
       "beta": 0.78,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Angel One Ltd.",
@@ -1707,7 +1703,7 @@
         "pct_from_high": -26.93
       },
       "beta": 0.825,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Anthem Biosciences Ltd.",
@@ -1807,7 +1803,7 @@
         "pct_from_high": -44.9
       },
       "beta": 0.87,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Apollo Tyres Ltd.",
@@ -1827,7 +1823,7 @@
         "pct_from_high": -22.64
       },
       "beta": 0.65,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aptus Value Housing Finance India Ltd.",
@@ -1847,7 +1843,7 @@
         "pct_from_high": -44.59
       },
       "beta": 0.643,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Archean Chemical Industries Ltd.",
@@ -1887,7 +1883,7 @@
         "pct_from_high": -32.51
       },
       "beta": 0.5,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Arvind Ltd.",
@@ -1927,7 +1923,7 @@
         "pct_from_high": -23.38
       },
       "beta": 0.461,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ashapura Minechem Ltd.",
@@ -1947,7 +1943,7 @@
         "pct_from_high": -46.02
       },
       "beta": 0.71,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ashok Leyland Ltd.",
@@ -1987,7 +1983,7 @@
         "pct_from_high": -51.17
       },
       "beta": 0.709,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Asian Paints Ltd.",
@@ -2007,7 +2003,7 @@
         "pct_from_high": -25.64
       },
       "beta": 0.436,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aster DM Healthcare Ltd.",
@@ -2027,7 +2023,7 @@
         "pct_from_high": -7.6
       },
       "beta": 0.267,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Astra Microwave Products Ltd.",
@@ -2147,7 +2143,7 @@
         "pct_from_high": -53.48
       },
       "beta": 0.312,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Aurobindo Pharma Ltd.",
@@ -2187,7 +2183,7 @@
         "pct_from_high": -27.25
       },
       "beta": 1.499,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Avalon Technologies Ltd.",
@@ -2247,7 +2243,7 @@
         "pct_from_high": -19.18
       },
       "beta": 0.39,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "AvenuesAI Ltd.",
@@ -2256,12 +2252,8 @@
       "industry": "Financial Services",
       "isin": "INE483S01020",
       "slope_data": null,
-      "high52_data": {
-        "current": 13.15,
-        "high52": 19.28,
-        "pct_from_high": -31.79
-      },
-      "beta": 1.521,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -2282,7 +2274,7 @@
         "pct_from_high": -63.38
       },
       "beta": 0.598,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Axis Bank Ltd.",
@@ -2322,7 +2314,7 @@
         "pct_from_high": -19.69
       },
       "beta": 0.806,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "BEML Ltd.",
@@ -2342,7 +2334,7 @@
         "pct_from_high": -39.88
       },
       "beta": 0.923,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "BLS International Services Ltd.",
@@ -2362,7 +2354,7 @@
         "pct_from_high": -40.22
       },
       "beta": 0.797,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "BSE Ltd.",
@@ -2422,7 +2414,7 @@
         "pct_from_high": -48.85
       },
       "beta": 0.509,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bajaj Finance Ltd.",
@@ -2442,7 +2434,7 @@
         "pct_from_high": -22.88
       },
       "beta": 0.603,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bajaj Finserv Ltd.",
@@ -2462,7 +2454,7 @@
         "pct_from_high": -22.14
       },
       "beta": 0.524,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bajaj Holdings & Investment Ltd.",
@@ -2482,7 +2474,7 @@
         "pct_from_high": -36.68
       },
       "beta": 0.566,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bajaj Housing Finance Ltd.",
@@ -2502,7 +2494,7 @@
         "pct_from_high": -42.67
       },
       "beta": 0.423,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Balaji Amines Ltd.",
@@ -2522,7 +2514,7 @@
         "pct_from_high": -45.69
       },
       "beta": 0.998,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Balkrishna Industries Ltd.",
@@ -2542,7 +2534,7 @@
         "pct_from_high": -22.1
       },
       "beta": 0.513,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Balrampur Chini Mills Ltd.",
@@ -2582,7 +2574,7 @@
         "pct_from_high": -46.42
       },
       "beta": 0.804,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Banco Products (India) Ltd.",
@@ -2602,7 +2594,7 @@
         "pct_from_high": -37.83
       },
       "beta": 0.593,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bandhan Bank Ltd.",
@@ -2642,7 +2634,7 @@
         "pct_from_high": -19.77
       },
       "beta": 0.516,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bank of India",
@@ -2702,7 +2694,7 @@
         "pct_from_high": -50.43
       },
       "beta": 0.409,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bayer Cropscience Ltd.",
@@ -2762,7 +2754,7 @@
         "pct_from_high": -30.45
       },
       "beta": 0.406,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bharat Dynamics Ltd.",
@@ -2782,7 +2774,7 @@
         "pct_from_high": -43.37
       },
       "beta": 0.967,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bharat Electronics Ltd.",
@@ -2842,7 +2834,7 @@
         "pct_from_high": -16.04
       },
       "beta": 0.67,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bharat Petroleum Corporation Ltd.",
@@ -2862,7 +2854,7 @@
         "pct_from_high": -27.2
       },
       "beta": 0.43,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bharti Airtel Ltd.",
@@ -2882,7 +2874,7 @@
         "pct_from_high": -14.74
       },
       "beta": 0.23,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bharti Hexacom Ltd.",
@@ -2902,7 +2894,7 @@
         "pct_from_high": -23.79
       },
       "beta": 0.449,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bikaji Foods International Ltd.",
@@ -2922,7 +2914,7 @@
         "pct_from_high": -23.0
       },
       "beta": 0.278,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Billionbrains Garage Ventures Ltd.",
@@ -2962,7 +2954,7 @@
         "pct_from_high": -12.22
       },
       "beta": 0.338,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Birla Corporation Ltd.",
@@ -2982,7 +2974,7 @@
         "pct_from_high": -41.93
       },
       "beta": 1.375,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Birlasoft Ltd.",
@@ -3002,7 +2994,7 @@
         "pct_from_high": -27.73
       },
       "beta": 0.381,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Black Box Ltd.",
@@ -3022,7 +3014,7 @@
         "pct_from_high": -22.09
       },
       "beta": 0.656,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Blackbuck Ltd.",
@@ -3042,7 +3034,7 @@
         "pct_from_high": -19.9
       },
       "beta": 0.383,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Blue Dart Express Ltd.",
@@ -3062,7 +3054,7 @@
         "pct_from_high": -32.34
       },
       "beta": 0.537,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Blue Jet Healthcare Ltd.",
@@ -3082,7 +3074,7 @@
         "pct_from_high": -65.91
       },
       "beta": 0.585,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Blue Star Ltd.",
@@ -3122,7 +3114,7 @@
         "pct_from_high": -35.63
       },
       "beta": -0.098,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bombay Burmah Trading Corporation Ltd.",
@@ -3142,7 +3134,7 @@
         "pct_from_high": -33.99
       },
       "beta": 0.663,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Borosil Renewables Ltd.",
@@ -3162,7 +3154,7 @@
         "pct_from_high": -44.74
       },
       "beta": 0.519,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Bosch Ltd.",
@@ -3182,7 +3174,7 @@
         "pct_from_high": -28.63
       },
       "beta": 0.528,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Brainbees Solutions Ltd.",
@@ -3202,7 +3194,7 @@
         "pct_from_high": -46.06
       },
       "beta": 0.371,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Brigade Enterprises Ltd.",
@@ -3222,7 +3214,7 @@
         "pct_from_high": -45.78
       },
       "beta": 0.578,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Britannia Industries Ltd.",
@@ -3242,7 +3234,7 @@
         "pct_from_high": -12.71
       },
       "beta": 0.226,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "C.E. Info Systems Ltd.",
@@ -3262,7 +3254,7 @@
         "pct_from_high": -59.75
       },
       "beta": 0.629,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "CCL Products (I) Ltd.",
@@ -3302,7 +3294,7 @@
         "pct_from_high": -16.95
       },
       "beta": 0.265,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "CG Power and Industrial Solutions Ltd.",
@@ -3362,7 +3354,7 @@
         "pct_from_high": -48.89
       },
       "beta": 0.265,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "CORONA Remedies Ltd.",
@@ -3371,12 +3363,8 @@
       "industry": "Healthcare",
       "isin": "INE02ZQ01018",
       "slope_data": null,
-      "high52_data": {
-        "current": 1581.4,
-        "high52": 1650.5,
-        "pct_from_high": -4.19
-      },
-      "beta": 0.968,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -3397,7 +3385,7 @@
         "pct_from_high": -36.15
       },
       "beta": 0.316,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "CSB Bank Ltd.",
@@ -3417,7 +3405,7 @@
         "pct_from_high": -36.54
       },
       "beta": 0.756,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Campus Activewear Ltd.",
@@ -3437,7 +3425,7 @@
         "pct_from_high": -25.31
       },
       "beta": 0.119,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Can Fin Homes Ltd.",
@@ -3457,7 +3445,7 @@
         "pct_from_high": -13.51
       },
       "beta": 0.521,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Canara Bank",
@@ -3477,7 +3465,7 @@
         "pct_from_high": -17.92
       },
       "beta": 0.672,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Canara HSBC Life Insurance Company Ltd.",
@@ -3517,7 +3505,7 @@
         "pct_from_high": -33.54
       },
       "beta": 1.359,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Capillary Technologies India Ltd.",
@@ -3526,12 +3514,8 @@
       "industry": "Information Technology",
       "isin": "INE0ILV01024",
       "slope_data": null,
-      "high52_data": {
-        "current": 512.85,
-        "high52": 732.15,
-        "pct_from_high": -29.95
-      },
-      "beta": 0.034,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -3552,7 +3536,7 @@
         "pct_from_high": -33.49
       },
       "beta": 0.19,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Capri Global Capital Ltd.",
@@ -3572,7 +3556,7 @@
         "pct_from_high": -20.82
       },
       "beta": 0.674,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Carborundum Universal Ltd.",
@@ -3592,7 +3576,7 @@
         "pct_from_high": -28.38
       },
       "beta": 1.056,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cartrade Tech Ltd.",
@@ -3612,7 +3596,7 @@
         "pct_from_high": -46.75
       },
       "beta": 0.403,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Castrol India Ltd.",
@@ -3632,7 +3616,7 @@
         "pct_from_high": -19.91
       },
       "beta": 0.234,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ceat Ltd.",
@@ -3652,7 +3636,7 @@
         "pct_from_high": -19.52
       },
       "beta": 0.692,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cello World Ltd.",
@@ -3672,7 +3656,7 @@
         "pct_from_high": -40.43
       },
       "beta": 0.831,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cemindia Projects Ltd.",
@@ -3692,7 +3676,7 @@
         "pct_from_high": -38.9
       },
       "beta": 1.756,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Central Bank of India",
@@ -3712,7 +3696,7 @@
         "pct_from_high": -28.16
       },
       "beta": 0.694,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Central Depository Services (India) Ltd.",
@@ -3732,7 +3716,7 @@
         "pct_from_high": -34.58
       },
       "beta": 0.97,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Century Plyboards (India) Ltd.",
@@ -3752,7 +3736,7 @@
         "pct_from_high": -17.25
       },
       "beta": 0.913,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cera Sanitaryware Ltd",
@@ -3772,7 +3756,7 @@
         "pct_from_high": -34.2
       },
       "beta": 0.951,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Chalet Hotels Ltd.",
@@ -3792,7 +3776,7 @@
         "pct_from_high": -31.83
       },
       "beta": 0.426,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Chambal Fertilizers & Chemicals Ltd.",
@@ -3812,7 +3796,7 @@
         "pct_from_high": -41.03
       },
       "beta": 0.51,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Chennai Petroleum Corporation Ltd.",
@@ -3852,7 +3836,7 @@
         "pct_from_high": -24.56
       },
       "beta": 0.802,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cholamandalam Financial Holdings Ltd.",
@@ -3872,7 +3856,7 @@
         "pct_from_high": -35.83
       },
       "beta": 0.419,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cholamandalam Investment and Finance Company Ltd.",
@@ -3892,7 +3876,7 @@
         "pct_from_high": -21.49
       },
       "beta": 0.644,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cigniti Technologies Ltd.",
@@ -3912,7 +3896,7 @@
         "pct_from_high": -41.45
       },
       "beta": 0.295,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cipla Ltd.",
@@ -3932,7 +3916,7 @@
         "pct_from_high": -25.32
       },
       "beta": 0.144,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "City Union Bank Ltd.",
@@ -3952,7 +3936,7 @@
         "pct_from_high": -15.92
       },
       "beta": 0.861,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Clean Science and Technology Ltd.",
@@ -3972,7 +3956,7 @@
         "pct_from_high": -55.91
       },
       "beta": 0.399,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Coal India Ltd.",
@@ -4012,7 +3996,7 @@
         "pct_from_high": -47.15
       },
       "beta": 0.856,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Coforge Ltd.",
@@ -4032,7 +4016,7 @@
         "pct_from_high": -41.99
       },
       "beta": 0.272,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cohance Lifesciences Ltd.",
@@ -4052,7 +4036,7 @@
         "pct_from_high": -72.7
       },
       "beta": 0.487,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Colgate Palmolive (India) Ltd.",
@@ -4072,7 +4056,7 @@
         "pct_from_high": -29.79
       },
       "beta": 0.445,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Computer Age Management Services Ltd.",
@@ -4092,7 +4076,7 @@
         "pct_from_high": -24.54
       },
       "beta": 0.622,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Concord Biotech Ltd.",
@@ -4112,7 +4096,7 @@
         "pct_from_high": -52.06
       },
       "beta": 0.635,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Container Corporation of India Ltd.",
@@ -4132,7 +4116,7 @@
         "pct_from_high": -31.33
       },
       "beta": 0.614,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Coromandel International Ltd.",
@@ -4152,7 +4136,7 @@
         "pct_from_high": -27.97
       },
       "beta": 0.661,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Craftsman Automation Ltd.",
@@ -4192,7 +4176,7 @@
         "pct_from_high": -20.98
       },
       "beta": 0.623,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Crizac Ltd.",
@@ -4212,7 +4196,7 @@
         "pct_from_high": -47.71
       },
       "beta": 1.184,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Crompton Greaves Consumer Electricals Ltd.",
@@ -4232,7 +4216,7 @@
         "pct_from_high": -35.41
       },
       "beta": 0.507,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Cummins India Ltd.",
@@ -4292,7 +4276,7 @@
         "pct_from_high": -40.74
       },
       "beta": 0.452,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "DCB Bank Ltd.",
@@ -4332,7 +4316,7 @@
         "pct_from_high": -22.21
       },
       "beta": 0.924,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "DLF Ltd.",
@@ -4352,7 +4336,7 @@
         "pct_from_high": -40.16
       },
       "beta": 0.604,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "DOMS Industries Ltd.",
@@ -4372,7 +4356,7 @@
         "pct_from_high": -25.11
       },
       "beta": 0.532,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dabur India Ltd.",
@@ -4392,7 +4376,7 @@
         "pct_from_high": -23.68
       },
       "beta": 0.514,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dalmia Bharat Ltd.",
@@ -4412,7 +4396,7 @@
         "pct_from_high": -24.85
       },
       "beta": 0.606,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Data Patterns (India) Ltd.",
@@ -4452,7 +4436,7 @@
         "pct_from_high": -37.41
       },
       "beta": 0.441,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Deepak Fertilisers & Petrochemicals Corp. Ltd.",
@@ -4472,7 +4456,7 @@
         "pct_from_high": -45.09
       },
       "beta": 0.694,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Deepak Nitrite Ltd.",
@@ -4492,7 +4476,7 @@
         "pct_from_high": -36.21
       },
       "beta": 0.39,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Delhivery Ltd.",
@@ -4532,7 +4516,7 @@
         "pct_from_high": -47.29
       },
       "beta": 0.446,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Diamond Power Infrastructure Ltd.",
@@ -4552,7 +4536,7 @@
         "pct_from_high": -30.96
       },
       "beta": 0.996,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dilip Buildcon Ltd.",
@@ -4572,7 +4556,7 @@
         "pct_from_high": -32.9
       },
       "beta": 1.169,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Divi's Laboratories Ltd.",
@@ -4592,7 +4576,7 @@
         "pct_from_high": -13.73
       },
       "beta": 0.47,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dixon Technologies (India) Ltd.",
@@ -4612,7 +4596,7 @@
         "pct_from_high": -45.34
       },
       "beta": 0.8,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dr. Agarwal's Health Care Ltd.",
@@ -4632,7 +4616,7 @@
         "pct_from_high": -24.91
       },
       "beta": 0.348,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dr. Lal Path Labs Ltd.",
@@ -4652,7 +4636,7 @@
         "pct_from_high": -23.32
       },
       "beta": 0.211,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Dr. Reddy's Laboratories Ltd.",
@@ -4723,7 +4707,7 @@
         "pct_from_high": -35.65
       },
       "beta": 0.599,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "EIH Ltd.",
@@ -4743,7 +4727,7 @@
         "pct_from_high": -32.06
       },
       "beta": 0.407,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "EPL Ltd.",
@@ -4763,7 +4747,7 @@
         "pct_from_high": -17.85
       },
       "beta": 1.031,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Edelweiss Financial Services Ltd.",
@@ -4823,7 +4807,7 @@
         "pct_from_high": -47.05
       },
       "beta": 0.986,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Electronics Mart India Ltd.",
@@ -4843,7 +4827,7 @@
         "pct_from_high": -44.13
       },
       "beta": 1.044,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Electrosteel Castings Ltd.",
@@ -4863,7 +4847,7 @@
         "pct_from_high": -40.61
       },
       "beta": 0.565,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Elgi Equipments Ltd.",
@@ -4903,7 +4887,7 @@
         "pct_from_high": -65.94
       },
       "beta": 1.527,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Emami Ltd.",
@@ -4923,7 +4907,7 @@
         "pct_from_high": -37.62
       },
       "beta": 0.471,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Emcure Pharmaceuticals Ltd.",
@@ -4983,7 +4967,7 @@
         "pct_from_high": -25.69
       },
       "beta": 0.5,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Engineers India Ltd.",
@@ -5043,7 +5027,7 @@
         "pct_from_high": -51.64
       },
       "beta": 0.664,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Equitas Small Finance Bank Ltd.",
@@ -5063,7 +5047,7 @@
         "pct_from_high": -23.09
       },
       "beta": 0.716,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Eris Lifesciences Ltd.",
@@ -5083,7 +5067,7 @@
         "pct_from_high": -27.43
       },
       "beta": 0.424,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Escorts Kubota Ltd.",
@@ -5103,7 +5087,7 @@
         "pct_from_high": -27.9
       },
       "beta": 0.734,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Eternal Ltd.",
@@ -5123,7 +5107,7 @@
         "pct_from_high": -34.2
       },
       "beta": 1.335,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ethos Ltd.",
@@ -5143,7 +5127,7 @@
         "pct_from_high": -30.41
       },
       "beta": 0.472,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Eureka Forbes Ltd.",
@@ -5163,7 +5147,7 @@
         "pct_from_high": -29.22
       },
       "beta": 0.386,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Exide Industries Ltd.",
@@ -5183,7 +5167,7 @@
         "pct_from_high": -29.6
       },
       "beta": 0.569,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "FSN E-Commerce Ventures Ltd.",
@@ -5203,7 +5187,7 @@
         "pct_from_high": -14.62
       },
       "beta": 0.587,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Fedbank Financial Services Ltd.",
@@ -5223,7 +5207,7 @@
         "pct_from_high": -26.14
       },
       "beta": 0.84,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Federal Bank Ltd.",
@@ -5263,7 +5247,7 @@
         "pct_from_high": -25.8
       },
       "beta": 0.656,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Fiem Industries Ltd",
@@ -5283,7 +5267,7 @@
         "pct_from_high": -22.77
       },
       "beta": 0.639,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Finolex Cables Ltd.",
@@ -5343,7 +5327,7 @@
         "pct_from_high": -44.9
       },
       "beta": 0.555,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Five-Star Business Finance Ltd.",
@@ -5363,7 +5347,7 @@
         "pct_from_high": -55.19
       },
       "beta": 0.57,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Force Motors Ltd.",
@@ -5403,7 +5387,7 @@
         "pct_from_high": -25.84
       },
       "beta": 0.365,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Fujiyama Power Systems Ltd.",
@@ -5412,12 +5396,8 @@
       "industry": "Capital Goods",
       "isin": "INE12UR01024",
       "slope_data": null,
-      "high52_data": {
-        "current": 198.42,
-        "high52": 225.0,
-        "pct_from_high": -11.81
-      },
-      "beta": 0.806,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -5438,7 +5418,7 @@
         "pct_from_high": -28.89
       },
       "beta": 0.581,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "GE Vernova T&D India Ltd.",
@@ -5478,7 +5458,7 @@
         "pct_from_high": -34.39
       },
       "beta": 0.551,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "GMM Pfaudler Ltd.",
@@ -5498,7 +5478,7 @@
         "pct_from_high": -42.23
       },
       "beta": 0.566,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "GMR Airports Ltd.",
@@ -5518,7 +5498,7 @@
         "pct_from_high": -17.78
       },
       "beta": 0.644,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "GMR Power and Urban Infra Ltd.",
@@ -5538,7 +5518,7 @@
         "pct_from_high": -28.81
       },
       "beta": 0.706,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gabriel India Ltd.",
@@ -5558,7 +5538,7 @@
         "pct_from_high": -37.4
       },
       "beta": 0.438,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gallantt Ispat Ltd.",
@@ -5578,7 +5558,7 @@
         "pct_from_high": -30.73
       },
       "beta": 1.183,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Garden Reach Shipbuilders & Engineers Ltd.",
@@ -5598,7 +5578,7 @@
         "pct_from_high": -40.36
       },
       "beta": 0.921,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Garware Hi-Tech Films Ltd.",
@@ -5638,7 +5618,7 @@
         "pct_from_high": -16.23
       },
       "beta": 0.352,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gillette India Ltd.",
@@ -5658,7 +5638,7 @@
         "pct_from_high": -31.95
       },
       "beta": 0.339,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gland Pharma Ltd.",
@@ -5678,7 +5658,7 @@
         "pct_from_high": -17.22
       },
       "beta": 0.718,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Glaxosmithkline Pharmaceuticals Ltd.",
@@ -5698,7 +5678,7 @@
         "pct_from_high": -34.81
       },
       "beta": 0.269,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Glenmark Pharmaceuticals Ltd.",
@@ -5738,7 +5718,7 @@
         "pct_from_high": -30.96
       },
       "beta": 0.275,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Go Digit General Insurance Ltd.",
@@ -5758,7 +5738,7 @@
         "pct_from_high": -12.27
       },
       "beta": 0.479,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Godawari Power & Ispat Ltd.",
@@ -5798,7 +5778,7 @@
         "pct_from_high": -48.23
       },
       "beta": 0.573,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Godrej Agrovet Ltd.",
@@ -5838,7 +5818,7 @@
         "pct_from_high": -21.37
       },
       "beta": 0.304,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Godrej Industries Ltd.",
@@ -5858,7 +5838,7 @@
         "pct_from_high": -42.98
       },
       "beta": 0.361,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Godrej Properties Ltd.",
@@ -5878,7 +5858,7 @@
         "pct_from_high": -38.99
       },
       "beta": 0.802,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gokaldas Exports Ltd.",
@@ -5898,7 +5878,7 @@
         "pct_from_high": -43.54
       },
       "beta": 1.15,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gokul Agro Resources Ltd.",
@@ -5918,7 +5898,7 @@
         "pct_from_high": -15.06
       },
       "beta": 0.455,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Granules India Ltd.",
@@ -5978,7 +5958,7 @@
         "pct_from_high": -11.17
       },
       "beta": 0.452,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gravita India Ltd.",
@@ -5998,7 +5978,7 @@
         "pct_from_high": -33.63
       },
       "beta": 0.488,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Great Eastern Shipping Co. Ltd.",
@@ -6038,7 +6018,7 @@
         "pct_from_high": -45.4
       },
       "beta": 0.885,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gujarat Ambuja Exports Ltd.",
@@ -6078,7 +6058,7 @@
         "pct_from_high": -23.87
       },
       "beta": 0.313,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gujarat Mineral Development Corporation Ltd.",
@@ -6118,7 +6098,7 @@
         "pct_from_high": -29.89
       },
       "beta": 0.57,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gujarat Pipavav Port Ltd.",
@@ -6138,7 +6118,7 @@
         "pct_from_high": -24.77
       },
       "beta": 0.538,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gujarat State Fertilizers & Chemicals Ltd.",
@@ -6158,7 +6138,7 @@
         "pct_from_high": -32.02
       },
       "beta": 0.685,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Gujarat State Petronet Ltd.",
@@ -6178,7 +6158,7 @@
         "pct_from_high": -32.15
       },
       "beta": 0.713,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "H.E.G. Ltd.",
@@ -6198,7 +6178,7 @@
         "pct_from_high": -10.23
       },
       "beta": 0.412,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "H.G. Infra Engineering Ltd.",
@@ -6218,7 +6198,7 @@
         "pct_from_high": -63.13
       },
       "beta": 0.768,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HBL Engineering Ltd.",
@@ -6238,7 +6218,7 @@
         "pct_from_high": -41.42
       },
       "beta": 1.348,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HCL Technologies Ltd.",
@@ -6258,7 +6238,7 @@
         "pct_from_high": -21.11
       },
       "beta": 0.19,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HDB Financial Services Ltd.",
@@ -6278,7 +6258,7 @@
         "pct_from_high": -31.52
       },
       "beta": 0.706,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HDFC Asset Management Company Ltd.",
@@ -6298,7 +6278,7 @@
         "pct_from_high": -21.46
       },
       "beta": 0.607,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HDFC Bank Ltd.",
@@ -6318,7 +6298,7 @@
         "pct_from_high": -25.34
       },
       "beta": 0.513,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HDFC Life Insurance Company Ltd.",
@@ -6338,7 +6318,7 @@
         "pct_from_high": -25.06
       },
       "beta": 0.296,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "HFCL Ltd.",
@@ -6378,7 +6358,7 @@
         "pct_from_high": -41.17
       },
       "beta": 0.601,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Havells India Ltd.",
@@ -6398,7 +6378,7 @@
         "pct_from_high": -25.51
       },
       "beta": 0.579,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Healthcare Global Enterprises Ltd.",
@@ -6418,7 +6398,7 @@
         "pct_from_high": -31.5
       },
       "beta": 0.239,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hemisphere Properties India Ltd.",
@@ -6438,7 +6418,7 @@
         "pct_from_high": -36.04
       },
       "beta": 0.506,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Heritage Foods Ltd.",
@@ -6458,7 +6438,7 @@
         "pct_from_high": -42.96
       },
       "beta": 0.398,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hero MotoCorp Ltd.",
@@ -6478,7 +6458,7 @@
         "pct_from_high": -17.44
       },
       "beta": 0.638,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hexaware Technologies Ltd.",
@@ -6498,7 +6478,7 @@
         "pct_from_high": -49.88
       },
       "beta": 0.58,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Himadri Speciality Chemical Ltd.",
@@ -6518,7 +6498,7 @@
         "pct_from_high": -14.28
       },
       "beta": 0.666,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hindalco Industries Ltd.",
@@ -6558,7 +6538,7 @@
         "pct_from_high": -29.2
       },
       "beta": 0.631,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hindustan Construction Co. Ltd.",
@@ -6578,7 +6558,7 @@
         "pct_from_high": -60.1
       },
       "beta": 0.802,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hindustan Copper Ltd.",
@@ -6618,7 +6598,7 @@
         "pct_from_high": -31.69
       },
       "beta": 0.583,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hindustan Unilever Ltd.",
@@ -6638,7 +6618,7 @@
         "pct_from_high": -22.35
       },
       "beta": 0.299,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hindustan Zinc Ltd.",
@@ -6698,7 +6678,7 @@
         "pct_from_high": -37.14
       },
       "beta": 0.576,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Honasa Consumer Ltd.",
@@ -6738,7 +6718,7 @@
         "pct_from_high": -34.39
       },
       "beta": 0.646,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Housing & Urban Development Corporation Ltd.",
@@ -6758,7 +6738,7 @@
         "pct_from_high": -30.74
       },
       "beta": 0.627,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Hyundai Motor India Ltd.",
@@ -6778,7 +6758,7 @@
         "pct_from_high": -35.33
       },
       "beta": 0.42,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ICICI Bank Ltd.",
@@ -6798,7 +6778,7 @@
         "pct_from_high": -16.48
       },
       "beta": 0.393,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ICICI Lombard General Insurance Company Ltd.",
@@ -6818,7 +6798,7 @@
         "pct_from_high": -15.07
       },
       "beta": 0.31,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ICICI Prudential Asset Management Company Ltd.",
@@ -6827,12 +6807,8 @@
       "industry": "Financial Services",
       "isin": "INE346A01027",
       "slope_data": null,
-      "high52_data": {
-        "current": 2874.2,
-        "high52": 3150.0,
-        "pct_from_high": -8.76
-      },
-      "beta": 1.516,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -6853,7 +6829,7 @@
         "pct_from_high": -22.96
       },
       "beta": 0.414,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "IDBI Bank Ltd.",
@@ -6873,7 +6849,7 @@
         "pct_from_high": -44.82
       },
       "beta": 0.595,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "IDFC First Bank Ltd.",
@@ -6893,7 +6869,7 @@
         "pct_from_high": -28.12
       },
       "beta": 0.583,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "IFB Industries Ltd.",
@@ -6913,7 +6889,7 @@
         "pct_from_high": -51.68
       },
       "beta": 0.467,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "IFCI Ltd.",
@@ -6953,7 +6929,7 @@
         "pct_from_high": -34.13
       },
       "beta": 1.477,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "IIFL Finance Ltd.",
@@ -6973,7 +6949,7 @@
         "pct_from_high": -32.11
       },
       "beta": 0.641,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "INOX India Ltd.",
@@ -7013,7 +6989,7 @@
         "pct_from_high": -61.32
       },
       "beta": 1.115,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "IRCON International Ltd.",
@@ -7033,7 +7009,7 @@
         "pct_from_high": -44.25
       },
       "beta": 0.63,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ITC Hotels Ltd.",
@@ -7053,7 +7029,7 @@
         "pct_from_high": -44.35
       },
       "beta": 0.649,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ITC Ltd.",
@@ -7073,7 +7049,7 @@
         "pct_from_high": -30.82
       },
       "beta": 0.171,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ITI Ltd.",
@@ -7093,7 +7069,7 @@
         "pct_from_high": -30.93
       },
       "beta": 0.781,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indegene Ltd.",
@@ -7113,7 +7089,7 @@
         "pct_from_high": -26.8
       },
       "beta": 0.334,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "India Cements Ltd.",
@@ -7133,7 +7109,7 @@
         "pct_from_high": -25.61
       },
       "beta": 0.604,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "India Glycols Ltd.",
@@ -7153,7 +7129,7 @@
         "pct_from_high": -22.78
       },
       "beta": 0.531,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "India Shelter Finance Corporation Ltd.",
@@ -7173,7 +7149,7 @@
         "pct_from_high": -26.46
       },
       "beta": 0.834,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indiamart Intermesh Ltd.",
@@ -7193,7 +7169,7 @@
         "pct_from_high": -28.12
       },
       "beta": 0.386,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Bank",
@@ -7233,7 +7209,7 @@
         "pct_from_high": -42.73
       },
       "beta": 0.474,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Hotels Co. Ltd.",
@@ -7253,7 +7229,7 @@
         "pct_from_high": -29.62
       },
       "beta": 0.515,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Metals & Ferro Alloys Ltd.",
@@ -7273,7 +7249,7 @@
         "pct_from_high": -17.68
       },
       "beta": 0.705,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Oil Corporation Ltd.",
@@ -7313,7 +7289,7 @@
         "pct_from_high": -27.59
       },
       "beta": 0.547,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Railway Catering And Tourism Corporation Ltd.",
@@ -7333,7 +7309,7 @@
         "pct_from_high": -35.99
       },
       "beta": 0.46,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Railway Finance Corporation Ltd.",
@@ -7353,7 +7329,7 @@
         "pct_from_high": -35.89
       },
       "beta": 0.55,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indian Renewable Energy Development Agency Ltd.",
@@ -7373,7 +7349,7 @@
         "pct_from_high": -37.62
       },
       "beta": 0.771,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indigo Paints Ltd.",
@@ -7393,7 +7369,7 @@
         "pct_from_high": -44.89
       },
       "beta": 0.642,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indo Count Industries Ltd.",
@@ -7413,7 +7389,7 @@
         "pct_from_high": -26.07
       },
       "beta": 1.17,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indraprastha Gas Ltd.",
@@ -7433,7 +7409,7 @@
         "pct_from_high": -33.22
       },
       "beta": 0.468,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Indus Towers Ltd.",
@@ -7489,11 +7465,11 @@
       },
       "high52_data": {
         "current": 991.4,
-        "high52": 1525.06,
+        "high52": 1525.07,
         "pct_from_high": -34.99
       },
       "beta": 0.239,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Infosys Ltd.",
@@ -7513,7 +7489,7 @@
         "pct_from_high": -24.86
       },
       "beta": 0.054,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Inox Green Energy Services Ltd.",
@@ -7533,7 +7509,7 @@
         "pct_from_high": -48.84
       },
       "beta": 0.987,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Inox Wind Ltd.",
@@ -7553,7 +7529,7 @@
         "pct_from_high": -59.35
       },
       "beta": 0.806,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Intellect Design Arena Ltd.",
@@ -7573,7 +7549,7 @@
         "pct_from_high": -48.4
       },
       "beta": 0.48,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "InterGlobe Aviation Ltd.",
@@ -7593,7 +7569,7 @@
         "pct_from_high": -33.4
       },
       "beta": 0.741,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "International Gemmological Institute (India) Ltd.",
@@ -7633,7 +7609,7 @@
         "pct_from_high": -26.99
       },
       "beta": 0.753,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ion Exchange (India) Ltd.",
@@ -7653,7 +7629,7 @@
         "pct_from_high": -41.15
       },
       "beta": 0.737,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ipca Laboratories Ltd.",
@@ -7713,7 +7689,7 @@
         "pct_from_high": -32.54
       },
       "beta": 0.626,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JBM Auto Ltd.",
@@ -7733,7 +7709,7 @@
         "pct_from_high": -26.3
       },
       "beta": 1.002,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JK Lakshmi Cement Ltd.",
@@ -7753,7 +7729,7 @@
         "pct_from_high": -41.82
       },
       "beta": 0.48,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JK Paper Ltd.",
@@ -7773,7 +7749,7 @@
         "pct_from_high": -23.55
       },
       "beta": 0.477,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JK Tyre & Industries Ltd.",
@@ -7793,7 +7769,7 @@
         "pct_from_high": -34.14
       },
       "beta": 0.717,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JM Financial Ltd.",
@@ -7813,7 +7789,7 @@
         "pct_from_high": -37.36
       },
       "beta": 0.815,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JSW Cement Ltd.",
@@ -7873,7 +7849,7 @@
         "pct_from_high": -27.08
       },
       "beta": 1.02,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "JSW Steel Ltd.",
@@ -7913,7 +7889,7 @@
         "pct_from_high": -61.26
       },
       "beta": 0.739,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jain Resource Recycling Ltd.",
@@ -7953,7 +7929,7 @@
         "pct_from_high": -45.91
       },
       "beta": 0.287,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jammu & Kashmir Bank Ltd.",
@@ -8013,7 +7989,7 @@
         "pct_from_high": -29.23
       },
       "beta": 0.592,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jayaswal Neco Industries Ltd.",
@@ -8053,7 +8029,7 @@
         "pct_from_high": -76.45
       },
       "beta": 0.611,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jindal Saw Ltd.",
@@ -8093,7 +8069,7 @@
         "pct_from_high": -17.72
       },
       "beta": 0.777,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jindal Steel Ltd.",
@@ -8133,7 +8109,7 @@
         "pct_from_high": -30.24
       },
       "beta": 1.475,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jubilant Foodworks Ltd.",
@@ -8153,7 +8129,7 @@
         "pct_from_high": -36.84
       },
       "beta": 0.311,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jubilant Ingrevia Ltd.",
@@ -8173,7 +8149,7 @@
         "pct_from_high": -32.73
       },
       "beta": 0.562,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jubilant Pharmova Ltd.",
@@ -8193,7 +8169,7 @@
         "pct_from_high": -31.71
       },
       "beta": 0.401,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jupiter Life Line Hospitals Ltd.",
@@ -8213,7 +8189,7 @@
         "pct_from_high": -24.62
       },
       "beta": 0.283,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jupiter Wagons Ltd.",
@@ -8233,7 +8209,7 @@
         "pct_from_high": -40.33
       },
       "beta": 0.694,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Justdial Ltd.",
@@ -8253,7 +8229,7 @@
         "pct_from_high": -51.38
       },
       "beta": 0.728,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jyothy Labs Ltd.",
@@ -8273,7 +8249,7 @@
         "pct_from_high": -47.73
       },
       "beta": 0.509,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Jyoti CNC Automation Ltd.",
@@ -8293,7 +8269,7 @@
         "pct_from_high": -42.73
       },
       "beta": 0.944,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "K.P.R. Mill Ltd.",
@@ -8313,7 +8289,7 @@
         "pct_from_high": -35.16
       },
       "beta": 0.463,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "KEI Industries Ltd.",
@@ -8353,7 +8329,7 @@
         "pct_from_high": -54.91
       },
       "beta": 0.587,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "KPI Green Energy Ltd.",
@@ -8373,7 +8349,7 @@
         "pct_from_high": -33.63
       },
       "beta": 0.511,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "KPIT Technologies Ltd.",
@@ -8393,7 +8369,7 @@
         "pct_from_high": -53.24
       },
       "beta": 0.316,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "KRBL Ltd.",
@@ -8413,7 +8389,7 @@
         "pct_from_high": -39.04
       },
       "beta": 0.452,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "KRN Heat Exchanger and Refrigeration Ltd.",
@@ -8473,7 +8449,7 @@
         "pct_from_high": -26.66
       },
       "beta": 0.498,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kalpataru Projects International Ltd.",
@@ -8493,7 +8469,7 @@
         "pct_from_high": -18.32
       },
       "beta": 1.0,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kalyan Jewellers India Ltd.",
@@ -8513,7 +8489,7 @@
         "pct_from_high": -36.46
       },
       "beta": 0.525,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kansai Nerolac Paints Ltd.",
@@ -8533,7 +8509,7 @@
         "pct_from_high": -35.84
       },
       "beta": 0.584,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Karnataka Bank Ltd.",
@@ -8593,7 +8569,7 @@
         "pct_from_high": -49.27
       },
       "beta": 0.591,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kaynes Technology India Ltd.",
@@ -8613,7 +8589,7 @@
         "pct_from_high": -52.42
       },
       "beta": 0.683,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kec International Ltd.",
@@ -8633,7 +8609,7 @@
         "pct_from_high": -42.5
       },
       "beta": 0.67,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kfin Technologies Ltd.",
@@ -8653,7 +8629,7 @@
         "pct_from_high": -31.76
       },
       "beta": 0.592,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kirloskar Brothers Ltd.",
@@ -8673,7 +8649,7 @@
         "pct_from_high": -39.28
       },
       "beta": 0.865,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kirloskar Oil Eng Ltd.",
@@ -8733,7 +8709,7 @@
         "pct_from_high": -50.51
       },
       "beta": 1.399,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Kotak Mahindra Bank Ltd.",
@@ -8753,7 +8729,7 @@
         "pct_from_high": -19.21
       },
       "beta": 0.487,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Krishna Institute of Medical Sciences Ltd.",
@@ -8793,7 +8769,7 @@
         "pct_from_high": -21.43
       },
       "beta": 0.559,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "L&T Technology Services Ltd.",
@@ -8813,7 +8789,7 @@
         "pct_from_high": -31.89
       },
       "beta": 0.307,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "LG Electronics India Ltd.",
@@ -8833,7 +8809,7 @@
         "pct_from_high": -9.1
       },
       "beta": 0.561,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "LIC Housing Finance Ltd.",
@@ -8853,7 +8829,7 @@
         "pct_from_high": -19.32
       },
       "beta": 0.378,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "LT Foods Ltd.",
@@ -8873,7 +8849,7 @@
         "pct_from_high": -26.38
       },
       "beta": 1.559,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "LTIMindtree Ltd.",
@@ -8882,12 +8858,8 @@
       "industry": "Information Technology",
       "isin": "INE214T01019",
       "slope_data": null,
-      "high52_data": {
-        "current": 4200.7,
-        "high52": 5054.0,
-        "pct_from_high": -16.88
-      },
-      "beta": 0.921,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -8908,7 +8880,7 @@
         "pct_from_high": -19.33
       },
       "beta": 0.63,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Latent View Analytics Ltd.",
@@ -8928,7 +8900,7 @@
         "pct_from_high": -48.14
       },
       "beta": 0.537,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Laurus Labs Ltd.",
@@ -8948,7 +8920,7 @@
         "pct_from_high": -10.61
       },
       "beta": 0.424,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Laxmi Organic Industries Ltd.",
@@ -8968,7 +8940,7 @@
         "pct_from_high": -51.51
       },
       "beta": 0.917,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Le Travenues Technology Ltd.",
@@ -8988,7 +8960,7 @@
         "pct_from_high": -45.85
       },
       "beta": 0.628,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Leela Palaces Hotels & Resorts Ltd.",
@@ -9028,7 +9000,7 @@
         "pct_from_high": -41.03
       },
       "beta": 0.438,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Lenskart Solutions Ltd.",
@@ -9068,7 +9040,7 @@
         "pct_from_high": -20.25
       },
       "beta": 0.516,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Linde India Ltd.",
@@ -9108,7 +9080,7 @@
         "pct_from_high": -52.09
       },
       "beta": 1.782,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Lloyds Enterprises Ltd.",
@@ -9128,7 +9100,7 @@
         "pct_from_high": -54.0
       },
       "beta": 1.82,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Lloyds Metals And Energy Ltd.",
@@ -9148,7 +9120,7 @@
         "pct_from_high": -19.55
       },
       "beta": 0.64,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Lodha Developers Ltd.",
@@ -9168,7 +9140,7 @@
         "pct_from_high": -53.66
       },
       "beta": 0.661,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Lumax Auto Technologies Ltd.",
@@ -9228,7 +9200,7 @@
         "pct_from_high": -35.69
       },
       "beta": 0.785,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "MOIL Ltd.",
@@ -9248,7 +9220,7 @@
         "pct_from_high": -28.98
       },
       "beta": 0.529,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "MRF Ltd.",
@@ -9268,7 +9240,7 @@
         "pct_from_high": -20.16
       },
       "beta": 0.768,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "MSTC Ltd.",
@@ -9288,7 +9260,7 @@
         "pct_from_high": -32.44
       },
       "beta": 0.613,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "MTAR Technologies Ltd.",
@@ -9328,7 +9300,7 @@
         "pct_from_high": -37.58
       },
       "beta": 0.279,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Maharashtra Scooters Ltd.",
@@ -9348,7 +9320,7 @@
         "pct_from_high": -34.55
       },
       "beta": 0.467,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Maharashtra Seamless Ltd.",
@@ -9368,7 +9340,7 @@
         "pct_from_high": -25.06
       },
       "beta": 0.437,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mahindra & Mahindra Financial Services Ltd.",
@@ -9388,7 +9360,7 @@
         "pct_from_high": -25.33
       },
       "beta": 0.726,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mahindra & Mahindra Ltd.",
@@ -9408,7 +9380,7 @@
         "pct_from_high": -20.02
       },
       "beta": 0.608,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Manappuram Finance Ltd.",
@@ -9428,7 +9400,7 @@
         "pct_from_high": -20.48
       },
       "beta": 0.423,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mangalore Refinery & Petrochemicals Ltd.",
@@ -9468,7 +9440,7 @@
         "pct_from_high": -24.36
       },
       "beta": 0.662,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Manorama Industries Ltd.",
@@ -9528,7 +9500,7 @@
         "pct_from_high": -37.9
       },
       "beta": 0.685,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Maruti Suzuki India Ltd.",
@@ -9548,7 +9520,7 @@
         "pct_from_high": -28.35
       },
       "beta": 0.47,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mastek Ltd.",
@@ -9568,7 +9540,7 @@
         "pct_from_high": -47.11
       },
       "beta": 0.487,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Max Financial Services Ltd.",
@@ -9608,7 +9580,7 @@
         "pct_from_high": -24.99
       },
       "beta": 0.436,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mazagoan Dock Shipbuilders Ltd.",
@@ -9628,7 +9600,7 @@
         "pct_from_high": -41.98
       },
       "beta": 1.123,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Medplus Health Services Ltd.",
@@ -9657,12 +9629,8 @@
       "industry": "Consumer Services",
       "isin": "INE0VDM01015",
       "slope_data": null,
-      "high52_data": {
-        "current": 145.65,
-        "high52": 235.57,
-        "pct_from_high": -38.17
-      },
-      "beta": 0.557,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -9683,7 +9651,7 @@
         "pct_from_high": -22.8
       },
       "beta": 0.305,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Minda Corporation Ltd.",
@@ -9703,7 +9671,7 @@
         "pct_from_high": -12.9
       },
       "beta": 0.646,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mishra Dhatu Nigam Ltd.",
@@ -9743,7 +9711,7 @@
         "pct_from_high": -27.19
       },
       "beta": 0.494,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Motilal Oswal Financial Services Ltd.",
@@ -9763,7 +9731,7 @@
         "pct_from_high": -38.23
       },
       "beta": 0.613,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "MphasiS Ltd.",
@@ -9783,7 +9751,7 @@
         "pct_from_high": -29.45
       },
       "beta": 0.314,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Mrs. Bectors Food Specialities Ltd.",
@@ -9803,7 +9771,7 @@
         "pct_from_high": -44.17
       },
       "beta": 0.8,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Multi Commodity Exchange of India Ltd.",
@@ -9843,7 +9811,7 @@
         "pct_from_high": -20.07
       },
       "beta": 0.533,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NATCO Pharma Ltd.",
@@ -9883,7 +9851,7 @@
         "pct_from_high": -37.02
       },
       "beta": 0.793,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NCC Ltd.",
@@ -9903,7 +9871,7 @@
         "pct_from_high": -42.34
       },
       "beta": 0.396,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NEOGEN CHEMICALS LTD.",
@@ -9943,7 +9911,7 @@
         "pct_from_high": -35.28
       },
       "beta": 1.079,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NHPC Ltd.",
@@ -9963,7 +9931,7 @@
         "pct_from_high": -13.73
       },
       "beta": 0.322,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NLC India Ltd.",
@@ -10023,7 +9991,7 @@
         "pct_from_high": -27.56
       },
       "beta": 0.292,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NTPC Green Energy Ltd.",
@@ -10043,7 +10011,7 @@
         "pct_from_high": -18.51
       },
       "beta": 0.318,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "NTPC Ltd.",
@@ -10083,7 +10051,7 @@
         "pct_from_high": -27.56
       },
       "beta": 0.458,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "National Aluminium Co. Ltd.",
@@ -10123,7 +10091,7 @@
         "pct_from_high": -36.07
       },
       "beta": 0.715,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nava Ltd.",
@@ -10203,7 +10171,7 @@
         "pct_from_high": -9.96
       },
       "beta": 0.36,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Netweb Technologies India Ltd.",
@@ -10243,7 +10211,7 @@
         "pct_from_high": -54.48
       },
       "beta": 0.881,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Neuland Laboratories Ltd.",
@@ -10263,7 +10231,7 @@
         "pct_from_high": -33.38
       },
       "beta": 0.273,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Newgen Software Technologies Ltd.",
@@ -10283,7 +10251,7 @@
         "pct_from_high": -68.22
       },
       "beta": 0.617,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nippon Life India Asset Management Ltd.",
@@ -10323,7 +10291,7 @@
         "pct_from_high": -24.28
       },
       "beta": 0.349,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nuvama Wealth Management Ltd.",
@@ -10343,7 +10311,7 @@
         "pct_from_high": -24.33
       },
       "beta": 1.199,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Nuvoco Vistas Corporation Ltd.",
@@ -10363,7 +10331,7 @@
         "pct_from_high": -36.35
       },
       "beta": 0.702,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Oberoi Realty Ltd.",
@@ -10383,7 +10351,7 @@
         "pct_from_high": -26.48
       },
       "beta": 0.358,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Oil & Natural Gas Corporation Ltd.",
@@ -10443,7 +10411,7 @@
         "pct_from_high": -64.82
       },
       "beta": 0.328,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Olectra Greentech Ltd.",
@@ -10463,7 +10431,7 @@
         "pct_from_high": -38.61
       },
       "beta": 0.945,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "One 97 Communications Ltd.",
@@ -10483,7 +10451,7 @@
         "pct_from_high": -26.25
       },
       "beta": 0.655,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Onesource Specialty Pharma Ltd.",
@@ -10503,7 +10471,7 @@
         "pct_from_high": -34.16
       },
       "beta": -0.166,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Optiemus Infracom Ltd.",
@@ -10523,7 +10491,7 @@
         "pct_from_high": -54.35
       },
       "beta": 1.681,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Oracle Financial Services Software Ltd.",
@@ -10543,7 +10511,7 @@
         "pct_from_high": -27.51
       },
       "beta": 0.188,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Orient Cement Ltd.",
@@ -10563,7 +10531,7 @@
         "pct_from_high": -64.86
       },
       "beta": 0.877,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Orkla India Ltd.",
@@ -10583,7 +10551,7 @@
         "pct_from_high": -17.09
       },
       "beta": 0.05,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Oswal Pumps Ltd.",
@@ -10603,7 +10571,7 @@
         "pct_from_high": -65.29
       },
       "beta": 1.316,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "P N Gadgil Jewellers Ltd.",
@@ -10623,7 +10591,7 @@
         "pct_from_high": -19.42
       },
       "beta": 0.434,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PB Fintech Ltd.",
@@ -10643,7 +10611,7 @@
         "pct_from_high": -25.45
       },
       "beta": 1.128,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PC Jeweller Ltd.",
@@ -10663,7 +10631,7 @@
         "pct_from_high": -57.45
       },
       "beta": 0.096,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PCBL Chemical Ltd.",
@@ -10683,7 +10651,7 @@
         "pct_from_high": -40.33
       },
       "beta": 0.956,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PG Electroplast Ltd.",
@@ -10703,7 +10671,7 @@
         "pct_from_high": -49.59
       },
       "beta": 0.648,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PI Industries Ltd.",
@@ -10723,7 +10691,7 @@
         "pct_from_high": -34.73
       },
       "beta": 0.233,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PNB Housing Finance Ltd.",
@@ -10743,7 +10711,7 @@
         "pct_from_high": -29.08
       },
       "beta": 0.649,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PNC Infratech Ltd.",
@@ -10763,7 +10731,7 @@
         "pct_from_high": -46.82
       },
       "beta": 0.583,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PTC India Ltd.",
@@ -10803,7 +10771,7 @@
         "pct_from_high": -18.64
       },
       "beta": 0.721,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "PVR INOX Ltd.",
@@ -10823,7 +10791,7 @@
         "pct_from_high": -24.42
       },
       "beta": 0.995,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Page Industries Ltd.",
@@ -10843,7 +10811,7 @@
         "pct_from_high": -35.01
       },
       "beta": 0.964,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Paradeep Phosphates Ltd.",
@@ -10863,7 +10831,7 @@
         "pct_from_high": -51.56
       },
       "beta": -0.04,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Paras Defence and Space Technologies Ltd.",
@@ -10883,7 +10851,7 @@
         "pct_from_high": -32.91
       },
       "beta": 1.098,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Park Medi World Ltd.",
@@ -10892,12 +10860,8 @@
       "industry": "Healthcare",
       "isin": "INE119201023",
       "slope_data": null,
-      "high52_data": {
-        "current": 200.0,
-        "high52": 205.36,
-        "pct_from_high": -2.61
-      },
-      "beta": 1.058,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -10918,7 +10882,7 @@
         "pct_from_high": -28.27
       },
       "beta": 0.474,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Pearl Global Industries Ltd.",
@@ -10938,7 +10902,7 @@
         "pct_from_high": -27.4
       },
       "beta": 0.643,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Persistent Systems Ltd.",
@@ -10958,7 +10922,7 @@
         "pct_from_high": -25.08
       },
       "beta": 0.192,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Petronet LNG Ltd.",
@@ -10998,7 +10962,7 @@
         "pct_from_high": -18.63
       },
       "beta": 0.513,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Phoenix Mills Ltd.",
@@ -11018,7 +10982,7 @@
         "pct_from_high": -23.04
       },
       "beta": 1.102,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Physicswallah Ltd.",
@@ -11027,12 +10991,8 @@
       "industry": "Consumer Services",
       "isin": "INE0LP301011",
       "slope_data": null,
-      "high52_data": {
-        "current": 89.5,
-        "high52": 155.24,
-        "pct_from_high": -42.35
-      },
-      "beta": 0.47,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -11053,7 +11013,7 @@
         "pct_from_high": -29.64
       },
       "beta": 0.799,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Pidilite Industries Ltd.",
@@ -11073,7 +11033,7 @@
         "pct_from_high": -15.9
       },
       "beta": 0.489,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Pine Labs Ltd.",
@@ -11093,7 +11053,7 @@
         "pct_from_high": -35.68
       },
       "beta": 0.686,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Piramal Finance Ltd.",
@@ -11133,7 +11093,7 @@
         "pct_from_high": -37.57
       },
       "beta": 0.371,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Poly Medicure Ltd.",
@@ -11153,7 +11113,7 @@
         "pct_from_high": -56.54
       },
       "beta": 0.579,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Polycab India Ltd.",
@@ -11193,7 +11153,7 @@
         "pct_from_high": -29.12
       },
       "beta": 0.742,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Power Finance Corporation Ltd.",
@@ -11253,7 +11213,7 @@
         "pct_from_high": -45.65
       },
       "beta": 1.633,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Praj Industries Ltd.",
@@ -11273,7 +11233,7 @@
         "pct_from_high": -44.84
       },
       "beta": 0.456,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Premier Energies Ltd.",
@@ -11293,7 +11253,7 @@
         "pct_from_high": -20.56
       },
       "beta": 0.663,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Prestige Estates Projects Ltd.",
@@ -11313,7 +11273,7 @@
         "pct_from_high": -34.99
       },
       "beta": 0.553,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Pricol Ltd.",
@@ -11333,7 +11293,7 @@
         "pct_from_high": -23.09
       },
       "beta": 1.173,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Prime Focus Ltd",
@@ -11373,7 +11333,7 @@
         "pct_from_high": -25.49
       },
       "beta": 0.888,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Privi Speciality Chemicals Ltd.",
@@ -11393,7 +11353,7 @@
         "pct_from_high": -12.79
       },
       "beta": 0.699,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Prudent Corporate Advisory Services Ltd.",
@@ -11413,7 +11373,7 @@
         "pct_from_high": -27.68
       },
       "beta": 0.786,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Punjab National Bank",
@@ -11433,7 +11393,7 @@
         "pct_from_high": -20.57
       },
       "beta": 0.588,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Puravankara Ltd.",
@@ -11453,7 +11413,7 @@
         "pct_from_high": -47.17
       },
       "beta": 0.692,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Quality Power Electrical Equipments Ltd.",
@@ -11493,7 +11453,7 @@
         "pct_from_high": -73.46
       },
       "beta": -0.102,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "R R Kabel Ltd.",
@@ -11533,7 +11493,7 @@
         "pct_from_high": -11.1
       },
       "beta": 0.532,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "REC Ltd.",
@@ -11553,7 +11513,7 @@
         "pct_from_high": -24.16
       },
       "beta": 0.601,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "RHI MAGNESITA INDIA LTD.",
@@ -11573,7 +11533,7 @@
         "pct_from_high": -37.07
       },
       "beta": 0.765,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "RITES Ltd.",
@@ -11593,7 +11553,7 @@
         "pct_from_high": -38.52
       },
       "beta": 0.674,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Radico Khaitan Ltd",
@@ -11613,7 +11573,7 @@
         "pct_from_high": -21.8
       },
       "beta": 0.561,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Rail Vikas Nigam Ltd.",
@@ -11633,7 +11593,7 @@
         "pct_from_high": -38.33
       },
       "beta": 0.637,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Railtel Corporation Of India Ltd.",
@@ -11653,7 +11613,7 @@
         "pct_from_high": -43.02
       },
       "beta": 0.624,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Rain Industries Ltd",
@@ -11693,7 +11653,7 @@
         "pct_from_high": -28.3
       },
       "beta": 0.412,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Rallis India Ltd.",
@@ -11713,7 +11673,7 @@
         "pct_from_high": -39.69
       },
       "beta": 0.637,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ramkrishna Forgings Ltd.",
@@ -11753,7 +11713,7 @@
         "pct_from_high": -30.55
       },
       "beta": 0.75,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Rategain Travel Technologies Ltd.",
@@ -11773,7 +11733,7 @@
         "pct_from_high": -35.11
       },
       "beta": 1.063,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "RattanIndia Enterprises Ltd.",
@@ -11793,7 +11753,7 @@
         "pct_from_high": -59.16
       },
       "beta": 1.005,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "RattanIndia Power Ltd.",
@@ -11813,7 +11773,7 @@
         "pct_from_high": -50.96
       },
       "beta": 0.593,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Raymond Lifestyle Ltd.",
@@ -11833,7 +11793,7 @@
         "pct_from_high": -41.72
       },
       "beta": 0.681,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Redington Ltd.",
@@ -11853,7 +11813,7 @@
         "pct_from_high": -37.77
       },
       "beta": 0.596,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Redtape Ltd.",
@@ -11873,7 +11833,7 @@
         "pct_from_high": -31.08
       },
       "beta": 0.76,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Refex Industries Ltd.",
@@ -11893,7 +11853,7 @@
         "pct_from_high": -62.02
       },
       "beta": 1.024,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Relaxo Footwears Ltd.",
@@ -11913,7 +11873,7 @@
         "pct_from_high": -51.56
       },
       "beta": 0.438,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Reliance Industries Ltd.",
@@ -11933,7 +11893,7 @@
         "pct_from_high": -15.34
       },
       "beta": 0.308,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Reliance Power Ltd.",
@@ -11953,7 +11913,7 @@
         "pct_from_high": -70.04
       },
       "beta": 0.825,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Religare Enterprises Ltd.",
@@ -11973,7 +11933,7 @@
         "pct_from_high": -23.97
       },
       "beta": 1.098,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Restaurant Brands Asia Ltd.",
@@ -11993,7 +11953,7 @@
         "pct_from_high": -32.51
       },
       "beta": 0.07,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Route Mobile Ltd.",
@@ -12013,7 +11973,7 @@
         "pct_from_high": -58.81
       },
       "beta": 0.581,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Rubicon Research Ltd.",
@@ -12053,7 +12013,7 @@
         "pct_from_high": -29.86
       },
       "beta": 0.888,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "SBI Cards and Payment Services Ltd.",
@@ -12073,7 +12033,7 @@
         "pct_from_high": -33.5
       },
       "beta": 0.571,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "SBI Life Insurance Company Ltd.",
@@ -12093,7 +12053,7 @@
         "pct_from_high": -12.77
       },
       "beta": 0.226,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "SJVN Ltd.",
@@ -12113,7 +12073,7 @@
         "pct_from_high": -35.88
       },
       "beta": 0.656,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "SKF India (Industrial) Ltd.",
@@ -12122,12 +12082,8 @@
       "industry": "Capital Goods",
       "isin": "INE2J8701016",
       "slope_data": null,
-      "high52_data": {
-        "current": 2119.0,
-        "high52": 2720.9,
-        "pct_from_high": -22.12
-      },
-      "beta": 0.503,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -12148,7 +12104,7 @@
         "pct_from_high": -69.88
       },
       "beta": 0.427,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "SKY GOLD AND DIAMONDS Ltd.",
@@ -12208,7 +12164,7 @@
         "pct_from_high": -23.85
       },
       "beta": 0.42,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Saatvik Green Energy Ltd.",
@@ -12228,7 +12184,7 @@
         "pct_from_high": -30.47
       },
       "beta": 0.844,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Safari Industries (India) Ltd.",
@@ -12248,7 +12204,7 @@
         "pct_from_high": -42.14
       },
       "beta": 0.436,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sagility Ltd.",
@@ -12268,7 +12224,7 @@
         "pct_from_high": -23.43
       },
       "beta": 0.577,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sai Life Sciences Ltd.",
@@ -12308,7 +12264,7 @@
         "pct_from_high": -46.08
       },
       "beta": 0.756,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sammaan Capital Ltd.",
@@ -12328,7 +12284,7 @@
         "pct_from_high": -21.89
       },
       "beta": 0.725,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Samvardhana Motherson International Ltd.",
@@ -12368,7 +12324,7 @@
         "pct_from_high": -32.39
       },
       "beta": 1.037,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sansera Engineering Ltd.",
@@ -12408,7 +12364,7 @@
         "pct_from_high": -53.74
       },
       "beta": 0.626,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sarda Energy and Minerals Ltd.",
@@ -12448,7 +12404,7 @@
         "pct_from_high": -42.41
       },
       "beta": 0.636,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Schaeffler India Ltd.",
@@ -12488,7 +12444,7 @@
         "pct_from_high": -27.52
       },
       "beta": 0.607,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Seshaasai Technologies Ltd.",
@@ -12508,7 +12464,7 @@
         "pct_from_high": -48.76
       },
       "beta": 0.432,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Shaily Engineering Plastics Ltd.",
@@ -12528,7 +12484,7 @@
         "pct_from_high": -21.55
       },
       "beta": 0.923,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Shakti Pumps (India) Ltd.",
@@ -12548,7 +12504,7 @@
         "pct_from_high": -52.46
       },
       "beta": 0.659,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sharda Cropchem Ltd.",
@@ -12588,7 +12544,7 @@
         "pct_from_high": -39.75
       },
       "beta": 0.591,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sheela Foam Ltd.",
@@ -12608,7 +12564,7 @@
         "pct_from_high": -35.32
       },
       "beta": 0.45,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Shilpa Medicare Ltd.",
@@ -12628,7 +12584,7 @@
         "pct_from_high": -28.99
       },
       "beta": 0.392,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Shipping Corporation of India Ltd.",
@@ -12668,7 +12624,7 @@
         "pct_from_high": -26.5
       },
       "beta": 0.48,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Shree Renuka Sugars Ltd.",
@@ -12688,7 +12644,7 @@
         "pct_from_high": -23.57
       },
       "beta": 0.377,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Shriram Finance Ltd.",
@@ -12748,7 +12704,7 @@
         "pct_from_high": -22.18
       },
       "beta": 0.51,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Siemens Energy India Ltd.",
@@ -12768,7 +12724,7 @@
         "pct_from_high": -26.98
       },
       "beta": 0.613,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Siemens Ltd.",
@@ -12788,7 +12744,7 @@
         "pct_from_high": -10.81
       },
       "beta": 0.893,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Signatureglobal (India) Ltd.",
@@ -12808,7 +12764,7 @@
         "pct_from_high": -42.89
       },
       "beta": 0.988,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Skipper Ltd.",
@@ -12828,7 +12784,7 @@
         "pct_from_high": -38.86
       },
       "beta": 0.583,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Smartworks Coworking Spaces Ltd.",
@@ -12848,7 +12804,7 @@
         "pct_from_high": -36.5
       },
       "beta": 0.732,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sobha Ltd.",
@@ -12868,7 +12824,7 @@
         "pct_from_high": -27.85
       },
       "beta": 1.257,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Solar Industries India Ltd.",
@@ -12928,7 +12884,7 @@
         "pct_from_high": -49.13
       },
       "beta": 0.83,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "South Indian Bank Ltd.",
@@ -12948,7 +12904,7 @@
         "pct_from_high": -22.08
       },
       "beta": 0.749,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sri Lotus Developers and Realty Ltd.",
@@ -12968,7 +12924,7 @@
         "pct_from_high": -47.76
       },
       "beta": 1.257,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Star Cement Ltd.",
@@ -12988,7 +12944,7 @@
         "pct_from_high": -30.49
       },
       "beta": 0.441,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Star Health and Allied Insurance Company Ltd.",
@@ -13008,7 +12964,7 @@
         "pct_from_high": -12.42
       },
       "beta": 0.436,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "State Bank of India",
@@ -13068,7 +13024,7 @@
         "pct_from_high": -53.01
       },
       "beta": 1.142,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sterlite Technologies Ltd.",
@@ -13108,7 +13064,7 @@
         "pct_from_high": -4.55
       },
       "beta": 0.176,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Styrenix Performance Materials Ltd.",
@@ -13128,7 +13084,7 @@
         "pct_from_high": -46.08
       },
       "beta": 0.374,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Subros Ltd.",
@@ -13148,7 +13104,7 @@
         "pct_from_high": -45.34
       },
       "beta": 1.512,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sudarshan Chemical Industries Ltd.",
@@ -13168,7 +13124,7 @@
         "pct_from_high": -49.82
       },
       "beta": 0.517,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sudeep Pharma Ltd.",
@@ -13177,12 +13133,8 @@
       "industry": "Healthcare",
       "isin": "INE0QPI01025",
       "slope_data": null,
-      "high52_data": {
-        "current": 606.95,
-        "high52": 774.15,
-        "pct_from_high": -21.6
-      },
-      "beta": 0.995,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -13203,7 +13155,7 @@
         "pct_from_high": -42.56
       },
       "beta": 0.496,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sun Pharma Advanced Research Company Ltd.",
@@ -13223,7 +13175,7 @@
         "pct_from_high": -39.11
       },
       "beta": 0.906,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sun Pharmaceutical Industries Ltd.",
@@ -13243,7 +13195,7 @@
         "pct_from_high": -1.77
       },
       "beta": 0.226,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Sun TV Network Ltd.",
@@ -13303,7 +13255,7 @@
         "pct_from_high": -38.23
       },
       "beta": 0.884,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Supreme Industries Ltd.",
@@ -13363,7 +13315,7 @@
         "pct_from_high": -26.8
       },
       "beta": 1.343,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Surya Roshni Ltd.",
@@ -13383,7 +13335,7 @@
         "pct_from_high": -42.28
       },
       "beta": 0.475,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Suzlon Energy Ltd.",
@@ -13403,7 +13355,7 @@
         "pct_from_high": -42.89
       },
       "beta": 0.721,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Swan Corp Ltd.",
@@ -13423,7 +13375,7 @@
         "pct_from_high": -40.6
       },
       "beta": 0.689,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Swiggy Ltd.",
@@ -13443,7 +13395,7 @@
         "pct_from_high": -41.42
       },
       "beta": 0.177,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Syngene International Ltd.",
@@ -13463,7 +13415,7 @@
         "pct_from_high": -44.42
       },
       "beta": 0.455,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Syrma SGS Technology Ltd.",
@@ -13503,7 +13455,7 @@
         "pct_from_high": -41.31
       },
       "beta": 0.497,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "TBO Tek Ltd.",
@@ -13523,7 +13475,7 @@
         "pct_from_high": -36.17
       },
       "beta": 0.385,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "TD Power Systems Ltd.",
@@ -13563,7 +13515,7 @@
         "pct_from_high": -48.39
       },
       "beta": 1.64,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "TVS Motor Company Ltd.",
@@ -13623,7 +13575,7 @@
         "pct_from_high": -46.61
       },
       "beta": 0.806,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Capital Ltd.",
@@ -13643,7 +13595,7 @@
         "pct_from_high": -11.42
       },
       "beta": 0.829,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Chemicals Ltd.",
@@ -13663,7 +13615,7 @@
         "pct_from_high": -39.78
       },
       "beta": 0.283,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Communications Ltd.",
@@ -13683,7 +13635,7 @@
         "pct_from_high": -29.07
       },
       "beta": 0.406,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Consultancy Services Ltd.",
@@ -13703,7 +13655,7 @@
         "pct_from_high": -32.41
       },
       "beta": 0.176,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Consumer Products Ltd.",
@@ -13723,7 +13675,7 @@
         "pct_from_high": -13.53
       },
       "beta": 0.222,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Elxsi Ltd.",
@@ -13743,7 +13695,7 @@
         "pct_from_high": -37.24
       },
       "beta": 0.516,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Investment Corporation Ltd.",
@@ -13763,7 +13715,7 @@
         "pct_from_high": -46.36
       },
       "beta": 0.425,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Motors Ltd.",
@@ -13803,7 +13755,7 @@
         "pct_from_high": -27.29
       },
       "beta": 1.378,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Power Co. Ltd.",
@@ -13823,7 +13775,7 @@
         "pct_from_high": -6.99
       },
       "beta": 0.322,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Steel Ltd.",
@@ -13863,7 +13815,7 @@
         "pct_from_high": -30.44
       },
       "beta": 1.201,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tata Teleservices (Maharashtra) Ltd.",
@@ -13883,7 +13835,7 @@
         "pct_from_high": -56.92
       },
       "beta": 0.539,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tech Mahindra Ltd.",
@@ -13903,7 +13855,7 @@
         "pct_from_high": -21.31
       },
       "beta": 0.232,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Techno Electric & Engineering Company Ltd.",
@@ -13923,7 +13875,7 @@
         "pct_from_high": -36.54
       },
       "beta": 0.652,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tega Industries Ltd.",
@@ -13943,7 +13895,7 @@
         "pct_from_high": -19.38
       },
       "beta": 0.441,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tejas Networks Ltd.",
@@ -13963,7 +13915,7 @@
         "pct_from_high": -53.65
       },
       "beta": 0.902,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tenneco Clean Air India Ltd.",
@@ -13972,12 +13924,8 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE19RI01016",
       "slope_data": null,
-      "high52_data": {
-        "current": 531.85,
-        "high52": 592.65,
-        "pct_from_high": -10.26
-      },
-      "beta": 0.993,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -13998,7 +13946,7 @@
         "pct_from_high": -53.03
       },
       "beta": 0.644,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Thangamayil Jewellery Ltd.",
@@ -14038,7 +13986,7 @@
         "pct_from_high": -52.53
       },
       "beta": 0.635,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "The New India Assurance Company Ltd.",
@@ -14058,7 +14006,7 @@
         "pct_from_high": -39.85
       },
       "beta": 0.716,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "The Ramco Cements Ltd.",
@@ -14118,7 +14066,7 @@
         "pct_from_high": -49.45
       },
       "beta": 0.467,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Thyrocare Technologies Ltd.",
@@ -14138,7 +14086,7 @@
         "pct_from_high": -31.92
       },
       "beta": 0.44,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tilaknagar Industries Ltd.",
@@ -14158,7 +14106,7 @@
         "pct_from_high": -18.72
       },
       "beta": 0.68,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Time Technoplast Ltd.",
@@ -14178,7 +14126,7 @@
         "pct_from_high": -31.71
       },
       "beta": 0.629,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Timken India Ltd.",
@@ -14218,7 +14166,7 @@
         "pct_from_high": -27.22
       },
       "beta": 0.342,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Titagarh Rail Systems Ltd.",
@@ -14238,7 +14186,7 @@
         "pct_from_high": -38.13
       },
       "beta": 0.77,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Titan Company Ltd.",
@@ -14338,7 +14286,7 @@
         "pct_from_high": -40.59
       },
       "beta": 0.697,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Travel Food Services Ltd.",
@@ -14358,7 +14306,7 @@
         "pct_from_high": -15.03
       },
       "beta": 0.73,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Trent Ltd.",
@@ -14378,7 +14326,7 @@
         "pct_from_high": -45.37
       },
       "beta": 0.643,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Trident Ltd.",
@@ -14398,7 +14346,7 @@
         "pct_from_high": -27.88
       },
       "beta": 0.652,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Triveni Engineering & Industries Ltd.",
@@ -14438,7 +14386,7 @@
         "pct_from_high": -31.75
       },
       "beta": 0.387,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Tube Investments of India Ltd.",
@@ -14458,7 +14406,7 @@
         "pct_from_high": -24.55
       },
       "beta": 0.571,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "UCO Bank",
@@ -14478,7 +14426,7 @@
         "pct_from_high": -37.38
       },
       "beta": 0.712,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "UNO Minda Ltd.",
@@ -14498,7 +14446,7 @@
         "pct_from_high": -23.19
       },
       "beta": 0.56,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "UPL Ltd.",
@@ -14518,7 +14466,7 @@
         "pct_from_high": -26.01
       },
       "beta": 0.367,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "UTI Asset Management Company Ltd.",
@@ -14538,7 +14486,7 @@
         "pct_from_high": -34.37
       },
       "beta": 0.767,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Ujjivan Small Finance Bank Ltd.",
@@ -14618,7 +14566,7 @@
         "pct_from_high": -30.01
       },
       "beta": 0.204,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "United Spirits Ltd.",
@@ -14638,7 +14586,7 @@
         "pct_from_high": -21.3
       },
       "beta": 0.731,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Urban Company Ltd.",
@@ -14658,7 +14606,7 @@
         "pct_from_high": -38.65
       },
       "beta": 0.766,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Usha Martin Ltd.",
@@ -14678,7 +14626,7 @@
         "pct_from_high": -15.28
       },
       "beta": 0.499,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "V-Guard Industries Ltd.",
@@ -14698,7 +14646,7 @@
         "pct_from_high": -21.73
       },
       "beta": 0.312,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "V-Mart Retail Ltd.",
@@ -14718,7 +14666,7 @@
         "pct_from_high": -46.73
       },
       "beta": 0.553,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "V.I.P. Industries Ltd.",
@@ -14738,7 +14686,7 @@
         "pct_from_high": -33.92
       },
       "beta": 1.073,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "V2 Retail Ltd.",
@@ -14758,7 +14706,7 @@
         "pct_from_high": -20.94
       },
       "beta": 0.606,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Va Tech Wabag Ltd.",
@@ -14778,7 +14726,7 @@
         "pct_from_high": -27.0
       },
       "beta": 0.669,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Vaibhav Global Ltd.",
@@ -14798,7 +14746,7 @@
         "pct_from_high": -33.37
       },
       "beta": 0.806,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Valor Estate Ltd.",
@@ -14818,7 +14766,7 @@
         "pct_from_high": -63.05
       },
       "beta": 0.694,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Vardhman Textiles Ltd.",
@@ -14858,7 +14806,7 @@
         "pct_from_high": -27.22
       },
       "beta": 0.704,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Varun Beverages Ltd.",
@@ -14878,7 +14826,7 @@
         "pct_from_high": -29.94
       },
       "beta": 0.229,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Vedant Fashions Ltd.",
@@ -14898,7 +14846,7 @@
         "pct_from_high": -57.24
       },
       "beta": 0.536,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Vedanta Ltd.",
@@ -14938,7 +14886,7 @@
         "pct_from_high": -23.78
       },
       "beta": 0.736,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Vikram Solar Ltd.",
@@ -14958,7 +14906,7 @@
         "pct_from_high": -49.75
       },
       "beta": 1.026,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Vishal Mega Mart Ltd.",
@@ -14978,7 +14926,7 @@
         "pct_from_high": -30.56
       },
       "beta": 0.718,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Viyash Scientific Ltd.",
@@ -14987,12 +14935,8 @@
       "industry": "Healthcare",
       "isin": "INE807F01027",
       "slope_data": null,
-      "high52_data": {
-        "current": 187.5,
-        "high52": 225.49,
-        "pct_from_high": -16.85
-      },
-      "beta": 1.324,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -15013,7 +14957,7 @@
         "pct_from_high": -26.29
       },
       "beta": 0.621,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Voltamp Transformers Ltd",
@@ -15073,7 +15017,7 @@
         "pct_from_high": -17.26
       },
       "beta": 0.708,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Waaree Renewable Technologies Ltd.",
@@ -15093,7 +15037,7 @@
         "pct_from_high": -38.98
       },
       "beta": 1.531,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Wakefit Innovations Ltd.",
@@ -15102,12 +15046,8 @@
       "industry": "Consumer Durables",
       "isin": "INE0E7301029",
       "slope_data": null,
-      "high52_data": {
-        "current": 153.3,
-        "high52": 215.8,
-        "pct_from_high": -28.96
-      },
-      "beta": 1.158,
+      "high52_data": null,
+      "beta": null,
       "signal_color": "gray"
     },
     {
@@ -15128,7 +15068,7 @@
         "pct_from_high": -30.44
       },
       "beta": 1.11,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Websol Energy System Ltd.",
@@ -15148,7 +15088,7 @@
         "pct_from_high": -54.83
       },
       "beta": 0.868,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Welspun Corp Ltd.",
@@ -15168,7 +15108,7 @@
         "pct_from_high": -15.37
       },
       "beta": 0.691,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Welspun Enterprises Ltd.",
@@ -15188,7 +15128,7 @@
         "pct_from_high": -24.6
       },
       "beta": 0.576,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Welspun Living Ltd.",
@@ -15208,7 +15148,7 @@
         "pct_from_high": -22.49
       },
       "beta": 0.623,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Westlife Foodworld Ltd.",
@@ -15228,7 +15168,7 @@
         "pct_from_high": -45.18
       },
       "beta": 0.524,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Whirlpool of India Ltd.",
@@ -15248,7 +15188,7 @@
         "pct_from_high": -43.82
       },
       "beta": 0.382,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Wipro Ltd.",
@@ -15268,7 +15208,7 @@
         "pct_from_high": -27.92
       },
       "beta": 0.027,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Wockhardt Ltd.",
@@ -15288,7 +15228,7 @@
         "pct_from_high": -35.04
       },
       "beta": 0.519,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Yatharth Hospital & Trauma Care Services Ltd.",
@@ -15308,7 +15248,7 @@
         "pct_from_high": -22.79
       },
       "beta": 0.316,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Yes Bank Ltd.",
@@ -15328,7 +15268,7 @@
         "pct_from_high": -24.59
       },
       "beta": 0.441,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "ZF Commercial Vehicle Control Systems India Ltd.",
@@ -15368,7 +15308,7 @@
         "pct_from_high": -56.22
       },
       "beta": 1.82,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Zee Entertainment Enterprises Ltd.",
@@ -15388,7 +15328,7 @@
         "pct_from_high": -49.73
       },
       "beta": 0.689,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Zen Technologies Ltd.",
@@ -15408,7 +15348,7 @@
         "pct_from_high": -39.09
       },
       "beta": 0.443,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Zensar Technolgies Ltd.",
@@ -15428,7 +15368,7 @@
         "pct_from_high": -39.24
       },
       "beta": 0.457,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Zydus Lifesciences Ltd.",
@@ -15448,7 +15388,7 @@
         "pct_from_high": -14.42
       },
       "beta": 0.245,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Zydus Wellness Ltd.",
@@ -15468,7 +15408,7 @@
         "pct_from_high": -14.91
       },
       "beta": 0.338,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "eClerx Services Ltd.",
@@ -15488,7 +15428,7 @@
         "pct_from_high": -40.86
       },
       "beta": 0.713,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     }
   ]
 }
