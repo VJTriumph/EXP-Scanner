@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-28 18:08 UTC",
+    "generated_at": "2026-03-30 05:41 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -6978,17 +6978,17 @@
       "industry": "Construction",
       "isin": "INE821I01022",
       "slope_data": {
-        "slope": -12.9221,
-        "raw_slope": -56.5911,
-        "r2": 0.2283,
+        "slope": -1.4922,
+        "raw_slope": -9.8922,
+        "r2": 0.1508,
         "above_threshold": true
       },
       "high52_data": {
         "current": 20.47,
-        "high52": 52.9,
-        "pct_from_high": -61.32
+        "high52": 26.32,
+        "pct_from_high": -22.25
       },
-      "beta": 2.932,
+      "beta": 1.022,
       "signal_color": "gray"
     },
     {
@@ -7465,7 +7465,7 @@
       },
       "high52_data": {
         "current": 991.4,
-        "high52": 1525.07,
+        "high52": 1525.06,
         "pct_from_high": -34.99
       },
       "beta": 1.139,
