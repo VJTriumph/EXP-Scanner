@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-31 05:23 UTC",
+    "generated_at": "2026-03-31 14:53 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -6727,17 +6727,17 @@
       "industry": "Financial Services",
       "isin": "INE031A01017",
       "slope_data": {
-        "slope": -51.71,
-        "raw_slope": -59.8327,
-        "r2": 0.8642,
+        "slope": -51.6554,
+        "raw_slope": -59.7286,
+        "r2": 0.8648,
         "above_threshold": true
       },
       "high52_data": {
         "current": 159.58,
-        "high52": 242.66,
-        "pct_from_high": -34.24
+        "high52": 240.95,
+        "pct_from_high": -33.77
       },
-      "beta": 1.584,
+      "beta": 1.575,
       "signal_color": "bright_red"
     },
     {
@@ -6978,15 +6978,15 @@
       "industry": "Construction",
       "isin": "INE821I01022",
       "slope_data": {
-        "slope": -0.7662,
-        "raw_slope": -8.0057,
-        "r2": 0.0957,
+        "slope": -0.9194,
+        "raw_slope": -8.5387,
+        "r2": 0.1077,
         "above_threshold": true
       },
       "high52_data": {
         "current": 22.14,
-        "high52": 26.32,
-        "pct_from_high": -15.89
+        "high52": 26.45,
+        "pct_from_high": -16.3
       },
       "beta": 0.899,
       "signal_color": "gray"
@@ -13214,7 +13214,7 @@
       "isin": "INE424H01027",
       "slope_data": {
         "slope": 10.9311,
-        "raw_slope": 28.8446,
+        "raw_slope": 28.8447,
         "r2": 0.379,
         "above_threshold": true
       },
@@ -13533,17 +13533,17 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE494B01023",
       "slope_data": {
-        "slope": 0.01,
-        "raw_slope": 2.4603,
-        "r2": 0.0041,
+        "slope": 0.0108,
+        "raw_slope": 2.5263,
+        "r2": 0.0043,
         "above_threshold": true
       },
       "high52_data": {
         "current": 3363.8,
-        "high52": 3954.2,
-        "pct_from_high": -14.93
+        "high52": 3940.43,
+        "pct_from_high": -14.63
       },
-      "beta": 1.171,
+      "beta": 1.166,
       "signal_color": "gray"
     },
     {
@@ -14873,17 +14873,17 @@
       "industry": "Metals & Mining",
       "isin": "INE205A01025",
       "slope_data": {
-        "slope": 122.2222,
-        "raw_slope": 165.0443,
-        "r2": 0.7405,
+        "slope": 124.6632,
+        "raw_slope": 166.6519,
+        "r2": 0.748,
         "above_threshold": true
       },
       "high52_data": {
         "current": 654.8,
-        "high52": 766.35,
-        "pct_from_high": -14.56
+        "high52": 753.76,
+        "pct_from_high": -13.13
       },
-      "beta": 1.253,
+      "beta": 1.234,
       "signal_color": "bright_green"
     },
     {
