@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-31 14:53 UTC",
+    "generated_at": "2026-04-01 14:57 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -3375,13 +3375,13 @@
       "isin": "INE007A01025",
       "slope_data": {
         "slope": -3.022,
-        "raw_slope": -19.0543,
+        "raw_slope": -19.0544,
         "r2": 0.1586,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 3761.2,
-        "high52": 6018.72,
+        "current": 3733.2,
+        "high52": 5973.91,
         "pct_from_high": -37.51
       },
       "beta": 0.775,
@@ -9409,9 +9409,9 @@
       "industry": "Oil Gas & Consumable Fuels",
       "isin": "INE103A01014",
       "slope_data": {
-        "slope": 66.6313,
-        "raw_slope": 127.7234,
-        "r2": 0.5217,
+        "slope": 75.7993,
+        "raw_slope": 137.8124,
+        "r2": 0.55,
         "above_threshold": true
       },
       "high52_data": {
@@ -9419,7 +9419,7 @@
         "high52": 206.77,
         "pct_from_high": -13.02
       },
-      "beta": 1.137,
+      "beta": 1.118,
       "signal_color": "bright_green"
     },
     {
@@ -10807,7 +10807,7 @@
       },
       "high52_data": {
         "current": 31775.0,
-        "high52": 48937.42,
+        "high52": 48937.43,
         "pct_from_high": -35.07
       },
       "beta": 0.934,
@@ -13214,7 +13214,7 @@
       "isin": "INE424H01027",
       "slope_data": {
         "slope": 10.9311,
-        "raw_slope": 28.8447,
+        "raw_slope": 28.8446,
         "r2": 0.379,
         "above_threshold": true
       },
