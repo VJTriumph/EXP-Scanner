@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-07 05:44 UTC",
+    "generated_at": "2026-04-07 14:59 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -3393,9 +3393,18 @@
       "yahoo_symbol": "CSBBANK.NS",
       "industry": "Financial Services",
       "isin": "INE679A01013",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
+      "slope_data": {
+        "slope": -9.3812,
+        "raw_slope": -42.1168,
+        "r2": 0.2227,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 373.75,
+        "high52": 557.45,
+        "pct_from_high": -32.95
+      },
+      "beta": 1.183,
       "signal_color": "gray"
     },
     {
@@ -5215,9 +5224,18 @@
       "yahoo_symbol": "FEDERALBNK.NS",
       "industry": "Financial Services",
       "isin": "INE171A01029",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
+      "slope_data": {
+        "slope": 6.3205,
+        "raw_slope": 27.0552,
+        "r2": 0.2336,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 271.5,
+        "high52": 299.85,
+        "pct_from_high": -9.45
+      },
+      "beta": 0.848,
       "signal_color": "gray"
     },
     {
@@ -7465,7 +7483,7 @@
       },
       "high52_data": {
         "current": 994.3,
-        "high52": 1525.06,
+        "high52": 1525.07,
         "pct_from_high": -34.8
       },
       "beta": 1.12,
@@ -10807,7 +10825,7 @@
       },
       "high52_data": {
         "current": 34750.0,
-        "high52": 48937.42,
+        "high52": 48937.43,
         "pct_from_high": -28.99
       },
       "beta": 0.945,
@@ -11172,7 +11190,7 @@
       "isin": "INE134E01011",
       "slope_data": {
         "slope": 65.7973,
-        "raw_slope": 88.5568,
+        "raw_slope": 88.5567,
         "r2": 0.743,
         "above_threshold": true
       },
@@ -13872,9 +13890,18 @@
       "yahoo_symbol": "TECHNOE.NS",
       "industry": "Construction",
       "isin": "INE285K01026",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
+      "slope_data": {
+        "slope": -0.141,
+        "raw_slope": -8.246,
+        "r2": 0.0171,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 1060.65,
+        "high52": 1626.04,
+        "pct_from_high": -34.77
+      },
+      "beta": 1.49,
       "signal_color": "gray"
     },
     {
