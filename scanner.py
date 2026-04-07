@@ -17,7 +17,7 @@ INDICES_CSV   = os.path.join(DATA_DIR, "indices.csv")
 STOCKS_CSV    = os.path.join(DATA_DIR, "ind_niftytotalmarket_list.csv")
 OUTPUT_JSON   = os.path.join(DATA_DIR, "results.json")
 
-END_DATE   = datetime.utcnow().date()
+END_DATE   = datetime.utcnow().date() + timedelta(days=1)
 START_DATE = END_DATE - timedelta(days=900)
 
 # NSE index name map  (Yahoo .NS symbol → NSE index name for niftyindices API)
