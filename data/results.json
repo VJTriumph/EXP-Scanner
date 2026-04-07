@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-07 14:59 UTC",
+    "generated_at": "2026-04-07 16:59 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -7483,7 +7483,7 @@
       },
       "high52_data": {
         "current": 994.3,
-        "high52": 1525.07,
+        "high52": 1525.06,
         "pct_from_high": -34.8
       },
       "beta": 1.12,
@@ -10817,19 +10817,10 @@
       "yahoo_symbol": "PAGEIND.NS",
       "industry": "Textiles",
       "isin": "INE761H01022",
-      "slope_data": {
-        "slope": -34.6344,
-        "raw_slope": -43.4173,
-        "r2": 0.7977,
-        "above_threshold": true
-      },
-      "high52_data": {
-        "current": 34750.0,
-        "high52": 48937.43,
-        "pct_from_high": -28.99
-      },
-      "beta": 0.945,
-      "signal_color": "bright_red"
+      "slope_data": null,
+      "high52_data": null,
+      "beta": null,
+      "signal_color": "gray"
     },
     {
       "name": "Paradeep Phosphates Ltd.",
