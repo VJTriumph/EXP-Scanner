@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-10 14:18 UTC",
+    "generated_at": "2026-04-10 14:39 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -6644,9 +6644,18 @@
       "yahoo_symbol": "HINDZINC.NS",
       "industry": "Metals & Mining",
       "isin": "INE267A01025",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
+      "slope_data": {
+        "slope": -0.112,
+        "raw_slope": -9.7455,
+        "r2": 0.0115,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 564.6,
+        "high52": 727.2,
+        "pct_from_high": -22.36
+      },
+      "beta": 1.307,
       "signal_color": "gray"
     },
     {
