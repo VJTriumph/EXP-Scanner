@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-30 15:31 UTC",
+    "generated_at": "2026-05-01 14:41 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -1461,17 +1461,17 @@
       "industry": "Consumer Durables",
       "isin": "INE133A01011",
       "slope_data": {
-        "slope": -7.2474,
-        "raw_slope": -21.8473,
-        "r2": 0.3317,
+        "slope": -6.0129,
+        "raw_slope": -19.1706,
+        "r2": 0.3137,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 2977.2,
+        "current": 2950.7,
         "high52": 3678.03,
-        "pct_from_high": -19.05
+        "pct_from_high": -19.77
       },
-      "beta": 0.398,
+      "beta": 0.406,
       "signal_color": "faded_red"
     },
     {
@@ -7501,7 +7501,7 @@
       },
       "high52_data": {
         "current": 972.85,
-        "high52": 1525.07,
+        "high52": 1525.06,
         "pct_from_high": -36.21
       },
       "beta": 1.083,
@@ -11225,7 +11225,7 @@
       "industry": "Financial Services",
       "isin": "INE134E01011",
       "slope_data": {
-        "slope": 103.7364,
+        "slope": 103.7365,
         "raw_slope": 126.8038,
         "r2": 0.8181,
         "above_threshold": true
