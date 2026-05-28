@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-27 16:52 UTC",
+    "generated_at": "2026-05-28 17:11 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -599,15 +599,15 @@
       "name": "India VIX",
       "symbol": "^INDIAVIX",
       "slope_data": {
-        "slope": 113.9835,
-        "raw_slope": 314.0844,
+        "slope": 113.9731,
+        "raw_slope": 314.0716,
         "r2": 0.3629,
         "above_threshold": true
       },
       "high52_data": {
         "current": 14.98,
         "high52": 27.89,
-        "pct_from_high": -46.28
+        "pct_from_high": -46.29
       },
       "beta": -4.616,
       "signal_color": "faded_green"
@@ -1461,15 +1461,15 @@
       "industry": "Consumer Durables",
       "isin": "INE133A01011",
       "slope_data": {
-        "slope": -0.0194,
-        "raw_slope": -2.3751,
-        "r2": 0.0082,
+        "slope": -0.0065,
+        "raw_slope": -1.6344,
+        "r2": 0.004,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 2909.7,
+        "current": 2905.6,
         "high52": 3678.03,
-        "pct_from_high": -20.89
+        "pct_from_high": -21.0
       },
       "beta": 0.416,
       "signal_color": "gray"
@@ -7510,7 +7510,7 @@
       },
       "high52_data": {
         "current": 1005.65,
-        "high52": 1525.06,
+        "high52": 1525.07,
         "pct_from_high": -34.06
       },
       "beta": 0.991,
@@ -8902,10 +8902,19 @@
       "yahoo_symbol": "LTM.NS",
       "industry": "Information Technology",
       "isin": "INE214T01019",
-      "slope_data": null,
-      "high52_data": null,
-      "beta": null,
-      "signal_color": "gray"
+      "slope_data": {
+        "slope": -46.8935,
+        "raw_slope": -67.2826,
+        "r2": 0.697,
+        "above_threshold": true
+      },
+      "high52_data": {
+        "current": 3988.6,
+        "high52": 6322.27,
+        "pct_from_high": -36.91
+      },
+      "beta": 1.031,
+      "signal_color": "bright_red"
     },
     {
       "name": "Larsen & Toubro Ltd.",
@@ -9080,8 +9089,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 830.0,
-        "high52": 960.07,
+        "current": 415.0,
+        "high52": 480.03,
         "pct_from_high": -13.55
       },
       "beta": 1.118,
@@ -15044,7 +15053,7 @@
         "high52": 260.96,
         "pct_from_high": -4.1
       },
-      "beta": 1.489,
+      "beta": 1.381,
       "signal_color": "gray"
     },
     {
