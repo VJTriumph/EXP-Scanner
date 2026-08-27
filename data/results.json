@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-26 14:16 UTC",
+    "generated_at": "2026-08-27 23:07 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -482,15 +482,15 @@
       "name": "India VIX",
       "symbol": "^INDIAVIX",
       "slope_data": {
-        "slope": -70.2855,
-        "raw_slope": -80.5525,
+        "slope": -70.2834,
+        "raw_slope": -80.5508,
         "r2": 0.8725,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 10.56,
+        "current": 10.57,
         "high52": 27.89,
-        "pct_from_high": -62.12
+        "pct_from_high": -62.1
       },
       "beta": -4.966,
       "signal_color": "bright_red"
@@ -3907,7 +3907,7 @@
       "isin": "INE591G01025",
       "slope_data": {
         "slope": 197.7671,
-        "raw_slope": 226.6646,
+        "raw_slope": 226.6645,
         "r2": 0.8725,
         "above_threshold": true
       },
@@ -4252,8 +4252,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 2204.0,
-        "high52": 2688.93,
+        "current": 2200.35,
+        "high52": 2684.48,
         "pct_from_high": -18.03
       },
       "beta": 0.829,
@@ -6889,7 +6889,7 @@
       "isin": "INE821I01022",
       "slope_data": {
         "slope": -20.0001,
-        "raw_slope": -29.8781,
+        "raw_slope": -29.878,
         "r2": 0.6694,
         "above_threshold": true
       },
@@ -11114,8 +11114,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 364.1,
-        "high52": 476.94,
+        "current": 360.2,
+        "high52": 471.83,
         "pct_from_high": -23.66
       },
       "beta": 1.131,
@@ -14034,8 +14034,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 110.71,
-        "high52": 179.04,
+        "current": 110.21,
+        "high52": 178.23,
         "pct_from_high": -38.16
       },
       "beta": 1.338,
