@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11 17:08 UTC",
+    "generated_at": "2026-09-14 18:54 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -160,85 +160,85 @@
       "name": "Nifty Realty",
       "symbol": "^CNXREALTY",
       "slope_data": {
-        "slope": 61.1379,
-        "raw_slope": 92.5258,
-        "r2": 0.6608,
+        "slope": 58.6603,
+        "raw_slope": 90.6338,
+        "r2": 0.6472,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 848.5,
+        "current": 918.7,
         "high52": 1006.25,
-        "pct_from_high": -15.68
+        "pct_from_high": -8.7
       },
-      "beta": 1.61,
+      "beta": 1.569,
       "signal_color": "bright_green"
     },
     {
       "name": "Nifty Infra",
       "symbol": "^CNXINFRA",
       "slope_data": {
-        "slope": 7.7655,
-        "raw_slope": 19.1987,
-        "r2": 0.4045,
+        "slope": 7.8948,
+        "raw_slope": 19.2997,
+        "r2": 0.4091,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 9077.15,
+        "current": 9377.35,
         "high52": 9765.75,
-        "pct_from_high": -7.05
+        "pct_from_high": -3.98
       },
-      "beta": 0.995,
+      "beta": 1.011,
       "signal_color": "faded_green"
     },
     {
       "name": "Nifty Energy",
       "symbol": "^CNXENERGY",
       "slope_data": {
-        "slope": 15.8443,
-        "raw_slope": 37.3481,
-        "r2": 0.4242,
+        "slope": 18.25,
+        "raw_slope": 39.5982,
+        "r2": 0.4609,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 37935.2,
+        "current": 39277.0,
         "high52": 41535.75,
-        "pct_from_high": -8.67
+        "pct_from_high": -5.44
       },
-      "beta": 0.794,
+      "beta": 0.784,
       "signal_color": "faded_green"
     },
     {
       "name": "Nifty FMCG",
       "symbol": "^CNXFMCG",
       "slope_data": {
-        "slope": 0.2907,
-        "raw_slope": 6.5826,
-        "r2": 0.0442,
+        "slope": 0.554,
+        "raw_slope": 7.9673,
+        "r2": 0.0695,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 45053.75,
+        "current": 48748.7,
         "high52": 57104.05,
-        "pct_from_high": -21.1
+        "pct_from_high": -14.63
       },
-      "beta": 0.771,
+      "beta": 0.653,
       "signal_color": "gray"
     },
     {
       "name": "Nifty MNC",
       "symbol": "^CNXMNC",
       "slope_data": {
-        "slope": 25.1184,
-        "raw_slope": 41.2843,
-        "r2": 0.6084,
+        "slope": 25.2867,
+        "raw_slope": 41.3958,
+        "r2": 0.6109,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 31635.85,
+        "current": 32498.4,
         "high52": 33181.1,
-        "pct_from_high": -4.66
+        "pct_from_high": -2.06
       },
-      "beta": 0.893,
+      "beta": 0.91,
       "signal_color": "bright_green"
     },
     {
@@ -262,102 +262,102 @@
       "name": "Nifty PSE",
       "symbol": "^CNXPSE",
       "slope_data": {
-        "slope": -0.0687,
-        "raw_slope": -3.9385,
-        "r2": 0.0175,
+        "slope": -0.0419,
+        "raw_slope": -3.3191,
+        "r2": 0.0126,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 9688.4,
+        "current": 9938.55,
         "high52": 10766.3,
-        "pct_from_high": -10.01
+        "pct_from_high": -7.69
       },
-      "beta": 0.773,
+      "beta": 0.785,
       "signal_color": "gray"
     },
     {
       "name": "Nifty PSU Bank",
       "symbol": "^CNXPSUBANK",
       "slope_data": {
-        "slope": -0.7601,
-        "raw_slope": -9.2256,
-        "r2": 0.0824,
+        "slope": -1.1115,
+        "raw_slope": -10.7352,
+        "r2": 0.1035,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 8349.9,
+        "current": 8381.75,
         "high52": 9879.85,
-        "pct_from_high": -15.49
+        "pct_from_high": -15.16
       },
-      "beta": 1.198,
+      "beta": 1.298,
       "signal_color": "gray"
     },
     {
       "name": "Nifty Serv Sector",
       "symbol": "^CNXSERVICE",
       "slope_data": {
-        "slope": 0.5348,
-        "raw_slope": 6.6613,
-        "r2": 0.0803,
+        "slope": 0.3551,
+        "raw_slope": 5.8864,
+        "r2": 0.0603,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 29969.35,
+        "current": 31439.45,
         "high52": 34101.05,
-        "pct_from_high": -12.12
+        "pct_from_high": -7.81
       },
-      "beta": 1.051,
+      "beta": 1.035,
       "signal_color": "gray"
     },
     {
       "name": "Nifty Auto",
       "symbol": "^CNXAUTO",
       "slope_data": {
-        "slope": 9.7168,
-        "raw_slope": 23.351,
-        "r2": 0.4161,
+        "slope": 7.377,
+        "raw_slope": 21.1878,
+        "r2": 0.3482,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 27304.5,
+        "current": 27099.75,
         "high52": 28922.35,
-        "pct_from_high": -5.59
+        "pct_from_high": -6.3
       },
-      "beta": 1.196,
+      "beta": 1.322,
       "signal_color": "faded_green"
     },
     {
       "name": "Nifty Metal",
       "symbol": "^CNXMETAL",
       "slope_data": {
-        "slope": 11.8737,
-        "raw_slope": 36.2697,
-        "r2": 0.3274,
+        "slope": 12.0157,
+        "raw_slope": 36.455,
+        "r2": 0.3296,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 12999.05,
+        "current": 12436.95,
         "high52": 13718.3,
-        "pct_from_high": -5.24
+        "pct_from_high": -9.34
       },
-      "beta": 0.91,
+      "beta": 1.092,
       "signal_color": "faded_green"
     },
     {
       "name": "Nifty Media",
       "symbol": "^CNXMEDIA",
       "slope_data": {
-        "slope": 39.9077,
-        "raw_slope": 55.417,
-        "r2": 0.7201,
+        "slope": 38.5823,
+        "raw_slope": 54.3427,
+        "r2": 0.71,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 1537.2,
+        "current": 1521.45,
         "high52": 1773.9,
-        "pct_from_high": -13.34
+        "pct_from_high": -14.23
       },
-      "beta": 0.826,
+      "beta": 0.928,
       "signal_color": "bright_green"
     },
     {
@@ -381,51 +381,51 @@
       "name": "Nifty Commodities",
       "symbol": "^CNXCMDT",
       "slope_data": {
-        "slope": 2.4693,
-        "raw_slope": 15.1239,
-        "r2": 0.1633,
+        "slope": 2.988,
+        "raw_slope": 16.1232,
+        "r2": 0.1853,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 9579.8,
+        "current": 9832.1,
         "high52": 10503.2,
-        "pct_from_high": -8.79
+        "pct_from_high": -6.39
       },
-      "beta": 0.918,
+      "beta": 0.941,
       "signal_color": "gray"
     },
     {
       "name": "Nifty Consumption",
       "symbol": "^CNXCONSUM",
       "slope_data": {
-        "slope": 14.5736,
-        "raw_slope": 26.7178,
-        "r2": 0.5455,
+        "slope": 13.8624,
+        "raw_slope": 26.2146,
+        "r2": 0.5288,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 11460.6,
+        "current": 11705.0,
         "high52": 12639.05,
-        "pct_from_high": -9.32
+        "pct_from_high": -7.39
       },
-      "beta": 0.952,
+      "beta": 0.99,
       "signal_color": "bright_green"
     },
     {
       "name": "Nifty Fin Service",
       "symbol": "NIFTY_FIN_SERVICE.NS",
       "slope_data": {
-        "slope": 2.9905,
-        "raw_slope": 14.6463,
-        "r2": 0.2042,
+        "slope": 2.4107,
+        "raw_slope": 13.7344,
+        "r2": 0.1755,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 25545.4,
+        "current": 26903.35,
         "high52": 28463.25,
-        "pct_from_high": -10.25
+        "pct_from_high": -5.48
       },
-      "beta": 1.205,
+      "beta": 1.193,
       "signal_color": "gray"
     },
     {
@@ -608,17 +608,17 @@
       "name": "India VIX",
       "symbol": "^INDIAVIX",
       "slope_data": {
-        "slope": -63.0964,
-        "raw_slope": -77.2138,
-        "r2": 0.8172,
+        "slope": -63.0904,
+        "raw_slope": -77.2121,
+        "r2": 0.8171,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 12.28,
+        "current": 12.29,
         "high52": 27.89,
-        "pct_from_high": -55.95
+        "pct_from_high": -55.93
       },
-      "beta": -5.028,
+      "beta": -5.029,
       "signal_color": "bright_red"
     }
   ],
@@ -12606,7 +12606,7 @@
       "isin": "INE932X01026",
       "slope_data": {
         "slope": 108.2944,
-        "raw_slope": 170.9458,
+        "raw_slope": 170.9457,
         "r2": 0.6335,
         "above_threshold": true
       },
