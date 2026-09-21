@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-18 17:14 UTC",
+    "generated_at": "2026-09-21 18:57 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -482,15 +482,15 @@
       "name": "India VIX",
       "symbol": "^INDIAVIX",
       "slope_data": {
-        "slope": -53.736,
-        "raw_slope": -73.1376,
+        "slope": -53.731,
+        "raw_slope": -73.1354,
         "r2": 0.7347,
         "above_threshold": true
       },
       "high52_data": {
         "current": 11.39,
         "high52": 27.89,
-        "pct_from_high": -59.18
+        "pct_from_high": -59.16
       },
       "beta": -5.073,
       "signal_color": "bright_red"
@@ -524,9 +524,9 @@
       "industry": "Diversified",
       "isin": "INE470A01017",
       "slope_data": {
-        "slope": 6.3796,
-        "raw_slope": 25.7109,
-        "r2": 0.2481,
+        "slope": 4.8586,
+        "raw_slope": 23.054,
+        "r2": 0.2107,
         "above_threshold": true
       },
       "high52_data": {
@@ -534,7 +534,7 @@
         "high52": 37097.74,
         "pct_from_high": -8.09
       },
-      "beta": 0.9,
+      "beta": 0.89,
       "signal_color": "gray"
     },
     {
@@ -544,9 +544,9 @@
       "industry": "Capital Goods",
       "isin": "INE117A01022",
       "slope_data": {
-        "slope": 23.0483,
-        "raw_slope": 43.0152,
-        "r2": 0.5358,
+        "slope": 19.8525,
+        "raw_slope": 39.6221,
+        "r2": 0.501,
         "above_threshold": true
       },
       "high52_data": {
@@ -554,7 +554,7 @@
         "high52": 7710.0,
         "pct_from_high": -5.7
       },
-      "beta": 1.039,
+      "beta": 1.033,
       "signal_color": "bright_green"
     },
     {
@@ -604,9 +604,9 @@
       "industry": "Capital Goods",
       "isin": "INE212H01026",
       "slope_data": {
-        "slope": -0.0356,
-        "raw_slope": -5.2143,
-        "r2": 0.0068,
+        "slope": -0.2427,
+        "raw_slope": -9.6542,
+        "r2": 0.0251,
         "above_threshold": true
       },
       "high52_data": {
@@ -614,7 +614,7 @@
         "high52": 5062.37,
         "pct_from_high": -21.51
       },
-      "beta": 0.739,
+      "beta": 0.733,
       "signal_color": "gray"
     },
     {
@@ -624,9 +624,9 @@
       "industry": "Capital Goods",
       "isin": "INE702C01027",
       "slope_data": {
-        "slope": 56.8525,
-        "raw_slope": 86.2343,
-        "r2": 0.6593,
+        "slope": 60.7967,
+        "raw_slope": 89.3181,
+        "r2": 0.6807,
         "above_threshold": true
       },
       "high52_data": {
@@ -634,7 +634,7 @@
         "high52": 2272.05,
         "pct_from_high": -0.09
       },
-      "beta": 1.183,
+      "beta": 1.176,
       "signal_color": "bright_green"
     },
     {
@@ -644,9 +644,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE491J01022",
       "slope_data": {
-        "slope": 234.9217,
-        "raw_slope": 292.079,
-        "r2": 0.8043,
+        "slope": 239.5104,
+        "raw_slope": 295.7241,
+        "r2": 0.8099,
         "above_threshold": true
       },
       "high52_data": {
@@ -654,7 +654,7 @@
         "high52": 678.8,
         "pct_from_high": -3.32
       },
-      "beta": 0.94,
+      "beta": 0.934,
       "signal_color": "bright_green"
     },
     {
@@ -664,9 +664,9 @@
       "industry": "Financial Services",
       "isin": "INE949L01017",
       "slope_data": {
-        "slope": 20.3933,
-        "raw_slope": 35.1741,
-        "r2": 0.5798,
+        "slope": 18.6773,
+        "raw_slope": 33.8421,
+        "r2": 0.5519,
         "above_threshold": true
       },
       "high52_data": {
@@ -674,7 +674,7 @@
         "high52": 1128.6,
         "pct_from_high": -6.2
       },
-      "beta": 1.203,
+      "beta": 1.201,
       "signal_color": "bright_green"
     },
     {
@@ -704,9 +704,9 @@
       "industry": "Capital Goods",
       "isin": "INE555B01013",
       "slope_data": {
-        "slope": -14.6645,
-        "raw_slope": -41.7225,
-        "r2": 0.3515,
+        "slope": -9.1938,
+        "raw_slope": -35.8553,
+        "r2": 0.2564,
         "above_threshold": true
       },
       "high52_data": {
@@ -714,7 +714,7 @@
         "high52": 2173.6,
         "pct_from_high": -16.67
       },
-      "beta": 0.921,
+      "beta": 0.909,
       "signal_color": "faded_red"
     },
     {
@@ -784,9 +784,9 @@
       "industry": "Healthcare",
       "isin": "INE0LRU01027",
       "slope_data": {
-        "slope": 81.812,
-        "raw_slope": 131.7336,
-        "r2": 0.621,
+        "slope": 87.4526,
+        "raw_slope": 136.3893,
+        "r2": 0.6412,
         "above_threshold": true
       },
       "high52_data": {
@@ -794,7 +794,7 @@
         "high52": 925.99,
         "pct_from_high": -11.4
       },
-      "beta": 1.145,
+      "beta": 1.143,
       "signal_color": "bright_green"
     },
     {
@@ -804,9 +804,9 @@
       "industry": "Financial Services",
       "isin": "INE216P01012",
       "slope_data": {
-        "slope": -1.5011,
-        "raw_slope": -15.8621,
-        "r2": 0.0946,
+        "slope": -1.7692,
+        "raw_slope": -16.7796,
+        "r2": 0.1054,
         "above_threshold": true
       },
       "high52_data": {
@@ -814,7 +814,7 @@
         "high52": 1736.4,
         "pct_from_high": -26.02
       },
-      "beta": 0.851,
+      "beta": 0.85,
       "signal_color": "gray"
     },
     {
@@ -824,9 +824,9 @@
       "industry": "Healthcare",
       "isin": "INE358A01014",
       "slope_data": {
-        "slope": 0.0831,
-        "raw_slope": 4.8199,
-        "r2": 0.0172,
+        "slope": 0.0806,
+        "raw_slope": 4.7722,
+        "r2": 0.0169,
         "above_threshold": true
       },
       "high52_data": {
@@ -834,7 +834,7 @@
         "high52": 30261.87,
         "pct_from_high": -9.89
       },
-      "beta": 0.285,
+      "beta": 0.281,
       "signal_color": "gray"
     },
     {
@@ -924,9 +924,9 @@
       "industry": "Power",
       "isin": "INE364U01010",
       "slope_data": {
-        "slope": -15.8837,
-        "raw_slope": -35.5391,
-        "r2": 0.4469,
+        "slope": -17.8906,
+        "raw_slope": -37.0045,
+        "r2": 0.4835,
         "above_threshold": true
       },
       "high52_data": {
@@ -934,7 +934,7 @@
         "high52": 1604.5,
         "pct_from_high": -16.83
       },
-      "beta": 1.641,
+      "beta": 1.635,
       "signal_color": "faded_red"
     },
     {
@@ -984,9 +984,9 @@
       "industry": "Oil Gas & Consumable Fuels",
       "isin": "INE399L01023",
       "slope_data": {
-        "slope": -16.1986,
-        "raw_slope": -37.8825,
-        "r2": 0.4276,
+        "slope": -20.2106,
+        "raw_slope": -40.5408,
+        "r2": 0.4985,
         "above_threshold": true
       },
       "high52_data": {
@@ -994,7 +994,7 @@
         "high52": 808.27,
         "pct_from_high": -18.26
       },
-      "beta": 0.831,
+      "beta": 0.815,
       "signal_color": "faded_red"
     },
     {
@@ -1224,9 +1224,9 @@
       "industry": "Chemicals",
       "isin": "INE0BWX01014",
       "slope_data": {
-        "slope": 297.5235,
-        "raw_slope": 326.0786,
-        "r2": 0.9124,
+        "slope": 290.1107,
+        "raw_slope": 320.0408,
+        "r2": 0.9065,
         "above_threshold": true
       },
       "high52_data": {
@@ -1264,9 +1264,9 @@
       "industry": "Information Technology",
       "isin": "INE00WC01027",
       "slope_data": {
-        "slope": 27.2325,
-        "raw_slope": 51.2681,
-        "r2": 0.5312,
+        "slope": 26.0037,
+        "raw_slope": 50.2783,
+        "r2": 0.5172,
         "above_threshold": true
       },
       "high52_data": {
@@ -1274,7 +1274,7 @@
         "high52": 2146.7,
         "pct_from_high": -25.3
       },
-      "beta": 0.575,
+      "beta": 0.566,
       "signal_color": "bright_green"
     },
     {
@@ -1284,9 +1284,9 @@
       "industry": "Construction",
       "isin": "INE758C01029",
       "slope_data": {
-        "slope": -26.3701,
-        "raw_slope": -57.0123,
-        "r2": 0.4625,
+        "slope": -28.8404,
+        "raw_slope": -59.0576,
+        "r2": 0.4883,
         "above_threshold": true
       },
       "high52_data": {
@@ -1294,7 +1294,7 @@
         "high52": 1053.7,
         "pct_from_high": -44.51
       },
-      "beta": 0.959,
+      "beta": 0.958,
       "signal_color": "faded_red"
     },
     {
@@ -1304,9 +1304,9 @@
       "industry": "Healthcare",
       "isin": "INE031B01049",
       "slope_data": {
-        "slope": 60.2504,
-        "raw_slope": 79.0831,
-        "r2": 0.7619,
+        "slope": 61.9148,
+        "raw_slope": 80.1536,
+        "r2": 0.7725,
         "above_threshold": true
       },
       "high52_data": {
@@ -1355,17 +1355,17 @@
       "industry": "Healthcare",
       "isin": "INE901L01018",
       "slope_data": {
-        "slope": 33.1804,
-        "raw_slope": 50.0953,
-        "r2": 0.6623,
+        "slope": 34.712,
+        "raw_slope": 51.129,
+        "r2": 0.6789,
         "above_threshold": true
       },
       "high52_data": {
         "current": 845.75,
-        "high52": 963.77,
-        "pct_from_high": -12.25
+        "high52": 946.62,
+        "pct_from_high": -10.66
       },
-      "beta": 0.905,
+      "beta": 0.903,
       "signal_color": "bright_green"
     },
     {
@@ -1375,9 +1375,9 @@
       "industry": "Healthcare",
       "isin": "INE03Q201024",
       "slope_data": {
-        "slope": 153.8598,
-        "raw_slope": 182.1725,
-        "r2": 0.8446,
+        "slope": 157.0034,
+        "raw_slope": 184.6593,
+        "r2": 0.8502,
         "above_threshold": true
       },
       "high52_data": {
@@ -1385,7 +1385,7 @@
         "high52": 1443.7,
         "pct_from_high": -0.89
       },
-      "beta": 0.585,
+      "beta": 0.58,
       "signal_color": "bright_green"
     },
     {
@@ -1415,9 +1415,9 @@
       "industry": "Chemicals",
       "isin": "INE150B01039",
       "slope_data": {
-        "slope": 31.6613,
-        "raw_slope": 52.7052,
-        "r2": 0.6007,
+        "slope": 29.4051,
+        "raw_slope": 51.0093,
+        "r2": 0.5765,
         "above_threshold": true
       },
       "high52_data": {
@@ -1425,7 +1425,7 @@
         "high52": 2089.6,
         "pct_from_high": -10.84
       },
-      "beta": 1.443,
+      "beta": 1.441,
       "signal_color": "bright_green"
     },
     {
@@ -1495,9 +1495,9 @@
       "industry": "Consumer Durables",
       "isin": "INE371P01015",
       "slope_data": {
-        "slope": -2.3566,
-        "raw_slope": -13.226,
-        "r2": 0.1782,
+        "slope": -2.0338,
+        "raw_slope": -12.1496,
+        "r2": 0.1674,
         "above_threshold": true
       },
       "high52_data": {
@@ -1505,7 +1505,7 @@
         "high52": 8842.5,
         "pct_from_high": -19.42
       },
-      "beta": 1.365,
+      "beta": 1.362,
       "signal_color": "gray"
     },
     {
@@ -1535,9 +1535,9 @@
       "industry": "Financial Services",
       "isin": "INE463V01026",
       "slope_data": {
-        "slope": 102.7695,
-        "raw_slope": 118.245,
-        "r2": 0.8691,
+        "slope": 100.966,
+        "raw_slope": 116.8296,
+        "r2": 0.8642,
         "above_threshold": true
       },
       "high52_data": {
@@ -1545,7 +1545,7 @@
         "high52": 2229.5,
         "pct_from_high": -0.0
       },
-      "beta": 0.474,
+      "beta": 0.473,
       "signal_color": "bright_green"
     },
     {
@@ -1575,9 +1575,9 @@
       "industry": "Financial Services",
       "isin": "INE732I01021",
       "slope_data": {
-        "slope": -24.8472,
-        "raw_slope": -40.7806,
-        "r2": 0.6093,
+        "slope": -27.2287,
+        "raw_slope": -41.9188,
+        "r2": 0.6496,
         "above_threshold": true
       },
       "high52_data": {
@@ -1585,7 +1585,7 @@
         "high52": 353.71,
         "pct_from_high": -15.44
       },
-      "beta": 1.66,
+      "beta": 1.664,
       "signal_color": "bright_red"
     },
     {
@@ -1615,17 +1615,17 @@
       "industry": "Chemicals",
       "isin": "INE930P01018",
       "slope_data": {
-        "slope": -18.5576,
-        "raw_slope": -27.0603,
-        "r2": 0.6858,
+        "slope": -17.6678,
+        "raw_slope": -26.1556,
+        "r2": 0.6755,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1207.7,
-        "high52": 1376.0,
-        "pct_from_high": -12.23
+        "high52": 1374.25,
+        "pct_from_high": -12.12
       },
-      "beta": 0.364,
+      "beta": 0.362,
       "signal_color": "bright_red"
     },
     {
@@ -1675,9 +1675,9 @@
       "industry": "Capital Goods",
       "isin": "INE713T01028",
       "slope_data": {
-        "slope": 0.0001,
-        "raw_slope": 0.6475,
-        "r2": 0.0001,
+        "slope": -0.0663,
+        "raw_slope": -5.6899,
+        "r2": 0.0117,
         "above_threshold": true
       },
       "high52_data": {
@@ -1685,7 +1685,7 @@
         "high52": 450.05,
         "pct_from_high": -17.63
       },
-      "beta": 1.765,
+      "beta": 1.761,
       "signal_color": "gray"
     },
     {
@@ -1735,9 +1735,9 @@
       "industry": "Chemicals",
       "isin": "INE128X01021",
       "slope_data": {
-        "slope": -8.633,
-        "raw_slope": -24.1807,
-        "r2": 0.357,
+        "slope": -9.4732,
+        "raw_slope": -25.3335,
+        "r2": 0.3739,
         "above_threshold": true
       },
       "high52_data": {
@@ -1745,7 +1745,7 @@
         "high52": 712.23,
         "pct_from_high": -34.41
       },
-      "beta": 0.461,
+      "beta": 0.458,
       "signal_color": "faded_red"
     },
     {
@@ -1755,9 +1755,9 @@
       "industry": "Consumer Services",
       "isin": "INE955V01021",
       "slope_data": {
-        "slope": -1.0077,
-        "raw_slope": -9.8042,
-        "r2": 0.1028,
+        "slope": -1.9435,
+        "raw_slope": -12.0996,
+        "r2": 0.1606,
         "above_threshold": true
       },
       "high52_data": {
@@ -1765,7 +1765,7 @@
         "high52": 564.68,
         "pct_from_high": -24.19
       },
-      "beta": 1.055,
+      "beta": 1.052,
       "signal_color": "gray"
     },
     {
@@ -1815,9 +1815,9 @@
       "industry": "Metals & Mining",
       "isin": "INE348A01023",
       "slope_data": {
-        "slope": -22.4882,
-        "raw_slope": -47.812,
-        "r2": 0.4703,
+        "slope": -25.311,
+        "raw_slope": -50.0124,
+        "r2": 0.5061,
         "above_threshold": true
       },
       "high52_data": {
@@ -1825,8 +1825,8 @@
         "high52": 902.45,
         "pct_from_high": -41.79
       },
-      "beta": 1.317,
-      "signal_color": "faded_red"
+      "beta": 1.318,
+      "signal_color": "bright_red"
     },
     {
       "name": "Ashok Leyland Ltd.",
@@ -1895,9 +1895,9 @@
       "industry": "Healthcare",
       "isin": "INE914M01019",
       "slope_data": {
-        "slope": 0.6518,
-        "raw_slope": 10.5209,
-        "r2": 0.062,
+        "slope": 0.4252,
+        "raw_slope": 9.0708,
+        "r2": 0.0469,
         "above_threshold": true
       },
       "high52_data": {
@@ -1905,7 +1905,7 @@
         "high52": 869.7,
         "pct_from_high": -13.18
       },
-      "beta": 0.402,
+      "beta": 0.399,
       "signal_color": "gray"
     },
     {
@@ -1995,9 +1995,9 @@
       "industry": "Chemicals",
       "isin": "INE100A01010",
       "slope_data": {
-        "slope": -3.1565,
-        "raw_slope": -16.0691,
-        "r2": 0.1964,
+        "slope": -3.1988,
+        "raw_slope": -16.1615,
+        "r2": 0.1979,
         "above_threshold": true
       },
       "high52_data": {
@@ -2005,7 +2005,7 @@
         "high52": 7073.12,
         "pct_from_high": -12.76
       },
-      "beta": 0.664,
+      "beta": 0.662,
       "signal_color": "gray"
     },
     {
@@ -2015,9 +2015,9 @@
       "industry": "Information Technology",
       "isin": "INE132H01018",
       "slope_data": {
-        "slope": -18.2016,
-        "raw_slope": -43.5512,
-        "r2": 0.4179,
+        "slope": -19.951,
+        "raw_slope": -44.7758,
+        "r2": 0.4456,
         "above_threshold": true
       },
       "high52_data": {
@@ -2025,7 +2025,7 @@
         "high52": 1257.81,
         "pct_from_high": -45.49
       },
-      "beta": 1.518,
+      "beta": 1.52,
       "signal_color": "faded_red"
     },
     {
@@ -2035,9 +2035,9 @@
       "industry": "Healthcare",
       "isin": "INE406A01037",
       "slope_data": {
-        "slope": 45.0125,
-        "raw_slope": 57.5635,
-        "r2": 0.782,
+        "slope": 46.9439,
+        "raw_slope": 58.9589,
+        "r2": 0.7962,
         "above_threshold": true
       },
       "high52_data": {
@@ -2045,7 +2045,7 @@
         "high52": 1734.0,
         "pct_from_high": 0.0
       },
-      "beta": 0.365,
+      "beta": 0.352,
       "signal_color": "bright_green"
     },
     {
@@ -2075,9 +2075,9 @@
       "industry": "Capital Goods",
       "isin": "INE0LCL01028",
       "slope_data": {
-        "slope": 250.3014,
-        "raw_slope": 289.952,
-        "r2": 0.8633,
+        "slope": 243.016,
+        "raw_slope": 281.8815,
+        "r2": 0.8621,
         "above_threshold": true
       },
       "high52_data": {
@@ -2085,7 +2085,7 @@
         "high52": 2537.7,
         "pct_from_high": 0.0
       },
-      "beta": 1.419,
+      "beta": 1.404,
       "signal_color": "bright_green"
     },
     {
@@ -2095,9 +2095,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE871C01038",
       "slope_data": {
-        "slope": -59.9228,
-        "raw_slope": -71.5251,
-        "r2": 0.8378,
+        "slope": -59.4291,
+        "raw_slope": -70.9474,
+        "r2": 0.8376,
         "above_threshold": true
       },
       "high52_data": {
@@ -2105,7 +2105,7 @@
         "high52": 1486.54,
         "pct_from_high": -47.9
       },
-      "beta": 1.618,
+      "beta": 1.622,
       "signal_color": "bright_red"
     },
     {
@@ -2215,9 +2215,9 @@
       "industry": "Capital Goods",
       "isin": "INE258A01024",
       "slope_data": {
-        "slope": 24.031,
-        "raw_slope": 48.6582,
-        "r2": 0.4939,
+        "slope": 25.6514,
+        "raw_slope": 50.2956,
+        "r2": 0.51,
         "above_threshold": true
       },
       "high52_data": {
@@ -2225,8 +2225,8 @@
         "high52": 2229.33,
         "pct_from_high": -4.23
       },
-      "beta": 1.539,
-      "signal_color": "faded_green"
+      "beta": 1.531,
+      "signal_color": "bright_green"
     },
     {
       "name": "BLS International Services Ltd.",
@@ -2235,17 +2235,17 @@
       "industry": "Consumer Services",
       "isin": "INE153T01027",
       "slope_data": {
-        "slope": -8.1354,
-        "raw_slope": -26.0189,
-        "r2": 0.3127,
+        "slope": -9.1288,
+        "raw_slope": -27.18,
+        "r2": 0.3359,
         "above_threshold": true
       },
       "high52_data": {
         "current": 226.5,
-        "high52": 366.51,
-        "pct_from_high": -38.2
+        "high52": 365.72,
+        "pct_from_high": -38.07
       },
-      "beta": 1.721,
+      "beta": 1.722,
       "signal_color": "faded_red"
     },
     {
@@ -2275,9 +2275,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE917I01010",
       "slope_data": {
-        "slope": 54.614,
-        "raw_slope": 79.2417,
-        "r2": 0.6892,
+        "slope": 54.5857,
+        "raw_slope": 79.2222,
+        "r2": 0.689,
         "above_threshold": true
       },
       "high52_data": {
@@ -2285,7 +2285,7 @@
         "high52": 12361.0,
         "pct_from_high": -7.66
       },
-      "beta": 0.867,
+      "beta": 0.872,
       "signal_color": "bright_green"
     },
     {
@@ -2295,15 +2295,15 @@
       "industry": "Consumer Durables",
       "isin": "INE193E01025",
       "slope_data": {
-        "slope": 2.5548,
-        "raw_slope": 19.3188,
-        "r2": 0.1322,
+        "slope": 4.4554,
+        "raw_slope": 22.5387,
+        "r2": 0.1977,
         "above_threshold": true
       },
       "high52_data": {
         "current": 323.05,
-        "high52": 599.45,
-        "pct_from_high": -46.11
+        "high52": 591.97,
+        "pct_from_high": -45.43
       },
       "beta": 0.888,
       "signal_color": "gray"
@@ -2315,9 +2315,9 @@
       "industry": "Financial Services",
       "isin": "INE296A01032",
       "slope_data": {
-        "slope": 53.7492,
-        "raw_slope": 83.0815,
-        "r2": 0.6469,
+        "slope": 49.4191,
+        "raw_slope": 79.6454,
+        "r2": 0.6205,
         "above_threshold": true
       },
       "high52_data": {
@@ -2325,7 +2325,7 @@
         "high52": 1158.8,
         "pct_from_high": -10.23
       },
-      "beta": 1.509,
+      "beta": 1.505,
       "signal_color": "bright_green"
     },
     {
@@ -2335,9 +2335,9 @@
       "industry": "Financial Services",
       "isin": "INE918I01026",
       "slope_data": {
-        "slope": 37.0172,
-        "raw_slope": 60.1336,
-        "r2": 0.6156,
+        "slope": 33.6002,
+        "raw_slope": 57.5105,
+        "r2": 0.5842,
         "above_threshold": true
       },
       "high52_data": {
@@ -2355,17 +2355,17 @@
       "industry": "Financial Services",
       "isin": "INE118A01012",
       "slope_data": {
-        "slope": 29.184,
-        "raw_slope": 43.9887,
-        "r2": 0.6634,
+        "slope": 28.0405,
+        "raw_slope": 43.118,
+        "r2": 0.6503,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 11282.0,
-        "high52": 13428.88,
-        "pct_from_high": -15.99
+        "current": 11217.0,
+        "high52": 13159.98,
+        "pct_from_high": -14.76
       },
-      "beta": 1.143,
+      "beta": 1.139,
       "signal_color": "bright_green"
     },
     {
@@ -2395,9 +2395,9 @@
       "industry": "Chemicals",
       "isin": "INE050E01027",
       "slope_data": {
-        "slope": 39.6927,
-        "raw_slope": 85.2404,
-        "r2": 0.4657,
+        "slope": 33.7064,
+        "raw_slope": 77.6601,
+        "r2": 0.434,
         "above_threshold": true
       },
       "high52_data": {
@@ -2415,9 +2415,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE787D01026",
       "slope_data": {
-        "slope": 5.0394,
-        "raw_slope": 27.6165,
-        "r2": 0.1825,
+        "slope": 4.3413,
+        "raw_slope": 26.1475,
+        "r2": 0.166,
         "above_threshold": true
       },
       "high52_data": {
@@ -2425,7 +2425,7 @@
         "high52": 2706.88,
         "pct_from_high": -16.31
       },
-      "beta": 1.28,
+      "beta": 1.271,
       "signal_color": "gray"
     },
     {
@@ -2475,9 +2475,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE213C01025",
       "slope_data": {
-        "slope": -0.7272,
-        "raw_slope": -10.2823,
-        "r2": 0.0707,
+        "slope": -1.2457,
+        "raw_slope": -12.2525,
+        "r2": 0.1017,
         "above_threshold": true
       },
       "high52_data": {
@@ -2495,9 +2495,9 @@
       "industry": "Financial Services",
       "isin": "INE545U01014",
       "slope_data": {
-        "slope": -27.6085,
-        "raw_slope": -48.5772,
-        "r2": 0.5683,
+        "slope": -28.5447,
+        "raw_slope": -49.1126,
+        "r2": 0.5812,
         "above_threshold": true
       },
       "high52_data": {
@@ -2515,9 +2515,9 @@
       "industry": "Financial Services",
       "isin": "INE028A01039",
       "slope_data": {
-        "slope": -17.1721,
-        "raw_slope": -31.5148,
-        "r2": 0.5449,
+        "slope": -18.647,
+        "raw_slope": -32.5353,
+        "r2": 0.5731,
         "above_threshold": true
       },
       "high52_data": {
@@ -2525,7 +2525,7 @@
         "high52": 314.28,
         "pct_from_high": -25.25
       },
-      "beta": 1.313,
+      "beta": 1.315,
       "signal_color": "bright_red"
     },
     {
@@ -2595,9 +2595,9 @@
       "industry": "Chemicals",
       "isin": "INE462A01022",
       "slope_data": {
-        "slope": -12.6699,
-        "raw_slope": -21.7824,
-        "r2": 0.5817,
+        "slope": -13.1343,
+        "raw_slope": -22.2107,
+        "r2": 0.5913,
         "above_threshold": true
       },
       "high52_data": {
@@ -2605,7 +2605,7 @@
         "high52": 5167.98,
         "pct_from_high": -26.87
       },
-      "beta": 0.406,
+      "beta": 0.413,
       "signal_color": "bright_red"
     },
     {
@@ -2661,8 +2661,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 1196.6,
-        "high52": 1625.81,
+        "current": 1196.2,
+        "high52": 1625.27,
         "pct_from_high": -26.4
       },
       "beta": 1.463,
@@ -2695,9 +2695,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE465A01025",
       "slope_data": {
-        "slope": 1.2674,
-        "raw_slope": 15.4192,
-        "r2": 0.0822,
+        "slope": 0.7082,
+        "raw_slope": 12.5788,
+        "r2": 0.0563,
         "above_threshold": true
       },
       "high52_data": {
@@ -2705,7 +2705,7 @@
         "high52": 2265.2,
         "pct_from_high": -13.38
       },
-      "beta": 1.217,
+      "beta": 1.211,
       "signal_color": "gray"
     },
     {
@@ -2775,9 +2775,9 @@
       "industry": "Telecommunication",
       "isin": "INE343G01021",
       "slope_data": {
-        "slope": 2.3277,
-        "raw_slope": 16.0764,
-        "r2": 0.1448,
+        "slope": 1.9766,
+        "raw_slope": 15.2004,
+        "r2": 0.13,
         "above_threshold": true
       },
       "high52_data": {
@@ -2785,7 +2785,7 @@
         "high52": 1893.47,
         "pct_from_high": -18.66
       },
-      "beta": 0.557,
+      "beta": 0.552,
       "signal_color": "gray"
     },
     {
@@ -2875,9 +2875,9 @@
       "industry": "Information Technology",
       "isin": "INE836A01035",
       "slope_data": {
-        "slope": -5.4867,
-        "raw_slope": -23.1145,
-        "r2": 0.2374,
+        "slope": -5.7828,
+        "raw_slope": -23.5551,
+        "r2": 0.2455,
         "above_threshold": true
       },
       "high52_data": {
@@ -2885,7 +2885,7 @@
         "high52": 458.73,
         "pct_from_high": -38.87
       },
-      "beta": 1.129,
+      "beta": 1.131,
       "signal_color": "gray"
     },
     {
@@ -2935,9 +2935,9 @@
       "industry": "Services",
       "isin": "INE233B01017",
       "slope_data": {
-        "slope": 3.5582,
-        "raw_slope": 15.0417,
-        "r2": 0.2366,
+        "slope": 3.3958,
+        "raw_slope": 14.826,
+        "r2": 0.229,
         "above_threshold": true
       },
       "high52_data": {
@@ -2945,7 +2945,7 @@
         "high52": 6694.0,
         "pct_from_high": -27.98
       },
-      "beta": 0.944,
+      "beta": 0.946,
       "signal_color": "gray"
     },
     {
@@ -2975,9 +2975,9 @@
       "industry": "Consumer Durables",
       "isin": "INE472A01039",
       "slope_data": {
-        "slope": -7.9745,
-        "raw_slope": -24.1452,
-        "r2": 0.3303,
+        "slope": -7.7721,
+        "raw_slope": -23.9266,
+        "r2": 0.3248,
         "above_threshold": true
       },
       "high52_data": {
@@ -2985,7 +2985,7 @@
         "high52": 2006.86,
         "pct_from_high": -23.67
       },
-      "beta": 1.177,
+      "beta": 1.174,
       "signal_color": "faded_red"
     },
     {
@@ -3015,9 +3015,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE050A01025",
       "slope_data": {
-        "slope": -3.8401,
-        "raw_slope": -13.0555,
-        "r2": 0.2941,
+        "slope": -4.2814,
+        "raw_slope": -13.8172,
+        "r2": 0.3099,
         "above_threshold": true
       },
       "high52_data": {
@@ -3025,7 +3025,7 @@
         "high52": 2083.07,
         "pct_from_high": -27.41
       },
-      "beta": 1.252,
+      "beta": 1.244,
       "signal_color": "faded_red"
     },
     {
@@ -3035,9 +3035,9 @@
       "industry": "Capital Goods",
       "isin": "INE666D01022",
       "slope_data": {
-        "slope": -0.529,
-        "raw_slope": -14.6516,
-        "r2": 0.0361,
+        "slope": -1.2095,
+        "raw_slope": -19.2575,
+        "r2": 0.0628,
         "above_threshold": true
       },
       "high52_data": {
@@ -3045,7 +3045,7 @@
         "high52": 699.3,
         "pct_from_high": -34.29
       },
-      "beta": 1.534,
+      "beta": 1.53,
       "signal_color": "gray"
     },
     {
@@ -3055,8 +3055,8 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE323A01026",
       "slope_data": {
-        "slope": 142.1883,
-        "raw_slope": 157.4517,
+        "slope": 142.2427,
+        "raw_slope": 157.5061,
         "r2": 0.9031,
         "above_threshold": true
       },
@@ -3065,7 +3065,7 @@
         "high52": 50000.0,
         "pct_from_high": -6.0
       },
-      "beta": 1.127,
+      "beta": 1.13,
       "signal_color": "bright_green"
     },
     {
@@ -3095,9 +3095,9 @@
       "industry": "Realty",
       "isin": "INE791I01019",
       "slope_data": {
-        "slope": 130.0789,
-        "raw_slope": 155.8492,
-        "r2": 0.8346,
+        "slope": 131.5172,
+        "raw_slope": 156.8666,
+        "r2": 0.8384,
         "above_threshold": true
       },
       "high52_data": {
@@ -3105,7 +3105,7 @@
         "high52": 778.36,
         "pct_from_high": -20.13
       },
-      "beta": 1.359,
+      "beta": 1.362,
       "signal_color": "bright_green"
     },
     {
@@ -3135,9 +3135,9 @@
       "industry": "Information Technology",
       "isin": "INE0BV301023",
       "slope_data": {
-        "slope": 11.9757,
-        "raw_slope": 60.7329,
-        "r2": 0.1972,
+        "slope": 11.6419,
+        "raw_slope": 60.1298,
+        "r2": 0.1936,
         "above_threshold": true
       },
       "high52_data": {
@@ -3145,7 +3145,7 @@
         "high52": 1943.5,
         "pct_from_high": -53.72
       },
-      "beta": 1.174,
+      "beta": 1.173,
       "signal_color": "gray"
     },
     {
@@ -3155,9 +3155,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE421D01022",
       "slope_data": {
-        "slope": -0.0008,
-        "raw_slope": -1.0831,
-        "r2": 0.0007,
+        "slope": -0.0093,
+        "raw_slope": -2.459,
+        "r2": 0.0038,
         "above_threshold": true
       },
       "high52_data": {
@@ -3165,7 +3165,7 @@
         "high52": 1226.28,
         "pct_from_high": -13.1
       },
-      "beta": 0.437,
+      "beta": 0.439,
       "signal_color": "gray"
     },
     {
@@ -3175,9 +3175,9 @@
       "industry": "Power",
       "isin": "INE486A01021",
       "slope_data": {
-        "slope": -32.6334,
-        "raw_slope": -39.3182,
-        "r2": 0.83,
+        "slope": -33.0219,
+        "raw_slope": -39.7275,
+        "r2": 0.8312,
         "above_threshold": true
       },
       "high52_data": {
@@ -3185,7 +3185,7 @@
         "high52": 191.62,
         "pct_from_high": -26.14
       },
-      "beta": 0.768,
+      "beta": 0.769,
       "signal_color": "bright_red"
     },
     {
@@ -3215,9 +3215,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE536H01010",
       "slope_data": {
-        "slope": -32.4667,
-        "raw_slope": -46.095,
-        "r2": 0.7043,
+        "slope": -33.137,
+        "raw_slope": -46.5255,
+        "r2": 0.7122,
         "above_threshold": true
       },
       "high52_data": {
@@ -3225,7 +3225,7 @@
         "high52": 490.2,
         "pct_from_high": -21.02
       },
-      "beta": 1.093,
+      "beta": 1.089,
       "signal_color": "bright_red"
     },
     {
@@ -3235,17 +3235,17 @@
       "industry": "Services",
       "isin": "INE925R01014",
       "slope_data": {
-        "slope": -50.3909,
-        "raw_slope": -56.4686,
-        "r2": 0.8924,
+        "slope": -50.9457,
+        "raw_slope": -56.835,
+        "r2": 0.8964,
         "above_threshold": true
       },
       "high52_data": {
         "current": 230.93,
-        "high52": 408.63,
-        "pct_from_high": -43.49
+        "high52": 402.3,
+        "pct_from_high": -42.6
       },
-      "beta": 0.649,
+      "beta": 0.652,
       "signal_color": "bright_red"
     },
     {
@@ -3275,9 +3275,9 @@
       "industry": "Financial Services",
       "isin": "INE007A01025",
       "slope_data": {
-        "slope": 60.1013,
-        "raw_slope": 77.5295,
-        "r2": 0.7752,
+        "slope": 61.6131,
+        "raw_slope": 78.5285,
+        "r2": 0.7846,
         "above_threshold": true
       },
       "high52_data": {
@@ -3285,7 +3285,7 @@
         "high52": 5010.62,
         "pct_from_high": -8.64
       },
-      "beta": 0.677,
+      "beta": 0.678,
       "signal_color": "bright_green"
     },
     {
@@ -3335,9 +3335,9 @@
       "industry": "Financial Services",
       "isin": "INE477A01020",
       "slope_data": {
-        "slope": -3.5567,
-        "raw_slope": -17.3629,
-        "r2": 0.2048,
+        "slope": -4.2214,
+        "raw_slope": -18.5024,
+        "r2": 0.2282,
         "above_threshold": true
       },
       "high52_data": {
@@ -3375,9 +3375,9 @@
       "industry": "Financial Services",
       "isin": "INE01TY01017",
       "slope_data": {
-        "slope": 40.6368,
-        "raw_slope": 50.1908,
-        "r2": 0.8096,
+        "slope": 39.6325,
+        "raw_slope": 49.375,
+        "r2": 0.8027,
         "above_threshold": true
       },
       "high52_data": {
@@ -3455,9 +3455,9 @@
       "industry": "Financial Services",
       "isin": "INE180C01042",
       "slope_data": {
-        "slope": 112.0804,
-        "raw_slope": 152.9916,
-        "r2": 0.7326,
+        "slope": 106.6526,
+        "raw_slope": 147.2047,
+        "r2": 0.7245,
         "above_threshold": true
       },
       "high52_data": {
@@ -3465,7 +3465,7 @@
         "high52": 279.9,
         "pct_from_high": -3.3
       },
-      "beta": 1.03,
+      "beta": 1.025,
       "signal_color": "bright_green"
     },
     {
@@ -3475,9 +3475,9 @@
       "industry": "Capital Goods",
       "isin": "INE120A01034",
       "slope_data": {
-        "slope": 0.8598,
-        "raw_slope": 12.2795,
-        "r2": 0.07,
+        "slope": 0.6395,
+        "raw_slope": 11.0265,
+        "r2": 0.058,
         "above_threshold": true
       },
       "high52_data": {
@@ -3485,7 +3485,7 @@
         "high52": 1238.75,
         "pct_from_high": -9.23
       },
-      "beta": 0.926,
+      "beta": 0.917,
       "signal_color": "gray"
     },
     {
@@ -3495,9 +3495,9 @@
       "industry": "Consumer Services",
       "isin": "INE290S01011",
       "slope_data": {
-        "slope": 262.4685,
-        "raw_slope": 357.3971,
-        "r2": 0.7344,
+        "slope": 244.3066,
+        "raw_slope": 339.104,
+        "r2": 0.7204,
         "above_threshold": true
       },
       "high52_data": {
@@ -3535,9 +3535,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE482A01020",
       "slope_data": {
-        "slope": 3.3569,
-        "raw_slope": 24.768,
-        "r2": 0.1355,
+        "slope": 2.7593,
+        "raw_slope": 22.9496,
+        "r2": 0.1202,
         "above_threshold": true
       },
       "high52_data": {
@@ -3545,7 +3545,7 @@
         "high52": 4259.23,
         "pct_from_high": -18.56
       },
-      "beta": 1.453,
+      "beta": 1.449,
       "signal_color": "gray"
     },
     {
@@ -3555,9 +3555,9 @@
       "industry": "Consumer Durables",
       "isin": "INE0LMW01024",
       "slope_data": {
-        "slope": -19.9331,
-        "raw_slope": -32.0799,
-        "r2": 0.6214,
+        "slope": -20.2285,
+        "raw_slope": -32.3834,
+        "r2": 0.6247,
         "above_threshold": true
       },
       "high52_data": {
@@ -3565,7 +3565,7 @@
         "high52": 657.69,
         "pct_from_high": -50.97
       },
-      "beta": 0.824,
+      "beta": 0.822,
       "signal_color": "bright_red"
     },
     {
@@ -3575,9 +3575,9 @@
       "industry": "Construction",
       "isin": "INE686A01026",
       "slope_data": {
-        "slope": 29.4872,
-        "raw_slope": 114.9212,
-        "r2": 0.2566,
+        "slope": 23.3745,
+        "raw_slope": 102.1804,
+        "r2": 0.2288,
         "above_threshold": true
       },
       "high52_data": {
@@ -3585,8 +3585,8 @@
         "high52": 1639.6,
         "pct_from_high": -22.94
       },
-      "beta": 1.502,
-      "signal_color": "faded_green"
+      "beta": 1.501,
+      "signal_color": "gray"
     },
     {
       "name": "Central Bank of India",
@@ -3635,9 +3635,9 @@
       "industry": "Consumer Durables",
       "isin": "INE348B01021",
       "slope_data": {
-        "slope": -0.4761,
-        "raw_slope": -6.5435,
-        "r2": 0.0728,
+        "slope": -0.6554,
+        "raw_slope": -7.3788,
+        "r2": 0.0888,
         "above_threshold": true
       },
       "high52_data": {
@@ -3645,7 +3645,7 @@
         "high52": 842.87,
         "pct_from_high": -14.26
       },
-      "beta": 0.825,
+      "beta": 0.823,
       "signal_color": "gray"
     },
     {
@@ -3655,9 +3655,9 @@
       "industry": "Consumer Durables",
       "isin": "INE739E01017",
       "slope_data": {
-        "slope": -0.0049,
-        "raw_slope": -2.2578,
-        "r2": 0.0022,
+        "slope": -0.0392,
+        "raw_slope": -4.4678,
+        "r2": 0.0088,
         "above_threshold": true
       },
       "high52_data": {
@@ -3665,7 +3665,7 @@
         "high52": 6585.47,
         "pct_from_high": -14.28
       },
-      "beta": 0.826,
+      "beta": 0.828,
       "signal_color": "gray"
     },
     {
@@ -3675,15 +3675,15 @@
       "industry": "Consumer Services",
       "isin": "INE427F01016",
       "slope_data": {
-        "slope": 33.9124,
-        "raw_slope": 51.3718,
-        "r2": 0.6601,
+        "slope": 32.5939,
+        "raw_slope": 50.4131,
+        "r2": 0.6465,
         "above_threshold": true
       },
       "high52_data": {
         "current": 865.65,
-        "high52": 1059.71,
-        "pct_from_high": -18.31
+        "high52": 1053.43,
+        "pct_from_high": -17.83
       },
       "beta": 1.127,
       "signal_color": "bright_green"
@@ -3735,9 +3735,9 @@
       "industry": "Financial Services",
       "isin": "INE102B01014",
       "slope_data": {
-        "slope": 37.2069,
-        "raw_slope": 73.8061,
-        "r2": 0.5041,
+        "slope": 32.6686,
+        "raw_slope": 69.5084,
+        "r2": 0.47,
         "above_threshold": true
       },
       "high52_data": {
@@ -3745,8 +3745,8 @@
         "high52": 850.3,
         "pct_from_high": -10.17
       },
-      "beta": 1.46,
-      "signal_color": "bright_green"
+      "beta": 1.451,
+      "signal_color": "faded_green"
     },
     {
       "name": "Cholamandalam Financial Holdings Ltd.",
@@ -3755,9 +3755,9 @@
       "industry": "Financial Services",
       "isin": "INE149A01033",
       "slope_data": {
-        "slope": -0.9066,
-        "raw_slope": -11.2794,
-        "r2": 0.0804,
+        "slope": -0.8084,
+        "raw_slope": -10.8045,
+        "r2": 0.0748,
         "above_threshold": true
       },
       "high52_data": {
@@ -3765,7 +3765,7 @@
         "high52": 2017.91,
         "pct_from_high": -25.28
       },
-      "beta": 1.316,
+      "beta": 1.314,
       "signal_color": "gray"
     },
     {
@@ -3775,9 +3775,9 @@
       "industry": "Financial Services",
       "isin": "INE121A01024",
       "slope_data": {
-        "slope": 61.131,
-        "raw_slope": 92.2543,
-        "r2": 0.6626,
+        "slope": 56.4733,
+        "raw_slope": 88.5243,
+        "r2": 0.6379,
         "above_threshold": true
       },
       "high52_data": {
@@ -3785,7 +3785,7 @@
         "high52": 1940.0,
         "pct_from_high": -7.22
       },
-      "beta": 1.646,
+      "beta": 1.647,
       "signal_color": "bright_green"
     },
     {
@@ -3806,9 +3806,9 @@
       "industry": "Healthcare",
       "isin": "INE059A01026",
       "slope_data": {
-        "slope": 0.0728,
-        "raw_slope": 3.4957,
-        "r2": 0.0208,
+        "slope": 0.0453,
+        "raw_slope": 2.9936,
+        "r2": 0.0151,
         "above_threshold": true
       },
       "high52_data": {
@@ -3816,7 +3816,7 @@
         "high52": 1648.14,
         "pct_from_high": -15.39
       },
-      "beta": 0.642,
+      "beta": 0.639,
       "signal_color": "gray"
     },
     {
@@ -3846,17 +3846,17 @@
       "industry": "Chemicals",
       "isin": "INE227W01023",
       "slope_data": {
-        "slope": 10.4033,
-        "raw_slope": 29.9463,
-        "r2": 0.3474,
+        "slope": 13.6099,
+        "raw_slope": 33.409,
+        "r2": 0.4074,
         "above_threshold": true
       },
       "high52_data": {
         "current": 851.9,
-        "high52": 1187.15,
-        "pct_from_high": -28.24
+        "high52": 1186.16,
+        "pct_from_high": -28.18
       },
-      "beta": 1.121,
+      "beta": 1.117,
       "signal_color": "faded_green"
     },
     {
@@ -3906,9 +3906,9 @@
       "industry": "Information Technology",
       "isin": "INE591G01025",
       "slope_data": {
-        "slope": 176.6462,
-        "raw_slope": 208.3914,
-        "r2": 0.8477,
+        "slope": 169.2532,
+        "raw_slope": 201.8449,
+        "r2": 0.8385,
         "above_threshold": true
       },
       "high52_data": {
@@ -3916,7 +3916,7 @@
         "high52": 2014.6,
         "pct_from_high": -8.62
       },
-      "beta": 1.146,
+      "beta": 1.141,
       "signal_color": "bright_green"
     },
     {
@@ -3946,9 +3946,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE259A01022",
       "slope_data": {
-        "slope": -16.0479,
-        "raw_slope": -29.9078,
-        "r2": 0.5366,
+        "slope": -16.1929,
+        "raw_slope": -30.0595,
+        "r2": 0.5387,
         "above_threshold": true
       },
       "high52_data": {
@@ -3956,7 +3956,7 @@
         "high52": 2313.02,
         "pct_from_high": -17.09
       },
-      "beta": 0.851,
+      "beta": 0.849,
       "signal_color": "bright_red"
     },
     {
@@ -3966,9 +3966,9 @@
       "industry": "Financial Services",
       "isin": "INE596I01020",
       "slope_data": {
-        "slope": -1.8776,
-        "raw_slope": -12.2673,
-        "r2": 0.1531,
+        "slope": -2.2279,
+        "raw_slope": -13.1195,
+        "r2": 0.1698,
         "above_threshold": true
       },
       "high52_data": {
@@ -3976,7 +3976,7 @@
         "high52": 829.35,
         "pct_from_high": -14.63
       },
-      "beta": 1.234,
+      "beta": 1.235,
       "signal_color": "gray"
     },
     {
@@ -3986,9 +3986,9 @@
       "industry": "Healthcare",
       "isin": "INE338H01029",
       "slope_data": {
-        "slope": 103.018,
-        "raw_slope": 135.075,
-        "r2": 0.7627,
+        "slope": 99.5346,
+        "raw_slope": 131.9513,
+        "r2": 0.7543,
         "above_threshold": true
       },
       "high52_data": {
@@ -3996,7 +3996,7 @@
         "high52": 1685.01,
         "pct_from_high": -11.31
       },
-      "beta": 0.968,
+      "beta": 0.967,
       "signal_color": "bright_green"
     },
     {
@@ -4012,8 +4012,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 504.55,
-        "high52": 552.87,
+        "current": 503.55,
+        "high52": 551.77,
         "pct_from_high": -8.74
       },
       "beta": 1.18,
@@ -4046,9 +4046,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE00LO01017",
       "slope_data": {
-        "slope": 115.3605,
-        "raw_slope": 131.4032,
-        "r2": 0.8779,
+        "slope": 115.6491,
+        "raw_slope": 132.092,
+        "r2": 0.8755,
         "above_threshold": true
       },
       "high52_data": {
@@ -4056,7 +4056,7 @@
         "high52": 11851.0,
         "pct_from_high": -6.02
       },
-      "beta": 1.024,
+      "beta": 1.023,
       "signal_color": "bright_green"
     },
     {
@@ -4106,9 +4106,9 @@
       "industry": "Consumer Durables",
       "isin": "INE299U01018",
       "slope_data": {
-        "slope": -35.5472,
-        "raw_slope": -44.8481,
-        "r2": 0.7926,
+        "slope": -35.3924,
+        "raw_slope": -44.6256,
+        "r2": 0.7931,
         "above_threshold": true
       },
       "high52_data": {
@@ -4166,17 +4166,17 @@
       "industry": "Information Technology",
       "isin": "INE136B01020",
       "slope_data": {
-        "slope": 17.2414,
-        "raw_slope": 60.4242,
-        "r2": 0.2853,
+        "slope": 19.3053,
+        "raw_slope": 63.8518,
+        "r2": 0.3023,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1073.3,
-        "high52": 1255.4,
-        "pct_from_high": -14.51
+        "high52": 1243.95,
+        "pct_from_high": -13.72
       },
-      "beta": 1.147,
+      "beta": 1.145,
       "signal_color": "faded_green"
     },
     {
@@ -4246,9 +4246,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE321T01012",
       "slope_data": {
-        "slope": -0.185,
-        "raw_slope": -5.067,
-        "r2": 0.0365,
+        "slope": -0.319,
+        "raw_slope": -6.1225,
+        "r2": 0.0521,
         "above_threshold": true
       },
       "high52_data": {
@@ -4256,7 +4256,7 @@
         "high52": 2669.47,
         "pct_from_high": -21.13
       },
-      "beta": 0.802,
+      "beta": 0.8,
       "signal_color": "gray"
     },
     {
@@ -4286,9 +4286,9 @@
       "industry": "Construction Materials",
       "isin": "INE00R701025",
       "slope_data": {
-        "slope": 3.9019,
-        "raw_slope": 18.2633,
-        "r2": 0.2136,
+        "slope": 3.0025,
+        "raw_slope": 16.714,
+        "r2": 0.1796,
         "above_threshold": true
       },
       "high52_data": {
@@ -4296,7 +4296,7 @@
         "high52": 2464.34,
         "pct_from_high": -28.52
       },
-      "beta": 1.212,
+      "beta": 1.207,
       "signal_color": "gray"
     },
     {
@@ -4346,9 +4346,9 @@
       "industry": "Chemicals",
       "isin": "INE501A01019",
       "slope_data": {
-        "slope": -0.1583,
-        "raw_slope": -8.2852,
-        "r2": 0.0191,
+        "slope": -0.5216,
+        "raw_slope": -12.1284,
+        "r2": 0.043,
         "above_threshold": true
       },
       "high52_data": {
@@ -4356,7 +4356,7 @@
         "high52": 1653.03,
         "pct_from_high": -18.74
       },
-      "beta": 1.61,
+      "beta": 1.608,
       "signal_color": "gray"
     },
     {
@@ -4366,9 +4366,9 @@
       "industry": "Chemicals",
       "isin": "INE288B01029",
       "slope_data": {
-        "slope": 0.0015,
-        "raw_slope": 1.3451,
-        "r2": 0.0011,
+        "slope": 0.0052,
+        "raw_slope": 2.0039,
+        "r2": 0.0026,
         "above_threshold": true
       },
       "high52_data": {
@@ -4386,9 +4386,9 @@
       "industry": "Services",
       "isin": "INE148O01028",
       "slope_data": {
-        "slope": -0.0289,
-        "raw_slope": -3.9428,
-        "r2": 0.0073,
+        "slope": -0.0585,
+        "raw_slope": -5.022,
+        "r2": 0.0117,
         "above_threshold": true
       },
       "high52_data": {
@@ -4396,7 +4396,7 @@
         "high52": 520.3,
         "pct_from_high": -17.74
       },
-      "beta": 1.024,
+      "beta": 1.021,
       "signal_color": "gray"
     },
     {
@@ -4406,17 +4406,17 @@
       "industry": "Consumer Services",
       "isin": "INE872J01023",
       "slope_data": {
-        "slope": 72.0985,
-        "raw_slope": 118.0247,
-        "r2": 0.6109,
+        "slope": 76.3066,
+        "raw_slope": 121.6019,
+        "r2": 0.6275,
         "above_threshold": true
       },
       "high52_data": {
         "current": 140.62,
-        "high52": 179.05,
-        "pct_from_high": -21.46
+        "high52": 178.64,
+        "pct_from_high": -21.28
       },
-      "beta": 1.209,
+      "beta": 1.204,
       "signal_color": "bright_green"
     },
     {
@@ -4426,9 +4426,9 @@
       "industry": "Capital Goods",
       "isin": "INE989C01038",
       "slope_data": {
-        "slope": 829.5108,
-        "raw_slope": 953.8921,
-        "r2": 0.8696,
+        "slope": 843.6479,
+        "raw_slope": 966.8936,
+        "r2": 0.8725,
         "above_threshold": true
       },
       "high52_data": {
@@ -4436,7 +4436,7 @@
         "high52": 394.75,
         "pct_from_high": -7.08
       },
-      "beta": 1.417,
+      "beta": 1.432,
       "signal_color": "bright_green"
     },
     {
@@ -4446,9 +4446,9 @@
       "industry": "Construction",
       "isin": "INE917M01012",
       "slope_data": {
-        "slope": -6.2246,
-        "raw_slope": -20.8396,
-        "r2": 0.2987,
+        "slope": -5.6136,
+        "raw_slope": -19.8351,
+        "r2": 0.283,
         "above_threshold": true
       },
       "high52_data": {
@@ -4456,7 +4456,7 @@
         "high52": 575.45,
         "pct_from_high": -26.06
       },
-      "beta": 0.997,
+      "beta": 0.986,
       "signal_color": "faded_red"
     },
     {
@@ -4486,17 +4486,17 @@
       "industry": "Consumer Durables",
       "isin": "INE935N01020",
       "slope_data": {
-        "slope": 87.1157,
-        "raw_slope": 119.4995,
-        "r2": 0.729,
+        "slope": 79.313,
+        "raw_slope": 113.1,
+        "r2": 0.7013,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 13005.0,
-        "high52": 18331.0,
+        "current": 12995.0,
+        "high52": 18316.9,
         "pct_from_high": -29.05
       },
-      "beta": 1.498,
+      "beta": 1.5,
       "signal_color": "bright_green"
     },
     {
@@ -4526,9 +4526,9 @@
       "industry": "Healthcare",
       "isin": "INE600L01024",
       "slope_data": {
-        "slope": 82.5043,
-        "raw_slope": 100.5465,
-        "r2": 0.8206,
+        "slope": 82.4627,
+        "raw_slope": 100.5206,
+        "r2": 0.8204,
         "above_threshold": true
       },
       "high52_data": {
@@ -4536,7 +4536,7 @@
         "high52": 1968.4,
         "pct_from_high": -3.63
       },
-      "beta": 0.528,
+      "beta": 0.526,
       "signal_color": "bright_green"
     },
     {
@@ -4546,9 +4546,9 @@
       "industry": "Healthcare",
       "isin": "INE089A01031",
       "slope_data": {
-        "slope": -24.0615,
-        "raw_slope": -35.8824,
-        "r2": 0.6706,
+        "slope": -23.5066,
+        "raw_slope": -35.5071,
+        "r2": 0.662,
         "above_threshold": true
       },
       "high52_data": {
@@ -4556,7 +4556,7 @@
         "high52": 1367.03,
         "pct_from_high": -13.32
       },
-      "beta": 0.52,
+      "beta": 0.514,
       "signal_color": "bright_red"
     },
     {
@@ -4637,9 +4637,9 @@
       "industry": "Capital Goods",
       "isin": "INE255A01020",
       "slope_data": {
-        "slope": 35.4516,
-        "raw_slope": 55.7704,
-        "r2": 0.6357,
+        "slope": 32.174,
+        "raw_slope": 53.3112,
+        "r2": 0.6035,
         "above_threshold": true
       },
       "high52_data": {
@@ -4647,7 +4647,7 @@
         "high52": 270.1,
         "pct_from_high": -11.38
       },
-      "beta": 1.117,
+      "beta": 1.116,
       "signal_color": "bright_green"
     },
     {
@@ -4657,9 +4657,9 @@
       "industry": "Financial Services",
       "isin": "INE532F01054",
       "slope_data": {
-        "slope": 36.5328,
-        "raw_slope": 60.7337,
-        "r2": 0.6015,
+        "slope": 37.0843,
+        "raw_slope": 61.2166,
+        "r2": 0.6058,
         "above_threshold": true
       },
       "high52_data": {
@@ -4667,7 +4667,7 @@
         "high52": 137.28,
         "pct_from_high": -0.75
       },
-      "beta": 1.598,
+      "beta": 1.59,
       "signal_color": "bright_green"
     },
     {
@@ -4797,17 +4797,17 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE548C01032",
       "slope_data": {
-        "slope": -6.0547,
-        "raw_slope": -20.1953,
-        "r2": 0.2998,
+        "slope": -5.9358,
+        "raw_slope": -20.0075,
+        "r2": 0.2967,
         "above_threshold": true
       },
       "high52_data": {
         "current": 368.45,
-        "high52": 591.54,
-        "pct_from_high": -37.71
+        "high52": 590.41,
+        "pct_from_high": -37.59
       },
-      "beta": 0.701,
+      "beta": 0.7,
       "signal_color": "faded_red"
     },
     {
@@ -4857,9 +4857,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE913H01037",
       "slope_data": {
-        "slope": 16.2552,
-        "raw_slope": 38.6891,
-        "r2": 0.4201,
+        "slope": 12.7368,
+        "raw_slope": 34.9962,
+        "r2": 0.3639,
         "above_threshold": true
       },
       "high52_data": {
@@ -4867,7 +4867,7 @@
         "high52": 3029.5,
         "pct_from_high": -9.82
       },
-      "beta": 1.012,
+      "beta": 1.01,
       "signal_color": "faded_green"
     },
     {
@@ -4897,9 +4897,9 @@
       "industry": "Consumer Services",
       "isin": "INE010601016",
       "slope_data": {
-        "slope": 165.1155,
-        "raw_slope": 257.638,
-        "r2": 0.6409,
+        "slope": 172.8608,
+        "raw_slope": 265.3027,
+        "r2": 0.6516,
         "above_threshold": true
       },
       "high52_data": {
@@ -4907,7 +4907,7 @@
         "high52": 1898.4,
         "pct_from_high": -8.75
       },
-      "beta": 0.292,
+      "beta": 0.295,
       "signal_color": "bright_green"
     },
     {
@@ -4957,9 +4957,9 @@
       "industry": "Healthcare",
       "isin": "INE406M01024",
       "slope_data": {
-        "slope": -2.4826,
-        "raw_slope": -13.8938,
-        "r2": 0.1787,
+        "slope": -3.0438,
+        "raw_slope": -14.9169,
+        "r2": 0.2041,
         "above_threshold": true
       },
       "high52_data": {
@@ -4967,7 +4967,7 @@
         "high52": 1692.22,
         "pct_from_high": -21.92
       },
-      "beta": 0.589,
+      "beta": 0.588,
       "signal_color": "gray"
     },
     {
@@ -4977,9 +4977,9 @@
       "industry": "Capital Goods",
       "isin": "INE042A01014",
       "slope_data": {
-        "slope": 8.8986,
-        "raw_slope": 25.2875,
-        "r2": 0.3519,
+        "slope": 8.2373,
+        "raw_slope": 24.6699,
+        "r2": 0.3339,
         "above_threshold": true
       },
       "high52_data": {
@@ -4987,7 +4987,7 @@
         "high52": 3898.11,
         "pct_from_high": -28.22
       },
-      "beta": 1.239,
+      "beta": 1.24,
       "signal_color": "faded_green"
     },
     {
@@ -5017,9 +5017,9 @@
       "industry": "Consumer Durables",
       "isin": "INE04TZ01018",
       "slope_data": {
-        "slope": 67.967,
-        "raw_slope": 88.4534,
-        "r2": 0.7684,
+        "slope": 64.4423,
+        "raw_slope": 85.9494,
+        "r2": 0.7498,
         "above_threshold": true
       },
       "high52_data": {
@@ -5027,7 +5027,7 @@
         "high52": 3196.4,
         "pct_from_high": -16.73
       },
-      "beta": 1.096,
+      "beta": 1.094,
       "signal_color": "bright_green"
     },
     {
@@ -5097,9 +5097,9 @@
       "industry": "Financial Services",
       "isin": "INE007N01010",
       "slope_data": {
-        "slope": 0.0002,
-        "raw_slope": 0.501,
-        "r2": 0.0003,
+        "slope": -0.0,
+        "raw_slope": -0.0679,
+        "r2": 0.0,
         "above_threshold": true
       },
       "high52_data": {
@@ -5107,7 +5107,7 @@
         "high52": 176.39,
         "pct_from_high": -11.98
       },
-      "beta": 1.547,
+      "beta": 1.537,
       "signal_color": "gray"
     },
     {
@@ -5137,17 +5137,17 @@
       "industry": "Chemicals",
       "isin": "INE188A01015",
       "slope_data": {
-        "slope": -21.5788,
-        "raw_slope": -34.1019,
-        "r2": 0.6328,
+        "slope": -23.3895,
+        "raw_slope": -35.4593,
+        "r2": 0.6596,
         "above_threshold": true
       },
       "high52_data": {
         "current": 764.2,
-        "high52": 1005.1,
-        "pct_from_high": -23.97
+        "high52": 1000.15,
+        "pct_from_high": -23.59
       },
-      "beta": 1.201,
+      "beta": 1.198,
       "signal_color": "bright_red"
     },
     {
@@ -5157,9 +5157,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE737H01014",
       "slope_data": {
-        "slope": -0.9821,
-        "raw_slope": -14.3397,
-        "r2": 0.0685,
+        "slope": -1.6989,
+        "raw_slope": -17.382,
+        "r2": 0.0977,
         "above_threshold": true
       },
       "high52_data": {
@@ -5237,9 +5237,9 @@
       "industry": "Financial Services",
       "isin": "INE128S01021",
       "slope_data": {
-        "slope": 51.4599,
-        "raw_slope": 90.8431,
-        "r2": 0.5665,
+        "slope": 48.9468,
+        "raw_slope": 88.5206,
+        "r2": 0.5529,
         "above_threshold": true
       },
       "high52_data": {
@@ -5247,7 +5247,7 @@
         "high52": 657.61,
         "pct_from_high": -18.12
       },
-      "beta": 1.222,
+      "beta": 1.229,
       "signal_color": "bright_green"
     },
     {
@@ -5277,9 +5277,9 @@
       "industry": "Healthcare",
       "isin": "INE061F01013",
       "slope_data": {
-        "slope": -12.5355,
-        "raw_slope": -20.3626,
-        "r2": 0.6156,
+        "slope": -13.1933,
+        "raw_slope": -20.9352,
+        "r2": 0.6302,
         "above_threshold": true
       },
       "high52_data": {
@@ -5287,7 +5287,7 @@
         "high52": 1096.74,
         "pct_from_high": -19.21
       },
-      "beta": 0.812,
+      "beta": 0.81,
       "signal_color": "bright_red"
     },
     {
@@ -5397,9 +5397,9 @@
       "industry": "Services",
       "isin": "INE776C01039",
       "slope_data": {
-        "slope": -0.1957,
-        "raw_slope": -8.4368,
-        "r2": 0.0232,
+        "slope": -0.4379,
+        "raw_slope": -10.9613,
+        "r2": 0.0399,
         "above_threshold": true
       },
       "high52_data": {
@@ -5407,7 +5407,7 @@
         "high52": 114.98,
         "pct_from_high": -13.64
       },
-      "beta": 1.443,
+      "beta": 1.434,
       "signal_color": "gray"
     },
     {
@@ -5437,9 +5437,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE524A01029",
       "slope_data": {
-        "slope": 101.3956,
-        "raw_slope": 157.1863,
-        "r2": 0.6451,
+        "slope": 92.8765,
+        "raw_slope": 150.0628,
+        "r2": 0.6189,
         "above_threshold": true
       },
       "high52_data": {
@@ -5447,7 +5447,7 @@
         "high52": 1584.42,
         "pct_from_high": -16.58
       },
-      "beta": 1.329,
+      "beta": 1.33,
       "signal_color": "bright_green"
     },
     {
@@ -5457,9 +5457,9 @@
       "industry": "Capital Goods",
       "isin": "INE297H01019",
       "slope_data": {
-        "slope": -35.5436,
-        "raw_slope": -53.1126,
-        "r2": 0.6692,
+        "slope": -35.1706,
+        "raw_slope": -52.7014,
+        "r2": 0.6674,
         "above_threshold": true
       },
       "high52_data": {
@@ -5467,7 +5467,7 @@
         "high52": 927.1,
         "pct_from_high": -40.98
       },
-      "beta": 1.059,
+      "beta": 1.056,
       "signal_color": "bright_red"
     },
     {
@@ -5497,9 +5497,9 @@
       "industry": "Capital Goods",
       "isin": "INE291A01017",
       "slope_data": {
-        "slope": 62.2535,
-        "raw_slope": 97.6445,
-        "r2": 0.6376,
+        "slope": 53.5883,
+        "raw_slope": 89.7359,
+        "r2": 0.5972,
         "above_threshold": true
       },
       "high52_data": {
@@ -5507,7 +5507,7 @@
         "high52": 7396.04,
         "pct_from_high": -9.08
       },
-      "beta": 1.64,
+      "beta": 1.634,
       "signal_color": "bright_green"
     },
     {
@@ -5517,9 +5517,9 @@
       "industry": "Financial Services",
       "isin": "INE481Y01014",
       "slope_data": {
-        "slope": -13.1989,
-        "raw_slope": -22.092,
-        "r2": 0.5975,
+        "slope": -12.7858,
+        "raw_slope": -21.7229,
+        "r2": 0.5886,
         "above_threshold": true
       },
       "high52_data": {
@@ -5527,7 +5527,7 @@
         "high52": 394.12,
         "pct_from_high": -10.94
       },
-      "beta": 0.746,
+      "beta": 0.741,
       "signal_color": "bright_red"
     },
     {
@@ -5537,9 +5537,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE322A01010",
       "slope_data": {
-        "slope": -7.7975,
-        "raw_slope": -15.6778,
-        "r2": 0.4974,
+        "slope": -8.2168,
+        "raw_slope": -16.0594,
+        "r2": 0.5116,
         "above_threshold": true
       },
       "high52_data": {
@@ -5547,8 +5547,8 @@
         "high52": 10060.31,
         "pct_from_high": -29.69
       },
-      "beta": 0.597,
-      "signal_color": "faded_red"
+      "beta": 0.602,
+      "signal_color": "bright_red"
     },
     {
       "name": "Gland Pharma Ltd.",
@@ -5577,9 +5577,9 @@
       "industry": "Healthcare",
       "isin": "INE159A01016",
       "slope_data": {
-        "slope": 138.5128,
-        "raw_slope": 163.3994,
-        "r2": 0.8477,
+        "slope": 141.4011,
+        "raw_slope": 165.3459,
+        "r2": 0.8552,
         "above_threshold": true
       },
       "high52_data": {
@@ -5587,7 +5587,7 @@
         "high52": 3106.4,
         "pct_from_high": -8.61
       },
-      "beta": 0.433,
+      "beta": 0.434,
       "signal_color": "bright_green"
     },
     {
@@ -5617,9 +5617,9 @@
       "industry": "Healthcare",
       "isin": "INE474Q01031",
       "slope_data": {
-        "slope": 75.476,
-        "raw_slope": 86.1132,
-        "r2": 0.8765,
+        "slope": 73.5692,
+        "raw_slope": 84.6674,
+        "r2": 0.8689,
         "above_threshold": true
       },
       "high52_data": {
@@ -5627,7 +5627,7 @@
         "high52": 1508.9,
         "pct_from_high": -0.63
       },
-      "beta": 0.842,
+      "beta": 0.835,
       "signal_color": "bright_green"
     },
     {
@@ -5657,9 +5657,9 @@
       "industry": "Capital Goods",
       "isin": "INE177H01039",
       "slope_data": {
-        "slope": -33.966,
-        "raw_slope": -44.279,
-        "r2": 0.7671,
+        "slope": -33.3587,
+        "raw_slope": -43.8488,
+        "r2": 0.7608,
         "above_threshold": true
       },
       "high52_data": {
@@ -5667,7 +5667,7 @@
         "high52": 304.59,
         "pct_from_high": -23.35
       },
-      "beta": 0.956,
+      "beta": 0.959,
       "signal_color": "bright_red"
     },
     {
@@ -5677,17 +5677,17 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE260B01028",
       "slope_data": {
-        "slope": -14.8561,
-        "raw_slope": -28.3045,
-        "r2": 0.5249,
+        "slope": -14.7353,
+        "raw_slope": -28.1327,
+        "r2": 0.5238,
         "above_threshold": true
       },
       "high52_data": {
         "current": 2018.0,
-        "high52": 3499.78,
-        "pct_from_high": -42.34
+        "high52": 3454.7,
+        "pct_from_high": -41.59
       },
-      "beta": 1.34,
+      "beta": 1.339,
       "signal_color": "bright_red"
     },
     {
@@ -5697,9 +5697,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE850D01014",
       "slope_data": {
-        "slope": 23.2056,
-        "raw_slope": 51.3053,
-        "r2": 0.4523,
+        "slope": 25.4013,
+        "raw_slope": 53.872,
+        "r2": 0.4715,
         "above_threshold": true
       },
       "high52_data": {
@@ -5707,7 +5707,7 @@
         "high52": 720.84,
         "pct_from_high": -8.22
       },
-      "beta": 0.793,
+      "beta": 0.791,
       "signal_color": "faded_green"
     },
     {
@@ -5717,9 +5717,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE102D01028",
       "slope_data": {
-        "slope": -14.2553,
-        "raw_slope": -35.3052,
-        "r2": 0.4038,
+        "slope": -15.299,
+        "raw_slope": -36.3558,
+        "r2": 0.4208,
         "above_threshold": true
       },
       "high52_data": {
@@ -5727,7 +5727,7 @@
         "high52": 1235.57,
         "pct_from_high": -28.78
       },
-      "beta": 0.846,
+      "beta": 0.843,
       "signal_color": "faded_red"
     },
     {
@@ -5757,9 +5757,9 @@
       "industry": "Realty",
       "isin": "INE484J01027",
       "slope_data": {
-        "slope": 14.1753,
-        "raw_slope": 53.5089,
-        "r2": 0.2649,
+        "slope": 9.9519,
+        "raw_slope": 46.9098,
+        "r2": 0.2121,
         "above_threshold": true
       },
       "high52_data": {
@@ -5767,8 +5767,8 @@
         "high52": 2309.14,
         "pct_from_high": -26.76
       },
-      "beta": 1.891,
-      "signal_color": "faded_green"
+      "beta": 1.89,
+      "signal_color": "gray"
     },
     {
       "name": "Gokaldas Exports Ltd.",
@@ -5777,9 +5777,9 @@
       "industry": "Textiles",
       "isin": "INE887G01027",
       "slope_data": {
-        "slope": 7.2206,
-        "raw_slope": 38.7043,
-        "r2": 0.1866,
+        "slope": 5.1811,
+        "raw_slope": 34.0186,
+        "r2": 0.1523,
         "above_threshold": true
       },
       "high52_data": {
@@ -5797,9 +5797,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE314T01033",
       "slope_data": {
-        "slope": 0.1436,
-        "raw_slope": 7.095,
-        "r2": 0.0202,
+        "slope": 0.1983,
+        "raw_slope": 7.8718,
+        "r2": 0.0252,
         "above_threshold": true
       },
       "high52_data": {
@@ -5807,7 +5807,7 @@
         "high52": 252.85,
         "pct_from_high": -11.32
       },
-      "beta": 0.915,
+      "beta": 0.908,
       "signal_color": "gray"
     },
     {
@@ -5857,9 +5857,9 @@
       "industry": "Construction Materials",
       "isin": "INE047A01021",
       "slope_data": {
-        "slope": 15.7682,
-        "raw_slope": 26.5732,
-        "r2": 0.5934,
+        "slope": 13.8517,
+        "raw_slope": 24.6786,
+        "r2": 0.5613,
         "above_threshold": true
       },
       "high52_data": {
@@ -5937,9 +5937,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE036B01030",
       "slope_data": {
-        "slope": 4.4441,
-        "raw_slope": 25.6225,
-        "r2": 0.1734,
+        "slope": 4.2725,
+        "raw_slope": 25.2723,
+        "r2": 0.1691,
         "above_threshold": true
       },
       "high52_data": {
@@ -5947,7 +5947,7 @@
         "high52": 183.03,
         "pct_from_high": -14.25
       },
-      "beta": 0.769,
+      "beta": 0.765,
       "signal_color": "gray"
     },
     {
@@ -6168,9 +6168,9 @@
       "industry": "Financial Services",
       "isin": "INE127D01025",
       "slope_data": {
-        "slope": -2.7317,
-        "raw_slope": -15.1988,
-        "r2": 0.1797,
+        "slope": -3.1158,
+        "raw_slope": -16.0252,
+        "r2": 0.1944,
         "above_threshold": true
       },
       "high52_data": {
@@ -6178,7 +6178,7 @@
         "high52": 2878.78,
         "pct_from_high": -15.76
       },
-      "beta": 1.481,
+      "beta": 1.479,
       "signal_color": "gray"
     },
     {
@@ -6268,9 +6268,9 @@
       "industry": "Consumer Durables",
       "isin": "INE176B01034",
       "slope_data": {
-        "slope": 0.186,
-        "raw_slope": 7.0332,
-        "r2": 0.0264,
+        "slope": 0.0737,
+        "raw_slope": 5.2271,
+        "r2": 0.0141,
         "above_threshold": true
       },
       "high52_data": {
@@ -6278,7 +6278,7 @@
         "high52": 1581.56,
         "pct_from_high": -28.4
       },
-      "beta": 1.075,
+      "beta": 1.071,
       "signal_color": "gray"
     },
     {
@@ -6288,9 +6288,9 @@
       "industry": "Healthcare",
       "isin": "INE075I01017",
       "slope_data": {
-        "slope": 31.2767,
-        "raw_slope": 51.4105,
-        "r2": 0.6084,
+        "slope": 29.9261,
+        "raw_slope": 50.2323,
+        "r2": 0.5958,
         "above_threshold": true
       },
       "high52_data": {
@@ -6298,7 +6298,7 @@
         "high52": 776.3,
         "pct_from_high": -8.77
       },
-      "beta": 0.716,
+      "beta": 0.71,
       "signal_color": "bright_green"
     },
     {
@@ -6308,9 +6308,9 @@
       "industry": "Services",
       "isin": "INE0AJG01018",
       "slope_data": {
-        "slope": -28.1327,
-        "raw_slope": -35.7748,
-        "r2": 0.7864,
+        "slope": -28.275,
+        "raw_slope": -35.9747,
+        "r2": 0.786,
         "above_threshold": true
       },
       "high52_data": {
@@ -6318,7 +6318,7 @@
         "high52": 184.0,
         "pct_from_high": -34.36
       },
-      "beta": 1.222,
+      "beta": 1.219,
       "signal_color": "bright_red"
     },
     {
@@ -6328,9 +6328,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE978A01027",
       "slope_data": {
-        "slope": 67.9975,
-        "raw_slope": 89.8993,
-        "r2": 0.7564,
+        "slope": 72.6915,
+        "raw_slope": 94.1261,
+        "r2": 0.7723,
         "above_threshold": true
       },
       "high52_data": {
@@ -6338,7 +6338,7 @@
         "high52": 529.45,
         "pct_from_high": -21.03
       },
-      "beta": 1.254,
+      "beta": 1.252,
       "signal_color": "bright_green"
     },
     {
@@ -6408,9 +6408,9 @@
       "industry": "Metals & Mining",
       "isin": "INE038A01020",
       "slope_data": {
-        "slope": -1.6679,
-        "raw_slope": -15.6717,
-        "r2": 0.1064,
+        "slope": -1.6055,
+        "raw_slope": -15.4655,
+        "r2": 0.1038,
         "above_threshold": true
       },
       "high52_data": {
@@ -6418,7 +6418,7 @@
         "high52": 1143.73,
         "pct_from_high": -13.75
       },
-      "beta": 0.769,
+      "beta": 0.767,
       "signal_color": "gray"
     },
     {
@@ -6488,9 +6488,9 @@
       "industry": "Oil Gas & Consumable Fuels",
       "isin": "INE094A01015",
       "slope_data": {
-        "slope": -0.6408,
-        "raw_slope": -7.9407,
-        "r2": 0.0807,
+        "slope": -1.2505,
+        "raw_slope": -9.8279,
+        "r2": 0.1272,
         "above_threshold": true
       },
       "high52_data": {
@@ -6498,7 +6498,7 @@
         "high52": 474.6,
         "pct_from_high": -24.36
       },
-      "beta": 1.575,
+      "beta": 1.572,
       "signal_color": "gray"
     },
     {
@@ -6568,18 +6568,18 @@
       "industry": "Financial Services",
       "isin": "INE481N01025",
       "slope_data": {
-        "slope": 21.6792,
-        "raw_slope": 42.3638,
-        "r2": 0.5117,
+        "slope": 19.7241,
+        "raw_slope": 40.4602,
+        "r2": 0.4875,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1241.3,
-        "high52": 1289.57,
-        "pct_from_high": -3.74
+        "high52": 1280.1,
+        "pct_from_high": -3.03
       },
-      "beta": 1.25,
-      "signal_color": "bright_green"
+      "beta": 1.244,
+      "signal_color": "faded_green"
     },
     {
       "name": "Honasa Consumer Ltd.",
@@ -6588,9 +6588,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE0J5401028",
       "slope_data": {
-        "slope": 80.3523,
-        "raw_slope": 108.7387,
-        "r2": 0.7389,
+        "slope": 73.561,
+        "raw_slope": 101.6912,
+        "r2": 0.7234,
         "above_threshold": true
       },
       "high52_data": {
@@ -6608,9 +6608,9 @@
       "industry": "Capital Goods",
       "isin": "INE671A01010",
       "slope_data": {
-        "slope": 1.6639,
-        "raw_slope": 21.0699,
-        "r2": 0.079,
+        "slope": 0.6208,
+        "raw_slope": 14.2566,
+        "r2": 0.0435,
         "above_threshold": true
       },
       "high52_data": {
@@ -6618,7 +6618,7 @@
         "high52": 40105.0,
         "pct_from_high": -11.62
       },
-      "beta": 0.815,
+      "beta": 0.809,
       "signal_color": "gray"
     },
     {
@@ -6688,9 +6688,9 @@
       "industry": "Financial Services",
       "isin": "INE765G01017",
       "slope_data": {
-        "slope": -35.4879,
-        "raw_slope": -45.4478,
-        "r2": 0.7809,
+        "slope": -36.0245,
+        "raw_slope": -45.8442,
+        "r2": 0.7858,
         "above_threshold": true
       },
       "high52_data": {
@@ -6698,7 +6698,7 @@
         "high52": 2035.17,
         "pct_from_high": -28.35
       },
-      "beta": 0.724,
+      "beta": 0.721,
       "signal_color": "bright_red"
     },
     {
@@ -6788,9 +6788,9 @@
       "industry": "Consumer Durables",
       "isin": "INE559A01017",
       "slope_data": {
-        "slope": 20.3814,
-        "raw_slope": 52.7799,
-        "r2": 0.3862,
+        "slope": 15.6485,
+        "raw_slope": 46.9967,
+        "r2": 0.333,
         "above_threshold": true
       },
       "high52_data": {
@@ -6798,7 +6798,7 @@
         "high52": 1956.0,
         "pct_from_high": -37.37
       },
-      "beta": 1.04,
+      "beta": 1.044,
       "signal_color": "faded_green"
     },
     {
@@ -6828,9 +6828,9 @@
       "industry": "Financial Services",
       "isin": "INE489L01022",
       "slope_data": {
-        "slope": -2.4666,
-        "raw_slope": -6.1012,
-        "r2": 0.4043,
+        "slope": -2.3085,
+        "raw_slope": -5.9286,
+        "r2": 0.3894,
         "above_threshold": true
       },
       "high52_data": {
@@ -6838,7 +6838,7 @@
         "high52": 391.85,
         "pct_from_high": -11.93
       },
-      "beta": 1.166,
+      "beta": 1.165,
       "signal_color": "faded_red"
     },
     {
@@ -6848,9 +6848,9 @@
       "industry": "Financial Services",
       "isin": "INE530B01024",
       "slope_data": {
-        "slope": 145.743,
-        "raw_slope": 172.5012,
-        "r2": 0.8449,
+        "slope": 138.1328,
+        "raw_slope": 166.5194,
+        "r2": 0.8295,
         "above_threshold": true
       },
       "high52_data": {
@@ -6858,7 +6858,7 @@
         "high52": 696.4,
         "pct_from_high": -13.81
       },
-      "beta": 1.453,
+      "beta": 1.452,
       "signal_color": "bright_green"
     },
     {
@@ -6868,9 +6868,9 @@
       "industry": "Capital Goods",
       "isin": "INE616N01034",
       "slope_data": {
-        "slope": 128.9228,
-        "raw_slope": 183.0581,
-        "r2": 0.7043,
+        "slope": 115.2305,
+        "raw_slope": 168.7175,
+        "r2": 0.683,
         "above_threshold": true
       },
       "high52_data": {
@@ -6878,7 +6878,7 @@
         "high52": 2295.8,
         "pct_from_high": -8.58
       },
-      "beta": 0.657,
+      "beta": 0.651,
       "signal_color": "bright_green"
     },
     {
@@ -6968,9 +6968,9 @@
       "industry": "Telecommunication",
       "isin": "INE248A01017",
       "slope_data": {
-        "slope": -20.0361,
-        "raw_slope": -30.6391,
-        "r2": 0.6539,
+        "slope": -21.8828,
+        "raw_slope": -32.0054,
+        "r2": 0.6837,
         "above_threshold": true
       },
       "high52_data": {
@@ -6978,7 +6978,7 @@
         "high52": 356.65,
         "pct_from_high": -28.14
       },
-      "beta": 1.018,
+      "beta": 1.019,
       "signal_color": "bright_red"
     },
     {
@@ -7028,9 +7028,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE560A01023",
       "slope_data": {
-        "slope": -20.6401,
-        "raw_slope": -88.5986,
-        "r2": 0.233,
+        "slope": -23.4658,
+        "raw_slope": -90.7337,
+        "r2": 0.2586,
         "above_threshold": true
       },
       "high52_data": {
@@ -7038,8 +7038,8 @@
         "high52": 1203.3,
         "pct_from_high": -78.09
       },
-      "beta": 2.399,
-      "signal_color": "gray"
+      "beta": 2.408,
+      "signal_color": "faded_red"
     },
     {
       "name": "India Shelter Finance Corporation Ltd.",
@@ -7048,9 +7048,9 @@
       "industry": "Financial Services",
       "isin": "INE922K01024",
       "slope_data": {
-        "slope": -26.2484,
-        "raw_slope": -43.4203,
-        "r2": 0.6045,
+        "slope": -25.8221,
+        "raw_slope": -43.0754,
+        "r2": 0.5995,
         "above_threshold": true
       },
       "high52_data": {
@@ -7058,7 +7058,7 @@
         "high52": 906.99,
         "pct_from_high": -24.82
       },
-      "beta": 0.787,
+      "beta": 0.783,
       "signal_color": "bright_red"
     },
     {
@@ -7088,9 +7088,9 @@
       "industry": "Financial Services",
       "isin": "INE562A01011",
       "slope_data": {
-        "slope": 10.4906,
-        "raw_slope": 25.4452,
-        "r2": 0.4123,
+        "slope": 9.3523,
+        "raw_slope": 24.2499,
+        "r2": 0.3857,
         "above_threshold": true
       },
       "high52_data": {
@@ -7098,7 +7098,7 @@
         "high52": 970.87,
         "pct_from_high": -13.5
       },
-      "beta": 1.378,
+      "beta": 1.379,
       "signal_color": "faded_green"
     },
     {
@@ -7148,9 +7148,9 @@
       "industry": "Metals & Mining",
       "isin": "INE919H01018",
       "slope_data": {
-        "slope": -5.993,
-        "raw_slope": -22.3642,
-        "r2": 0.268,
+        "slope": -6.0687,
+        "raw_slope": -22.4889,
+        "r2": 0.2699,
         "above_threshold": true
       },
       "high52_data": {
@@ -7158,7 +7158,7 @@
         "high52": 1644.93,
         "pct_from_high": -23.88
       },
-      "beta": 1.359,
+      "beta": 1.358,
       "signal_color": "faded_red"
     },
     {
@@ -7268,9 +7268,9 @@
       "industry": "Consumer Durables",
       "isin": "INE09VQ01012",
       "slope_data": {
-        "slope": 59.7959,
-        "raw_slope": 74.0671,
-        "r2": 0.8073,
+        "slope": 57.7335,
+        "raw_slope": 72.619,
+        "r2": 0.795,
         "above_threshold": true
       },
       "high52_data": {
@@ -7278,7 +7278,7 @@
         "high52": 1320.4,
         "pct_from_high": -16.71
       },
-      "beta": 1.253,
+      "beta": 1.25,
       "signal_color": "bright_green"
     },
     {
@@ -7288,9 +7288,9 @@
       "industry": "Textiles",
       "isin": "INE483B01026",
       "slope_data": {
-        "slope": 127.8089,
-        "raw_slope": 183.2564,
-        "r2": 0.6974,
+        "slope": 118.8239,
+        "raw_slope": 173.0891,
+        "r2": 0.6865,
         "above_threshold": true
       },
       "high52_data": {
@@ -7298,7 +7298,7 @@
         "high52": 469.45,
         "pct_from_high": -4.71
       },
-      "beta": 1.539,
+      "beta": 1.533,
       "signal_color": "bright_green"
     },
     {
@@ -7328,9 +7328,9 @@
       "industry": "Telecommunication",
       "isin": "INE121J01017",
       "slope_data": {
-        "slope": -15.8553,
-        "raw_slope": -26.6458,
-        "r2": 0.595,
+        "slope": -14.9219,
+        "raw_slope": -25.9473,
+        "r2": 0.5751,
         "above_threshold": true
       },
       "high52_data": {
@@ -7338,7 +7338,7 @@
         "high52": 460.42,
         "pct_from_high": -18.36
       },
-      "beta": 0.842,
+      "beta": 0.84,
       "signal_color": "bright_red"
     },
     {
@@ -7368,9 +7368,9 @@
       "industry": "Consumer Services",
       "isin": "INE663F01032",
       "slope_data": {
-        "slope": 198.8845,
-        "raw_slope": 233.0321,
-        "r2": 0.8535,
+        "slope": 191.7954,
+        "raw_slope": 227.3371,
+        "r2": 0.8437,
         "above_threshold": true
       },
       "high52_data": {
@@ -7378,7 +7378,7 @@
         "high52": 1407.76,
         "pct_from_high": -11.12
       },
-      "beta": 0.763,
+      "beta": 0.765,
       "signal_color": "bright_green"
     },
     {
@@ -7408,9 +7408,9 @@
       "industry": "Services",
       "isin": "INE510W01014",
       "slope_data": {
-        "slope": -1.1066,
-        "raw_slope": -14.7647,
-        "r2": 0.0749,
+        "slope": -1.3668,
+        "raw_slope": -15.809,
+        "r2": 0.0865,
         "above_threshold": true
       },
       "high52_data": {
@@ -7418,7 +7418,7 @@
         "high52": 272.2,
         "pct_from_high": -37.06
       },
-      "beta": 1.601,
+      "beta": 1.602,
       "signal_color": "gray"
     },
     {
@@ -7508,9 +7508,9 @@
       "industry": "Information Technology",
       "isin": "INE115Q01022",
       "slope_data": {
-        "slope": 9.8495,
-        "raw_slope": 30.6438,
-        "r2": 0.3214,
+        "slope": 8.1799,
+        "raw_slope": 28.2137,
+        "r2": 0.2899,
         "above_threshold": true
       },
       "high52_data": {
@@ -7528,9 +7528,9 @@
       "industry": "Utilities",
       "isin": "INE570A01022",
       "slope_data": {
-        "slope": 3.7466,
-        "raw_slope": 30.6622,
-        "r2": 0.1222,
+        "slope": 4.2363,
+        "raw_slope": 32.1729,
+        "r2": 0.1317,
         "above_threshold": true
       },
       "high52_data": {
@@ -7538,7 +7538,7 @@
         "high52": 466.72,
         "pct_from_high": -5.23
       },
-      "beta": 1.214,
+      "beta": 1.21,
       "signal_color": "gray"
     },
     {
@@ -7599,9 +7599,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE927D01051",
       "slope_data": {
-        "slope": -4.1108,
-        "raw_slope": -19.1092,
-        "r2": 0.2151,
+        "slope": -5.2504,
+        "raw_slope": -20.8942,
+        "r2": 0.2513,
         "above_threshold": true
       },
       "high52_data": {
@@ -7609,8 +7609,8 @@
         "high52": 740.68,
         "pct_from_high": -19.11
       },
-      "beta": 1.47,
-      "signal_color": "gray"
+      "beta": 1.469,
+      "signal_color": "faded_red"
     },
     {
       "name": "JK Lakshmi Cement Ltd.",
@@ -7639,9 +7639,9 @@
       "industry": "Forest Materials",
       "isin": "INE789E01012",
       "slope_data": {
-        "slope": 22.7146,
-        "raw_slope": 49.0163,
-        "r2": 0.4634,
+        "slope": 29.1215,
+        "raw_slope": 55.2222,
+        "r2": 0.5274,
         "above_threshold": true
       },
       "high52_data": {
@@ -7649,8 +7649,8 @@
         "high52": 430.6,
         "pct_from_high": 0.0
       },
-      "beta": 0.944,
-      "signal_color": "faded_green"
+      "beta": 0.941,
+      "signal_color": "bright_green"
     },
     {
       "name": "JK Tyre & Industries Ltd.",
@@ -7659,9 +7659,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE573A01042",
       "slope_data": {
-        "slope": -0.4835,
-        "raw_slope": -9.684,
-        "r2": 0.0499,
+        "slope": -0.844,
+        "raw_slope": -11.7408,
+        "r2": 0.0719,
         "above_threshold": true
       },
       "high52_data": {
@@ -7669,7 +7669,7 @@
         "high52": 598.87,
         "pct_from_high": -41.67
       },
-      "beta": 1.673,
+      "beta": 1.669,
       "signal_color": "gray"
     },
     {
@@ -7679,9 +7679,9 @@
       "industry": "Financial Services",
       "isin": "INE780C01023",
       "slope_data": {
-        "slope": 0.3931,
-        "raw_slope": 7.4062,
-        "r2": 0.0531,
+        "slope": 0.4713,
+        "raw_slope": 7.8354,
+        "r2": 0.0602,
         "above_threshold": true
       },
       "high52_data": {
@@ -7689,7 +7689,7 @@
         "high52": 173.55,
         "pct_from_high": -27.23
       },
-      "beta": 1.679,
+      "beta": 1.671,
       "signal_color": "gray"
     },
     {
@@ -7759,9 +7759,9 @@
       "industry": "Metals & Mining",
       "isin": "INE019A01038",
       "slope_data": {
-        "slope": 0.4762,
-        "raw_slope": 6.6682,
-        "r2": 0.0714,
+        "slope": 0.411,
+        "raw_slope": 6.351,
+        "r2": 0.0647,
         "above_threshold": true
       },
       "high52_data": {
@@ -7769,7 +7769,7 @@
         "high52": 1341.0,
         "pct_from_high": -4.88
       },
-      "beta": 1.178,
+      "beta": 1.177,
       "signal_color": "gray"
     },
     {
@@ -7779,17 +7779,17 @@
       "industry": "Metals & Mining",
       "isin": "INE091G01026",
       "slope_data": {
-        "slope": -4.4926,
-        "raw_slope": -22.9531,
-        "r2": 0.1957,
+        "slope": -4.0015,
+        "raw_slope": -21.8776,
+        "r2": 0.1829,
         "above_threshold": true
       },
       "high52_data": {
         "current": 64.48,
-        "high52": 103.22,
-        "pct_from_high": -37.53
+        "high52": 101.06,
+        "pct_from_high": -36.2
       },
-      "beta": 1.552,
+      "beta": 1.553,
       "signal_color": "gray"
     },
     {
@@ -7839,9 +7839,9 @@
       "industry": "Financial Services",
       "isin": "INE168A01041",
       "slope_data": {
-        "slope": 0.0775,
-        "raw_slope": 8.1052,
-        "r2": 0.0096,
+        "slope": 0.0077,
+        "raw_slope": 3.6429,
+        "r2": 0.0021,
         "above_threshold": true
       },
       "high52_data": {
@@ -7849,7 +7849,7 @@
         "high52": 192.65,
         "pct_from_high": -23.91
       },
-      "beta": 1.44,
+      "beta": 1.443,
       "signal_color": "gray"
     },
     {
@@ -7879,9 +7879,9 @@
       "industry": "Financial Services",
       "isin": "INE953L01027",
       "slope_data": {
-        "slope": 39.6467,
-        "raw_slope": 77.7093,
-        "r2": 0.5102,
+        "slope": 40.1004,
+        "raw_slope": 78.084,
+        "r2": 0.5136,
         "above_threshold": true
       },
       "high52_data": {
@@ -7889,7 +7889,7 @@
         "high52": 584.85,
         "pct_from_high": -9.84
       },
-      "beta": 1.009,
+      "beta": 1.004,
       "signal_color": "bright_green"
     },
     {
@@ -7925,8 +7925,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 510.4,
-        "high52": 829.1,
+        "current": 505.9,
+        "high52": 821.79,
         "pct_from_high": -38.44
       },
       "beta": 1.239,
@@ -7939,9 +7939,9 @@
       "industry": "Capital Goods",
       "isin": "INE324A01032",
       "slope_data": {
-        "slope": 98.4461,
-        "raw_slope": 124.9566,
-        "r2": 0.7878,
+        "slope": 95.8724,
+        "raw_slope": 122.6832,
+        "r2": 0.7815,
         "above_threshold": true
       },
       "high52_data": {
@@ -7949,7 +7949,7 @@
         "high52": 317.5,
         "pct_from_high": -8.82
       },
-      "beta": 1.188,
+      "beta": 1.183,
       "signal_color": "bright_green"
     },
     {
@@ -7959,9 +7959,9 @@
       "industry": "Metals & Mining",
       "isin": "INE220G01021",
       "slope_data": {
-        "slope": 3.8547,
-        "raw_slope": 16.7774,
-        "r2": 0.2298,
+        "slope": 4.7754,
+        "raw_slope": 17.9846,
+        "r2": 0.2655,
         "above_threshold": true
       },
       "high52_data": {
@@ -7970,7 +7970,7 @@
         "pct_from_high": -12.78
       },
       "beta": 1.101,
-      "signal_color": "gray"
+      "signal_color": "faded_green"
     },
     {
       "name": "Jindal Steel Ltd.",
@@ -7979,9 +7979,9 @@
       "industry": "Metals & Mining",
       "isin": "INE749A01030",
       "slope_data": {
-        "slope": -0.8992,
-        "raw_slope": -12.8284,
-        "r2": 0.0701,
+        "slope": -0.5901,
+        "raw_slope": -11.0857,
+        "r2": 0.0532,
         "above_threshold": true
       },
       "high52_data": {
@@ -7989,7 +7989,7 @@
         "high52": 1286.5,
         "pct_from_high": -12.98
       },
-      "beta": 1.121,
+      "beta": 1.119,
       "signal_color": "gray"
     },
     {
@@ -8079,9 +8079,9 @@
       "industry": "Healthcare",
       "isin": "INE682M01012",
       "slope_data": {
-        "slope": 22.7383,
-        "raw_slope": 57.7284,
-        "r2": 0.3939,
+        "slope": 16.2762,
+        "raw_slope": 50.3254,
+        "r2": 0.3234,
         "above_threshold": true
       },
       "high52_data": {
@@ -8089,7 +8089,7 @@
         "high52": 332.4,
         "pct_from_high": -15.75
       },
-      "beta": 0.251,
+      "beta": 0.252,
       "signal_color": "faded_green"
     },
     {
@@ -8119,9 +8119,9 @@
       "industry": "Consumer Services",
       "isin": "INE599M01018",
       "slope_data": {
-        "slope": 110.3616,
-        "raw_slope": 184.5388,
-        "r2": 0.598,
+        "slope": 105.5341,
+        "raw_slope": 179.8406,
+        "r2": 0.5868,
         "above_threshold": true
       },
       "high52_data": {
@@ -8129,7 +8129,7 @@
         "high52": 860.95,
         "pct_from_high": -22.3
       },
-      "beta": 1.054,
+      "beta": 1.056,
       "signal_color": "bright_green"
     },
     {
@@ -8139,17 +8139,17 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE668F01031",
       "slope_data": {
-        "slope": 0.0141,
-        "raw_slope": 2.2116,
-        "r2": 0.0064,
+        "slope": 0.0352,
+        "raw_slope": 2.948,
+        "r2": 0.0119,
         "above_threshold": true
       },
       "high52_data": {
         "current": 195.07,
-        "high52": 319.32,
-        "pct_from_high": -38.91
+        "high52": 319.27,
+        "pct_from_high": -38.9
       },
-      "beta": 1.135,
+      "beta": 1.137,
       "signal_color": "gray"
     },
     {
@@ -8179,9 +8179,9 @@
       "industry": "Textiles",
       "isin": "INE930H01031",
       "slope_data": {
-        "slope": 20.6261,
-        "raw_slope": 53.7573,
-        "r2": 0.3837,
+        "slope": 17.1116,
+        "raw_slope": 48.4147,
+        "r2": 0.3534,
         "above_threshold": true
       },
       "high52_data": {
@@ -8189,7 +8189,7 @@
         "high52": 1215.78,
         "pct_from_high": -6.12
       },
-      "beta": 0.827,
+      "beta": 0.826,
       "signal_color": "faded_green"
     },
     {
@@ -8219,9 +8219,9 @@
       "industry": "Construction",
       "isin": "INE634I01029",
       "slope_data": {
-        "slope": -2.0788,
-        "raw_slope": -15.0267,
-        "r2": 0.1383,
+        "slope": -2.3351,
+        "raw_slope": -15.6601,
+        "r2": 0.1491,
         "above_threshold": true
       },
       "high52_data": {
@@ -8229,7 +8229,7 @@
         "high52": 209.29,
         "pct_from_high": -40.37
       },
-      "beta": 1.127,
+      "beta": 1.124,
       "signal_color": "gray"
     },
     {
@@ -8239,9 +8239,9 @@
       "industry": "Power",
       "isin": "INE542W01025",
       "slope_data": {
-        "slope": -57.0236,
-        "raw_slope": -69.7629,
-        "r2": 0.8174,
+        "slope": -58.2734,
+        "raw_slope": -70.5904,
+        "r2": 0.8255,
         "above_threshold": true
       },
       "high52_data": {
@@ -8249,7 +8249,7 @@
         "high52": 538.25,
         "pct_from_high": -47.15
       },
-      "beta": 1.459,
+      "beta": 1.457,
       "signal_color": "bright_red"
     },
     {
@@ -8279,17 +8279,17 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE001B01026",
       "slope_data": {
-        "slope": 41.753,
-        "raw_slope": 73.9506,
-        "r2": 0.5646,
+        "slope": 41.1735,
+        "raw_slope": 73.4006,
+        "r2": 0.5609,
         "above_threshold": true
       },
       "high52_data": {
         "current": 392.45,
-        "high52": 447.4,
-        "pct_from_high": -12.28
+        "high52": 442.31,
+        "pct_from_high": -11.27
       },
-      "beta": 1.374,
+      "beta": 1.377,
       "signal_color": "bright_green"
     },
     {
@@ -8319,9 +8319,9 @@
       "industry": "Capital Goods",
       "isin": "INE999A01023",
       "slope_data": {
-        "slope": -1.257,
-        "raw_slope": -16.2138,
-        "r2": 0.0775,
+        "slope": -1.5337,
+        "raw_slope": -17.348,
+        "r2": 0.0884,
         "above_threshold": true
       },
       "high52_data": {
@@ -8329,7 +8329,7 @@
         "high52": 995.13,
         "pct_from_high": -18.29
       },
-      "beta": 0.758,
+      "beta": 0.75,
       "signal_color": "gray"
     },
     {
@@ -8339,17 +8339,17 @@
       "industry": "Consumer Durables",
       "isin": "INE217B01036",
       "slope_data": {
-        "slope": 38.0805,
-        "raw_slope": 56.317,
-        "r2": 0.6762,
+        "slope": 35.8148,
+        "raw_slope": 54.3232,
+        "r2": 0.6593,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 1202.7,
-        "high52": 1261.1,
+        "current": 1196.7,
+        "high52": 1254.81,
         "pct_from_high": -4.63
       },
-      "beta": 0.955,
+      "beta": 0.958,
       "signal_color": "bright_green"
     },
     {
@@ -8359,9 +8359,9 @@
       "industry": "Construction",
       "isin": "INE220B01022",
       "slope_data": {
-        "slope": 17.4813,
-        "raw_slope": 34.9596,
-        "r2": 0.5,
+        "slope": 16.5105,
+        "raw_slope": 33.7535,
+        "r2": 0.4891,
         "above_threshold": true
       },
       "high52_data": {
@@ -8369,8 +8369,8 @@
         "high52": 1445.5,
         "pct_from_high": 0.0
       },
-      "beta": 0.892,
-      "signal_color": "bright_green"
+      "beta": 0.886,
+      "signal_color": "faded_green"
     },
     {
       "name": "Kalyan Jewellers India Ltd.",
@@ -8399,9 +8399,9 @@
       "industry": "Consumer Durables",
       "isin": "INE531A01024",
       "slope_data": {
-        "slope": -18.4027,
-        "raw_slope": -27.9728,
-        "r2": 0.6579,
+        "slope": -18.9092,
+        "raw_slope": -28.5947,
+        "r2": 0.6613,
         "above_threshold": true
       },
       "high52_data": {
@@ -8409,7 +8409,7 @@
         "high52": 253.83,
         "pct_from_high": -27.53
       },
-      "beta": 0.942,
+      "beta": 0.943,
       "signal_color": "bright_red"
     },
     {
@@ -8419,9 +8419,9 @@
       "industry": "Financial Services",
       "isin": "INE614B01018",
       "slope_data": {
-        "slope": 105.1347,
-        "raw_slope": 126.3687,
-        "r2": 0.832,
+        "slope": 102.267,
+        "raw_slope": 123.8169,
+        "r2": 0.826,
         "above_threshold": true
       },
       "high52_data": {
@@ -8429,7 +8429,7 @@
         "high52": 334.87,
         "pct_from_high": -6.29
       },
-      "beta": 1.046,
+      "beta": 1.05,
       "signal_color": "bright_green"
     },
     {
@@ -8439,9 +8439,9 @@
       "industry": "Financial Services",
       "isin": "INE036D01028",
       "slope_data": {
-        "slope": 76.4581,
-        "raw_slope": 97.6837,
-        "r2": 0.7827,
+        "slope": 76.5924,
+        "raw_slope": 97.7719,
+        "r2": 0.7834,
         "above_threshold": true
       },
       "high52_data": {
@@ -8449,7 +8449,7 @@
         "high52": 354.35,
         "pct_from_high": -6.26
       },
-      "beta": 1.307,
+      "beta": 1.309,
       "signal_color": "bright_green"
     },
     {
@@ -8519,9 +8519,9 @@
       "industry": "Financial Services",
       "isin": "INE138Y01010",
       "slope_data": {
-        "slope": 38.6502,
-        "raw_slope": 57.3308,
-        "r2": 0.6742,
+        "slope": 35.1739,
+        "raw_slope": 54.433,
+        "r2": 0.6462,
         "above_threshold": true
       },
       "high52_data": {
@@ -8529,7 +8529,7 @@
         "high52": 1159.11,
         "pct_from_high": -19.77
       },
-      "beta": 1.319,
+      "beta": 1.315,
       "signal_color": "bright_green"
     },
     {
@@ -8539,18 +8539,18 @@
       "industry": "Capital Goods",
       "isin": "INE732A01036",
       "slope_data": {
-        "slope": 15.0338,
-        "raw_slope": 46.8788,
-        "r2": 0.3207,
+        "slope": 9.5565,
+        "raw_slope": 38.5416,
+        "r2": 0.248,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1811.4,
-        "high52": 2074.41,
-        "pct_from_high": -12.68
+        "high52": 2066.74,
+        "pct_from_high": -12.35
       },
-      "beta": 1.241,
-      "signal_color": "faded_green"
+      "beta": 1.234,
+      "signal_color": "gray"
     },
     {
       "name": "Kirloskar Oil Eng Ltd.",
@@ -8579,9 +8579,9 @@
       "industry": "Capital Goods",
       "isin": "INE811A01020",
       "slope_data": {
-        "slope": -10.5943,
-        "raw_slope": -38.8024,
-        "r2": 0.273,
+        "slope": -12.6185,
+        "raw_slope": -40.9574,
+        "r2": 0.3081,
         "above_threshold": true
       },
       "high52_data": {
@@ -8589,7 +8589,7 @@
         "high52": 1040.98,
         "pct_from_high": -32.89
       },
-      "beta": 0.857,
+      "beta": 0.858,
       "signal_color": "faded_red"
     },
     {
@@ -8599,17 +8599,17 @@
       "industry": "Textiles",
       "isin": "INE602G01020",
       "slope_data": {
-        "slope": -45.2474,
-        "raw_slope": -57.4475,
-        "r2": 0.7876,
+        "slope": -46.3544,
+        "raw_slope": -58.1621,
+        "r2": 0.797,
         "above_threshold": true
       },
       "high52_data": {
         "current": 119.5,
-        "high52": 222.82,
-        "pct_from_high": -46.37
+        "high52": 221.9,
+        "pct_from_high": -46.15
       },
-      "beta": 1.889,
+      "beta": 1.888,
       "signal_color": "bright_red"
     },
     {
@@ -8659,9 +8659,9 @@
       "industry": "Financial Services",
       "isin": "INE498L01015",
       "slope_data": {
-        "slope": 29.9997,
-        "raw_slope": 57.2472,
-        "r2": 0.524,
+        "slope": 27.5389,
+        "raw_slope": 55.0354,
+        "r2": 0.5004,
         "above_threshold": true
       },
       "high52_data": {
@@ -8669,7 +8669,7 @@
         "high52": 335.6,
         "pct_from_high": -6.79
       },
-      "beta": 1.668,
+      "beta": 1.661,
       "signal_color": "bright_green"
     },
     {
@@ -8679,9 +8679,9 @@
       "industry": "Information Technology",
       "isin": "INE010V01017",
       "slope_data": {
-        "slope": 0.9071,
-        "raw_slope": 11.6764,
-        "r2": 0.0777,
+        "slope": 0.7375,
+        "raw_slope": 10.9007,
+        "r2": 0.0677,
         "above_threshold": true
       },
       "high52_data": {
@@ -8689,7 +8689,7 @@
         "high52": 4643.84,
         "pct_from_high": -27.92
       },
-      "beta": 0.98,
+      "beta": 0.982,
       "signal_color": "gray"
     },
     {
@@ -8719,9 +8719,9 @@
       "industry": "Financial Services",
       "isin": "INE115A01026",
       "slope_data": {
-        "slope": -0.0891,
-        "raw_slope": -4.7811,
-        "r2": 0.0186,
+        "slope": -0.0532,
+        "raw_slope": -4.0432,
+        "r2": 0.0131,
         "above_threshold": true
       },
       "high52_data": {
@@ -8729,7 +8729,7 @@
         "high52": 581.77,
         "pct_from_high": -5.78
       },
-      "beta": 1.059,
+      "beta": 1.058,
       "signal_color": "gray"
     },
     {
@@ -8739,18 +8739,18 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE818H01020",
       "slope_data": {
-        "slope": 24.9267,
-        "raw_slope": 52.3136,
-        "r2": 0.4765,
+        "slope": 27.1183,
+        "raw_slope": 54.139,
+        "r2": 0.5009,
         "above_threshold": true
       },
       "high52_data": {
         "current": 423.2,
-        "high52": 471.48,
-        "pct_from_high": -10.24
+        "high52": 470.36,
+        "pct_from_high": -10.03
       },
-      "beta": 1.436,
-      "signal_color": "faded_green"
+      "beta": 1.433,
+      "signal_color": "bright_green"
     },
     {
       "name": "LTIMindtree Ltd.",
@@ -8819,9 +8819,9 @@
       "industry": "Healthcare",
       "isin": "INE947Q01028",
       "slope_data": {
-        "slope": 230.3793,
-        "raw_slope": 246.3952,
-        "r2": 0.935,
+        "slope": 229.4932,
+        "raw_slope": 245.6096,
+        "r2": 0.9344,
         "above_threshold": true
       },
       "high52_data": {
@@ -8829,7 +8829,7 @@
         "high52": 1969.0,
         "pct_from_high": -0.76
       },
-      "beta": 0.824,
+      "beta": 0.82,
       "signal_color": "bright_green"
     },
     {
@@ -8959,9 +8959,9 @@
       "industry": "Chemicals",
       "isin": "INE473A01011",
       "slope_data": {
-        "slope": -21.3894,
-        "raw_slope": -32.3481,
-        "r2": 0.6612,
+        "slope": -21.9199,
+        "raw_slope": -32.9688,
+        "r2": 0.6649,
         "above_threshold": true
       },
       "high52_data": {
@@ -8969,7 +8969,7 @@
         "high52": 7834.21,
         "pct_from_high": -20.33
       },
-      "beta": 0.8,
+      "beta": 0.797,
       "signal_color": "bright_red"
     },
     {
@@ -8999,9 +8999,9 @@
       "industry": "Metals & Mining",
       "isin": "INE080I01025",
       "slope_data": {
-        "slope": 1.3061,
-        "raw_slope": 18.3887,
-        "r2": 0.071,
+        "slope": 0.8676,
+        "raw_slope": 15.9447,
+        "r2": 0.0544,
         "above_threshold": true
       },
       "high52_data": {
@@ -9019,9 +9019,9 @@
       "industry": "Metals & Mining",
       "isin": "INE281B01032",
       "slope_data": {
-        "slope": 5.4407,
-        "raw_slope": 27.0495,
-        "r2": 0.2011,
+        "slope": 4.5566,
+        "raw_slope": 25.2858,
+        "r2": 0.1802,
         "above_threshold": true
       },
       "high52_data": {
@@ -9029,7 +9029,7 @@
         "high52": 2101.2,
         "pct_from_high": -13.06
       },
-      "beta": 1.323,
+      "beta": 1.325,
       "signal_color": "gray"
     },
     {
@@ -9059,9 +9059,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE872H01027",
       "slope_data": {
-        "slope": 40.0429,
-        "raw_slope": 104.8195,
-        "r2": 0.382,
+        "slope": 43.9714,
+        "raw_slope": 109.922,
+        "r2": 0.4,
         "above_threshold": true
       },
       "high52_data": {
@@ -9069,7 +9069,7 @@
         "high52": 2102.7,
         "pct_from_high": 0.0
       },
-      "beta": 1.279,
+      "beta": 1.272,
       "signal_color": "faded_green"
     },
     {
@@ -9099,9 +9099,9 @@
       "industry": "Services",
       "isin": "INE123F01029",
       "slope_data": {
-        "slope": -4.3751,
-        "raw_slope": -20.4455,
-        "r2": 0.214,
+        "slope": -5.2148,
+        "raw_slope": -21.738,
+        "r2": 0.2399,
         "above_threshold": true
       },
       "high52_data": {
@@ -9109,7 +9109,7 @@
         "high52": 76.03,
         "pct_from_high": -20.73
       },
-      "beta": 1.473,
+      "beta": 1.474,
       "signal_color": "gray"
     },
     {
@@ -9139,14 +9139,14 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE883A01011",
       "slope_data": {
-        "slope": 2.9575,
-        "raw_slope": 13.5674,
-        "r2": 0.218,
+        "slope": 2.2514,
+        "raw_slope": 12.4395,
+        "r2": 0.181,
         "above_threshold": true
       },
       "high52_data": {
         "current": 125670.0,
-        "high52": 162005.8,
+        "high52": 162005.81,
         "pct_from_high": -22.43
       },
       "beta": 0.835,
@@ -9159,9 +9159,9 @@
       "industry": "Services",
       "isin": "INE255X01014",
       "slope_data": {
-        "slope": 163.048,
-        "raw_slope": 281.6176,
-        "r2": 0.579,
+        "slope": 152.1646,
+        "raw_slope": 268.022,
+        "r2": 0.5677,
         "above_threshold": true
       },
       "high52_data": {
@@ -9169,7 +9169,7 @@
         "high52": 776.6,
         "pct_from_high": -6.77
       },
-      "beta": 1.343,
+      "beta": 1.336,
       "signal_color": "bright_green"
     },
     {
@@ -9219,17 +9219,17 @@
       "industry": "Financial Services",
       "isin": "INE288A01013",
       "slope_data": {
-        "slope": 24.8255,
-        "raw_slope": 41.2775,
-        "r2": 0.6014,
+        "slope": 23.4374,
+        "raw_slope": 40.0889,
+        "r2": 0.5846,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 13729.0,
-        "high52": 17785.41,
+        "current": 13569.0,
+        "high52": 17578.14,
         "pct_from_high": -22.81
       },
-      "beta": 1.212,
+      "beta": 1.209,
       "signal_color": "bright_green"
     },
     {
@@ -9259,9 +9259,9 @@
       "industry": "Financial Services",
       "isin": "INE774D01024",
       "slope_data": {
-        "slope": 110.9241,
-        "raw_slope": 165.4639,
-        "r2": 0.6704,
+        "slope": 107.957,
+        "raw_slope": 163.2766,
+        "r2": 0.6612,
         "above_threshold": true
       },
       "high52_data": {
@@ -9269,7 +9269,7 @@
         "high52": 412.3,
         "pct_from_high": -14.31
       },
-      "beta": 1.587,
+      "beta": 1.584,
       "signal_color": "bright_green"
     },
     {
@@ -9299,9 +9299,9 @@
       "industry": "Financial Services",
       "isin": "INE522D01027",
       "slope_data": {
-        "slope": 12.8103,
-        "raw_slope": 38.8168,
-        "r2": 0.33,
+        "slope": 10.1245,
+        "raw_slope": 35.4241,
+        "r2": 0.2858,
         "above_threshold": true
       },
       "high52_data": {
@@ -9309,7 +9309,7 @@
         "high52": 370.78,
         "pct_from_high": -13.93
       },
-      "beta": 1.251,
+      "beta": 1.254,
       "signal_color": "faded_green"
     },
     {
@@ -9359,9 +9359,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE00VM01036",
       "slope_data": {
-        "slope": 161.178,
-        "raw_slope": 187.091,
-        "r2": 0.8615,
+        "slope": 157.6441,
+        "raw_slope": 183.3784,
+        "r2": 0.8597,
         "above_threshold": true
       },
       "high52_data": {
@@ -9369,7 +9369,7 @@
         "high52": 2132.08,
         "pct_from_high": -7.75
       },
-      "beta": 1.568,
+      "beta": 1.567,
       "signal_color": "bright_green"
     },
     {
@@ -9379,9 +9379,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE196A01026",
       "slope_data": {
-        "slope": 0.3845,
-        "raw_slope": 6.3543,
-        "r2": 0.0605,
+        "slope": 0.211,
+        "raw_slope": 5.2359,
+        "r2": 0.0403,
         "above_threshold": true
       },
       "high52_data": {
@@ -9389,7 +9389,7 @@
         "high52": 885.35,
         "pct_from_high": -9.2
       },
-      "beta": 0.508,
+      "beta": 0.509,
       "signal_color": "gray"
     },
     {
@@ -9439,9 +9439,9 @@
       "industry": "Information Technology",
       "isin": "INE759A01021",
       "slope_data": {
-        "slope": 6.4677,
-        "raw_slope": 28.8394,
-        "r2": 0.2243,
+        "slope": 5.0355,
+        "raw_slope": 26.1186,
+        "r2": 0.1928,
         "above_threshold": true
       },
       "high52_data": {
@@ -9449,7 +9449,7 @@
         "high52": 2434.03,
         "pct_from_high": -34.75
       },
-      "beta": 1.28,
+      "beta": 1.287,
       "signal_color": "gray"
     },
     {
@@ -9459,9 +9459,9 @@
       "industry": "Financial Services",
       "isin": "INE180A01020",
       "slope_data": {
-        "slope": -13.1141,
-        "raw_slope": -24.3248,
-        "r2": 0.5391,
+        "slope": -12.9654,
+        "raw_slope": -24.2298,
+        "r2": 0.5351,
         "above_threshold": true
       },
       "high52_data": {
@@ -9469,7 +9469,7 @@
         "high52": 1870.0,
         "pct_from_high": -16.63
       },
-      "beta": 1.039,
+      "beta": 1.032,
       "signal_color": "bright_red"
     },
     {
@@ -9579,9 +9579,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE842C01021",
       "slope_data": {
-        "slope": 49.8038,
-        "raw_slope": 83.6103,
-        "r2": 0.5957,
+        "slope": 43.3269,
+        "raw_slope": 75.7336,
+        "r2": 0.5721,
         "above_threshold": true
       },
       "high52_data": {
@@ -9589,7 +9589,7 @@
         "high52": 745.25,
         "pct_from_high": -7.22
       },
-      "beta": 1.167,
+      "beta": 1.164,
       "signal_color": "bright_green"
     },
     {
@@ -9639,9 +9639,9 @@
       "industry": "Financial Services",
       "isin": "INE338I01027",
       "slope_data": {
-        "slope": 26.0079,
-        "raw_slope": 57.0409,
-        "r2": 0.456,
+        "slope": 25.1158,
+        "raw_slope": 55.9904,
+        "r2": 0.4486,
         "above_threshold": true
       },
       "high52_data": {
@@ -9649,7 +9649,7 @@
         "high52": 1082.56,
         "pct_from_high": -6.7
       },
-      "beta": 1.746,
+      "beta": 1.743,
       "signal_color": "faded_green"
     },
     {
@@ -9659,9 +9659,9 @@
       "industry": "Information Technology",
       "isin": "INE356A01018",
       "slope_data": {
-        "slope": 23.428,
-        "raw_slope": 43.498,
-        "r2": 0.5386,
+        "slope": 20.3238,
+        "raw_slope": 40.0863,
+        "r2": 0.507,
         "above_threshold": true
       },
       "high52_data": {
@@ -9669,7 +9669,7 @@
         "high52": 2922.26,
         "pct_from_high": -21.28
       },
-      "beta": 0.903,
+      "beta": 0.906,
       "signal_color": "bright_green"
     },
     {
@@ -9679,9 +9679,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE495P01020",
       "slope_data": {
-        "slope": 151.9563,
-        "raw_slope": 211.3158,
-        "r2": 0.7191,
+        "slope": 151.0411,
+        "raw_slope": 210.5981,
+        "r2": 0.7172,
         "above_threshold": true
       },
       "high52_data": {
@@ -9699,9 +9699,9 @@
       "industry": "Financial Services",
       "isin": "INE745G01043",
       "slope_data": {
-        "slope": 0.771,
-        "raw_slope": 17.7204,
-        "r2": 0.0435,
+        "slope": 1.6144,
+        "raw_slope": 22.9006,
+        "r2": 0.0705,
         "above_threshold": true
       },
       "high52_data": {
@@ -9709,7 +9709,7 @@
         "high52": 3433.29,
         "pct_from_high": -5.05
       },
-      "beta": 0.927,
+      "beta": 0.926,
       "signal_color": "gray"
     },
     {
@@ -9719,9 +9719,9 @@
       "industry": "Financial Services",
       "isin": "INE414G01012",
       "slope_data": {
-        "slope": -18.1852,
-        "raw_slope": -31.8754,
-        "r2": 0.5705,
+        "slope": -17.7873,
+        "raw_slope": -31.1532,
+        "r2": 0.571,
         "above_threshold": true
       },
       "high52_data": {
@@ -9729,7 +9729,7 @@
         "high52": 4057.39,
         "pct_from_high": -29.98
       },
-      "beta": 1.322,
+      "beta": 1.321,
       "signal_color": "bright_red"
     },
     {
@@ -9739,9 +9739,9 @@
       "industry": "Healthcare",
       "isin": "INE987B01026",
       "slope_data": {
-        "slope": -21.632,
-        "raw_slope": -47.2131,
-        "r2": 0.4582,
+        "slope": -20.5735,
+        "raw_slope": -45.7814,
+        "r2": 0.4494,
         "above_threshold": true
       },
       "high52_data": {
@@ -9819,17 +9819,17 @@
       "industry": "Services",
       "isin": "INE317F01035",
       "slope_data": {
-        "slope": -17.8326,
-        "raw_slope": -32.1453,
-        "r2": 0.5547,
+        "slope": -16.2102,
+        "raw_slope": -30.7601,
+        "r2": 0.527,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1111.3,
-        "high52": 1527.46,
-        "pct_from_high": -27.25
+        "high52": 1523.39,
+        "pct_from_high": -27.05
       },
-      "beta": 1.226,
+      "beta": 1.219,
       "signal_color": "bright_red"
     },
     {
@@ -10019,9 +10019,9 @@
       "industry": "Power",
       "isin": "INE725A01030",
       "slope_data": {
-        "slope": -15.2106,
-        "raw_slope": -26.4177,
-        "r2": 0.5758,
+        "slope": -14.757,
+        "raw_slope": -24.4417,
+        "r2": 0.6038,
         "above_threshold": true
       },
       "high52_data": {
@@ -10029,7 +10029,7 @@
         "high52": 723.64,
         "pct_from_high": -22.3
       },
-      "beta": 1.324,
+      "beta": 1.32,
       "signal_color": "bright_red"
     },
     {
@@ -10079,9 +10079,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE239A01024",
       "slope_data": {
-        "slope": 1.0097,
-        "raw_slope": 10.1574,
-        "r2": 0.0994,
+        "slope": 0.7118,
+        "raw_slope": 9.0764,
+        "r2": 0.0784,
         "above_threshold": true
       },
       "high52_data": {
@@ -10089,7 +10089,7 @@
         "high52": 1540.0,
         "pct_from_high": -10.88
       },
-      "beta": 0.553,
+      "beta": 0.555,
       "signal_color": "gray"
     },
     {
@@ -10119,17 +10119,17 @@
       "industry": "Media Entertainment & Publication",
       "isin": "INE870H01013",
       "slope_data": {
-        "slope": -24.6504,
-        "raw_slope": -40.1985,
-        "r2": 0.6132,
+        "slope": -25.5056,
+        "raw_slope": -40.9294,
+        "r2": 0.6232,
         "above_threshold": true
       },
       "high52_data": {
         "current": 27.0,
-        "high52": 56.22,
-        "pct_from_high": -51.97
+        "high52": 55.71,
+        "pct_from_high": -51.53
       },
-      "beta": 1.663,
+      "beta": 1.66,
       "signal_color": "bright_red"
     },
     {
@@ -10139,9 +10139,9 @@
       "industry": "Healthcare",
       "isin": "INE794A01010",
       "slope_data": {
-        "slope": 205.6096,
-        "raw_slope": 229.5205,
-        "r2": 0.8958,
+        "slope": 204.0004,
+        "raw_slope": 228.2273,
+        "r2": 0.8938,
         "above_threshold": true
       },
       "high52_data": {
@@ -10149,7 +10149,7 @@
         "high52": 23995.0,
         "pct_from_high": -4.81
       },
-      "beta": 0.959,
+      "beta": 0.954,
       "signal_color": "bright_green"
     },
     {
@@ -10159,9 +10159,9 @@
       "industry": "Information Technology",
       "isin": "INE619B01017",
       "slope_data": {
-        "slope": 33.1444,
-        "raw_slope": 69.6821,
-        "r2": 0.4757,
+        "slope": 29.9753,
+        "raw_slope": 66.7971,
+        "r2": 0.4488,
         "above_threshold": true
       },
       "high52_data": {
@@ -10219,9 +10219,9 @@
       "industry": "Financial Services",
       "isin": "INE531F01023",
       "slope_data": {
-        "slope": 17.258,
-        "raw_slope": 54.4114,
-        "r2": 0.3172,
+        "slope": 13.8793,
+        "raw_slope": 49.18,
+        "r2": 0.2822,
         "above_threshold": true
       },
       "high52_data": {
@@ -10229,7 +10229,7 @@
         "high52": 1980.1,
         "pct_from_high": -13.45
       },
-      "beta": 1.237,
+      "beta": 1.241,
       "signal_color": "faded_green"
     },
     {
@@ -10239,9 +10239,9 @@
       "industry": "Construction Materials",
       "isin": "INE118D01016",
       "slope_data": {
-        "slope": 1.3528,
-        "raw_slope": 15.161,
-        "r2": 0.0892,
+        "slope": 1.1763,
+        "raw_slope": 14.4586,
+        "r2": 0.0814,
         "above_threshold": true
       },
       "high52_data": {
@@ -10249,7 +10249,7 @@
         "high52": 450.6,
         "pct_from_high": -27.08
       },
-      "beta": 1.055,
+      "beta": 1.054,
       "signal_color": "gray"
     },
     {
@@ -10259,9 +10259,9 @@
       "industry": "Realty",
       "isin": "INE093I01010",
       "slope_data": {
-        "slope": 18.0393,
-        "raw_slope": 43.099,
-        "r2": 0.4186,
+        "slope": 15.215,
+        "raw_slope": 39.9999,
+        "r2": 0.3804,
         "above_threshold": true
       },
       "high52_data": {
@@ -10269,7 +10269,7 @@
         "high52": 1951.29,
         "pct_from_high": -8.52
       },
-      "beta": 1.254,
+      "beta": 1.249,
       "signal_color": "faded_green"
     },
     {
@@ -10339,17 +10339,17 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE260D01016",
       "slope_data": {
-        "slope": -0.1185,
-        "raw_slope": -8.011,
-        "r2": 0.0148,
+        "slope": -0.3064,
+        "raw_slope": -10.9387,
+        "r2": 0.028,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1198.8,
-        "high52": 1671.0,
-        "pct_from_high": -28.26
+        "high52": 1670.15,
+        "pct_from_high": -28.22
       },
-      "beta": 1.477,
+      "beta": 1.474,
       "signal_color": "gray"
     },
     {
@@ -10479,9 +10479,9 @@
       "industry": "Capital Goods",
       "isin": "INE0BYP01024",
       "slope_data": {
-        "slope": -43.6519,
-        "raw_slope": -68.9742,
-        "r2": 0.6329,
+        "slope": -45.0291,
+        "raw_slope": -69.6762,
+        "r2": 0.6463,
         "above_threshold": true
       },
       "high52_data": {
@@ -10679,9 +10679,9 @@
       "industry": "Capital Goods",
       "isin": "INE596F01018",
       "slope_data": {
-        "slope": 93.4188,
-        "raw_slope": 137.1448,
-        "r2": 0.6812,
+        "slope": 101.2844,
+        "raw_slope": 145.5588,
+        "r2": 0.6958,
         "above_threshold": true
       },
       "high52_data": {
@@ -10689,7 +10689,7 @@
         "high52": 23830.0,
         "pct_from_high": -4.3
       },
-      "beta": 0.655,
+      "beta": 0.652,
       "signal_color": "bright_green"
     },
     {
@@ -10739,9 +10739,9 @@
       "industry": "Chemicals",
       "isin": "INE088F01024",
       "slope_data": {
-        "slope": 103.2447,
-        "raw_slope": 117.6119,
-        "r2": 0.8778,
+        "slope": 99.4062,
+        "raw_slope": 114.2447,
+        "r2": 0.8701,
         "above_threshold": true
       },
       "high52_data": {
@@ -10749,7 +10749,7 @@
         "high52": 194.34,
         "pct_from_high": -19.92
       },
-      "beta": 1.022,
+      "beta": 1.014,
       "signal_color": "bright_green"
     },
     {
@@ -10779,9 +10779,9 @@
       "industry": "Healthcare",
       "isin": "INE119201023",
       "slope_data": {
-        "slope": 1.3921,
-        "raw_slope": 13.5192,
-        "r2": 0.103,
+        "slope": 0.7787,
+        "raw_slope": 10.5531,
+        "r2": 0.0738,
         "above_threshold": true
       },
       "high52_data": {
@@ -10839,9 +10839,9 @@
       "industry": "Information Technology",
       "isin": "INE262H01021",
       "slope_data": {
-        "slope": 29.4983,
-        "raw_slope": 60.351,
-        "r2": 0.4888,
+        "slope": 28.0715,
+        "raw_slope": 58.7825,
+        "r2": 0.4775,
         "above_threshold": true
       },
       "high52_data": {
@@ -10849,7 +10849,7 @@
         "high52": 6517.4,
         "pct_from_high": -16.9
       },
-      "beta": 0.948,
+      "beta": 0.949,
       "signal_color": "faded_green"
     },
     {
@@ -10899,9 +10899,9 @@
       "industry": "Realty",
       "isin": "INE211B01039",
       "slope_data": {
-        "slope": 5.1461,
-        "raw_slope": 27.7136,
-        "r2": 0.1857,
+        "slope": 4.0647,
+        "raw_slope": 25.2228,
+        "r2": 0.1612,
         "above_threshold": true
       },
       "high52_data": {
@@ -10999,9 +10999,9 @@
       "industry": "Financial Services",
       "isin": "INE202B01038",
       "slope_data": {
-        "slope": 35.0076,
-        "raw_slope": 53.3007,
-        "r2": 0.6568,
+        "slope": 34.0625,
+        "raw_slope": 52.2346,
+        "r2": 0.6521,
         "above_threshold": true
       },
       "high52_data": {
@@ -11039,9 +11039,9 @@
       "industry": "Healthcare",
       "isin": "INE205C01021",
       "slope_data": {
-        "slope": 62.2741,
-        "raw_slope": 94.8035,
-        "r2": 0.6569,
+        "slope": 60.4241,
+        "raw_slope": 93.3325,
+        "r2": 0.6474,
         "above_threshold": true
       },
       "high52_data": {
@@ -11049,7 +11049,7 @@
         "high52": 2061.18,
         "pct_from_high": -16.26
       },
-      "beta": 0.944,
+      "beta": 0.941,
       "signal_color": "bright_green"
     },
     {
@@ -11079,9 +11079,9 @@
       "industry": "Financial Services",
       "isin": "INE511C01022",
       "slope_data": {
-        "slope": 46.9949,
-        "raw_slope": 82.7766,
-        "r2": 0.5677,
+        "slope": 42.6707,
+        "raw_slope": 79.4082,
+        "r2": 0.5374,
         "above_threshold": true
       },
       "high52_data": {
@@ -11089,7 +11089,7 @@
         "high52": 542.5,
         "pct_from_high": -11.63
       },
-      "beta": 1.46,
+      "beta": 1.451,
       "signal_color": "bright_green"
     },
     {
@@ -11099,9 +11099,9 @@
       "industry": "Financial Services",
       "isin": "INE134E01011",
       "slope_data": {
-        "slope": -35.0581,
-        "raw_slope": -46.5194,
-        "r2": 0.7536,
+        "slope": -35.4775,
+        "raw_slope": -46.8702,
+        "r2": 0.7569,
         "above_threshold": true
       },
       "high52_data": {
@@ -11109,7 +11109,7 @@
         "high52": 471.83,
         "pct_from_high": -27.4
       },
-      "beta": 1.127,
+      "beta": 1.129,
       "signal_color": "bright_red"
     },
     {
@@ -11119,9 +11119,9 @@
       "industry": "Power",
       "isin": "INE752E01010",
       "slope_data": {
-        "slope": -22.4298,
-        "raw_slope": -28.6088,
-        "r2": 0.784,
+        "slope": -22.1317,
+        "raw_slope": -28.2687,
+        "r2": 0.7829,
         "above_threshold": true
       },
       "high52_data": {
@@ -11129,7 +11129,7 @@
         "high52": 320.9,
         "pct_from_high": -15.77
       },
-      "beta": 0.471,
+      "beta": 0.466,
       "signal_color": "bright_red"
     },
     {
@@ -11139,17 +11139,17 @@
       "industry": "Construction",
       "isin": "INE211R01019",
       "slope_data": {
-        "slope": -2.9123,
-        "raw_slope": -18.1583,
-        "r2": 0.1604,
+        "slope": -5.0419,
+        "raw_slope": -21.699,
+        "r2": 0.2324,
         "above_threshold": true
       },
       "high52_data": {
         "current": 2371.4,
-        "high52": 3047.32,
-        "pct_from_high": -22.18
+        "high52": 3002.45,
+        "pct_from_high": -21.02
       },
-      "beta": 1.451,
+      "beta": 1.448,
       "signal_color": "gray"
     },
     {
@@ -11159,9 +11159,9 @@
       "industry": "Capital Goods",
       "isin": "INE074A01025",
       "slope_data": {
-        "slope": -8.4223,
-        "raw_slope": -26.6797,
-        "r2": 0.3157,
+        "slope": -8.3862,
+        "raw_slope": -26.6312,
+        "r2": 0.3149,
         "above_threshold": true
       },
       "high52_data": {
@@ -11199,9 +11199,9 @@
       "industry": "Realty",
       "isin": "INE811K01011",
       "slope_data": {
-        "slope": 15.005,
-        "raw_slope": 49.7758,
-        "r2": 0.3015,
+        "slope": 11.2527,
+        "raw_slope": 44.1956,
+        "r2": 0.2546,
         "above_threshold": true
       },
       "high52_data": {
@@ -11219,9 +11219,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE726V01018",
       "slope_data": {
-        "slope": 210.9377,
-        "raw_slope": 246.1918,
-        "r2": 0.8568,
+        "slope": 218.3656,
+        "raw_slope": 251.262,
+        "r2": 0.8691,
         "above_threshold": true
       },
       "high52_data": {
@@ -11229,7 +11229,7 @@
         "high52": 806.55,
         "pct_from_high": -4.84
       },
-      "beta": 1.133,
+      "beta": 1.131,
       "signal_color": "bright_green"
     },
     {
@@ -11239,9 +11239,9 @@
       "industry": "Media Entertainment & Publication",
       "isin": "INE367G01038",
       "slope_data": {
-        "slope": 117.5009,
-        "raw_slope": 169.783,
-        "r2": 0.6921,
+        "slope": 126.6423,
+        "raw_slope": 178.3479,
+        "r2": 0.7101,
         "above_threshold": true
       },
       "high52_data": {
@@ -11249,7 +11249,7 @@
         "high52": 349.5,
         "pct_from_high": -1.47
       },
-      "beta": 0.88,
+      "beta": 0.87,
       "signal_color": "bright_green"
     },
     {
@@ -11279,9 +11279,9 @@
       "industry": "Chemicals",
       "isin": "INE959A01019",
       "slope_data": {
-        "slope": 5.4436,
-        "raw_slope": 25.3143,
-        "r2": 0.215,
+        "slope": 4.2407,
+        "raw_slope": 22.5857,
+        "r2": 0.1878,
         "above_threshold": true
       },
       "high52_data": {
@@ -11289,7 +11289,7 @@
         "high52": 3740.3,
         "pct_from_high": -7.9
       },
-      "beta": 0.631,
+      "beta": 0.633,
       "signal_color": "gray"
     },
     {
@@ -11299,9 +11299,9 @@
       "industry": "Financial Services",
       "isin": "INE00F201020",
       "slope_data": {
-        "slope": 90.4779,
-        "raw_slope": 113.6262,
-        "r2": 0.7963,
+        "slope": 90.973,
+        "raw_slope": 113.9761,
+        "r2": 0.7982,
         "above_threshold": true
       },
       "high52_data": {
@@ -11309,7 +11309,7 @@
         "high52": 3674.4,
         "pct_from_high": -4.7
       },
-      "beta": 1.171,
+      "beta": 1.168,
       "signal_color": "bright_green"
     },
     {
@@ -11339,9 +11339,9 @@
       "industry": "Realty",
       "isin": "INE323I01011",
       "slope_data": {
-        "slope": -0.0389,
-        "raw_slope": -3.3229,
-        "r2": 0.0117,
+        "slope": -0.0832,
+        "raw_slope": -4.2646,
+        "r2": 0.0195,
         "above_threshold": true
       },
       "high52_data": {
@@ -11349,7 +11349,7 @@
         "high52": 280.7,
         "pct_from_high": -23.97
       },
-      "beta": 1.409,
+      "beta": 1.407,
       "signal_color": "gray"
     },
     {
@@ -11439,9 +11439,9 @@
       "industry": "Financial Services",
       "isin": "INE020B01018",
       "slope_data": {
-        "slope": -1.531,
-        "raw_slope": -14.6464,
-        "r2": 0.1045,
+        "slope": -1.9823,
+        "raw_slope": -16.0652,
+        "r2": 0.1234,
         "above_threshold": true
       },
       "high52_data": {
@@ -11449,7 +11449,7 @@
         "high52": 377.31,
         "pct_from_high": -17.31
       },
-      "beta": 1.219,
+      "beta": 1.22,
       "signal_color": "gray"
     },
     {
@@ -11459,9 +11459,9 @@
       "industry": "Capital Goods",
       "isin": "INE743M01012",
       "slope_data": {
-        "slope": -0.3014,
-        "raw_slope": -7.7737,
-        "r2": 0.0388,
+        "slope": -0.3923,
+        "raw_slope": -8.5043,
+        "r2": 0.0461,
         "above_threshold": true
       },
       "high52_data": {
@@ -11469,7 +11469,7 @@
         "high52": 488.8,
         "pct_from_high": -24.57
       },
-      "beta": 1.427,
+      "beta": 1.426,
       "signal_color": "gray"
     },
     {
@@ -11579,9 +11579,9 @@
       "industry": "Healthcare",
       "isin": "INE961O01016",
       "slope_data": {
-        "slope": 14.6716,
-        "raw_slope": 32.6208,
-        "r2": 0.4498,
+        "slope": 13.3841,
+        "raw_slope": 31.0437,
+        "r2": 0.4311,
         "above_threshold": true
       },
       "high52_data": {
@@ -11589,7 +11589,7 @@
         "high52": 1598.6,
         "pct_from_high": -9.0
       },
-      "beta": 0.532,
+      "beta": 0.533,
       "signal_color": "faded_green"
     },
     {
@@ -11599,9 +11599,9 @@
       "industry": "Chemicals",
       "isin": "INE613A01020",
       "slope_data": {
-        "slope": -35.6502,
-        "raw_slope": -42.3693,
-        "r2": 0.8414,
+        "slope": -34.8076,
+        "raw_slope": -40.9565,
+        "r2": 0.8499,
         "above_threshold": true
       },
       "high52_data": {
@@ -11609,7 +11609,7 @@
         "high52": 335.45,
         "pct_from_high": -39.25
       },
-      "beta": 1.199,
+      "beta": 1.2,
       "signal_color": "bright_red"
     },
     {
@@ -11659,9 +11659,9 @@
       "industry": "Information Technology",
       "isin": "INE0CLI01024",
       "slope_data": {
-        "slope": 56.0814,
-        "raw_slope": 114.041,
-        "r2": 0.4918,
+        "slope": 47.2629,
+        "raw_slope": 102.8404,
+        "r2": 0.4596,
         "above_threshold": true
       },
       "high52_data": {
@@ -11669,7 +11669,7 @@
         "high52": 990.05,
         "pct_from_high": -13.3
       },
-      "beta": 1.407,
+      "beta": 1.409,
       "signal_color": "faded_green"
     },
     {
@@ -11699,9 +11699,9 @@
       "industry": "Power",
       "isin": "INE399K01017",
       "slope_data": {
-        "slope": -46.3938,
-        "raw_slope": -55.7327,
-        "r2": 0.8324,
+        "slope": -47.791,
+        "raw_slope": -56.7191,
+        "r2": 0.8426,
         "above_threshold": true
       },
       "high52_data": {
@@ -11709,7 +11709,7 @@
         "high52": 12.41,
         "pct_from_high": -42.47
       },
-      "beta": 1.31,
+      "beta": 1.308,
       "signal_color": "bright_red"
     },
     {
@@ -11759,9 +11759,9 @@
       "industry": "Consumer Durables",
       "isin": "INE0LXT01019",
       "slope_data": {
-        "slope": -15.1806,
-        "raw_slope": -29.6132,
-        "r2": 0.5126,
+        "slope": -16.8673,
+        "raw_slope": -30.7918,
+        "r2": 0.5478,
         "above_threshold": true
       },
       "high52_data": {
@@ -11879,9 +11879,9 @@
       "industry": "Consumer Services",
       "isin": "INE07T201019",
       "slope_data": {
-        "slope": 172.8619,
-        "raw_slope": 268.2019,
-        "r2": 0.6445,
+        "slope": 174.7969,
+        "raw_slope": 270.109,
+        "r2": 0.6471,
         "above_threshold": true
       },
       "high52_data": {
@@ -11939,9 +11939,9 @@
       "industry": "Financial Services",
       "isin": "INE423Y01016",
       "slope_data": {
-        "slope": 8.388,
-        "raw_slope": 20.0584,
-        "r2": 0.4182,
+        "slope": 8.0366,
+        "raw_slope": 19.7361,
+        "r2": 0.4072,
         "above_threshold": true
       },
       "high52_data": {
@@ -11949,7 +11949,7 @@
         "high52": 118.5,
         "pct_from_high": -22.06
       },
-      "beta": 0.914,
+      "beta": 0.917,
       "signal_color": "faded_green"
     },
     {
@@ -12039,9 +12039,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE640A01023",
       "slope_data": {
-        "slope": -3.3002,
-        "raw_slope": -14.5561,
-        "r2": 0.2267,
+        "slope": -2.9603,
+        "raw_slope": -13.9536,
+        "r2": 0.2122,
         "above_threshold": true
       },
       "high52_data": {
@@ -12049,7 +12049,7 @@
         "high52": 4889.0,
         "pct_from_high": -68.24
       },
-      "beta": 0.216,
+      "beta": 0.218,
       "signal_color": "gray"
     },
     {
@@ -12059,9 +12059,9 @@
       "industry": "Consumer Durables",
       "isin": "INE01IU01018",
       "slope_data": {
-        "slope": 495.9112,
-        "raw_slope": 541.5717,
-        "r2": 0.9157,
+        "slope": 481.5794,
+        "raw_slope": 528.36,
+        "r2": 0.9115,
         "above_threshold": true
       },
       "high52_data": {
@@ -12069,7 +12069,7 @@
         "high52": 848.1,
         "pct_from_high": -7.59
       },
-      "beta": 1.405,
+      "beta": 1.408,
       "signal_color": "bright_green"
     },
     {
@@ -12139,9 +12139,9 @@
       "industry": "Consumer Durables",
       "isin": "INE429E01023",
       "slope_data": {
-        "slope": -0.4714,
-        "raw_slope": -8.472,
-        "r2": 0.0556,
+        "slope": -0.8475,
+        "raw_slope": -10.1325,
+        "r2": 0.0836,
         "above_threshold": true
       },
       "high52_data": {
@@ -12149,7 +12149,7 @@
         "high52": 2489.54,
         "pct_from_high": -39.71
       },
-      "beta": 0.802,
+      "beta": 0.805,
       "signal_color": "gray"
     },
     {
@@ -12199,9 +12199,9 @@
       "industry": "Consumer Services",
       "isin": "INE08U801020",
       "slope_data": {
-        "slope": -0.0621,
-        "raw_slope": -5.8653,
-        "r2": 0.0106,
+        "slope": -0.2314,
+        "raw_slope": -8.8901,
+        "r2": 0.026,
         "above_threshold": true
       },
       "high52_data": {
@@ -12209,7 +12209,7 @@
         "high52": 211.44,
         "pct_from_high": -23.39
       },
-      "beta": 1.229,
+      "beta": 1.232,
       "signal_color": "gray"
     },
     {
@@ -12259,9 +12259,9 @@
       "industry": "Oil Gas & Consumable Fuels",
       "isin": "INE149K01016",
       "slope_data": {
-        "slope": -22.9272,
-        "raw_slope": -35.9678,
-        "r2": 0.6374,
+        "slope": -23.4556,
+        "raw_slope": -36.5307,
+        "r2": 0.6421,
         "above_threshold": true
       },
       "high52_data": {
@@ -12269,7 +12269,7 @@
         "high52": 264.06,
         "pct_from_high": -29.79
       },
-      "beta": 1.773,
+      "beta": 1.77,
       "signal_color": "bright_red"
     },
     {
@@ -12279,9 +12279,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE953O01021",
       "slope_data": {
-        "slope": 239.308,
-        "raw_slope": 264.1235,
-        "r2": 0.906,
+        "slope": 231.016,
+        "raw_slope": 254.4705,
+        "r2": 0.9078,
         "above_threshold": true
       },
       "high52_data": {
@@ -12289,7 +12289,7 @@
         "high52": 4259.9,
         "pct_from_high": 0.0
       },
-      "beta": 1.404,
+      "beta": 1.396,
       "signal_color": "bright_green"
     },
     {
@@ -12299,17 +12299,17 @@
       "industry": "Consumer Services",
       "isin": "INE806T01020",
       "slope_data": {
-        "slope": 111.1837,
-        "raw_slope": 159.1006,
-        "r2": 0.6988,
+        "slope": 112.9858,
+        "raw_slope": 160.8139,
+        "r2": 0.7026,
         "above_threshold": true
       },
       "high52_data": {
         "current": 230.11,
-        "high52": 326.45,
-        "pct_from_high": -29.51
+        "high52": 323.1,
+        "pct_from_high": -28.78
       },
-      "beta": 1.283,
+      "beta": 1.278,
       "signal_color": "bright_green"
     },
     {
@@ -12319,17 +12319,17 @@
       "industry": "Metals & Mining",
       "isin": "INE385C01021",
       "slope_data": {
-        "slope": -3.2347,
-        "raw_slope": -14.1293,
-        "r2": 0.2289,
+        "slope": -2.6336,
+        "raw_slope": -12.8852,
+        "r2": 0.2044,
         "above_threshold": true
       },
       "high52_data": {
         "current": 505.95,
-        "high52": 615.34,
-        "pct_from_high": -17.78
+        "high52": 610.36,
+        "pct_from_high": -17.11
       },
-      "beta": 0.77,
+      "beta": 0.767,
       "signal_color": "gray"
     },
     {
@@ -12339,9 +12339,9 @@
       "industry": "Media Entertainment & Publication",
       "isin": "INE979A01025",
       "slope_data": {
-        "slope": 50.1322,
-        "raw_slope": 84.9671,
-        "r2": 0.59,
+        "slope": 44.1464,
+        "raw_slope": 78.1498,
+        "r2": 0.5649,
         "above_threshold": true
       },
       "high52_data": {
@@ -12349,7 +12349,7 @@
         "high52": 557.25,
         "pct_from_high": -10.29
       },
-      "beta": 0.911,
+      "beta": 0.908,
       "signal_color": "bright_green"
     },
     {
@@ -12359,9 +12359,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE513A01022",
       "slope_data": {
-        "slope": -0.953,
-        "raw_slope": -7.3426,
-        "r2": 0.1298,
+        "slope": -1.187,
+        "raw_slope": -7.9044,
+        "r2": 0.1502,
         "above_threshold": true
       },
       "high52_data": {
@@ -12369,7 +12369,7 @@
         "high52": 4355.0,
         "pct_from_high": -3.15
       },
-      "beta": 0.99,
+      "beta": 0.98,
       "signal_color": "gray"
     },
     {
@@ -12379,9 +12379,9 @@
       "industry": "Consumer Durables",
       "isin": "INE602W01027",
       "slope_data": {
-        "slope": 2.6687,
-        "raw_slope": 23.6134,
-        "r2": 0.113,
+        "slope": 2.093,
+        "raw_slope": 21.6115,
+        "r2": 0.0968,
         "above_threshold": true
       },
       "high52_data": {
@@ -12389,7 +12389,7 @@
         "high52": 417.44,
         "pct_from_high": -16.63
       },
-      "beta": 1.213,
+      "beta": 1.208,
       "signal_color": "gray"
     },
     {
@@ -12399,9 +12399,9 @@
       "industry": "Financial Services",
       "isin": "INE04VU01023",
       "slope_data": {
-        "slope": 234.9859,
-        "raw_slope": 299.8539,
-        "r2": 0.7837,
+        "slope": 223.2917,
+        "raw_slope": 289.0316,
+        "r2": 0.7726,
         "above_threshold": true
       },
       "high52_data": {
@@ -12419,9 +12419,9 @@
       "industry": "Consumer Durables",
       "isin": "INE151G01028",
       "slope_data": {
-        "slope": 43.6905,
-        "raw_slope": 77.543,
-        "r2": 0.5634,
+        "slope": 41.5193,
+        "raw_slope": 75.6264,
+        "r2": 0.549,
         "above_threshold": true
       },
       "high52_data": {
@@ -12429,7 +12429,7 @@
         "high52": 3454.83,
         "pct_from_high": -8.83
       },
-      "beta": 0.549,
+      "beta": 0.546,
       "signal_color": "bright_green"
     },
     {
@@ -12439,18 +12439,18 @@
       "industry": "Capital Goods",
       "isin": "INE908D01010",
       "slope_data": {
-        "slope": -6.0212,
-        "raw_slope": -25.8213,
-        "r2": 0.2332,
+        "slope": -7.4376,
+        "raw_slope": -27.7897,
+        "r2": 0.2676,
         "above_threshold": true
       },
       "high52_data": {
         "current": 460.95,
-        "high52": 876.56,
-        "pct_from_high": -47.41
+        "high52": 874.96,
+        "pct_from_high": -47.32
       },
-      "beta": 1.333,
-      "signal_color": "gray"
+      "beta": 1.335,
+      "signal_color": "faded_red"
     },
     {
       "name": "Sharda Cropchem Ltd.",
@@ -12499,9 +12499,9 @@
       "industry": "Consumer Durables",
       "isin": "INE916U01025",
       "slope_data": {
-        "slope": 0.5197,
-        "raw_slope": 15.9096,
-        "r2": 0.0327,
+        "slope": 0.2605,
+        "raw_slope": 12.3879,
+        "r2": 0.021,
         "above_threshold": true
       },
       "high52_data": {
@@ -12509,7 +12509,7 @@
         "high52": 808.95,
         "pct_from_high": -18.75
       },
-      "beta": 1.051,
+      "beta": 1.053,
       "signal_color": "gray"
     },
     {
@@ -12519,9 +12519,9 @@
       "industry": "Healthcare",
       "isin": "INE790G01031",
       "slope_data": {
-        "slope": 685.2953,
-        "raw_slope": 737.3575,
-        "r2": 0.9294,
+        "slope": 693.4955,
+        "raw_slope": 745.064,
+        "r2": 0.9308,
         "above_threshold": true
       },
       "high52_data": {
@@ -12529,7 +12529,7 @@
         "high52": 1021.1,
         "pct_from_high": 0.0
       },
-      "beta": 0.943,
+      "beta": 0.931,
       "signal_color": "bright_green"
     },
     {
@@ -12539,9 +12539,9 @@
       "industry": "Services",
       "isin": "INE109A01011",
       "slope_data": {
-        "slope": -9.1675,
-        "raw_slope": -25.4078,
-        "r2": 0.3608,
+        "slope": -8.9125,
+        "raw_slope": -24.9979,
+        "r2": 0.3565,
         "above_threshold": true
       },
       "high52_data": {
@@ -12549,7 +12549,7 @@
         "high52": 343.53,
         "pct_from_high": -19.35
       },
-      "beta": 1.303,
+      "beta": 1.297,
       "signal_color": "faded_red"
     },
     {
@@ -12579,9 +12579,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE087H01022",
       "slope_data": {
-        "slope": 1.6506,
-        "raw_slope": 15.217,
-        "r2": 0.1085,
+        "slope": 1.9475,
+        "raw_slope": 16.05,
+        "r2": 0.1213,
         "above_threshold": true
       },
       "high52_data": {
@@ -12619,9 +12619,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE526E01018",
       "slope_data": {
-        "slope": 153.6182,
-        "raw_slope": 185.4614,
-        "r2": 0.8283,
+        "slope": 139.423,
+        "raw_slope": 173.9504,
+        "r2": 0.8015,
         "above_threshold": true
       },
       "high52_data": {
@@ -12629,7 +12629,7 @@
         "high52": 4746.8,
         "pct_from_high": -3.59
       },
-      "beta": 1.273,
+      "beta": 1.267,
       "signal_color": "bright_green"
     },
     {
@@ -12639,9 +12639,9 @@
       "industry": "Capital Goods",
       "isin": "INE810G01011",
       "slope_data": {
-        "slope": 32.3016,
-        "raw_slope": 49.6013,
-        "r2": 0.6512,
+        "slope": 31.3889,
+        "raw_slope": 48.3268,
+        "r2": 0.6495,
         "above_threshold": true
       },
       "high52_data": {
@@ -12649,7 +12649,7 @@
         "high52": 1100.0,
         "pct_from_high": 0.0
       },
-      "beta": 0.937,
+      "beta": 0.93,
       "signal_color": "bright_green"
     },
     {
@@ -12679,9 +12679,9 @@
       "industry": "Capital Goods",
       "isin": "INE003A01024",
       "slope_data": {
-        "slope": 17.3131,
-        "raw_slope": 38.419,
-        "r2": 0.4506,
+        "slope": 16.0849,
+        "raw_slope": 37.2382,
+        "r2": 0.4319,
         "above_threshold": true
       },
       "high52_data": {
@@ -12689,7 +12689,7 @@
         "high52": 4114.0,
         "pct_from_high": -4.86
       },
-      "beta": 1.153,
+      "beta": 1.147,
       "signal_color": "faded_green"
     },
     {
@@ -12699,9 +12699,9 @@
       "industry": "Realty",
       "isin": "INE903U01023",
       "slope_data": {
-        "slope": -1.5667,
-        "raw_slope": -11.2806,
-        "r2": 0.1389,
+        "slope": -1.4118,
+        "raw_slope": -10.7545,
+        "r2": 0.1313,
         "above_threshold": true
       },
       "high52_data": {
@@ -12759,9 +12759,9 @@
       "industry": "Realty",
       "isin": "INE671H01015",
       "slope_data": {
-        "slope": -10.7567,
-        "raw_slope": -28.6891,
-        "r2": 0.3749,
+        "slope": -11.8531,
+        "raw_slope": -29.9717,
+        "r2": 0.3955,
         "above_threshold": true
       },
       "high52_data": {
@@ -12769,7 +12769,7 @@
         "high52": 1694.26,
         "pct_from_high": -28.28
       },
-      "beta": 1.099,
+      "beta": 1.092,
       "signal_color": "faded_red"
     },
     {
@@ -12839,9 +12839,9 @@
       "industry": "Financial Services",
       "isin": "INE683A01023",
       "slope_data": {
-        "slope": 14.5157,
-        "raw_slope": 36.9162,
-        "r2": 0.3932,
+        "slope": 12.3734,
+        "raw_slope": 33.5035,
+        "r2": 0.3693,
         "above_threshold": true
       },
       "high52_data": {
@@ -12849,7 +12849,7 @@
         "high52": 48.02,
         "pct_from_high": -4.06
       },
-      "beta": 1.43,
+      "beta": 1.428,
       "signal_color": "faded_green"
     },
     {
@@ -12879,17 +12879,17 @@
       "industry": "Construction Materials",
       "isin": "INE460H01021",
       "slope_data": {
-        "slope": -27.2088,
-        "raw_slope": -32.7358,
-        "r2": 0.8312,
+        "slope": -27.5525,
+        "raw_slope": -33.0197,
+        "r2": 0.8344,
         "above_threshold": true
       },
       "high52_data": {
         "current": 194.25,
-        "high52": 274.14,
-        "pct_from_high": -29.14
+        "high52": 272.2,
+        "pct_from_high": -28.64
       },
-      "beta": 0.621,
+      "beta": 0.617,
       "signal_color": "bright_red"
     },
     {
@@ -12899,9 +12899,9 @@
       "industry": "Financial Services",
       "isin": "INE575P01011",
       "slope_data": {
-        "slope": 9.8473,
-        "raw_slope": 31.6004,
-        "r2": 0.3116,
+        "slope": 7.919,
+        "raw_slope": 28.5542,
+        "r2": 0.2773,
         "above_threshold": true
       },
       "high52_data": {
@@ -12909,7 +12909,7 @@
         "high52": 610.4,
         "pct_from_high": -10.38
       },
-      "beta": 0.444,
+      "beta": 0.441,
       "signal_color": "faded_green"
     },
     {
@@ -13019,17 +13019,17 @@
       "industry": "Chemicals",
       "isin": "INE189B01011",
       "slope_data": {
-        "slope": -2.3937,
-        "raw_slope": -17.7228,
-        "r2": 0.1351,
+        "slope": -2.6075,
+        "raw_slope": -18.2781,
+        "r2": 0.1427,
         "above_threshold": true
       },
       "high52_data": {
         "current": 2067.9,
-        "high52": 2540.32,
-        "pct_from_high": -18.6
+        "high52": 2512.84,
+        "pct_from_high": -17.71
       },
-      "beta": 0.795,
+      "beta": 0.797,
       "signal_color": "gray"
     },
     {
@@ -13039,9 +13039,9 @@
       "industry": "Capital Goods",
       "isin": "INE287B01021",
       "slope_data": {
-        "slope": -0.1064,
-        "raw_slope": -7.1984,
-        "r2": 0.0148,
+        "slope": -0.2111,
+        "raw_slope": -9.0527,
+        "r2": 0.0233,
         "above_threshold": true
       },
       "high52_data": {
@@ -13049,7 +13049,7 @@
         "high52": 1189.17,
         "pct_from_high": -39.43
       },
-      "beta": 1.568,
+      "beta": 1.562,
       "signal_color": "gray"
     },
     {
@@ -13099,9 +13099,9 @@
       "industry": "Chemicals",
       "isin": "INE258G01013",
       "slope_data": {
-        "slope": 9.0093,
-        "raw_slope": 41.4499,
-        "r2": 0.2174,
+        "slope": 6.8472,
+        "raw_slope": 37.4657,
+        "r2": 0.1828,
         "above_threshold": true
       },
       "high52_data": {
@@ -13119,9 +13119,9 @@
       "industry": "Healthcare",
       "isin": "INE232I01014",
       "slope_data": {
-        "slope": -1.1919,
-        "raw_slope": -21.3054,
-        "r2": 0.0559,
+        "slope": -2.6328,
+        "raw_slope": -26.5649,
+        "r2": 0.0991,
         "above_threshold": true
       },
       "high52_data": {
@@ -13129,7 +13129,7 @@
         "high52": 277.57,
         "pct_from_high": -30.14
       },
-      "beta": 1.801,
+      "beta": 1.795,
       "signal_color": "gray"
     },
     {
@@ -13159,9 +13159,9 @@
       "industry": "Media Entertainment & Publication",
       "isin": "INE424H01027",
       "slope_data": {
-        "slope": -20.171,
-        "raw_slope": -27.6533,
-        "r2": 0.7294,
+        "slope": -19.7498,
+        "raw_slope": -27.2589,
+        "r2": 0.7245,
         "above_threshold": true
       },
       "high52_data": {
@@ -13169,7 +13169,7 @@
         "high52": 645.77,
         "pct_from_high": -30.05
       },
-      "beta": 0.688,
+      "beta": 0.69,
       "signal_color": "bright_red"
     },
     {
@@ -13179,9 +13179,9 @@
       "industry": "Financial Services",
       "isin": "INE660A01013",
       "slope_data": {
-        "slope": 8.0327,
-        "raw_slope": 24.0986,
-        "r2": 0.3333,
+        "slope": 9.405,
+        "raw_slope": 25.552,
+        "r2": 0.3681,
         "above_threshold": true
       },
       "high52_data": {
@@ -13189,7 +13189,7 @@
         "high52": 5552.22,
         "pct_from_high": -14.8
       },
-      "beta": 1.01,
+      "beta": 1.011,
       "signal_color": "faded_green"
     },
     {
@@ -13199,9 +13199,9 @@
       "industry": "Realty",
       "isin": "INE805D01034",
       "slope_data": {
-        "slope": -0.005,
-        "raw_slope": -2.1725,
-        "r2": 0.0023,
+        "slope": -0.0108,
+        "raw_slope": -2.8167,
+        "r2": 0.0038,
         "above_threshold": true
       },
       "high52_data": {
@@ -13209,7 +13209,7 @@
         "high52": 460.48,
         "pct_from_high": -36.14
       },
-      "beta": 1.938,
+      "beta": 1.934,
       "signal_color": "gray"
     },
     {
@@ -13219,17 +13219,17 @@
       "industry": "Capital Goods",
       "isin": "INE195A01028",
       "slope_data": {
-        "slope": 0.0285,
-        "raw_slope": 3.1602,
-        "r2": 0.009,
+        "slope": 0.016,
+        "raw_slope": 2.6116,
+        "r2": 0.0061,
         "above_threshold": true
       },
       "high52_data": {
         "current": 3580.3,
-        "high52": 4463.93,
-        "pct_from_high": -19.79
+        "high52": 4431.05,
+        "pct_from_high": -19.2
       },
-      "beta": 0.843,
+      "beta": 0.832,
       "signal_color": "gray"
     },
     {
@@ -13239,9 +13239,9 @@
       "industry": "Chemicals",
       "isin": "INE663A01033",
       "slope_data": {
-        "slope": 17.2632,
-        "raw_slope": 41.3212,
-        "r2": 0.4178,
+        "slope": 18.7841,
+        "raw_slope": 43.3115,
+        "r2": 0.4337,
         "above_threshold": true
       },
       "high52_data": {
@@ -13249,7 +13249,7 @@
         "high52": 865.7,
         "pct_from_high": 0.0
       },
-      "beta": 0.661,
+      "beta": 0.648,
       "signal_color": "faded_green"
     },
     {
@@ -13259,9 +13259,9 @@
       "industry": "Healthcare",
       "isin": "INE07RO01027",
       "slope_data": {
-        "slope": -0.0105,
-        "raw_slope": -4.149,
-        "r2": 0.0025,
+        "slope": -0.0708,
+        "raw_slope": -7.5328,
+        "r2": 0.0094,
         "above_threshold": true
       },
       "high52_data": {
@@ -13269,7 +13269,7 @@
         "high52": 1051.25,
         "pct_from_high": -13.79
       },
-      "beta": 0.704,
+      "beta": 0.699,
       "signal_color": "gray"
     },
     {
@@ -13279,9 +13279,9 @@
       "industry": "Capital Goods",
       "isin": "INE335A01020",
       "slope_data": {
-        "slope": -16.6087,
-        "raw_slope": -35.6683,
-        "r2": 0.4656,
+        "slope": -19.2142,
+        "raw_slope": -37.7723,
+        "r2": 0.5087,
         "above_threshold": true
       },
       "high52_data": {
@@ -13290,7 +13290,7 @@
         "pct_from_high": -29.61
       },
       "beta": 1.057,
-      "signal_color": "faded_red"
+      "signal_color": "bright_red"
     },
     {
       "name": "Suzlon Energy Ltd.",
@@ -13319,9 +13319,9 @@
       "industry": "Chemicals",
       "isin": "INE665A01038",
       "slope_data": {
-        "slope": -15.4203,
-        "raw_slope": -25.2325,
-        "r2": 0.6111,
+        "slope": -16.0271,
+        "raw_slope": -25.718,
+        "r2": 0.6232,
         "above_threshold": true
       },
       "high52_data": {
@@ -13329,7 +13329,7 @@
         "high52": 488.86,
         "pct_from_high": -39.67
       },
-      "beta": 1.172,
+      "beta": 1.169,
       "signal_color": "bright_red"
     },
     {
@@ -13359,9 +13359,9 @@
       "industry": "Healthcare",
       "isin": "INE398R01022",
       "slope_data": {
-        "slope": -37.3898,
-        "raw_slope": -41.6827,
-        "r2": 0.897,
+        "slope": -37.7178,
+        "raw_slope": -41.8806,
+        "r2": 0.9006,
         "above_threshold": true
       },
       "high52_data": {
@@ -13369,7 +13369,7 @@
         "high52": 663.57,
         "pct_from_high": -44.38
       },
-      "beta": 0.833,
+      "beta": 0.837,
       "signal_color": "bright_red"
     },
     {
@@ -13399,9 +13399,9 @@
       "industry": "Realty",
       "isin": "INE0EK901012",
       "slope_data": {
-        "slope": -0.215,
-        "raw_slope": -6.5934,
-        "r2": 0.0326,
+        "slope": -0.1329,
+        "raw_slope": -5.6391,
+        "r2": 0.0236,
         "above_threshold": true
       },
       "high52_data": {
@@ -13409,7 +13409,7 @@
         "high52": 182.57,
         "pct_from_high": -27.1
       },
-      "beta": 1.319,
+      "beta": 1.315,
       "signal_color": "gray"
     },
     {
@@ -13459,9 +13459,9 @@
       "industry": "Financial Services",
       "isin": "INE202Z01029",
       "slope_data": {
-        "slope": 3.4961,
-        "raw_slope": 25.9234,
-        "r2": 0.1349,
+        "slope": 3.258,
+        "raw_slope": 25.1656,
+        "r2": 0.1295,
         "above_threshold": true
       },
       "high52_data": {
@@ -13469,7 +13469,7 @@
         "high52": 673.74,
         "pct_from_high": -32.37
       },
-      "beta": 1.383,
+      "beta": 1.378,
       "signal_color": "gray"
     },
     {
@@ -13499,9 +13499,9 @@
       "industry": "Financial Services",
       "isin": "INE668A01016",
       "slope_data": {
-        "slope": 135.3911,
-        "raw_slope": 150.351,
-        "r2": 0.9005,
+        "slope": 130.5179,
+        "raw_slope": 145.8438,
+        "r2": 0.8949,
         "above_threshold": true
       },
       "high52_data": {
@@ -13509,7 +13509,7 @@
         "high52": 942.45,
         "pct_from_high": -4.96
       },
-      "beta": 1.397,
+      "beta": 1.401,
       "signal_color": "bright_green"
     },
     {
@@ -13519,9 +13519,9 @@
       "industry": "Information Technology",
       "isin": "INE483C01032",
       "slope_data": {
-        "slope": 1.1536,
-        "raw_slope": 17.6224,
-        "r2": 0.0655,
+        "slope": 0.5617,
+        "raw_slope": 13.7147,
+        "r2": 0.041,
         "above_threshold": true
       },
       "high52_data": {
@@ -13529,7 +13529,7 @@
         "high52": 738.04,
         "pct_from_high": -33.71
       },
-      "beta": 1.499,
+      "beta": 1.498,
       "signal_color": "gray"
     },
     {
@@ -13579,9 +13579,9 @@
       "industry": "Telecommunication",
       "isin": "INE151A01013",
       "slope_data": {
-        "slope": -12.6572,
-        "raw_slope": -30.7814,
-        "r2": 0.4112,
+        "slope": -15.0978,
+        "raw_slope": -32.165,
+        "r2": 0.4694,
         "above_threshold": true
       },
       "high52_data": {
@@ -13589,7 +13589,7 @@
         "high52": 2061.7,
         "pct_from_high": -13.66
       },
-      "beta": 0.926,
+      "beta": 0.929,
       "signal_color": "faded_red"
     },
     {
@@ -13639,9 +13639,9 @@
       "industry": "Information Technology",
       "isin": "INE670A01012",
       "slope_data": {
-        "slope": -32.1292,
-        "raw_slope": -45.1961,
-        "r2": 0.7109,
+        "slope": -32.8513,
+        "raw_slope": -45.6699,
+        "r2": 0.7193,
         "above_threshold": true
       },
       "high52_data": {
@@ -13649,7 +13649,7 @@
         "high52": 5749.89,
         "pct_from_high": -43.19
       },
-      "beta": 1.049,
+      "beta": 1.055,
       "signal_color": "bright_red"
     },
     {
@@ -13799,9 +13799,9 @@
       "industry": "Information Technology",
       "isin": "INE669C01036",
       "slope_data": {
-        "slope": 39.8746,
-        "raw_slope": 64.9818,
-        "r2": 0.6136,
+        "slope": 33.6025,
+        "raw_slope": 58.7987,
+        "r2": 0.5715,
         "above_threshold": true
       },
       "high52_data": {
@@ -13809,7 +13809,7 @@
         "high52": 1723.61,
         "pct_from_high": -10.82
       },
-      "beta": 0.597,
+      "beta": 0.599,
       "signal_color": "bright_green"
     },
     {
@@ -13819,17 +13819,17 @@
       "industry": "Construction",
       "isin": "INE285K01026",
       "slope_data": {
-        "slope": -20.7577,
-        "raw_slope": -39.1331,
-        "r2": 0.5304,
+        "slope": -19.5498,
+        "raw_slope": -38.0552,
+        "r2": 0.5137,
         "above_threshold": true
       },
       "high52_data": {
         "current": 1030.45,
-        "high52": 1429.69,
-        "pct_from_high": -27.93
+        "high52": 1420.46,
+        "pct_from_high": -27.46
       },
-      "beta": 1.506,
+      "beta": 1.5,
       "signal_color": "bright_red"
     },
     {
@@ -13919,9 +13919,9 @@
       "industry": "Consumer Durables",
       "isin": "INE085J01014",
       "slope_data": {
-        "slope": 9.9583,
-        "raw_slope": 76.6186,
-        "r2": 0.13,
+        "slope": 5.8349,
+        "raw_slope": 60.6161,
+        "r2": 0.0963,
         "above_threshold": true
       },
       "high52_data": {
@@ -13939,9 +13939,9 @@
       "industry": "Capital Goods",
       "isin": "INE294Z01018",
       "slope_data": {
-        "slope": -5.6388,
-        "raw_slope": -32.2938,
-        "r2": 0.1746,
+        "slope": -8.2959,
+        "raw_slope": -36.803,
+        "r2": 0.2254,
         "above_threshold": true
       },
       "high52_data": {
@@ -13949,7 +13949,7 @@
         "high52": 2520.34,
         "pct_from_high": -35.0
       },
-      "beta": 1.485,
+      "beta": 1.486,
       "signal_color": "gray"
     },
     {
@@ -13979,9 +13979,9 @@
       "industry": "Construction Materials",
       "isin": "INE331A01037",
       "slope_data": {
-        "slope": 0.0029,
-        "raw_slope": 1.3377,
-        "r2": 0.0022,
+        "slope": 0.0015,
+        "raw_slope": 1.0797,
+        "r2": 0.0014,
         "above_threshold": true
       },
       "high52_data": {
@@ -13989,7 +13989,7 @@
         "high52": 1201.62,
         "pct_from_high": -27.62
       },
-      "beta": 1.005,
+      "beta": 1.007,
       "signal_color": "gray"
     },
     {
@@ -13999,9 +13999,9 @@
       "industry": "Capital Goods",
       "isin": "INE152A01029",
       "slope_data": {
-        "slope": -36.9614,
-        "raw_slope": -54.9355,
-        "r2": 0.6728,
+        "slope": -39.2339,
+        "raw_slope": -56.3019,
+        "r2": 0.6968,
         "above_threshold": true
       },
       "high52_data": {
@@ -14019,18 +14019,18 @@
       "industry": "Consumer Services",
       "isin": "INE332A01027",
       "slope_data": {
-        "slope": 9.3311,
-        "raw_slope": 37.0425,
-        "r2": 0.2519,
+        "slope": 7.9513,
+        "raw_slope": 34.6254,
+        "r2": 0.2296,
         "above_threshold": true
       },
       "high52_data": {
         "current": 106.04,
-        "high52": 172.72,
-        "pct_from_high": -38.6
+        "high52": 171.4,
+        "pct_from_high": -38.13
       },
-      "beta": 1.362,
-      "signal_color": "faded_green"
+      "beta": 1.357,
+      "signal_color": "gray"
     },
     {
       "name": "Thyrocare Technologies Ltd.",
@@ -14079,9 +14079,9 @@
       "industry": "Capital Goods",
       "isin": "INE508G01029",
       "slope_data": {
-        "slope": 9.495,
-        "raw_slope": 38.5728,
-        "r2": 0.2462,
+        "slope": 7.9058,
+        "raw_slope": 36.0927,
+        "r2": 0.219,
         "above_threshold": true
       },
       "high52_data": {
@@ -14089,7 +14089,7 @@
         "high52": 237.84,
         "pct_from_high": -24.64
       },
-      "beta": 1.508,
+      "beta": 1.506,
       "signal_color": "gray"
     },
     {
@@ -14119,9 +14119,9 @@
       "industry": "Media Entertainment & Publication",
       "isin": "INE716B01029",
       "slope_data": {
-        "slope": -0.0001,
-        "raw_slope": -0.4707,
-        "r2": 0.0002,
+        "slope": -0.0012,
+        "raw_slope": -1.0381,
+        "r2": 0.0012,
         "above_threshold": true
       },
       "high52_data": {
@@ -14139,9 +14139,9 @@
       "industry": "Capital Goods",
       "isin": "INE615H01020",
       "slope_data": {
-        "slope": 0.2465,
-        "raw_slope": 8.0838,
-        "r2": 0.0305,
+        "slope": 0.0313,
+        "raw_slope": 3.8807,
+        "r2": 0.0081,
         "above_threshold": true
       },
       "high52_data": {
@@ -14149,7 +14149,7 @@
         "high52": 955.35,
         "pct_from_high": -12.32
       },
-      "beta": 1.517,
+      "beta": 1.514,
       "signal_color": "gray"
     },
     {
@@ -14179,9 +14179,9 @@
       "industry": "Healthcare",
       "isin": "INE685A01028",
       "slope_data": {
-        "slope": 34.4703,
-        "raw_slope": 50.3112,
-        "r2": 0.6851,
+        "slope": 32.5831,
+        "raw_slope": 48.8026,
+        "r2": 0.6677,
         "above_threshold": true
       },
       "high52_data": {
@@ -14189,7 +14189,7 @@
         "high52": 5122.8,
         "pct_from_high": -5.52
       },
-      "beta": 0.26,
+      "beta": 0.259,
       "signal_color": "bright_green"
     },
     {
@@ -14319,9 +14319,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE256C01024",
       "slope_data": {
-        "slope": -34.0757,
-        "raw_slope": -78.7477,
-        "r2": 0.4327,
+        "slope": -35.4999,
+        "raw_slope": -79.5658,
+        "r2": 0.4462,
         "above_threshold": true
       },
       "high52_data": {
@@ -14329,7 +14329,7 @@
         "high52": 475.05,
         "pct_from_high": -49.73
       },
-      "beta": 1.258,
+      "beta": 1.261,
       "signal_color": "faded_red"
     },
     {
@@ -14339,9 +14339,9 @@
       "industry": "Capital Goods",
       "isin": "INE152M01016",
       "slope_data": {
-        "slope": -29.5409,
-        "raw_slope": -44.8431,
-        "r2": 0.6588,
+        "slope": -37.4403,
+        "raw_slope": -48.0971,
+        "r2": 0.7784,
         "above_threshold": true
       },
       "high52_data": {
@@ -14349,7 +14349,7 @@
         "high52": 738.94,
         "pct_from_high": -23.16
       },
-      "beta": 0.99,
+      "beta": 0.984,
       "signal_color": "bright_red"
     },
     {
@@ -14379,9 +14379,9 @@
       "industry": "Financial Services",
       "isin": "INE691A01018",
       "slope_data": {
-        "slope": -0.7558,
-        "raw_slope": -9.8764,
-        "r2": 0.0765,
+        "slope": -1.2282,
+        "raw_slope": -11.7375,
+        "r2": 0.1046,
         "above_threshold": true
       },
       "high52_data": {
@@ -14389,7 +14389,7 @@
         "high52": 33.03,
         "pct_from_high": -28.09
       },
-      "beta": 1.393,
+      "beta": 1.394,
       "signal_color": "gray"
     },
     {
@@ -14439,9 +14439,9 @@
       "industry": "Financial Services",
       "isin": "INE094J01016",
       "slope_data": {
-        "slope": -0.1302,
-        "raw_slope": -4.0421,
-        "r2": 0.0322,
+        "slope": -0.1117,
+        "raw_slope": -3.833,
+        "r2": 0.0291,
         "above_threshold": true
       },
       "high52_data": {
@@ -14459,9 +14459,9 @@
       "industry": "Financial Services",
       "isin": "INE551W01018",
       "slope_data": {
-        "slope": 94.377,
-        "raw_slope": 137.965,
-        "r2": 0.6841,
+        "slope": 90.0426,
+        "raw_slope": 134.7145,
+        "r2": 0.6684,
         "above_threshold": true
       },
       "high52_data": {
@@ -14469,7 +14469,7 @@
         "high52": 72.47,
         "pct_from_high": -10.28
       },
-      "beta": 1.566,
+      "beta": 1.57,
       "signal_color": "bright_green"
     },
     {
@@ -14519,9 +14519,9 @@
       "industry": "Fast Moving Consumer Goods",
       "isin": "INE686F01025",
       "slope_data": {
-        "slope": -0.0373,
-        "raw_slope": -3.379,
-        "r2": 0.011,
+        "slope": -0.0972,
+        "raw_slope": -4.753,
+        "r2": 0.0204,
         "above_threshold": true
       },
       "high52_data": {
@@ -14529,7 +14529,7 @@
         "high52": 1827.3,
         "pct_from_high": -31.51
       },
-      "beta": 0.478,
+      "beta": 0.477,
       "signal_color": "gray"
     },
     {
@@ -14599,9 +14599,9 @@
       "industry": "Consumer Durables",
       "isin": "INE951I01027",
       "slope_data": {
-        "slope": 15.9359,
-        "raw_slope": 34.9436,
-        "r2": 0.456,
+        "slope": 18.0565,
+        "raw_slope": 36.7594,
+        "r2": 0.4912,
         "above_threshold": true
       },
       "high52_data": {
@@ -14609,7 +14609,7 @@
         "high52": 380.74,
         "pct_from_high": -14.53
       },
-      "beta": 0.688,
+      "beta": 0.689,
       "signal_color": "faded_green"
     },
     {
@@ -14619,9 +14619,9 @@
       "industry": "Consumer Services",
       "isin": "INE665J01013",
       "slope_data": {
-        "slope": 77.197,
-        "raw_slope": 104.0929,
-        "r2": 0.7416,
+        "slope": 67.926,
+        "raw_slope": 95.8072,
+        "r2": 0.709,
         "above_threshold": true
       },
       "high52_data": {
@@ -14629,7 +14629,7 @@
         "high52": 880.17,
         "pct_from_high": -8.18
       },
-      "beta": 0.99,
+      "beta": 0.988,
       "signal_color": "bright_green"
     },
     {
@@ -14639,9 +14639,9 @@
       "industry": "Consumer Durables",
       "isin": "INE054A01027",
       "slope_data": {
-        "slope": -0.2212,
-        "raw_slope": -5.7164,
-        "r2": 0.0387,
+        "slope": -0.2652,
+        "raw_slope": -6.0622,
+        "r2": 0.0437,
         "above_threshold": true
       },
       "high52_data": {
@@ -14659,9 +14659,9 @@
       "industry": "Consumer Services",
       "isin": "INE945H01021",
       "slope_data": {
-        "slope": -11.5935,
-        "raw_slope": -22.6016,
-        "r2": 0.5129,
+        "slope": -12.71,
+        "raw_slope": -23.5143,
+        "r2": 0.5405,
         "above_threshold": true
       },
       "high52_data": {
@@ -14669,7 +14669,7 @@
         "high52": 256.4,
         "pct_from_high": -16.52
       },
-      "beta": 0.953,
+      "beta": 0.951,
       "signal_color": "bright_red"
     },
     {
@@ -14699,9 +14699,9 @@
       "industry": "Consumer Durables",
       "isin": "INE884A01027",
       "slope_data": {
-        "slope": -0.0077,
-        "raw_slope": -3.159,
-        "r2": 0.0024,
+        "slope": -0.07,
+        "raw_slope": -6.5211,
+        "r2": 0.0107,
         "above_threshold": true
       },
       "high52_data": {
@@ -14709,7 +14709,7 @@
         "high52": 274.37,
         "pct_from_high": -23.5
       },
-      "beta": 1.641,
+      "beta": 1.645,
       "signal_color": "gray"
     },
     {
@@ -14719,9 +14719,9 @@
       "industry": "Realty",
       "isin": "INE879I01012",
       "slope_data": {
-        "slope": -18.7084,
-        "raw_slope": -34.092,
-        "r2": 0.5488,
+        "slope": -19.7482,
+        "raw_slope": -35.3283,
+        "r2": 0.559,
         "above_threshold": true
       },
       "high52_data": {
@@ -14729,7 +14729,7 @@
         "high52": 179.74,
         "pct_from_high": -46.77
       },
-      "beta": 1.924,
+      "beta": 1.926,
       "signal_color": "bright_red"
     },
     {
@@ -14739,9 +14739,9 @@
       "industry": "Textiles",
       "isin": "INE825A01020",
       "slope_data": {
-        "slope": -4.4624,
-        "raw_slope": -17.2683,
-        "r2": 0.2584,
+        "slope": -5.425,
+        "raw_slope": -18.6119,
+        "r2": 0.2915,
         "above_threshold": true
       },
       "high52_data": {
@@ -14749,7 +14749,7 @@
         "high52": 660.65,
         "pct_from_high": -12.5
       },
-      "beta": 0.567,
+      "beta": 0.568,
       "signal_color": "faded_red"
     },
     {
@@ -14759,8 +14759,8 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE665L01035",
       "slope_data": {
-        "slope": 285.6536,
-        "raw_slope": 315.6398,
+        "slope": 285.598,
+        "raw_slope": 315.5721,
         "r2": 0.905,
         "above_threshold": true
       },
@@ -14799,17 +14799,17 @@
       "industry": "Consumer Services",
       "isin": "INE825V01034",
       "slope_data": {
-        "slope": 130.5701,
-        "raw_slope": 201.0045,
-        "r2": 0.6496,
+        "slope": 157.5869,
+        "raw_slope": 225.0749,
+        "r2": 0.7002,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 544.25,
-        "high52": 750.8,
+        "current": 536.5,
+        "high52": 740.11,
         "pct_from_high": -27.51
       },
-      "beta": 0.974,
+      "beta": 0.977,
       "signal_color": "bright_green"
     },
     {
@@ -14839,9 +14839,9 @@
       "industry": "Healthcare",
       "isin": "INE043W01024",
       "slope_data": {
-        "slope": 54.6439,
-        "raw_slope": 69.274,
-        "r2": 0.7888,
+        "slope": 55.1743,
+        "raw_slope": 69.7233,
+        "r2": 0.7913,
         "above_threshold": true
       },
       "high52_data": {
@@ -14849,7 +14849,7 @@
         "high52": 1558.9,
         "pct_from_high": 0.0
       },
-      "beta": 0.548,
+      "beta": 0.536,
       "signal_color": "bright_green"
     },
     {
@@ -14899,9 +14899,9 @@
       "industry": "Healthcare",
       "isin": "INE807F01027",
       "slope_data": {
-        "slope": 1.1088,
-        "raw_slope": 14.7031,
-        "r2": 0.0754,
+        "slope": 0.4112,
+        "raw_slope": 10.1413,
+        "r2": 0.0405,
         "above_threshold": true
       },
       "high52_data": {
@@ -14909,7 +14909,7 @@
         "high52": 294.15,
         "pct_from_high": -15.13
       },
-      "beta": 1.403,
+      "beta": 1.397,
       "signal_color": "gray"
     },
     {
@@ -14939,9 +14939,9 @@
       "industry": "Capital Goods",
       "isin": "INE540H01012",
       "slope_data": {
-        "slope": 35.6787,
-        "raw_slope": 63.0218,
-        "r2": 0.5661,
+        "slope": 36.0117,
+        "raw_slope": 63.3425,
+        "r2": 0.5685,
         "above_threshold": true
       },
       "high52_data": {
@@ -15099,9 +15099,9 @@
       "industry": "Construction",
       "isin": "INE625G01013",
       "slope_data": {
-        "slope": 145.8883,
-        "raw_slope": 194.7899,
-        "r2": 0.749,
+        "slope": 151.9134,
+        "raw_slope": 201.1437,
+        "r2": 0.7552,
         "above_threshold": true
       },
       "high52_data": {
@@ -15109,7 +15109,7 @@
         "high52": 823.35,
         "pct_from_high": 0.0
       },
-      "beta": 1.139,
+      "beta": 1.131,
       "signal_color": "bright_green"
     },
     {
@@ -15119,9 +15119,9 @@
       "industry": "Textiles",
       "isin": "INE192B01031",
       "slope_data": {
-        "slope": 165.1121,
-        "raw_slope": 202.3666,
-        "r2": 0.8159,
+        "slope": 170.8997,
+        "raw_slope": 208.3803,
+        "r2": 0.8201,
         "above_threshold": true
       },
       "high52_data": {
@@ -15129,7 +15129,7 @@
         "high52": 214.66,
         "pct_from_high": 0.0
       },
-      "beta": 1.321,
+      "beta": 1.315,
       "signal_color": "bright_green"
     },
     {
@@ -15259,9 +15259,9 @@
       "industry": "Automobile and Auto Components",
       "isin": "INE342J01019",
       "slope_data": {
-        "slope": 2.0168,
-        "raw_slope": 15.9911,
-        "r2": 0.1261,
+        "slope": 1.4998,
+        "raw_slope": 14.3305,
+        "r2": 0.1047,
         "above_threshold": true
       },
       "high52_data": {
@@ -15269,7 +15269,7 @@
         "high52": 2681.35,
         "pct_from_high": -10.98
       },
-      "beta": 0.694,
+      "beta": 0.7,
       "signal_color": "gray"
     },
     {
@@ -15279,9 +15279,9 @@
       "industry": "Information Technology",
       "isin": "INE07K301024",
       "slope_data": {
-        "slope": -19.8783,
-        "raw_slope": -36.5855,
-        "r2": 0.5433,
+        "slope": -20.6501,
+        "raw_slope": -37.2018,
+        "r2": 0.5551,
         "above_threshold": true
       },
       "high52_data": {
@@ -15289,7 +15289,7 @@
         "high52": 401.35,
         "pct_from_high": -55.51
       },
-      "beta": 1.516,
+      "beta": 1.517,
       "signal_color": "bright_red"
     },
     {
@@ -15319,9 +15319,9 @@
       "industry": "Capital Goods",
       "isin": "INE251B01027",
       "slope_data": {
-        "slope": 1.847,
-        "raw_slope": 18.963,
-        "r2": 0.0974,
+        "slope": 1.0168,
+        "raw_slope": 15.1243,
+        "r2": 0.0672,
         "above_threshold": true
       },
       "high52_data": {
@@ -15329,7 +15329,7 @@
         "high52": 1995.95,
         "pct_from_high": -15.46
       },
-      "beta": 0.928,
+      "beta": 0.93,
       "signal_color": "gray"
     },
     {
