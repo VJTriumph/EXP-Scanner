@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-25 18:05 UTC",
+    "generated_at": "2026-09-28 20:17 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -6068,17 +6068,17 @@
       "industry": "Capital Goods",
       "isin": "INE545A01024",
       "slope_data": {
-        "slope": -10.1791,
-        "raw_slope": -72.3558,
-        "r2": 0.1407,
+        "slope": -12.0778,
+        "raw_slope": -75.4626,
+        "r2": 0.1601,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 235.25,
+        "current": 244.35,
         "high52": 739.25,
-        "pct_from_high": -68.18
+        "pct_from_high": -66.95
       },
-      "beta": 1.565,
+      "beta": 1.573,
       "signal_color": "gray"
     },
     {
@@ -9146,7 +9146,7 @@
       },
       "high52_data": {
         "current": 124035.0,
-        "high52": 162005.81,
+        "high52": 162005.8,
         "pct_from_high": -23.44
       },
       "beta": 0.82,
@@ -12480,7 +12480,7 @@
       "isin": "INE932X01026",
       "slope_data": {
         "slope": 192.7347,
-        "raw_slope": 261.8554,
+        "raw_slope": 261.8553,
         "r2": 0.736,
         "above_threshold": true
       },
