@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-16 17:42 UTC",
+    "generated_at": "2026-10-19 19:29 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -482,17 +482,17 @@
       "name": "India VIX",
       "symbol": "^INDIAVIX",
       "slope_data": {
-        "slope": -0.1859,
-        "raw_slope": -11.5006,
-        "r2": 0.0162,
+        "slope": -0.1838,
+        "raw_slope": -11.4598,
+        "r2": 0.016,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 14.02,
+        "current": 14.06,
         "high52": 27.89,
-        "pct_from_high": -49.71
+        "pct_from_high": -49.59
       },
-      "beta": -5.168,
+      "beta": -5.167,
       "signal_color": "gray"
     }
   ],
@@ -2135,9 +2135,9 @@
       "industry": "Financial Services",
       "isin": "INE483S01020",
       "slope_data": {
-        "slope": -0.4,
-        "raw_slope": -11.9882,
-        "r2": 0.0334,
+        "slope": -1.064,
+        "raw_slope": -16.3117,
+        "r2": 0.0652,
         "above_threshold": true
       },
       "high52_data": {
@@ -2145,7 +2145,7 @@
         "high52": 201.2,
         "pct_from_high": -31.26
       },
-      "beta": 1.225,
+      "beta": 1.214,
       "signal_color": "gray"
     },
     {
@@ -12010,7 +12010,7 @@
       "industry": "Capital Goods",
       "isin": "INE2J8701016",
       "slope_data": {
-        "slope": 1.762,
+        "slope": 1.7621,
         "raw_slope": 18.5016,
         "r2": 0.0952,
         "above_threshold": true
@@ -12470,7 +12470,7 @@
       "industry": "Financial Services",
       "isin": "INE932X01026",
       "slope_data": {
-        "slope": 140.5248,
+        "slope": 140.5247,
         "raw_slope": 213.5722,
         "r2": 0.658,
         "above_threshold": true
@@ -12630,7 +12630,7 @@
       "industry": "Capital Goods",
       "isin": "INE810G01011",
       "slope_data": {
-        "slope": 37.5365,
+        "slope": 37.5366,
         "raw_slope": 54.2255,
         "r2": 0.6922,
         "above_threshold": true
@@ -12850,7 +12850,7 @@
       "industry": "Realty",
       "isin": "INE0V9Q01010",
       "slope_data": {
-        "slope": 364.7732,
+        "slope": 364.7731,
         "raw_slope": 421.6621,
         "r2": 0.8651,
         "above_threshold": true
