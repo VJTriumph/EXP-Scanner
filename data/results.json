@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-23 18:01 UTC",
+    "generated_at": "2026-10-26 19:33 UTC",
     "length": 90,
     "days_in_year": 252,
     "beta_window": 252,
@@ -2701,7 +2701,7 @@
       },
       "high52_data": {
         "current": 3383.5,
-        "high52": 4942.01,
+        "high52": 4942.0,
         "pct_from_high": -31.54
       },
       "beta": 0.47,
@@ -6464,8 +6464,8 @@
         "above_threshold": true
       },
       "high52_data": {
-        "current": 590.8,
-        "high52": 777.85,
+        "current": 581.3,
+        "high52": 765.34,
         "pct_from_high": -24.05
       },
       "beta": 0.755,
@@ -6818,18 +6818,18 @@
       "industry": "Financial Services",
       "isin": "INE726G01019",
       "slope_data": {
-        "slope": -13.7645,
-        "raw_slope": -28.4721,
-        "r2": 0.4834,
+        "slope": -15.7272,
+        "raw_slope": -30.3979,
+        "r2": 0.5174,
         "above_threshold": true
       },
       "high52_data": {
-        "current": 431.0,
+        "current": 422.2,
         "high52": 686.07,
-        "pct_from_high": -37.18
+        "pct_from_high": -38.46
       },
-      "beta": 1.016,
-      "signal_color": "faded_red"
+      "beta": 1.029,
+      "signal_color": "bright_red"
     },
     {
       "name": "IDBI Bank Ltd.",
@@ -12949,8 +12949,8 @@
       "industry": "Realty",
       "isin": "INE0V9Q01010",
       "slope_data": {
-        "slope": 353.0124,
-        "raw_slope": 410.0439,
+        "slope": 353.0123,
+        "raw_slope": 410.0438,
         "r2": 0.8609,
         "above_threshold": true
       },
